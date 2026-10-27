@@ -1,25 +1,25 @@
 {
-  "fetchedAt": "2026-10-26T02:55:39.665Z",
+  "fetchedAt": "2026-10-27T05:54:38.096Z",
   "status": "ok",
   "sections": [
     {
       "id": "repo-us",
       "kicker": "Ликвидность и ставки",
       "title": "Монитор РЕПО США",
-      "conclusion": "Ликвидность под наблюдением: буфер ON RRP почти исчерпан. SOFR не выше IORB — коридор спокойный; буфер ON RRP почти исчерпан. Источники: NY Fed SOFR, FRED IORB / RRPONTSYD / WALCL / ICE BofA OAS / Z.1 ETF, Treasury DTS TGA, Board of Governors calendar.json.",
+      "conclusion": "Ликвидность под наблюдением: буфер ON RRP почти исчерпан. SOFR чуть выше IORB — коридор ещё держится; буфер ON RRP почти исчерпан. Источники: NY Fed SOFR, FRED IORB / RRPONTSYD / WALCL / ICE BofA OAS / Z.1 ETF, Treasury DTS TGA, Board of Governors calendar.json.",
       "headline": "Ликвидность под наблюдением: буфер ON RRP почти исчерпан",
-      "soWhat": "SOFR не выше IORB — коридор спокойный; буфер ON RRP почти исчерпан",
+      "soWhat": "SOFR чуть выше IORB — коридор ещё держится; буфер ON RRP почти исчерпан",
       "metrics": {
-        "sofr": 3.9,
-        "sofrDate": "2026-10-22",
+        "sofr": 3.92,
+        "sofrDate": "2026-10-23",
         "iorb": 3.9,
         "iorbDate": "2026-09-30",
-        "spreadBp": 0,
+        "spreadBp": 2.0000000000000018,
         "rrpBn": 0.2,
-        "rrpDate": "2026-10-23",
+        "rrpDate": "2026-10-26",
         "walclBn": 6753.604,
-        "tgaBn": 945.153,
-        "netLiquidityBn": 5808.251
+        "tgaBn": 961.759,
+        "netLiquidityBn": 5791.645
       },
       "signals": [
         {
@@ -32,14 +32,14 @@
         {
           "id": "spread",
           "name": "SOFR − IORB",
-          "value": 0,
+          "value": 2.0000000000000018,
           "unit": "б.п.",
           "word": "коридор"
         },
         {
           "id": "hy",
           "name": "HY OAS",
-          "value": 3.4,
+          "value": 3.38,
           "unit": "п.п.",
           "word": "узкий"
         }
@@ -48,9 +48,9 @@
         {
           "id": "sofr",
           "title": "SOFR",
-          "latest": 3.9,
+          "latest": 3.92,
           "unit": "%",
-          "asOf": "2026-10-22",
+          "asOf": "2026-10-23",
           "source": "NY Fed last/120.json · запасной ряд FRED SOFR · fred-api",
           "points": [
             {
@@ -462,13 +462,13 @@
               "value": 3.9
             },
             {
-              "date": "2026-10-22",
-              "value": 3.9
+              "date": "2026-10-23",
+              "value": 3.92
             }
           ],
           "emptyReason": null,
           "meaning": "Обеспеченная ставка овернайт. Это факт рынка репо, не прогноз фьючерса. График — ряд FRED SOFR; последнее значение берём с NY Fed, если оно есть.",
-          "conclusion": "SOFR 3,9% на 2026-10-22. Это фактическая овернайт-ставка, не SOFR-фьючерс.",
+          "conclusion": "SOFR 3,92% на 2026-10-23. Это фактическая овернайт-ставка, не SOFR-фьючерс.",
           "color": "#0C0C0C",
           "showMA": true,
           "mode": "LIVE",
@@ -482,7 +482,7 @@
           "title": "IORB",
           "latest": 3.9,
           "unit": "%",
-          "asOf": "2026-10-26",
+          "asOf": "2026-10-27",
           "source": "FRED IORB · fred-api",
           "points": [
             {
@@ -738,7 +738,7 @@
               "value": 3.9
             },
             {
-              "date": "2026-10-26",
+              "date": "2026-10-27",
               "value": 3.9
             }
           ],
@@ -756,9 +756,9 @@
         {
           "id": "sofr_iorb_spread",
           "title": "Спред SOFR − IORB",
-          "latest": 0,
+          "latest": 2.0000000000000018,
           "unit": "б.п.",
-          "asOf": "2026-10-22",
+          "asOf": "2026-10-23",
           "source": "SOFR (NY Fed или FRED) минус FRED IORB, в базисных пунктах",
           "points": [
             {
@@ -1010,13 +1010,13 @@
               "value": 0
             },
             {
-              "date": "2026-10-22",
-              "value": 0
+              "date": "2026-10-23",
+              "value": 2.0000000000000018
             }
           ],
           "emptyReason": null,
           "meaning": "Положительный спред — репо дороже пола IORB. Это напряжение в овернайт-рынке, не прогноз ставки.",
-          "conclusion": "Спред 0 б.п. — SOFR не выше IORB, коридор спокойный.",
+          "conclusion": "Спред 2 б.п. — коридор ещё держится.",
           "color": "#379A8B",
           "showMA": true,
           "mode": "LIVE",
@@ -1028,9 +1028,9 @@
         {
           "id": "sofr30dayavg",
           "title": "SOFR 30-дневная средняя",
-          "latest": 3.88887,
+          "latest": 3.89253,
           "unit": "%",
-          "asOf": "2026-10-23",
+          "asOf": "2026-10-26",
           "source": "FRED SOFR30DAYAVG · fred-api",
           "points": [
             {
@@ -1438,8 +1438,8 @@
               "value": 3.74678
             },
             {
-              "date": "2026-10-23",
-              "value": 3.88887
+              "date": "2026-10-26",
+              "value": 3.89253
             }
           ],
           "emptyReason": null,
@@ -1458,7 +1458,7 @@
           "title": "Effective federal funds (DFF)",
           "latest": 3.88,
           "unit": "%",
-          "asOf": "2026-10-22",
+          "asOf": "2026-10-23",
           "source": "FRED DFF · fred-api",
           "points": [
             {
@@ -2026,7 +2026,7 @@
               "value": 3.88
             },
             {
-              "date": "2026-10-22",
+              "date": "2026-10-23",
               "value": 3.88
             }
           ],
@@ -2046,7 +2046,7 @@
           "title": "ON RRP",
           "latest": 0.2,
           "unit": "млрд $",
-          "asOf": "2026-10-23",
+          "asOf": "2026-10-26",
           "source": "FRED RRPONTSYD · fred-api",
           "points": [
             {
@@ -2614,7 +2614,7 @@
               "value": 11.539
             },
             {
-              "date": "2026-10-23",
+              "date": "2026-10-26",
               "value": 0.2
             }
           ],
@@ -3220,9 +3220,9 @@
         {
           "id": "tga",
           "title": "TGA — счёт Казначейства",
-          "latest": 945.153,
+          "latest": 961.759,
           "unit": "млрд $",
-          "asOf": "2026-10-22",
+          "asOf": "2026-10-23",
           "source": "Treasury DTS operating_cash_balance open_today_bal · Treasury General Account (TGA) Opening Balance",
           "points": [
             {
@@ -3442,13 +3442,13 @@
               "value": 936.6
             },
             {
-              "date": "2026-10-22",
-              "value": 945.153
+              "date": "2026-10-23",
+              "value": 961.759
             }
           ],
           "emptyReason": null,
           "meaning": "Остаток TGA. Рост TGA изымает ликвидность из системы, падение — возвращает. Поле open_today_bal, не close.",
-          "conclusion": "TGA 945 млрд $ на 2026-10-22.",
+          "conclusion": "TGA 962 млрд $ на 2026-10-23.",
           "color": "#0C0C0C",
           "showMA": true,
           "mode": "LIVE",
@@ -3684,7 +3684,7 @@
           ],
           "emptyReason": null,
           "meaning": "Счётная ликвидность: баланс ФРС минус TGA минус ON RRP. Это арифметика трёх официальных рядов, не индекс Bloomberg.",
-          "conclusion": "Net liquidity 5 808 млрд $ = WALCL − TGA − ON RRP.",
+          "conclusion": "Net liquidity 5 792 млрд $ = WALCL − TGA − ON RRP.",
           "color": "#0C0C0C",
           "showMA": true,
           "mode": "LIVE",
@@ -3696,9 +3696,9 @@
         {
           "id": "hy_oas",
           "title": "US HY OAS",
-          "latest": 3.4,
+          "latest": 3.38,
           "unit": "п.п.",
-          "asOf": "2026-10-22",
+          "asOf": "2026-10-23",
           "source": "FRED BAMLH0A0HYM2 · fred-api",
           "points": [
             {
@@ -3846,13 +3846,13 @@
               "value": 3.12
             },
             {
-              "date": "2026-10-22",
-              "value": 3.4
+              "date": "2026-10-23",
+              "value": 3.38
             }
           ],
           "emptyReason": null,
           "meaning": "Опционная премия US High Yield (ICE BofA). Шире спред — дороже кредит. Это общий HY, не Tech HY.",
-          "conclusion": "HY OAS 3,4 п.п. — узкий, кредит дешёвый.",
+          "conclusion": "HY OAS 3,38 п.п. — узкий, кредит дешёвый.",
           "color": "#A81829",
           "showMA": true,
           "mode": "LIVE",
@@ -4044,7 +4044,7 @@
           ],
           "emptyReason": null,
           "meaning": "Implied 3-мес. SOFR из опционов CME, официальная оценка ФРС Атланты. Это не last фьючерса CME.",
-          "conclusion": "Ближайшее окно SR3: implied mean 4,32% на 2026-09-18 (Atlanta Fed MPT по опционам CME, не last фьючерса). Это выше спотового SOFR 3,9%: рынок закладывает более высокую 3-мес. среднюю, чем сегодняшний овернайт. Выше верхней границы коридора FOMC 375bps - 400bps (3,75–4%). Вероятность 3-мес. средней ниже коридора 1,5%, выше — 94,5% (как публикует MPT). Реализованная 90-дневная средняя FRED SOFR90DAYAVG 3,75% — то, к чему 3-мес. контракт сходится; расхождение со implied не доказывает причинность. Спотовый SOFR — факт овернайт NY Fed/FRED; path — опционная оценка ФРС Атланты.",
+          "conclusion": "Ближайшее окно SR3: implied mean 4,32% на 2026-09-18 (Atlanta Fed MPT по опционам CME, не last фьючерса). Это выше спотового SOFR 3,92%: рынок закладывает более высокую 3-мес. среднюю, чем сегодняшний овернайт. Выше верхней границы коридора FOMC 375bps - 400bps (3,75–4%). Вероятность 3-мес. средней ниже коридора 1,5%, выше — 94,5% (как публикует MPT). Реализованная 90-дневная средняя FRED SOFR90DAYAVG 3,76% — то, к чему 3-мес. контракт сходится; расхождение со implied не доказывает причинность. Спотовый SOFR — факт овернайт NY Fed/FRED; path — опционная оценка ФРС Атланты.",
           "color": "#0C0C0C",
           "showMA": true,
           "mode": "LIVE",
@@ -4056,9 +4056,9 @@
         {
           "id": "tech_hy",
           "title": "HY OAS по рейтингу · ICE BofA",
-          "latest": 13.4,
+          "latest": 13.56,
           "unit": "п.п.",
-          "asOf": "2026-10-22",
+          "asOf": "2026-10-23",
           "source": "FRED BAMLH0A3HYC · fred-api",
           "points": [
             {
@@ -4206,13 +4206,13 @@
               "value": 11.79
             },
             {
-              "date": "2026-10-22",
-              "value": 13.4
+              "date": "2026-10-23",
+              "value": 13.56
             }
           ],
           "emptyReason": null,
           "meaning": "Исходный лендинг писал Tech HY. В FRED нет отраслевого Tech HY OAS (проверено). Берём официальные под-индексы ICE BofA по рейтингу через FRED — цена кредита по качеству, не сектор tech.",
-          "conclusion": "CCC OAS 13,4 п.п. против BB 2,1 п.п. (разрыв 11,3 п.п. на 2026-10-22). Разрыв CCC−BB расширился с 9,85 — стресс в худших кредитах, не «tech». Single-B 3,46 п.п. Кросс-чек: HY 3,4 п.п. против IG 0,89 п.п. Окно FRED ICE сейчас с ~2023-08-28 (скользящие 3 года) — точки до 2023 не выдумываем. MA 7 лет неполная.",
+          "conclusion": "CCC OAS 13,56 п.п. против BB 2,06 п.п. (разрыв 11,5 п.п. на 2026-10-23). Разрыв CCC−BB расширился с 9,85 — стресс в худших кредитах, не «tech». Single-B 3,43 п.п. Кросс-чек: HY 3,38 п.п. против IG 0,91 п.п. Окно FRED ICE сейчас с ~2023-08-28 (скользящие 3 года) — точки до 2023 не выдумываем. MA 7 лет неполная.",
           "color": "#A81829",
           "showMA": true,
           "mode": "LIVE",
@@ -4428,14 +4428,14 @@
         {
           "id": "fomc_calendar",
           "title": "Календарь событий FOMC",
-          "latest": 2,
+          "latest": 1,
           "unit": "дн. до заседания",
           "asOf": "2026-10-28",
           "source": "Календарь Board of Governors, json/calendar.json — первоисточник, не Investing.com.",
           "points": [],
           "emptyReason": null,
           "meaning": "Календарь Board of Governors, json/calendar.json — первоисточник, не Investing.com.",
-          "conclusion": "До следующего FOMC Meeting 2 дня (statement 27.10–28.10.2026, ET 2:00 p.m.). Это календарь Board of Governors, не вероятность решения.",
+          "conclusion": "До следующего FOMC Meeting 1 день (statement 27.10–28.10.2026, ET 2:00 p.m.). Это календарь Board of Governors, не вероятность решения.",
           "color": "#0C0C0C",
           "showMA": false,
           "mode": "LIVE",
@@ -4447,7 +4447,7 @@
               "time": "2:00 p.m.",
               "type": "FOMC",
               "kind": "meeting",
-              "daysUntil": 2
+              "daysUntil": 1
             },
             {
               "date": "2026-10-28",
@@ -4456,7 +4456,7 @@
               "time": "2:30 p.m.",
               "type": "FOMC",
               "kind": "press",
-              "daysUntil": 2
+              "daysUntil": 1
             },
             {
               "date": "2026-11-18",
@@ -4465,7 +4465,7 @@
               "time": "2:00 p.m.",
               "type": "FOMC",
               "kind": "minutes",
-              "daysUntil": 23
+              "daysUntil": 22
             },
             {
               "date": "2026-11-25",
@@ -4474,7 +4474,7 @@
               "time": "2:00 p.m.",
               "type": "Beige",
               "kind": "beige",
-              "daysUntil": 30
+              "daysUntil": 29
             },
             {
               "date": "2026-12-09",
@@ -4483,7 +4483,7 @@
               "time": "2:00 p.m.",
               "type": "FOMC",
               "kind": "meeting",
-              "daysUntil": 44
+              "daysUntil": 43
             },
             {
               "date": "2026-12-09",
@@ -4492,7 +4492,7 @@
               "time": "2:30 p.m.",
               "type": "FOMC",
               "kind": "press",
-              "daysUntil": 44
+              "daysUntil": 43
             },
             {
               "date": "2026-12-30",
@@ -4501,7 +4501,7 @@
               "time": "2:00 p.m.",
               "type": "FOMC",
               "kind": "minutes",
-              "daysUntil": 65
+              "daysUntil": 64
             }
           ],
           "past": [
@@ -4512,7 +4512,7 @@
               "time": "2:00 p.m.",
               "type": "FOMC",
               "kind": "meeting",
-              "daysUntil": -131
+              "daysUntil": -132
             },
             {
               "date": "2026-06-17",
@@ -4521,7 +4521,7 @@
               "time": "2:30 p.m.",
               "type": "FOMC",
               "kind": "press",
-              "daysUntil": -131
+              "daysUntil": -132
             },
             {
               "date": "2026-07-08",
@@ -4530,7 +4530,7 @@
               "time": "2:00 p.m.",
               "type": "FOMC",
               "kind": "minutes",
-              "daysUntil": -110
+              "daysUntil": -111
             },
             {
               "date": "2026-07-15",
@@ -4539,7 +4539,7 @@
               "time": "2:00 p.m.",
               "type": "Beige",
               "kind": "beige",
-              "daysUntil": -103
+              "daysUntil": -104
             },
             {
               "date": "2026-07-29",
@@ -4548,7 +4548,7 @@
               "time": "2:00 p.m.",
               "type": "FOMC",
               "kind": "meeting",
-              "daysUntil": -89
+              "daysUntil": -90
             },
             {
               "date": "2026-07-29",
@@ -4557,7 +4557,7 @@
               "time": "2:30 p.m.",
               "type": "FOMC",
               "kind": "press",
-              "daysUntil": -89
+              "daysUntil": -90
             },
             {
               "date": "2026-08-19",
@@ -4566,7 +4566,7 @@
               "time": "2:00 p.m.",
               "type": "FOMC",
               "kind": "minutes",
-              "daysUntil": -68
+              "daysUntil": -69
             },
             {
               "date": "2026-09-02",
@@ -4575,7 +4575,7 @@
               "time": "2:00 p.m.",
               "type": "Beige",
               "kind": "beige",
-              "daysUntil": -54
+              "daysUntil": -55
             },
             {
               "date": "2026-09-16",
@@ -4584,7 +4584,7 @@
               "time": "2:00 p.m.",
               "type": "FOMC",
               "kind": "meeting",
-              "daysUntil": -40
+              "daysUntil": -41
             },
             {
               "date": "2026-09-16",
@@ -4593,7 +4593,7 @@
               "time": "2:30 p.m.",
               "type": "FOMC",
               "kind": "press",
-              "daysUntil": -40
+              "daysUntil": -41
             },
             {
               "date": "2026-10-07",
@@ -4602,7 +4602,7 @@
               "time": "2:00 p.m.",
               "type": "FOMC",
               "kind": "minutes",
-              "daysUntil": -19
+              "daysUntil": -20
             },
             {
               "date": "2026-10-14",
@@ -4611,7 +4611,7 @@
               "time": "2:00 p.m.",
               "type": "Beige",
               "kind": "beige",
-              "daysUntil": -12
+              "daysUntil": -13
             }
           ],
           "nextMeeting": {
@@ -4619,7 +4619,7 @@
             "startDate": "2026-10-27",
             "title": "FOMC Meeting",
             "time": "2:00 p.m.",
-            "daysUntil": 2
+            "daysUntil": 1
           }
         }
       ]
@@ -35104,7 +35104,7 @@
           "title": "Кривая 10л − 3мес (T10Y3M)",
           "latest": 0.78,
           "unit": "п.п.",
-          "asOf": "2026-10-23",
+          "asOf": "2026-10-26",
           "source": "FRED T10Y3M · fred-api",
           "points": [
             {
@@ -37256,7 +37256,7 @@
               "value": 1.09
             },
             {
-              "date": "2026-10-23",
+              "date": "2026-10-26",
               "value": 0.78
             }
           ],
@@ -53014,26 +53014,26 @@
       "conclusion": "площадки согласованы, среднее всё равно не показываем Фаза: перегрев. Вместо Fear & Greed — реализованная волатильность из тех же свечей Coinbase; вместо доминации CoinGecko — официальные споты Coinbase через FRED (CBBTCUSD/CBETHUSD).",
       "divergence": {
         "status": "ok",
-        "coinbase": 79420.225,
-        "binance": 79517.67,
+        "coinbase": 79616.275,
+        "binance": 79759.26,
         "mid": null,
-        "gapPct": 0.12262022219432618,
+        "gapPct": 0.17943155453564516,
         "diverged": false,
         "note": "площадки согласованы, среднее всё равно не показываем"
       },
       "phase": {
         "label": "перегрев",
         "tone": "warn",
-        "text": "Цена выше MA 12 мес, волатильность выше своей средней — перегрев. Цена 79 406 $ против MA 12 мес 78 001; волатильность 46,1% против её MA 38,9%."
+        "text": "Цена выше MA 12 мес, волатильность выше своей средней — перегрев. Цена 79 611 $ против MA 12 мес 78 017; волатильность 46,1% против её MA 38,9%."
       },
       "phaseRule": "Правило фазы (официальные ряды, не таксономия CoinGecko): цена BTC против MA 12 мес и реализованная волатильность против её MA 12 мес. Цена выше MA и волатильность не выше своей средней — «рост»; цена выше MA при повышенной волатильности — «перегрев»; цена ниже MA при спокойной волатильности — «остывание»; цена ниже MA при повышенной волатильности — «стресс». MA 7 лет — длинный ориентир на графиках.",
       "cards": [
         {
           "id": "btc_coinbase",
           "title": "BTC-USD Coinbase",
-          "latest": 79406.15,
+          "latest": 79611.3,
           "unit": "$",
-          "asOf": "2026-10-26",
+          "asOf": "2026-10-27",
           "source": "Coinbase Exchange BTC-USD candles granularity=86400, monthly last close",
           "points": [
             {
@@ -53457,13 +53457,13 @@
               "value": 83556.14
             },
             {
-              "date": "2026-10-26",
-              "value": 79406.15
+              "date": "2026-10-27",
+              "value": 79611.3
             }
           ],
           "emptyReason": null,
           "meaning": "Цена выше MA 12 мес — цикл включён. Месячные закрытия официальных свечей Coinbase Exchange; спот и расхождение с Binance — отдельно, среднее не считаем.",
-          "conclusion": "Последнее закрытие 79 406 $, MA 12 мес 78 001, MA 7 лет 49 036.",
+          "conclusion": "Последнее закрытие 79 611 $, MA 12 мес 78 017, MA 7 лет 49 038.",
           "color": "#379A8B",
           "showMA": true,
           "mode": "LIVE",
@@ -53475,7 +53475,7 @@
         {
           "id": "btc_binance",
           "title": "BTCUSDT Binance",
-          "latest": 79517.68,
+          "latest": 79759.26,
           "unit": "$",
           "asOf": "2026-10-01",
           "source": "Binance data-api.binance.vision BTCUSDT klines interval=1M",
@@ -53902,12 +53902,12 @@
             },
             {
               "date": "2026-10-01",
-              "value": 79517.68
+              "value": 79759.26
             }
           ],
           "emptyReason": null,
           "meaning": "Цена выше MA 12 мес — цикл включён. Месячные klines data-api.binance.vision; при расхождении с Coinbase — флаг, не среднее.",
-          "conclusion": "Последнее закрытие 79 518 $, MA 12 мес 75 439, MA 7 лет 49 518.",
+          "conclusion": "Последнее закрытие 79 759 $, MA 12 мес 75 459, MA 7 лет 49 520.",
           "color": "#379A8B",
           "showMA": true,
           "mode": "LIVE",
@@ -53919,9 +53919,9 @@
         {
           "id": "btc_realized_vol",
           "title": "Реализованная волатильность BTC · Coinbase, не Fear & Greed",
-          "latest": 46.084125597496964,
+          "latest": 46.070112356148826,
           "unit": "% годовых",
-          "asOf": "2026-10-26",
+          "asOf": "2026-10-27",
           "source": "счёт из месячных закрытий Coinbase Exchange BTC-USD (тот же снимок) · alternative.me не загружаем",
           "points": [
             {
@@ -54297,8 +54297,8 @@
               "value": 46.035832198306345
             },
             {
-              "date": "2026-10-26",
-              "value": 46.084125597496964
+              "date": "2026-10-27",
+              "value": 46.070112356148826
             }
           ],
           "emptyReason": null,
@@ -54315,9 +54315,9 @@
         {
           "id": "cbbtcusd",
           "title": "Bitcoin — официальный спот Coinbase (FRED CBBTCUSD)",
-          "latest": 79914.39,
+          "latest": 80056.43,
           "unit": "$",
-          "asOf": "2026-10-25",
+          "asOf": "2026-10-26",
           "source": "FRED CBBTCUSD · fred-api",
           "points": [
             {
@@ -54885,13 +54885,13 @@
               "value": 83482.51
             },
             {
-              "date": "2026-10-25",
-              "value": 79914.39
+              "date": "2026-10-26",
+              "value": 80056.43
             }
           ],
           "emptyReason": null,
           "meaning": "Ряд авторства Coinbase, зеркалируемый St. Louis Fed. Живая замена слота CoinGecko: это официальная цена, а НЕ market-cap доминация. Сверка с историей свечей Coinbase — та же площадка, два канала данных; средних не считаем.",
-          "conclusion": "FRED CBBTCUSD: 79 914 $.",
+          "conclusion": "FRED CBBTCUSD: 80 056 $.",
           "color": "#0C0C0C",
           "showMA": true,
           "mode": "LIVE",
@@ -54903,9 +54903,9 @@
         {
           "id": "cbethusd",
           "title": "Ethereum — официальный спот Coinbase (FRED CBETHUSD)",
-          "latest": 2321.28,
+          "latest": 2320.66,
           "unit": "$",
-          "asOf": "2026-10-25",
+          "asOf": "2026-10-26",
           "source": "FRED CBETHUSD · fred-api",
           "points": [
             {
@@ -55409,8 +55409,8 @@
               "value": 2682.34
             },
             {
-              "date": "2026-10-25",
-              "value": 2321.28
+              "date": "2026-10-26",
+              "value": 2320.66
             }
           ],
           "emptyReason": null,
@@ -57191,17 +57191,17 @@
       "id": "gpr",
       "kicker": "Макро и риски",
       "title": "Мировое напряжение",
-      "conclusion": "Высокий уровень геополитического риска исторически совпадает с ростом волатильности и спросом на золото, доллар и защитные активы. GPRD 248,7, MA30 176, угрозы 310,2, акты 230,2. Шкала: <80 спокойно, 80–150 повышено, >150 высоко, >250 кризисы.",
+      "conclusion": "Высокий уровень геополитического риска исторически совпадает с ростом волатильности и спросом на золото, доллар и защитные активы. GPRD 165,3, MA30 175,4, угрозы 187,4, акты 149,8. Шкала: <80 спокойно, 80–150 повышено, >150 высоко, >250 кризисы.",
       "headline": "Высокое напряжение",
       "tone": "risk",
       "readme": "<80 спокойно · 80–150 повышено · >150 высоко · >250 крупные войны/кризисы. База 1985–2019 = 100.",
       "metrics": {
-        "gprd": 248.66458129882812,
-        "ma7": 177.9249725341797,
-        "ma30": 176.01136779785156,
-        "threat": 310.1585998535156,
-        "act": 230.1920928955078,
-        "date": "2026-10-19",
+        "gprd": 165.2528076171875,
+        "ma7": 181.41552734375,
+        "ma30": 175.43894958496094,
+        "threat": 187.3812255859375,
+        "act": 149.7674102783203,
+        "date": "2026-10-26",
         "stage": "Высокое напряжение",
         "stageMa30": "Высокое напряжение"
       },
@@ -57209,9 +57209,9 @@
         {
           "id": "gprd",
           "title": "GPR Daily",
-          "latest": 248.66458129882812,
+          "latest": 165.2528076171875,
           "unit": "индекс",
-          "asOf": "2026-10-19",
+          "asOf": "2026-10-26",
           "source": "https://www.matteoiacoviello.com/gpr_files/data_gpr_daily_recent.xls",
           "points": [
             {
@@ -57359,13 +57359,13 @@
               "value": 156.499267578125
             },
             {
-              "date": "2026-10-19",
-              "value": 248.66458129882812
+              "date": "2026-10-26",
+              "value": 165.2528076171875
             }
           ],
           "emptyReason": null,
           "meaning": "Высокий уровень геополитического риска исторически совпадает с ростом волатильности и спросом на золото, доллар и защитные активы. Это индекс упоминаний геополитики в прессе, не вероятность войны.",
-          "conclusion": "GPRD 248,7 — Высокое напряжение.",
+          "conclusion": "GPRD 165,3 — Высокое напряжение.",
           "color": "#E3120B",
           "showMA": true,
           "mode": "LIVE",
@@ -57377,9 +57377,9 @@
         {
           "id": "gprd_ma30",
           "title": "GPR MA30",
-          "latest": 176.01136779785156,
+          "latest": 175.43894958496094,
           "unit": "индекс",
-          "asOf": "2026-10-19",
+          "asOf": "2026-10-26",
           "source": "колонка GPRD_MA30 того же xls",
           "points": [
             {
@@ -57484,7 +57484,7 @@
             },
             {
               "date": "2025-11-30",
-              "value": 103.35834503173828
+              "value": 103.71685028076172
             },
             {
               "date": "2025-12-31",
@@ -57524,16 +57524,16 @@
             },
             {
               "date": "2026-09-30",
-              "value": 161.4193115234375
+              "value": 158.02920532226562
             },
             {
-              "date": "2026-10-19",
-              "value": 176.01136779785156
+              "date": "2026-10-26",
+              "value": 175.43894958496094
             }
           ],
           "emptyReason": null,
           "meaning": "Сглаживание 30 дней из файла автора, не наша самодельная средняя. Для шкалы напряжения удобнее дня.",
-          "conclusion": "MA30 176 — Высокое напряжение.",
+          "conclusion": "MA30 175,4 — Высокое напряжение.",
           "color": "#E3120B",
           "showMA": true,
           "mode": "LIVE",
@@ -57545,9 +57545,9 @@
         {
           "id": "gprd_threat",
           "title": "Угрозы (GPRD_THREAT)",
-          "latest": 310.1585998535156,
+          "latest": 187.3812255859375,
           "unit": "индекс",
-          "asOf": "2026-10-19",
+          "asOf": "2026-10-26",
           "source": "колонка GPRD_THREAT",
           "points": [
             {
@@ -57695,13 +57695,13 @@
               "value": 130.134033203125
             },
             {
-              "date": "2026-10-19",
-              "value": 310.1585998535156
+              "date": "2026-10-26",
+              "value": 187.3812255859375
             }
           ],
           "emptyReason": null,
           "meaning": "Компонент угроз. Часто опережает акты. Это не новость и не RSS.",
-          "conclusion": "Угрозы 310,2.",
+          "conclusion": "Угрозы 187,4.",
           "color": "#A81829",
           "showMA": true,
           "mode": "LIVE",
@@ -57713,9 +57713,9 @@
         {
           "id": "gprd_act",
           "title": "Акты (GPRD_ACT)",
-          "latest": 230.1920928955078,
+          "latest": 149.7674102783203,
           "unit": "индекс",
-          "asOf": "2026-10-19",
+          "asOf": "2026-10-26",
           "source": "колонка GPRD_ACT",
           "points": [
             {
@@ -57863,13 +57863,13 @@
               "value": 260.02923583984375
             },
             {
-              "date": "2026-10-19",
-              "value": 230.1920928955078
+              "date": "2026-10-26",
+              "value": 149.7674102783203
             }
           ],
           "emptyReason": null,
           "meaning": "Компонент реализованных событий. Вместе с угрозами даёт разложение GPRD.",
-          "conclusion": "Акты 230,2.",
+          "conclusion": "Акты 149,8.",
           "color": "#0C0C0C",
           "showMA": true,
           "mode": "LIVE",
@@ -57885,9 +57885,9 @@
     {
       "id": "sofr",
       "title": "SOFR",
-      "latest": 3.9,
+      "latest": 3.92,
       "unit": "%",
-      "asOf": "2026-10-22",
+      "asOf": "2026-10-23",
       "source": "NY Fed last/120.json · запасной ряд FRED SOFR · fred-api",
       "points": [
         {
@@ -58299,13 +58299,13 @@
           "value": 3.9
         },
         {
-          "date": "2026-10-22",
-          "value": 3.9
+          "date": "2026-10-23",
+          "value": 3.92
         }
       ],
       "emptyReason": null,
       "meaning": "Обеспеченная ставка овернайт. Это факт рынка репо, не прогноз фьючерса. График — ряд FRED SOFR; последнее значение берём с NY Fed, если оно есть.",
-      "conclusion": "SOFR 3,9% на 2026-10-22. Это фактическая овернайт-ставка, не SOFR-фьючерс.",
+      "conclusion": "SOFR 3,92% на 2026-10-23. Это фактическая овернайт-ставка, не SOFR-фьючерс.",
       "color": "#0C0C0C",
       "showMA": true,
       "mode": "LIVE",
@@ -58319,7 +58319,7 @@
       "title": "IORB",
       "latest": 3.9,
       "unit": "%",
-      "asOf": "2026-10-26",
+      "asOf": "2026-10-27",
       "source": "FRED IORB · fred-api",
       "points": [
         {
@@ -58575,7 +58575,7 @@
           "value": 3.9
         },
         {
-          "date": "2026-10-26",
+          "date": "2026-10-27",
           "value": 3.9
         }
       ],
@@ -58593,9 +58593,9 @@
     {
       "id": "sofr_iorb_spread",
       "title": "Спред SOFR − IORB",
-      "latest": 0,
+      "latest": 2.0000000000000018,
       "unit": "б.п.",
-      "asOf": "2026-10-22",
+      "asOf": "2026-10-23",
       "source": "SOFR (NY Fed или FRED) минус FRED IORB, в базисных пунктах",
       "points": [
         {
@@ -58847,13 +58847,13 @@
           "value": 0
         },
         {
-          "date": "2026-10-22",
-          "value": 0
+          "date": "2026-10-23",
+          "value": 2.0000000000000018
         }
       ],
       "emptyReason": null,
       "meaning": "Положительный спред — репо дороже пола IORB. Это напряжение в овернайт-рынке, не прогноз ставки.",
-      "conclusion": "Спред 0 б.п. — SOFR не выше IORB, коридор спокойный.",
+      "conclusion": "Спред 2 б.п. — коридор ещё держится.",
       "color": "#379A8B",
       "showMA": true,
       "mode": "LIVE",
@@ -58865,9 +58865,9 @@
     {
       "id": "sofr30dayavg",
       "title": "SOFR 30-дневная средняя",
-      "latest": 3.88887,
+      "latest": 3.89253,
       "unit": "%",
-      "asOf": "2026-10-23",
+      "asOf": "2026-10-26",
       "source": "FRED SOFR30DAYAVG · fred-api",
       "points": [
         {
@@ -59275,8 +59275,8 @@
           "value": 3.74678
         },
         {
-          "date": "2026-10-23",
-          "value": 3.88887
+          "date": "2026-10-26",
+          "value": 3.89253
         }
       ],
       "emptyReason": null,
@@ -59295,7 +59295,7 @@
       "title": "Effective federal funds (DFF)",
       "latest": 3.88,
       "unit": "%",
-      "asOf": "2026-10-22",
+      "asOf": "2026-10-23",
       "source": "FRED DFF · fred-api",
       "points": [
         {
@@ -59863,7 +59863,7 @@
           "value": 3.88
         },
         {
-          "date": "2026-10-22",
+          "date": "2026-10-23",
           "value": 3.88
         }
       ],
@@ -59883,7 +59883,7 @@
       "title": "ON RRP",
       "latest": 0.2,
       "unit": "млрд $",
-      "asOf": "2026-10-23",
+      "asOf": "2026-10-26",
       "source": "FRED RRPONTSYD · fred-api",
       "points": [
         {
@@ -60451,7 +60451,7 @@
           "value": 11.539
         },
         {
-          "date": "2026-10-23",
+          "date": "2026-10-26",
           "value": 0.2
         }
       ],
@@ -61057,9 +61057,9 @@
     {
       "id": "tga",
       "title": "TGA — счёт Казначейства",
-      "latest": 945.153,
+      "latest": 961.759,
       "unit": "млрд $",
-      "asOf": "2026-10-22",
+      "asOf": "2026-10-23",
       "source": "Treasury DTS operating_cash_balance open_today_bal · Treasury General Account (TGA) Opening Balance",
       "points": [
         {
@@ -61279,13 +61279,13 @@
           "value": 936.6
         },
         {
-          "date": "2026-10-22",
-          "value": 945.153
+          "date": "2026-10-23",
+          "value": 961.759
         }
       ],
       "emptyReason": null,
       "meaning": "Остаток TGA. Рост TGA изымает ликвидность из системы, падение — возвращает. Поле open_today_bal, не close.",
-      "conclusion": "TGA 945 млрд $ на 2026-10-22.",
+      "conclusion": "TGA 962 млрд $ на 2026-10-23.",
       "color": "#0C0C0C",
       "showMA": true,
       "mode": "LIVE",
@@ -61521,7 +61521,7 @@
       ],
       "emptyReason": null,
       "meaning": "Счётная ликвидность: баланс ФРС минус TGA минус ON RRP. Это арифметика трёх официальных рядов, не индекс Bloomberg.",
-      "conclusion": "Net liquidity 5 808 млрд $ = WALCL − TGA − ON RRP.",
+      "conclusion": "Net liquidity 5 792 млрд $ = WALCL − TGA − ON RRP.",
       "color": "#0C0C0C",
       "showMA": true,
       "mode": "LIVE",
@@ -61533,9 +61533,9 @@
     {
       "id": "hy_oas",
       "title": "US HY OAS",
-      "latest": 3.4,
+      "latest": 3.38,
       "unit": "п.п.",
-      "asOf": "2026-10-22",
+      "asOf": "2026-10-23",
       "source": "FRED BAMLH0A0HYM2 · fred-api",
       "points": [
         {
@@ -61683,13 +61683,13 @@
           "value": 3.12
         },
         {
-          "date": "2026-10-22",
-          "value": 3.4
+          "date": "2026-10-23",
+          "value": 3.38
         }
       ],
       "emptyReason": null,
       "meaning": "Опционная премия US High Yield (ICE BofA). Шире спред — дороже кредит. Это общий HY, не Tech HY.",
-      "conclusion": "HY OAS 3,4 п.п. — узкий, кредит дешёвый.",
+      "conclusion": "HY OAS 3,38 п.п. — узкий, кредит дешёвый.",
       "color": "#A81829",
       "showMA": true,
       "mode": "LIVE",
@@ -61881,7 +61881,7 @@
       ],
       "emptyReason": null,
       "meaning": "Implied 3-мес. SOFR из опционов CME, официальная оценка ФРС Атланты. Это не last фьючерса CME.",
-      "conclusion": "Ближайшее окно SR3: implied mean 4,32% на 2026-09-18 (Atlanta Fed MPT по опционам CME, не last фьючерса). Это выше спотового SOFR 3,9%: рынок закладывает более высокую 3-мес. среднюю, чем сегодняшний овернайт. Выше верхней границы коридора FOMC 375bps - 400bps (3,75–4%). Вероятность 3-мес. средней ниже коридора 1,5%, выше — 94,5% (как публикует MPT). Реализованная 90-дневная средняя FRED SOFR90DAYAVG 3,75% — то, к чему 3-мес. контракт сходится; расхождение со implied не доказывает причинность. Спотовый SOFR — факт овернайт NY Fed/FRED; path — опционная оценка ФРС Атланты.",
+      "conclusion": "Ближайшее окно SR3: implied mean 4,32% на 2026-09-18 (Atlanta Fed MPT по опционам CME, не last фьючерса). Это выше спотового SOFR 3,92%: рынок закладывает более высокую 3-мес. среднюю, чем сегодняшний овернайт. Выше верхней границы коридора FOMC 375bps - 400bps (3,75–4%). Вероятность 3-мес. средней ниже коридора 1,5%, выше — 94,5% (как публикует MPT). Реализованная 90-дневная средняя FRED SOFR90DAYAVG 3,76% — то, к чему 3-мес. контракт сходится; расхождение со implied не доказывает причинность. Спотовый SOFR — факт овернайт NY Fed/FRED; path — опционная оценка ФРС Атланты.",
       "color": "#0C0C0C",
       "showMA": true,
       "mode": "LIVE",
@@ -61893,9 +61893,9 @@
     {
       "id": "tech_hy",
       "title": "HY OAS по рейтингу · ICE BofA",
-      "latest": 13.4,
+      "latest": 13.56,
       "unit": "п.п.",
-      "asOf": "2026-10-22",
+      "asOf": "2026-10-23",
       "source": "FRED BAMLH0A3HYC · fred-api",
       "points": [
         {
@@ -62043,13 +62043,13 @@
           "value": 11.79
         },
         {
-          "date": "2026-10-22",
-          "value": 13.4
+          "date": "2026-10-23",
+          "value": 13.56
         }
       ],
       "emptyReason": null,
       "meaning": "Исходный лендинг писал Tech HY. В FRED нет отраслевого Tech HY OAS (проверено). Берём официальные под-индексы ICE BofA по рейтингу через FRED — цена кредита по качеству, не сектор tech.",
-      "conclusion": "CCC OAS 13,4 п.п. против BB 2,1 п.п. (разрыв 11,3 п.п. на 2026-10-22). Разрыв CCC−BB расширился с 9,85 — стресс в худших кредитах, не «tech». Single-B 3,46 п.п. Кросс-чек: HY 3,4 п.п. против IG 0,89 п.п. Окно FRED ICE сейчас с ~2023-08-28 (скользящие 3 года) — точки до 2023 не выдумываем. MA 7 лет неполная.",
+      "conclusion": "CCC OAS 13,56 п.п. против BB 2,06 п.п. (разрыв 11,5 п.п. на 2026-10-23). Разрыв CCC−BB расширился с 9,85 — стресс в худших кредитах, не «tech». Single-B 3,43 п.п. Кросс-чек: HY 3,38 п.п. против IG 0,91 п.п. Окно FRED ICE сейчас с ~2023-08-28 (скользящие 3 года) — точки до 2023 не выдумываем. MA 7 лет неполная.",
       "color": "#A81829",
       "showMA": true,
       "mode": "LIVE",
@@ -62265,14 +62265,14 @@
     {
       "id": "fomc_calendar",
       "title": "Календарь событий FOMC",
-      "latest": 2,
+      "latest": 1,
       "unit": "дн. до заседания",
       "asOf": "2026-10-28",
       "source": "Календарь Board of Governors, json/calendar.json — первоисточник, не Investing.com.",
       "points": [],
       "emptyReason": null,
       "meaning": "Календарь Board of Governors, json/calendar.json — первоисточник, не Investing.com.",
-      "conclusion": "До следующего FOMC Meeting 2 дня (statement 27.10–28.10.2026, ET 2:00 p.m.). Это календарь Board of Governors, не вероятность решения.",
+      "conclusion": "До следующего FOMC Meeting 1 день (statement 27.10–28.10.2026, ET 2:00 p.m.). Это календарь Board of Governors, не вероятность решения.",
       "color": "#0C0C0C",
       "showMA": false,
       "mode": "LIVE",
@@ -62284,7 +62284,7 @@
           "time": "2:00 p.m.",
           "type": "FOMC",
           "kind": "meeting",
-          "daysUntil": 2
+          "daysUntil": 1
         },
         {
           "date": "2026-10-28",
@@ -62293,7 +62293,7 @@
           "time": "2:30 p.m.",
           "type": "FOMC",
           "kind": "press",
-          "daysUntil": 2
+          "daysUntil": 1
         },
         {
           "date": "2026-11-18",
@@ -62302,7 +62302,7 @@
           "time": "2:00 p.m.",
           "type": "FOMC",
           "kind": "minutes",
-          "daysUntil": 23
+          "daysUntil": 22
         },
         {
           "date": "2026-11-25",
@@ -62311,7 +62311,7 @@
           "time": "2:00 p.m.",
           "type": "Beige",
           "kind": "beige",
-          "daysUntil": 30
+          "daysUntil": 29
         },
         {
           "date": "2026-12-09",
@@ -62320,7 +62320,7 @@
           "time": "2:00 p.m.",
           "type": "FOMC",
           "kind": "meeting",
-          "daysUntil": 44
+          "daysUntil": 43
         },
         {
           "date": "2026-12-09",
@@ -62329,7 +62329,7 @@
           "time": "2:30 p.m.",
           "type": "FOMC",
           "kind": "press",
-          "daysUntil": 44
+          "daysUntil": 43
         },
         {
           "date": "2026-12-30",
@@ -62338,7 +62338,7 @@
           "time": "2:00 p.m.",
           "type": "FOMC",
           "kind": "minutes",
-          "daysUntil": 65
+          "daysUntil": 64
         }
       ],
       "past": [
@@ -62349,7 +62349,7 @@
           "time": "2:00 p.m.",
           "type": "FOMC",
           "kind": "meeting",
-          "daysUntil": -131
+          "daysUntil": -132
         },
         {
           "date": "2026-06-17",
@@ -62358,7 +62358,7 @@
           "time": "2:30 p.m.",
           "type": "FOMC",
           "kind": "press",
-          "daysUntil": -131
+          "daysUntil": -132
         },
         {
           "date": "2026-07-08",
@@ -62367,7 +62367,7 @@
           "time": "2:00 p.m.",
           "type": "FOMC",
           "kind": "minutes",
-          "daysUntil": -110
+          "daysUntil": -111
         },
         {
           "date": "2026-07-15",
@@ -62376,7 +62376,7 @@
           "time": "2:00 p.m.",
           "type": "Beige",
           "kind": "beige",
-          "daysUntil": -103
+          "daysUntil": -104
         },
         {
           "date": "2026-07-29",
@@ -62385,7 +62385,7 @@
           "time": "2:00 p.m.",
           "type": "FOMC",
           "kind": "meeting",
-          "daysUntil": -89
+          "daysUntil": -90
         },
         {
           "date": "2026-07-29",
@@ -62394,7 +62394,7 @@
           "time": "2:30 p.m.",
           "type": "FOMC",
           "kind": "press",
-          "daysUntil": -89
+          "daysUntil": -90
         },
         {
           "date": "2026-08-19",
@@ -62403,7 +62403,7 @@
           "time": "2:00 p.m.",
           "type": "FOMC",
           "kind": "minutes",
-          "daysUntil": -68
+          "daysUntil": -69
         },
         {
           "date": "2026-09-02",
@@ -62412,7 +62412,7 @@
           "time": "2:00 p.m.",
           "type": "Beige",
           "kind": "beige",
-          "daysUntil": -54
+          "daysUntil": -55
         },
         {
           "date": "2026-09-16",
@@ -62421,7 +62421,7 @@
           "time": "2:00 p.m.",
           "type": "FOMC",
           "kind": "meeting",
-          "daysUntil": -40
+          "daysUntil": -41
         },
         {
           "date": "2026-09-16",
@@ -62430,7 +62430,7 @@
           "time": "2:30 p.m.",
           "type": "FOMC",
           "kind": "press",
-          "daysUntil": -40
+          "daysUntil": -41
         },
         {
           "date": "2026-10-07",
@@ -62439,7 +62439,7 @@
           "time": "2:00 p.m.",
           "type": "FOMC",
           "kind": "minutes",
-          "daysUntil": -19
+          "daysUntil": -20
         },
         {
           "date": "2026-10-14",
@@ -62448,7 +62448,7 @@
           "time": "2:00 p.m.",
           "type": "Beige",
           "kind": "beige",
-          "daysUntil": -12
+          "daysUntil": -13
         }
       ],
       "nextMeeting": {
@@ -62456,7 +62456,7 @@
         "startDate": "2026-10-27",
         "title": "FOMC Meeting",
         "time": "2:00 p.m.",
-        "daysUntil": 2
+        "daysUntil": 1
       }
     },
     {
@@ -81576,7 +81576,7 @@
       "title": "Кривая 10л − 3мес (T10Y3M)",
       "latest": 0.78,
       "unit": "п.п.",
-      "asOf": "2026-10-23",
+      "asOf": "2026-10-26",
       "source": "FRED T10Y3M · fred-api",
       "points": [
         {
@@ -83728,7 +83728,7 @@
           "value": 1.09
         },
         {
-          "date": "2026-10-23",
+          "date": "2026-10-26",
           "value": 0.78
         }
       ],
@@ -97673,9 +97673,9 @@
     {
       "id": "btc_coinbase",
       "title": "BTC-USD Coinbase",
-      "latest": 79406.15,
+      "latest": 79611.3,
       "unit": "$",
-      "asOf": "2026-10-26",
+      "asOf": "2026-10-27",
       "source": "Coinbase Exchange BTC-USD candles granularity=86400, monthly last close",
       "points": [
         {
@@ -98099,13 +98099,13 @@
           "value": 83556.14
         },
         {
-          "date": "2026-10-26",
-          "value": 79406.15
+          "date": "2026-10-27",
+          "value": 79611.3
         }
       ],
       "emptyReason": null,
       "meaning": "Цена выше MA 12 мес — цикл включён. Месячные закрытия официальных свечей Coinbase Exchange; спот и расхождение с Binance — отдельно, среднее не считаем.",
-      "conclusion": "Последнее закрытие 79 406 $, MA 12 мес 78 001, MA 7 лет 49 036.",
+      "conclusion": "Последнее закрытие 79 611 $, MA 12 мес 78 017, MA 7 лет 49 038.",
       "color": "#379A8B",
       "showMA": true,
       "mode": "LIVE",
@@ -98117,7 +98117,7 @@
     {
       "id": "btc_binance",
       "title": "BTCUSDT Binance",
-      "latest": 79517.68,
+      "latest": 79759.26,
       "unit": "$",
       "asOf": "2026-10-01",
       "source": "Binance data-api.binance.vision BTCUSDT klines interval=1M",
@@ -98544,12 +98544,12 @@
         },
         {
           "date": "2026-10-01",
-          "value": 79517.68
+          "value": 79759.26
         }
       ],
       "emptyReason": null,
       "meaning": "Цена выше MA 12 мес — цикл включён. Месячные klines data-api.binance.vision; при расхождении с Coinbase — флаг, не среднее.",
-      "conclusion": "Последнее закрытие 79 518 $, MA 12 мес 75 439, MA 7 лет 49 518.",
+      "conclusion": "Последнее закрытие 79 759 $, MA 12 мес 75 459, MA 7 лет 49 520.",
       "color": "#379A8B",
       "showMA": true,
       "mode": "LIVE",
@@ -98561,9 +98561,9 @@
     {
       "id": "btc_realized_vol",
       "title": "Реализованная волатильность BTC · Coinbase, не Fear & Greed",
-      "latest": 46.084125597496964,
+      "latest": 46.070112356148826,
       "unit": "% годовых",
-      "asOf": "2026-10-26",
+      "asOf": "2026-10-27",
       "source": "счёт из месячных закрытий Coinbase Exchange BTC-USD (тот же снимок) · alternative.me не загружаем",
       "points": [
         {
@@ -98939,8 +98939,8 @@
           "value": 46.035832198306345
         },
         {
-          "date": "2026-10-26",
-          "value": 46.084125597496964
+          "date": "2026-10-27",
+          "value": 46.070112356148826
         }
       ],
       "emptyReason": null,
@@ -98957,9 +98957,9 @@
     {
       "id": "cbbtcusd",
       "title": "Bitcoin — официальный спот Coinbase (FRED CBBTCUSD)",
-      "latest": 79914.39,
+      "latest": 80056.43,
       "unit": "$",
-      "asOf": "2026-10-25",
+      "asOf": "2026-10-26",
       "source": "FRED CBBTCUSD · fred-api",
       "points": [
         {
@@ -99527,13 +99527,13 @@
           "value": 83482.51
         },
         {
-          "date": "2026-10-25",
-          "value": 79914.39
+          "date": "2026-10-26",
+          "value": 80056.43
         }
       ],
       "emptyReason": null,
       "meaning": "Ряд авторства Coinbase, зеркалируемый St. Louis Fed. Живая замена слота CoinGecko: это официальная цена, а НЕ market-cap доминация. Сверка с историей свечей Coinbase — та же площадка, два канала данных; средних не считаем.",
-      "conclusion": "FRED CBBTCUSD: 79 914 $.",
+      "conclusion": "FRED CBBTCUSD: 80 056 $.",
       "color": "#0C0C0C",
       "showMA": true,
       "mode": "LIVE",
@@ -99545,9 +99545,9 @@
     {
       "id": "cbethusd",
       "title": "Ethereum — официальный спот Coinbase (FRED CBETHUSD)",
-      "latest": 2321.28,
+      "latest": 2320.66,
       "unit": "$",
-      "asOf": "2026-10-25",
+      "asOf": "2026-10-26",
       "source": "FRED CBETHUSD · fred-api",
       "points": [
         {
@@ -100051,8 +100051,8 @@
           "value": 2682.34
         },
         {
-          "date": "2026-10-25",
-          "value": 2321.28
+          "date": "2026-10-26",
+          "value": 2320.66
         }
       ],
       "emptyReason": null,
@@ -101813,9 +101813,9 @@
     {
       "id": "gprd",
       "title": "GPR Daily",
-      "latest": 248.66458129882812,
+      "latest": 165.2528076171875,
       "unit": "индекс",
-      "asOf": "2026-10-19",
+      "asOf": "2026-10-26",
       "source": "https://www.matteoiacoviello.com/gpr_files/data_gpr_daily_recent.xls",
       "points": [
         {
@@ -101963,13 +101963,13 @@
           "value": 156.499267578125
         },
         {
-          "date": "2026-10-19",
-          "value": 248.66458129882812
+          "date": "2026-10-26",
+          "value": 165.2528076171875
         }
       ],
       "emptyReason": null,
       "meaning": "Высокий уровень геополитического риска исторически совпадает с ростом волатильности и спросом на золото, доллар и защитные активы. Это индекс упоминаний геополитики в прессе, не вероятность войны.",
-      "conclusion": "GPRD 248,7 — Высокое напряжение.",
+      "conclusion": "GPRD 165,3 — Высокое напряжение.",
       "color": "#E3120B",
       "showMA": true,
       "mode": "LIVE",
@@ -101981,9 +101981,9 @@
     {
       "id": "gprd_ma30",
       "title": "GPR MA30",
-      "latest": 176.01136779785156,
+      "latest": 175.43894958496094,
       "unit": "индекс",
-      "asOf": "2026-10-19",
+      "asOf": "2026-10-26",
       "source": "колонка GPRD_MA30 того же xls",
       "points": [
         {
@@ -102088,7 +102088,7 @@
         },
         {
           "date": "2025-11-30",
-          "value": 103.35834503173828
+          "value": 103.71685028076172
         },
         {
           "date": "2025-12-31",
@@ -102128,16 +102128,16 @@
         },
         {
           "date": "2026-09-30",
-          "value": 161.4193115234375
+          "value": 158.02920532226562
         },
         {
-          "date": "2026-10-19",
-          "value": 176.01136779785156
+          "date": "2026-10-26",
+          "value": 175.43894958496094
         }
       ],
       "emptyReason": null,
       "meaning": "Сглаживание 30 дней из файла автора, не наша самодельная средняя. Для шкалы напряжения удобнее дня.",
-      "conclusion": "MA30 176 — Высокое напряжение.",
+      "conclusion": "MA30 175,4 — Высокое напряжение.",
       "color": "#E3120B",
       "showMA": true,
       "mode": "LIVE",
@@ -102149,9 +102149,9 @@
     {
       "id": "gprd_threat",
       "title": "Угрозы (GPRD_THREAT)",
-      "latest": 310.1585998535156,
+      "latest": 187.3812255859375,
       "unit": "индекс",
-      "asOf": "2026-10-19",
+      "asOf": "2026-10-26",
       "source": "колонка GPRD_THREAT",
       "points": [
         {
@@ -102299,13 +102299,13 @@
           "value": 130.134033203125
         },
         {
-          "date": "2026-10-19",
-          "value": 310.1585998535156
+          "date": "2026-10-26",
+          "value": 187.3812255859375
         }
       ],
       "emptyReason": null,
       "meaning": "Компонент угроз. Часто опережает акты. Это не новость и не RSS.",
-      "conclusion": "Угрозы 310,2.",
+      "conclusion": "Угрозы 187,4.",
       "color": "#A81829",
       "showMA": true,
       "mode": "LIVE",
@@ -102317,9 +102317,9 @@
     {
       "id": "gprd_act",
       "title": "Акты (GPRD_ACT)",
-      "latest": 230.1920928955078,
+      "latest": 149.7674102783203,
       "unit": "индекс",
-      "asOf": "2026-10-19",
+      "asOf": "2026-10-26",
       "source": "колонка GPRD_ACT",
       "points": [
         {
@@ -102467,13 +102467,13 @@
           "value": 260.02923583984375
         },
         {
-          "date": "2026-10-19",
-          "value": 230.1920928955078
+          "date": "2026-10-26",
+          "value": 149.7674102783203
         }
       ],
       "emptyReason": null,
       "meaning": "Компонент реализованных событий. Вместе с угрозами даёт разложение GPRD.",
-      "conclusion": "Акты 230,2.",
+      "conclusion": "Акты 149,8.",
       "color": "#0C0C0C",
       "showMA": true,
       "mode": "LIVE",
@@ -102487,7 +102487,7 @@
     {
       "id": "sofr",
       "label": "SOFR",
-      "value": 3.9,
+      "value": 3.92,
       "unit": "%"
     },
     {
@@ -102505,37 +102505,37 @@
     {
       "id": "gpr",
       "label": "GPRD",
-      "value": 248.66458129882812,
+      "value": 165.2528076171875,
       "unit": ""
     },
     {
       "id": "btc",
       "label": "BTC CB",
-      "value": 79420.225,
+      "value": 79616.275,
       "unit": "$"
     }
   ],
   "metrics": {
-    "sofr": 3.9,
-    "sofrDate": "2026-10-22",
+    "sofr": 3.92,
+    "sofrDate": "2026-10-23",
     "iorb": 3.9,
     "iorbDate": "2026-09-30",
-    "spreadBp": 0,
+    "spreadBp": 2.0000000000000018,
     "rrpBn": 0.2,
-    "rrpDate": "2026-10-23",
+    "rrpDate": "2026-10-26",
     "walclBn": 6753.604,
-    "tgaBn": 945.153,
-    "netLiquidityBn": 5808.251,
+    "tgaBn": 961.759,
+    "netLiquidityBn": 5791.645,
     "gpr": {
-      "gprd": 248.66458129882812,
-      "ma7": 177.9249725341797,
-      "ma30": 176.01136779785156,
-      "threat": 310.1585998535156,
-      "act": 230.1920928955078,
-      "date": "2026-10-19",
+      "gprd": 165.2528076171875,
+      "ma7": 181.41552734375,
+      "ma30": 175.43894958496094,
+      "threat": 187.3812255859375,
+      "act": 149.7674102783203,
+      "date": "2026-10-26",
       "stage": "Высокое напряжение",
       "stageMa30": "Высокое напряжение"
     },
-    "asOf": "2026-10-22"
+    "asOf": "2026-10-23"
   }
 }

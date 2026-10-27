@@ -1,500 +1,12 @@
 {
   "status": "ok",
-  "fetchedAt": "2026-10-26T02:55:39.665Z",
-  "keyRate": {
-    "date": "2026-10-23",
-    "value": 14
-  },
-  "keyRateHistory": [
-    {
-      "date": "2016-10-31",
-      "value": 10
-    },
-    {
-      "date": "2016-11-30",
-      "value": 10
-    },
-    {
-      "date": "2016-12-30",
-      "value": 10
-    },
-    {
-      "date": "2017-01-31",
-      "value": 10
-    },
-    {
-      "date": "2017-02-28",
-      "value": 10
-    },
-    {
-      "date": "2017-03-31",
-      "value": 9.75
-    },
-    {
-      "date": "2017-04-28",
-      "value": 9.75
-    },
-    {
-      "date": "2017-05-31",
-      "value": 9.25
-    },
-    {
-      "date": "2017-06-30",
-      "value": 9
-    },
-    {
-      "date": "2017-07-31",
-      "value": 9
-    },
-    {
-      "date": "2017-08-31",
-      "value": 9
-    },
-    {
-      "date": "2017-09-29",
-      "value": 8.5
-    },
-    {
-      "date": "2017-10-31",
-      "value": 8.25
-    },
-    {
-      "date": "2017-11-30",
-      "value": 8.25
-    },
-    {
-      "date": "2017-12-29",
-      "value": 7.75
-    },
-    {
-      "date": "2018-01-31",
-      "value": 7.75
-    },
-    {
-      "date": "2018-02-28",
-      "value": 7.5
-    },
-    {
-      "date": "2018-03-30",
-      "value": 7.25
-    },
-    {
-      "date": "2018-04-28",
-      "value": 7.25
-    },
-    {
-      "date": "2018-05-31",
-      "value": 7.25
-    },
-    {
-      "date": "2018-06-29",
-      "value": 7.25
-    },
-    {
-      "date": "2018-07-31",
-      "value": 7.25
-    },
-    {
-      "date": "2018-08-31",
-      "value": 7.25
-    },
-    {
-      "date": "2018-09-28",
-      "value": 7.5
-    },
-    {
-      "date": "2018-10-31",
-      "value": 7.5
-    },
-    {
-      "date": "2018-11-30",
-      "value": 7.5
-    },
-    {
-      "date": "2018-12-28",
-      "value": 7.75
-    },
-    {
-      "date": "2019-01-31",
-      "value": 7.75
-    },
-    {
-      "date": "2019-02-28",
-      "value": 7.75
-    },
-    {
-      "date": "2019-03-29",
-      "value": 7.75
-    },
-    {
-      "date": "2019-04-30",
-      "value": 7.75
-    },
-    {
-      "date": "2019-05-31",
-      "value": 7.75
-    },
-    {
-      "date": "2019-06-28",
-      "value": 7.5
-    },
-    {
-      "date": "2019-07-31",
-      "value": 7.25
-    },
-    {
-      "date": "2019-08-30",
-      "value": 7.25
-    },
-    {
-      "date": "2019-09-30",
-      "value": 7
-    },
-    {
-      "date": "2019-10-31",
-      "value": 6.5
-    },
-    {
-      "date": "2019-11-29",
-      "value": 6.5
-    },
-    {
-      "date": "2019-12-31",
-      "value": 6.25
-    },
-    {
-      "date": "2020-01-31",
-      "value": 6.25
-    },
-    {
-      "date": "2020-02-28",
-      "value": 6
-    },
-    {
-      "date": "2020-03-31",
-      "value": 6
-    },
-    {
-      "date": "2020-04-30",
-      "value": 5.5
-    },
-    {
-      "date": "2020-05-29",
-      "value": 5.5
-    },
-    {
-      "date": "2020-06-30",
-      "value": 4.5
-    },
-    {
-      "date": "2020-07-31",
-      "value": 4.25
-    },
-    {
-      "date": "2020-08-31",
-      "value": 4.25
-    },
-    {
-      "date": "2020-09-30",
-      "value": 4.25
-    },
-    {
-      "date": "2020-10-30",
-      "value": 4.25
-    },
-    {
-      "date": "2020-11-30",
-      "value": 4.25
-    },
-    {
-      "date": "2020-12-31",
-      "value": 4.25
-    },
-    {
-      "date": "2021-01-29",
-      "value": 4.25
-    },
-    {
-      "date": "2021-02-26",
-      "value": 4.25
-    },
-    {
-      "date": "2021-03-31",
-      "value": 4.5
-    },
-    {
-      "date": "2021-04-30",
-      "value": 5
-    },
-    {
-      "date": "2021-05-31",
-      "value": 5
-    },
-    {
-      "date": "2021-06-30",
-      "value": 5.5
-    },
-    {
-      "date": "2021-07-30",
-      "value": 6.5
-    },
-    {
-      "date": "2021-08-31",
-      "value": 6.5
-    },
-    {
-      "date": "2021-09-30",
-      "value": 6.75
-    },
-    {
-      "date": "2021-10-29",
-      "value": 7.5
-    },
-    {
-      "date": "2021-11-30",
-      "value": 7.5
-    },
-    {
-      "date": "2021-12-30",
-      "value": 8.5
-    },
-    {
-      "date": "2022-01-31",
-      "value": 8.5
-    },
-    {
-      "date": "2022-02-28",
-      "value": 20
-    },
-    {
-      "date": "2022-03-31",
-      "value": 20
-    },
-    {
-      "date": "2022-04-29",
-      "value": 17
-    },
-    {
-      "date": "2022-05-31",
-      "value": 11
-    },
-    {
-      "date": "2022-06-30",
-      "value": 9.5
-    },
-    {
-      "date": "2022-07-29",
-      "value": 8
-    },
-    {
-      "date": "2022-08-31",
-      "value": 8
-    },
-    {
-      "date": "2022-09-30",
-      "value": 7.5
-    },
-    {
-      "date": "2022-10-31",
-      "value": 7.5
-    },
-    {
-      "date": "2022-11-30",
-      "value": 7.5
-    },
-    {
-      "date": "2022-12-30",
-      "value": 7.5
-    },
-    {
-      "date": "2023-01-31",
-      "value": 7.5
-    },
-    {
-      "date": "2023-02-28",
-      "value": 7.5
-    },
-    {
-      "date": "2023-03-31",
-      "value": 7.5
-    },
-    {
-      "date": "2023-04-28",
-      "value": 7.5
-    },
-    {
-      "date": "2023-05-31",
-      "value": 7.5
-    },
-    {
-      "date": "2023-06-30",
-      "value": 7.5
-    },
-    {
-      "date": "2023-07-31",
-      "value": 8.5
-    },
-    {
-      "date": "2023-08-31",
-      "value": 12
-    },
-    {
-      "date": "2023-09-29",
-      "value": 13
-    },
-    {
-      "date": "2023-10-31",
-      "value": 15
-    },
-    {
-      "date": "2023-11-30",
-      "value": 15
-    },
-    {
-      "date": "2023-12-29",
-      "value": 16
-    },
-    {
-      "date": "2024-01-31",
-      "value": 16
-    },
-    {
-      "date": "2024-02-29",
-      "value": 16
-    },
-    {
-      "date": "2024-03-29",
-      "value": 16
-    },
-    {
-      "date": "2024-04-30",
-      "value": 16
-    },
-    {
-      "date": "2024-05-31",
-      "value": 16
-    },
-    {
-      "date": "2024-06-28",
-      "value": 16
-    },
-    {
-      "date": "2024-07-31",
-      "value": 18
-    },
-    {
-      "date": "2024-08-30",
-      "value": 18
-    },
-    {
-      "date": "2024-09-30",
-      "value": 19
-    },
-    {
-      "date": "2024-10-31",
-      "value": 21
-    },
-    {
-      "date": "2024-11-29",
-      "value": 21
-    },
-    {
-      "date": "2024-12-30",
-      "value": 21
-    },
-    {
-      "date": "2025-01-31",
-      "value": 21
-    },
-    {
-      "date": "2025-02-28",
-      "value": 21
-    },
-    {
-      "date": "2025-03-31",
-      "value": 21
-    },
-    {
-      "date": "2025-04-30",
-      "value": 21
-    },
-    {
-      "date": "2025-05-30",
-      "value": 21
-    },
-    {
-      "date": "2025-06-30",
-      "value": 20
-    },
-    {
-      "date": "2025-07-31",
-      "value": 18
-    },
-    {
-      "date": "2025-08-29",
-      "value": 18
-    },
-    {
-      "date": "2025-09-30",
-      "value": 17
-    },
-    {
-      "date": "2025-10-31",
-      "value": 16.5
-    },
-    {
-      "date": "2025-11-28",
-      "value": 16.5
-    },
-    {
-      "date": "2025-12-30",
-      "value": 16
-    },
-    {
-      "date": "2026-01-30",
-      "value": 16
-    },
-    {
-      "date": "2026-02-27",
-      "value": 15.5
-    },
-    {
-      "date": "2026-03-31",
-      "value": 15
-    },
-    {
-      "date": "2026-04-30",
-      "value": 14.5
-    },
-    {
-      "date": "2026-05-29",
-      "value": 14.5
-    },
-    {
-      "date": "2026-06-30",
-      "value": 14.25
-    },
-    {
-      "date": "2026-07-31",
-      "value": 14
-    },
-    {
-      "date": "2026-08-31",
-      "value": 14
-    },
-    {
-      "date": "2026-09-30",
-      "value": 14
-    },
-    {
-      "date": "2026-10-23",
-      "value": 14
-    }
-  ],
+  "fetchedAt": "2026-10-27T05:54:38.096Z",
+  "keyRate": null,
+  "keyRateHistory": [],
   "usdRub": {
-    "source": "www.cbr.ru XML_daily R01235",
-    "date": "2026-10-24",
-    "value": 80.5381
+    "value": null,
+    "date": null,
+    "source": null
   },
   "usdHistory": [
     {
@@ -978,8 +490,8 @@
       "value": 84.4283
     },
     {
-      "date": "2026-10-24",
-      "value": 80.5381
+      "date": "2026-10-27",
+      "value": 80.4909
     }
   ],
   "cnyHistory": [
@@ -1464,8 +976,8 @@
       "value": 12.5764
     },
     {
-      "date": "2026-10-24",
-      "value": 12.0557
+      "date": "2026-10-27",
+      "value": 12.068
     }
   ],
   "cpi": {
@@ -6788,7 +6300,7 @@
       "value": 11.08
     }
   ],
-  "depoError": null,
+  "depoError": "fetch failed",
   "transferHistory": [
     {
       "date": "2017-02-01",
@@ -7260,7 +6772,6 @@
     }
   ],
   "ruonia": {
-    "source": "www.cbr.ru SOAP Ruonia",
     "points": [
       {
         "date": "2016-10-31",
@@ -7746,7 +7257,10 @@
         "date": "2026-10-22",
         "value": 14.2
       }
-    ]
+    ],
+    "error": "fetch failed",
+    "usedCache": true,
+    "source": null
   },
   "ruoniaHistory": [
     {
@@ -8234,7 +7748,7 @@
       "value": 14.2
     }
   ],
-  "ruoniaError": null,
+  "ruoniaError": "fetch failed",
   "meetings": {
     "source": "https://cbr.ru/dkp/cal_mp/",
     "items": [
@@ -8564,22 +8078,20 @@
     "nextMeetingRate": 13.5,
     "yearEnd2026": 13.75,
     "source": "sbercib.ru/publication/prognoz-klyuchevoi-stavki-na-2026-god",
-    "fetchedAt": "2026-10-26T02:55:39.298Z",
+    "fetchedAt": "2026-10-27T05:54:37.837Z",
     "error": null
   },
   "depositMax": {
-    "source": "https://cbr.ru/vfs/statistics/bank_sector/ibudv/szmdv_202608.xls",
-    "date": "2026-08-01",
-    "value": 24.211
+    "source": "https://cbr.ru/vfs/statistics/bank_sector/ibudv/szmdv_202609.xls",
+    "date": "2026-09-01",
+    "value": 22
   },
   "sources": {
-    "keyRate": "www.cbr.ru SOAP KeyRate",
-    "infl": "http://ssl.rosstat.gov.ru/storage/mediabank/ipc_mes_09-2026.xlsx · г/г цепным произведением м/м-индексов (методика из сноски ipc_mes) · сверка: cbr.ru/hd_base/infl",
+    "keyRate": null,
+    "infl": "https://rosstat.gov.ru/storage/mediabank/ipc_mes_09-2026.xlsx · г/г цепным произведением м/м-индексов (методика из сноски ipc_mes) · сверка: cbr.ru/hd_base/infl",
     "m2": "https://cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx",
     "m0": "https://cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx",
     "usd": "www.cbr.ru XML_dynamic R01235",
-    "cny": "www.cbr.ru XML_dynamic R01375",
-    "deposit": "http://www.cbr.ru/dataservice/data?y1=2016&y2=2026&publicationId=18&datasetId=37&measureId=2",
-    "transfer": "http://www.cbr.ru/dataservice/data?y1=2016&y2=2026&publicationId=5&datasetId=6&measureId=-1 · переводные депозиты ДХ element_id=16, YoY"
+    "cny": "www.cbr.ru XML_dynamic R01375"
   }
 }

@@ -1,78 +1,78 @@
 {
   "status": "ok",
-  "fetchedAt": "2026-10-26T02:58:25.417Z",
+  "fetchedAt": "2026-10-27T06:33:58.637Z",
   "source": "live",
   "today": {
-    "asof": "2026-10-26",
+    "asof": "2026-10-27",
     "provisional": true,
     "provisional_note": "Хотя бы один ряд отстаёт от asof: слои 3–4 по последнему известному дню и завтра пересчитаются.",
     "data_freshness": [
       {
         "source": "DXY (Yahoo DX-Y.NYB)",
-        "last": "2026-10-26",
+        "last": "2026-10-27",
         "lag_business_days": 0,
         "ok": true
       },
       {
         "source": "металлы (CPER, COPX, DBB)",
-        "last": "2026-10-23",
+        "last": "2026-10-26",
         "lag_business_days": 1,
         "ok": true
       },
       {
         "source": "нефть (USO, BNO, XLE, OIH)",
-        "last": "2026-10-23",
+        "last": "2026-10-26",
         "lag_business_days": 1,
         "ok": true
       },
       {
         "source": "DGS2",
-        "last": "2026-10-22",
+        "last": "2026-10-23",
         "lag_business_days": 2,
         "ok": true
       },
       {
         "source": "DGS10",
-        "last": "2026-10-22",
+        "last": "2026-10-23",
         "lag_business_days": 2,
         "ok": true
       },
       {
         "source": "T10YIE",
-        "last": "2026-10-23",
+        "last": "2026-10-26",
         "lag_business_days": 1,
         "ok": true
       }
     ],
     "missing": null,
     "layer1_dollar_now": {
-      "dxy": 101.59,
-      "dxy_63d_pct": 0.21,
-      "metals_63d_pct": -0.51,
+      "dxy": 102.09,
+      "dxy_63d_pct": 1.28,
+      "metals_63d_pct": 0.15,
       "direction": "дорожает",
-      "metals_confirm": true
+      "metals_confirm": false
     },
     "layer2_level": {
-      "pct5y": 0.437,
+      "pct5y": 0.482,
       "label": "средний",
       "color": "#758d99"
     },
     "layer3_dollar_pressure": {
-      "value": -1.15,
+      "value": -1.57,
       "curve_2s10s": 0.31,
-      "oil_basket_126d_pct": 16.88,
+      "oil_basket_126d_pct": 14,
       "label": "к укреплению доллара"
     },
     "layer4_fed_pressure": {
-      "value": 1.84,
+      "value": 1.92,
       "breakeven10": 2.34,
       "label": "к повышению ставки"
     },
     "layer5_dollar_trend": {
       "state": "up",
       "since": "2026-03-30",
-      "sma200": 99.57,
-      "dev200_pct": 2.03,
+      "sma200": 99.59,
+      "dev200_pct": 2.51,
       "title": "Тренд доллара вверх",
       "text": "DXY закрылся выше SMA200 × 1,02. Внутри полосы ±2% состояние не меняется. Средняя длина — 178 дней (медиана), 1,2 смены в год.",
       "evidence": "При восходящем тренде сырьё и EM исторически слабее (DBC −19,9 / −3,6% годовых). Разница состояний по z < 1,5 — фон, не отдельный сигнал."
@@ -124,15 +124,10 @@
       "color": "#ef6c00",
       "raw_phase_today": "Q3",
       "point": {
-        "x": -1.15,
-        "y": 1.837
+        "x": -1.573,
+        "y": 1.924
       },
       "trail": [
-        {
-          "date": "2026-09-29",
-          "x": 0.158,
-          "y": 1.044
-        },
         {
           "date": "2026-09-30",
           "x": 0.17,
@@ -225,8 +220,13 @@
         },
         {
           "date": "2026-10-26",
-          "x": -1.15,
+          "x": -1.127,
           "y": 1.837
+        },
+        {
+          "date": "2026-10-27",
+          "x": -1.573,
+          "y": 1.924
         }
       ]
     },
@@ -292,7 +292,7 @@
       "pct5y": 0.971,
       "sma200": 96.75,
       "dxy63": 3.378,
-      "metals63": -21.277,
+      "metals63": -21.276,
       "dollarPressure": 1.282,
       "fedPressure": 0.79,
       "fedFunds": 0.34,
@@ -736,7 +736,7 @@
       "pct5y": 0.948,
       "sma200": 97.005,
       "dxy63": -1.593,
-      "metals63": 6.524,
+      "metals63": 6.525,
       "dollarPressure": 0.452,
       "fedPressure": 0.882,
       "fedFunds": 0.36,
@@ -2296,7 +2296,7 @@
       "pct5y": 0.754,
       "sma200": 96.32,
       "dxy63": 1.055,
-      "metals63": 4.986,
+      "metals63": 4.985,
       "dollarPressure": -1.138,
       "fedPressure": -0.077,
       "fedFunds": 0.4,
@@ -7048,7 +7048,7 @@
       "pct5y": 0.376,
       "sma200": 92.564,
       "dxy63": -1.894,
-      "metals63": -7.006,
+      "metals63": -7.005,
       "dollarPressure": -0.525,
       "fedPressure": -0.172,
       "fedFunds": 1.69,
@@ -8968,7 +8968,7 @@
       "pct5y": 0.726,
       "sma200": 93.564,
       "dxy63": 1.14,
-      "metals63": -0.594,
+      "metals63": -0.593,
       "dollarPressure": 1.551,
       "fedPressure": -1.717,
       "fedFunds": 2.2,
@@ -13936,7 +13936,7 @@
       "pct5y": 0.381,
       "sma200": 98.239,
       "dxy63": -3.848,
-      "metals63": 26.513,
+      "metals63": 26.512,
       "dollarPressure": 2.89,
       "fedPressure": 1.446,
       "fedFunds": 0.09,
@@ -16721,7 +16721,7 @@
       "sma200": 91.593,
       "dxy63": 0.337,
       "metals63": -0.645,
-      "dollarPressure": -2.748,
+      "dollarPressure": -2.747,
       "fedPressure": 1.874,
       "fedFunds": 0.08,
       "phase": "Q3"
@@ -18076,7 +18076,7 @@
       "pct5y": 0.568,
       "sma200": 92.388,
       "dxy63": 3.983,
-      "metals63": -1.281,
+      "metals63": -1.282,
       "dollarPressure": -0.351,
       "fedPressure": 1.076,
       "fedFunds": 0.08,
@@ -20152,7 +20152,7 @@
       "pct5y": 0.985,
       "sma200": 99.602,
       "dxy63": 2.682,
-      "metals63": -15.263,
+      "metals63": -15.264,
       "dollarPressure": -2.81,
       "fedPressure": 1.191,
       "fedFunds": 2.33,
@@ -21952,7 +21952,7 @@
       "pct5y": 0.862,
       "sma200": 106.517,
       "dxy63": -1.154,
-      "metals63": 1.692,
+      "metals63": 1.693,
       "dollarPressure": 0.654,
       "fedPressure": -0.813,
       "fedFunds": 4.65,
@@ -28648,7 +28648,7 @@
       "pct5y": 0.364,
       "sma200": 104.015,
       "dxy63": -6.658,
-      "metals63": 4.975,
+      "metals63": 4.976,
       "dollarPressure": 1.883,
       "fedPressure": -0.667,
       "fedFunds": 4.33,
@@ -32868,13 +32868,25 @@
     },
     {
       "date": "2026-10-26",
-      "dxy": 101.591,
-      "pct5y": 0.437,
-      "sma200": 99.569,
-      "dxy63": 0.208,
-      "metals63": -0.508,
-      "dollarPressure": -1.15,
+      "dxy": 101.96,
+      "pct5y": 0.471,
+      "sma200": 99.571,
+      "dxy63": 0.572,
+      "metals63": 0.165,
+      "dollarPressure": -1.127,
       "fedPressure": 1.837,
+      "fedFunds": 3.75,
+      "phase": "Q3"
+    },
+    {
+      "date": "2026-10-27",
+      "dxy": 102.088,
+      "pct5y": 0.482,
+      "sma200": 99.585,
+      "dxy63": 1.278,
+      "metals63": 0.152,
+      "dollarPressure": -1.573,
+      "fedPressure": 1.924,
       "fedFunds": 3.75,
       "phase": "Q3"
     }
@@ -32882,27 +32894,27 @@
   "errors": [],
   "seriesLast": {
     "dxy": {
-      "date": "2026-10-26",
-      "value": 101.59100341796875
+      "date": "2026-10-27",
+      "value": 102.08799743652344
     },
     "metals": {
-      "date": "2026-10-23",
-      "value": 168.25840306594128
+      "date": "2026-10-26",
+      "value": 169.39649046901485
     },
     "oil": {
-      "date": "2026-10-23",
-      "value": 122.99925656967152
+      "date": "2026-10-26",
+      "value": 122.51932421745752
     },
     "dgs2": {
-      "date": "2026-10-22",
-      "value": 4.65
+      "date": "2026-10-23",
+      "value": 4.69
     },
     "dgs10": {
-      "date": "2026-10-22",
-      "value": 4.96
+      "date": "2026-10-23",
+      "value": 5
     },
     "t10yie": {
-      "date": "2026-10-23",
+      "date": "2026-10-26",
       "value": 2.34
     }
   }

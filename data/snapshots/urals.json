@@ -1,9 +1,9 @@
 {
   "status": "ok",
-  "fetchedAt": "2026-10-26T02:58:22.493Z",
+  "fetchedAt": "2026-10-27T06:33:53.760Z",
   "source": "Минэкономразвития России · средний уровень цен нефти сорта «Юралс» (ежемесячные публикации)",
   "sourceUrl": "https://www.economy.gov.ru/",
-  "error": "https://www.economy.gov.ru/material/documents/?type=news&text=%D0%AE%D1%80%D0%B0%D0%BB%D1%81: TypeError; https://economy.gov.ru/material/documents/?type=news&text=Urals: TypeError; minfin: не найдено цен Urals в выдаче",
+  "error": "https://www.economy.gov.ru/material/documents/?type=news&text=%D0%AE%D1%80%D0%B0%D0%BB%D1%81: TypeError; https://economy.gov.ru/material/documents/?type=news&text=Urals: TypeError; minfin: HTTP 503",
   "usedCache": true,
   "last": {
     "date": "2026-08-01",

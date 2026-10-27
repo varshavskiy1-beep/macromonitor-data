@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "fetchedAt": "2026-10-26T02:57:55.834Z",
+  "fetchedAt": "2026-10-27T06:33:35.155Z",
   "source": "АЕБ / autostat.ru + autostat.ru",
   "note": "История hcvUnits (помесячная детализация 2015–2024 реконструирована из квартальных/годовых сводок Autostat/АЕБ, ±10% на отдельных месяцах; годовые суммы сходятся с публикациями). Свежие месяцы дописывает будничный рефреш из новостей autostat.ru — тех же, что кормят ряд kamaz на /rossiya/makro. Доли ОЕМ обновляются только когда месячный релиз Autostat называет марки; иначе last-good + error.",
   "series": {
@@ -707,10 +707,10 @@
         }
       ],
       "error": null,
-      "lastAttempt": "2026-10-26T02:57:55.834Z",
+      "lastAttempt": "2026-10-27T06:33:35.155Z",
       "live": {
         "source": "https://www.autostat.ru/news/ («Рынок крупнотоннажных грузовых автомобилей в <месяце>», штуки из описания релиза)",
-        "fetchedAt": "2026-10-26T02:57:55.834Z",
+        "fetchedAt": "2026-10-27T06:33:35.155Z",
         "appended": 0,
         "revised": 0
       }
@@ -838,8 +838,8 @@
     "aebYoy": null,
     "autostat": -3.9,
     "source": null,
-    "note": "АЕБ недоступен/релиз не найден (https://aebrus.ru/en/media/press-releases/: релиз по грузовикам за месяц не найден; https://aebrus.ru/en/media/press-releases/sales-of-cars-and-light-commercial) — публикуем один ряд Autostat, среднее не считаем",
-    "checkedAt": "2026-10-26T02:57:55.834Z"
+    "note": "АЕБ недоступен/релиз не найден (https://aebrus.ru/en/media/press-releases/: curl: (28) Operation timed out after 25002 milliseconds with 15912 bytes received; curl: (28) Operation timed out af) — публикуем один ряд Autostat, среднее не считаем",
+    "checkedAt": "2026-10-27T06:33:35.155Z"
   },
   "scrape": {
     "autostat": {

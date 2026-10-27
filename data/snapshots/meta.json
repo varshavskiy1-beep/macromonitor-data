@@ -1,15 +1,20 @@
 {
-  "fetchedAt": "2026-10-26T02:55:39.665Z",
+  "fetchedAt": "2026-10-27T05:54:38.096Z",
   "asOf": {
-    "sofr": "2026-10-22",
-    "iorb": "2026-10-22",
-    "rrp": "2026-10-23",
-    "keyRate": "2026-10-23",
-    "gpr": "2026-10-19"
+    "sofr": "2026-10-23",
+    "iorb": "2026-10-23",
+    "rrp": "2026-10-26",
+    "keyRate": null,
+    "gpr": "2026-10-26"
   },
   "status": "ok",
   "errors": [
+    "KeyRate: fetch failed",
+    "USD/RUB: fetch failed",
+    "depo: fetch failed",
+    "M2 dataservice: fetch failed",
     "ZCYC hist: zcyc history empty",
+    "transfer HH: fetch failed",
     "Rosstat: пресс-релиз ИПП: пресс-релиз: не найдена фраза «в <месяце> YYYY г. по сравнению с <месяцем> YYYY г. – NNN,N%»",
     "zcyc: 1999-01-29: empty yearyields",
     "zcyc: 1999-02-26: empty yearyields",
@@ -19,9 +24,13 @@
     "zcyc: 1999-06-30: empty yearyields",
     "zcyc: 1999-07-30: empty yearyields",
     "zcyc: 1999-08-31: empty yearyields",
-    "rf-macro ports: нет новостей «Грузооборот морских портов…» (страницы без ссылок)",
-    "rf-macro rzhd: https://www.rzd.ru/ru/9402: curl: (28) Connection timed out after 6000 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2116-6zlcvlrqdcn -w %{http_code} https://www.rzd.ru/ru/9402\ncurl: (28) Connection timed out after 6000 milliseconds\n; https://company.rzd.ru/ru/9397: curl: (28) Connection timed out after 6000 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2116-w4bzdx6g1hs -w %{http_code} https://company.rzd.ru/ru/9397\ncurl: (28) Connection timed out after 6000 milliseconds\n; https://press.rzd.ru/: curl: (28) Connection timed out after 6000 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2116-3k86zrx25nj -w %{http_code} https://press.rzd.ru/\ncurl: (28) Connection timed out after 6000 milliseconds\n",
+    "RUONIA: fetch failed",
+    "market-regime key rate: fetch failed",
+    "CBR: fetch failed",
+    "rf-macro ports: нет новостей «Грузооборот морских портов…» (https://www.morport.com/rus/news: curl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received; curl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received; Command failed: curl -sSL -k --connect-timeout 15 --max-time 40 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-1658487-04datfuws6vf -w %{http_code} https://www.morport.com/rus/news\ncurl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received\n; wget: Command failed: wget -q --no-check-certificate --timeout=40 --tries=1 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rf-live-1658487-04datfuws6vf https://www.morport.com/rus/news\n; https://www.morport.com/rus/news/202610: curl: (28) Operation timed out after 40001 milliseconds with 16134 bytes received; curl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received; Command failed: curl -sSL -k --connect-timeout 15 --max-time 40 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-1658487-bhor8y0uwii -w %{http_code} https://www.morport.com/rus/news/202610\ncurl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received\n; wget: Command failed: wget -q --no-check-certificate --timeout=40 --tries=1 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rf-live-1658487-bhor8y0uwii https://www.morport.com/rus/news/202610\n; https://www.morport.com/rus/news/202609: curl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received; curl: (28) Operation timed out after 40001 milliseconds with 16134 bytes received; Command failed: curl -sSL -k --connect-timeout 15 --max-time 40 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-1658487-ohsr5dyvqkm -w %{http_code} https://www.morport.com/rus/news/202609\ncurl: (28) Operation timed out after 40001 milliseconds with 16134 bytes received\n; wget: Command failed: wget -q --no-check-certificate --timeout=40 --tries=1 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rf-live-1658487-ohsr5dyvqkm https://www.morport.com/rus/news/202609\n)",
+    "rf-macro rzhd: https://www.rzd.ru/ru/9402: curl: (28) Connection timed out after 6002 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-1658487-p30rpdxjkkk -w %{http_code} https://www.rzd.ru/ru/9402\ncurl: (28) Connection timed out after 6002 milliseconds\n; https://company.rzd.ru/ru/9397: curl: (28) Connection timed out after 6002 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-1658487-7m8uh6j7s3b -w %{http_code} https://company.rzd.ru/ru/9397\ncurl: (28) Connection timed out after 6002 milliseconds\n; https://press.rzd.ru/: curl: (28) Connection timed out after 6002 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-1658487-9xs2xgm2uil -w %{http_code} https://press.rzd.ru/\ncurl: (28) Connection timed out after 6002 milliseconds\n",
     "rf-macro sberbank: https://www.sberbank.com/ru/investor-relations/news: WAF/F5 блокирует (страница-заглушка, нужны сертификаты Минцифры); https://www.sberbank.com/investor-relations: WAF/F5 блокирует (страница-заглушка, нужны сертификаты Минцифры); https://www.sberbank.ru/ru/about/investor_relations: WAF/F5 блокирует (страница-заглушка, нужны сертификаты Минцифры)",
+    "rf-macro roe: живой SOAP-ряд ключевой ставки пуст — квартальные средние не пересчитаны",
     "Atlanta Fed MPT: не разобрать xlsx: нет сигнатуры ZIP/xlsx"
   ],
   "fredIdsFilled": [
