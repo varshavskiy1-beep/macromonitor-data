@@ -1,0 +1,3544 @@
+{
+  "status": "ok",
+  "fetchedAt": "2026-10-26T02:55:39.665Z",
+  "method": "Оборот BTC на площадке: сумма объёмов официальных свечей за календарный месяц, в BTC. Это НЕ TVL DefiLlama и НЕ CoinGecko: объём берём из тех же свечей Coinbase Exchange (granularity=86400, поле volume) и месячных klines data-api.binance.vision (interval=1M, индекс 5), что и цены на «Фазах крипторынка». Последний неполный месяц не показываем. Две площадки — два ряда; среднее не считаем, при расхождении — флаг.",
+  "etfNote": "Потоков спотовых BTC-ETF в официальном API снимка нет, Farside не берём; пустую карточку ETF на этой странице не держим — вместо неё эта заметка.",
+  "coinbaseVolume": {
+    "source": "Coinbase Exchange BTC-USD candles granularity=86400, сумма volume (BTC) за месяц · оборот площадки, не TVL DefiLlama и не CoinGecko",
+    "points": [
+      {
+        "date": "2018-01-31",
+        "value": 648894.22970681
+      },
+      {
+        "date": "2018-02-28",
+        "value": 810768.6000142201
+      },
+      {
+        "date": "2018-03-31",
+        "value": 604028.96715773
+      },
+      {
+        "date": "2018-04-30",
+        "value": 405276.08352169005
+      },
+      {
+        "date": "2018-05-31",
+        "value": 283170.9796769001
+      },
+      {
+        "date": "2018-06-30",
+        "value": 245807.11945045
+      },
+      {
+        "date": "2018-07-31",
+        "value": 260361.06368271998
+      },
+      {
+        "date": "2018-08-31",
+        "value": 305984.0118647799
+      },
+      {
+        "date": "2018-09-30",
+        "value": 229470.16979679998
+      },
+      {
+        "date": "2018-10-31",
+        "value": 182558.50209669
+      },
+      {
+        "date": "2018-11-30",
+        "value": 495511.11304872995
+      },
+      {
+        "date": "2018-12-31",
+        "value": 489824.36598867
+      },
+      {
+        "date": "2019-01-31",
+        "value": 285679.87657354004
+      },
+      {
+        "date": "2019-02-28",
+        "value": 245818.53273838002
+      },
+      {
+        "date": "2019-03-31",
+        "value": 189989.83206578
+      },
+      {
+        "date": "2019-04-30",
+        "value": 366784.02479730995
+      },
+      {
+        "date": "2019-05-31",
+        "value": 628386.9524920399
+      },
+      {
+        "date": "2019-06-30",
+        "value": 635207.8087752099
+      },
+      {
+        "date": "2019-07-31",
+        "value": 715415.51317613
+      },
+      {
+        "date": "2019-08-31",
+        "value": 413291.59045365
+      },
+      {
+        "date": "2019-09-30",
+        "value": 323902.22772832995
+      },
+      {
+        "date": "2019-10-31",
+        "value": 338396.42229213007
+      },
+      {
+        "date": "2019-11-30",
+        "value": 284740.62189585005
+      },
+      {
+        "date": "2019-12-31",
+        "value": 261568.67579456
+      },
+      {
+        "date": "2020-01-31",
+        "value": 331054.0043643501
+      },
+      {
+        "date": "2020-02-29",
+        "value": 317196.87221437
+      },
+      {
+        "date": "2020-03-31",
+        "value": 994744.0146990202
+      },
+      {
+        "date": "2020-04-30",
+        "value": 531017.2310588801
+      },
+      {
+        "date": "2020-05-31",
+        "value": 595940.91541801
+      },
+      {
+        "date": "2020-06-30",
+        "value": 337348.00661156996
+      },
+      {
+        "date": "2020-07-31",
+        "value": 314476.45476000995
+      },
+      {
+        "date": "2020-08-31",
+        "value": 422919.79580086004
+      },
+      {
+        "date": "2020-09-30",
+        "value": 342930.63029978
+      },
+      {
+        "date": "2020-10-31",
+        "value": 337092.6282978
+      },
+      {
+        "date": "2020-11-30",
+        "value": 566432.76395328
+      },
+      {
+        "date": "2020-12-31",
+        "value": 616429.3404163301
+      },
+      {
+        "date": "2021-01-31",
+        "value": 1136924.28379459
+      },
+      {
+        "date": "2021-02-28",
+        "value": 752817.25255022
+      },
+      {
+        "date": "2021-03-31",
+        "value": 607328.73896215
+      },
+      {
+        "date": "2021-04-30",
+        "value": 467435.6976145701
+      },
+      {
+        "date": "2021-05-31",
+        "value": 922017.7096418698
+      },
+      {
+        "date": "2021-06-30",
+        "value": 598285.16363941
+      },
+      {
+        "date": "2021-07-31",
+        "value": 371530.36051272
+      },
+      {
+        "date": "2021-08-31",
+        "value": 390639.06505996996
+      },
+      {
+        "date": "2021-09-30",
+        "value": 403102.81062698
+      },
+      {
+        "date": "2021-10-31",
+        "value": 443801.25119054
+      },
+      {
+        "date": "2021-11-30",
+        "value": 402081.61213372997
+      },
+      {
+        "date": "2021-12-31",
+        "value": 506071.11701110995
+      },
+      {
+        "date": "2022-01-31",
+        "value": 578094.4720870099
+      },
+      {
+        "date": "2022-02-28",
+        "value": 452973.3522203799
+      },
+      {
+        "date": "2022-03-31",
+        "value": 484117.01795848
+      },
+      {
+        "date": "2022-04-30",
+        "value": 378714.66313378006
+      },
+      {
+        "date": "2022-05-31",
+        "value": 789485.11928446
+      },
+      {
+        "date": "2022-06-30",
+        "value": 761546.9570232602
+      },
+      {
+        "date": "2022-07-31",
+        "value": 610133.74471888
+      },
+      {
+        "date": "2022-08-31",
+        "value": 723226.1328245401
+      },
+      {
+        "date": "2022-09-30",
+        "value": 798849.49391836
+      },
+      {
+        "date": "2022-10-31",
+        "value": 797606.6684821198
+      },
+      {
+        "date": "2022-11-30",
+        "value": 1093853.5128580497
+      },
+      {
+        "date": "2022-12-31",
+        "value": 703073.5209718801
+      },
+      {
+        "date": "2023-01-31",
+        "value": 883879.8865190102
+      },
+      {
+        "date": "2023-02-28",
+        "value": 372838.68417687993
+      },
+      {
+        "date": "2023-03-31",
+        "value": 617241.8663516699
+      },
+      {
+        "date": "2023-04-30",
+        "value": 381368.61326230987
+      },
+      {
+        "date": "2023-05-31",
+        "value": 347081.00332865
+      },
+      {
+        "date": "2023-06-30",
+        "value": 410682.6716534899
+      },
+      {
+        "date": "2023-07-31",
+        "value": 282152.45019673003
+      },
+      {
+        "date": "2023-08-31",
+        "value": 305684.00152898
+      },
+      {
+        "date": "2023-09-30",
+        "value": 282902.40995979996
+      },
+      {
+        "date": "2023-10-31",
+        "value": 412497.87942228996
+      },
+      {
+        "date": "2023-11-30",
+        "value": 367150.53471414995
+      },
+      {
+        "date": "2023-12-31",
+        "value": 385233.3802956499
+      },
+      {
+        "date": "2024-01-31",
+        "value": 562705.9722151201
+      },
+      {
+        "date": "2024-02-29",
+        "value": 414784.13735321
+      },
+      {
+        "date": "2024-03-31",
+        "value": 679595.8722808202
+      },
+      {
+        "date": "2024-04-30",
+        "value": 436707.10534896
+      },
+      {
+        "date": "2024-05-31",
+        "value": 320816.68276805006
+      },
+      {
+        "date": "2024-06-30",
+        "value": 275395.01287026
+      },
+      {
+        "date": "2024-07-31",
+        "value": 342279.57525701
+      },
+      {
+        "date": "2024-08-31",
+        "value": 375591.8333548101
+      },
+      {
+        "date": "2024-09-30",
+        "value": 247671.17782247998
+      },
+      {
+        "date": "2024-10-31",
+        "value": 287087.21168362995
+      },
+      {
+        "date": "2024-11-30",
+        "value": 544001.22620162
+      },
+      {
+        "date": "2024-12-31",
+        "value": 422201.0741539698
+      },
+      {
+        "date": "2025-01-31",
+        "value": 376139.5736894601
+      },
+      {
+        "date": "2025-02-28",
+        "value": 311566.02924495
+      },
+      {
+        "date": "2025-03-31",
+        "value": 323711.45634381997
+      },
+      {
+        "date": "2025-04-30",
+        "value": 286721.50872372
+      },
+      {
+        "date": "2025-05-31",
+        "value": 218530.92461577
+      },
+      {
+        "date": "2025-06-30",
+        "value": 157634.22993962
+      },
+      {
+        "date": "2025-07-31",
+        "value": 223810.48783699
+      },
+      {
+        "date": "2025-08-31",
+        "value": 165090.62845136
+      },
+      {
+        "date": "2025-09-30",
+        "value": 153648.91328356
+      },
+      {
+        "date": "2025-10-31",
+        "value": 255992.70643951994
+      },
+      {
+        "date": "2025-11-30",
+        "value": 309935.08271195996
+      },
+      {
+        "date": "2025-12-31",
+        "value": 219389.79626914996
+      },
+      {
+        "date": "2026-01-31",
+        "value": 261951.61932907993
+      },
+      {
+        "date": "2026-02-28",
+        "value": 388138.61590631003
+      },
+      {
+        "date": "2026-03-31",
+        "value": 292812.67861675995
+      },
+      {
+        "date": "2026-04-30",
+        "value": 254110.22644554003
+      },
+      {
+        "date": "2026-05-31",
+        "value": 188406.86103625
+      },
+      {
+        "date": "2026-06-30",
+        "value": 303214.76579890994
+      },
+      {
+        "date": "2026-07-31",
+        "value": 194346.98535151003
+      },
+      {
+        "date": "2026-08-31",
+        "value": 213743.56823074
+      },
+      {
+        "date": "2026-09-30",
+        "value": 182622.87227452002
+      }
+    ],
+    "error": null
+  },
+  "binanceVolume": {
+    "source": "Binance data-api.binance.vision BTCUSDT klines interval=1M, volume (индекс 5, BTC) · оборот площадки, не TVL DefiLlama и не CoinGecko",
+    "points": [
+      {
+        "date": "2018-01-01",
+        "value": 816675.564467
+      },
+      {
+        "date": "2018-02-01",
+        "value": 1243940.85531
+      },
+      {
+        "date": "2018-03-01",
+        "value": 1235326.31402
+      },
+      {
+        "date": "2018-04-01",
+        "value": 1110964.015581
+      },
+      {
+        "date": "2018-05-01",
+        "value": 914476.377885
+      },
+      {
+        "date": "2018-06-01",
+        "value": 942249.765944
+      },
+      {
+        "date": "2018-07-01",
+        "value": 1102510.436786
+      },
+      {
+        "date": "2018-08-01",
+        "value": 1408159.816556
+      },
+      {
+        "date": "2018-09-01",
+        "value": 1100653.423315
+      },
+      {
+        "date": "2018-10-01",
+        "value": 629922.086219
+      },
+      {
+        "date": "2018-11-01",
+        "value": 1210366.564567
+      },
+      {
+        "date": "2018-12-01",
+        "value": 1591229.611862
+      },
+      {
+        "date": "2019-01-01",
+        "value": 908244.14054
+      },
+      {
+        "date": "2019-02-01",
+        "value": 861783.986727
+      },
+      {
+        "date": "2019-03-01",
+        "value": 787190.48925
+      },
+      {
+        "date": "2019-04-01",
+        "value": 1126961.315101
+      },
+      {
+        "date": "2019-05-01",
+        "value": 1498410.025617
+      },
+      {
+        "date": "2019-06-01",
+        "value": 1689489.647326
+      },
+      {
+        "date": "2019-07-01",
+        "value": 1886176.065915
+      },
+      {
+        "date": "2019-08-01",
+        "value": 1201961.576316
+      },
+      {
+        "date": "2019-09-01",
+        "value": 1116856.475836
+      },
+      {
+        "date": "2019-10-01",
+        "value": 1446763.024045
+      },
+      {
+        "date": "2019-11-01",
+        "value": 1499118.774995
+      },
+      {
+        "date": "2019-12-01",
+        "value": 1307033.020384
+      },
+      {
+        "date": "2020-01-01",
+        "value": 1691323.137782
+      },
+      {
+        "date": "2020-02-01",
+        "value": 1609726.154564
+      },
+      {
+        "date": "2020-03-01",
+        "value": 3789768.913125
+      },
+      {
+        "date": "2020-04-01",
+        "value": 2528373.691121
+      },
+      {
+        "date": "2020-05-01",
+        "value": 2685340.078508
+      },
+      {
+        "date": "2020-06-01",
+        "value": 1504745.517922
+      },
+      {
+        "date": "2020-07-01",
+        "value": 1507827.21494
+      },
+      {
+        "date": "2020-08-01",
+        "value": 1891193.007128
+      },
+      {
+        "date": "2020-09-01",
+        "value": 1730389.160179
+      },
+      {
+        "date": "2020-10-01",
+        "value": 1592634.419946
+      },
+      {
+        "date": "2020-11-01",
+        "value": 2707064.911165
+      },
+      {
+        "date": "2020-12-01",
+        "value": 2495281.856217
+      },
+      {
+        "date": "2021-01-01",
+        "value": 3440864.750019
+      },
+      {
+        "date": "2021-02-01",
+        "value": 2518242.148517
+      },
+      {
+        "date": "2021-03-01",
+        "value": 2098808.027432
+      },
+      {
+        "date": "2021-04-01",
+        "value": 1993468.938007
+      },
+      {
+        "date": "2021-05-01",
+        "value": 3536245.256573
+      },
+      {
+        "date": "2021-06-01",
+        "value": 2901775.305923
+      },
+      {
+        "date": "2021-07-01",
+        "value": 1778463.264837
+      },
+      {
+        "date": "2021-08-01",
+        "value": 1635402.874245
+      },
+      {
+        "date": "2021-09-01",
+        "value": 1527799.510768
+      },
+      {
+        "date": "2021-10-01",
+        "value": 1565556.292623
+      },
+      {
+        "date": "2021-11-01",
+        "value": 1291900.105248
+      },
+      {
+        "date": "2021-12-01",
+        "value": 1233745.524318
+      },
+      {
+        "date": "2022-01-01",
+        "value": 1279407.465721
+      },
+      {
+        "date": "2022-02-01",
+        "value": 1253514.21906
+      },
+      {
+        "date": "2022-03-01",
+        "value": 1501398.79591
+      },
+      {
+        "date": "2022-04-01",
+        "value": 1267655.68178
+      },
+      {
+        "date": "2022-05-01",
+        "value": 2387839.680804
+      },
+      {
+        "date": "2022-06-01",
+        "value": 2816058.473226
+      },
+      {
+        "date": "2022-07-01",
+        "value": 4983278.5881
+      },
+      {
+        "date": "2022-08-01",
+        "value": 5692462.41571
+      },
+      {
+        "date": "2022-09-01",
+        "value": 9838930.53657
+      },
+      {
+        "date": "2022-10-01",
+        "value": 7499121.81542
+      },
+      {
+        "date": "2022-11-01",
+        "value": 9127693.509065
+      },
+      {
+        "date": "2022-12-01",
+        "value": 5803833.88187
+      },
+      {
+        "date": "2023-01-01",
+        "value": 7977028.87801
+      },
+      {
+        "date": "2023-02-01",
+        "value": 8642691.27165
+      },
+      {
+        "date": "2023-03-01",
+        "value": 9516189.35846
+      },
+      {
+        "date": "2023-04-01",
+        "value": 1626745.5585
+      },
+      {
+        "date": "2023-05-01",
+        "value": 1302000.49221
+      },
+      {
+        "date": "2023-06-01",
+        "value": 1387207.48275
+      },
+      {
+        "date": "2023-07-01",
+        "value": 925773.81731
+      },
+      {
+        "date": "2023-08-01",
+        "value": 1025866.55023
+      },
+      {
+        "date": "2023-09-01",
+        "value": 809329.04893
+      },
+      {
+        "date": "2023-10-01",
+        "value": 1141403.6799
+      },
+      {
+        "date": "2023-11-01",
+        "value": 1055690.59638
+      },
+      {
+        "date": "2023-12-01",
+        "value": 1195409.976
+      },
+      {
+        "date": "2024-01-01",
+        "value": 1403408.84978
+      },
+      {
+        "date": "2024-02-01",
+        "value": 1206112.69545
+      },
+      {
+        "date": "2024-03-01",
+        "value": 1706807.381342
+      },
+      {
+        "date": "2024-04-01",
+        "value": 1201500.95852
+      },
+      {
+        "date": "2024-05-01",
+        "value": 945031.04072
+      },
+      {
+        "date": "2024-06-01",
+        "value": 696818.18818
+      },
+      {
+        "date": "2024-07-01",
+        "value": 908004.33426
+      },
+      {
+        "date": "2024-08-01",
+        "value": 1010291.47396
+      },
+      {
+        "date": "2024-09-01",
+        "value": 734117.07575
+      },
+      {
+        "date": "2024-10-01",
+        "value": 756010.86343
+      },
+      {
+        "date": "2024-11-01",
+        "value": 1343559.242196
+      },
+      {
+        "date": "2024-12-01",
+        "value": 1019450.065773
+      },
+      {
+        "date": "2025-01-01",
+        "value": 864534.738322
+      },
+      {
+        "date": "2025-02-01",
+        "value": 810850.1813
+      },
+      {
+        "date": "2025-03-01",
+        "value": 845293.53101
+      },
+      {
+        "date": "2025-04-01",
+        "value": 793597.00179
+      },
+      {
+        "date": "2025-05-01",
+        "value": 642216.546125
+      },
+      {
+        "date": "2025-06-01",
+        "value": 427546.46336
+      },
+      {
+        "date": "2025-07-01",
+        "value": 484315.651017
+      },
+      {
+        "date": "2025-08-01",
+        "value": 471366.942936
+      },
+      {
+        "date": "2025-09-01",
+        "value": 374551.99407
+      },
+      {
+        "date": "2025-10-01",
+        "value": 720300.285006
+      },
+      {
+        "date": "2025-11-01",
+        "value": 784853.66178
+      },
+      {
+        "date": "2025-12-01",
+        "value": 491084.34878
+      },
+      {
+        "date": "2026-01-01",
+        "value": 491752.73296
+      },
+      {
+        "date": "2026-02-01",
+        "value": 837887.67719
+      },
+      {
+        "date": "2026-03-01",
+        "value": 705639.88404
+      },
+      {
+        "date": "2026-04-01",
+        "value": 473256.46982
+      },
+      {
+        "date": "2026-05-01",
+        "value": 425331.03039
+      },
+      {
+        "date": "2026-06-01",
+        "value": 632661.43583
+      },
+      {
+        "date": "2026-07-01",
+        "value": 496528.30804
+      },
+      {
+        "date": "2026-08-01",
+        "value": 472053.26866
+      },
+      {
+        "date": "2026-09-01",
+        "value": 469465.12983
+      }
+    ],
+    "error": null
+  },
+  "cftc": {
+    "status": "ok",
+    "source": "CFTC publicreporting.cftc.gov gpe5-46if · BITCOIN - CHICAGO MERCANTILE EXCHANGE (код 133741) · weekly TFF futures only",
+    "marketName": "BITCOIN - CHICAGO MERCANTILE EXCHANGE",
+    "contractCode": "133741",
+    "asOf": "2026-10-20",
+    "points": [
+      {
+        "date": "2018-04-10",
+        "openInterest": 1702,
+        "levLong": 902,
+        "levShort": 1108
+      },
+      {
+        "date": "2018-04-17",
+        "openInterest": 2029,
+        "levLong": 1053,
+        "levShort": 1313
+      },
+      {
+        "date": "2018-04-24",
+        "openInterest": 2380,
+        "levLong": 1194,
+        "levShort": 1682
+      },
+      {
+        "date": "2018-05-01",
+        "openInterest": 1991,
+        "levLong": 1198,
+        "levShort": 1348
+      },
+      {
+        "date": "2018-05-08",
+        "openInterest": 2485,
+        "levLong": 1284,
+        "levShort": 1707
+      },
+      {
+        "date": "2018-05-15",
+        "openInterest": 2505,
+        "levLong": 1338,
+        "levShort": 1657
+      },
+      {
+        "date": "2018-05-22",
+        "openInterest": 2684,
+        "levLong": 1323,
+        "levShort": 1872
+      },
+      {
+        "date": "2018-05-29",
+        "openInterest": 2714,
+        "levLong": 1172,
+        "levShort": 1812
+      },
+      {
+        "date": "2018-06-05",
+        "openInterest": 2556,
+        "levLong": 1126,
+        "levShort": 1845
+      },
+      {
+        "date": "2018-06-12",
+        "openInterest": 2643,
+        "levLong": 1349,
+        "levShort": 1634
+      },
+      {
+        "date": "2018-06-19",
+        "openInterest": 2633,
+        "levLong": 1478,
+        "levShort": 1414
+      },
+      {
+        "date": "2018-06-26",
+        "openInterest": 2687,
+        "levLong": 1508,
+        "levShort": 1505
+      },
+      {
+        "date": "2018-07-03",
+        "openInterest": 2514,
+        "levLong": 1198,
+        "levShort": 1639
+      },
+      {
+        "date": "2018-07-10",
+        "openInterest": 2622,
+        "levLong": 1412,
+        "levShort": 1652
+      },
+      {
+        "date": "2018-07-17",
+        "openInterest": 2854,
+        "levLong": 1469,
+        "levShort": 1990
+      },
+      {
+        "date": "2018-07-24",
+        "openInterest": 3431,
+        "levLong": 1353,
+        "levShort": 2313
+      },
+      {
+        "date": "2018-07-31",
+        "openInterest": 3063,
+        "levLong": 1722,
+        "levShort": 1969
+      },
+      {
+        "date": "2018-08-07",
+        "openInterest": 2732,
+        "levLong": 1481,
+        "levShort": 1454
+      },
+      {
+        "date": "2018-08-14",
+        "openInterest": 2983,
+        "levLong": 2065,
+        "levShort": 1766
+      },
+      {
+        "date": "2018-08-21",
+        "openInterest": 2981,
+        "levLong": 2104,
+        "levShort": 1838
+      },
+      {
+        "date": "2018-08-28",
+        "openInterest": 2840,
+        "levLong": 1688,
+        "levShort": 1745
+      },
+      {
+        "date": "2018-09-04",
+        "openInterest": 2707,
+        "levLong": 1187,
+        "levShort": 1657
+      },
+      {
+        "date": "2018-09-11",
+        "openInterest": 2711,
+        "levLong": 1630,
+        "levShort": 1322
+      },
+      {
+        "date": "2018-09-18",
+        "openInterest": 2742,
+        "levLong": 1566,
+        "levShort": 1382
+      },
+      {
+        "date": "2018-09-25",
+        "openInterest": 2746,
+        "levLong": 1412,
+        "levShort": 1420
+      },
+      {
+        "date": "2018-10-02",
+        "openInterest": 2354,
+        "levLong": 1237,
+        "levShort": 1342
+      },
+      {
+        "date": "2018-10-09",
+        "openInterest": 2848,
+        "levLong": 1643,
+        "levShort": 1656
+      },
+      {
+        "date": "2018-10-16",
+        "openInterest": 2730,
+        "levLong": 1606,
+        "levShort": 1620
+      },
+      {
+        "date": "2018-10-23",
+        "openInterest": 3001,
+        "levLong": 1659,
+        "levShort": 1400
+      },
+      {
+        "date": "2018-10-30",
+        "openInterest": 2608,
+        "levLong": 1789,
+        "levShort": 1511
+      },
+      {
+        "date": "2018-11-06",
+        "openInterest": 2913,
+        "levLong": 1877,
+        "levShort": 1965
+      },
+      {
+        "date": "2018-11-13",
+        "openInterest": 3530,
+        "levLong": 2462,
+        "levShort": 2353
+      },
+      {
+        "date": "2018-11-20",
+        "openInterest": 3729,
+        "levLong": 2152,
+        "levShort": 1912
+      },
+      {
+        "date": "2018-11-27",
+        "openInterest": 3791,
+        "levLong": 2416,
+        "levShort": 2089
+      },
+      {
+        "date": "2018-12-04",
+        "openInterest": 3301,
+        "levLong": 2409,
+        "levShort": 2317
+      },
+      {
+        "date": "2018-12-11",
+        "openInterest": 3970,
+        "levLong": 2905,
+        "levShort": 2699
+      },
+      {
+        "date": "2018-12-18",
+        "openInterest": 4359,
+        "levLong": 3091,
+        "levShort": 3213
+      },
+      {
+        "date": "2018-12-24",
+        "openInterest": 3857,
+        "levLong": 2690,
+        "levShort": 2577
+      },
+      {
+        "date": "2018-12-31",
+        "openInterest": 3708,
+        "levLong": 2452,
+        "levShort": 2389
+      },
+      {
+        "date": "2019-01-08",
+        "openInterest": 3764,
+        "levLong": 2610,
+        "levShort": 2648
+      },
+      {
+        "date": "2019-01-15",
+        "openInterest": 4473,
+        "levLong": 3417,
+        "levShort": 2923
+      },
+      {
+        "date": "2019-01-22",
+        "openInterest": 4976,
+        "levLong": 3341,
+        "levShort": 2863
+      },
+      {
+        "date": "2019-01-29",
+        "openInterest": 4047,
+        "levLong": 2760,
+        "levShort": 2572
+      },
+      {
+        "date": "2019-02-05",
+        "openInterest": 3881,
+        "levLong": 2532,
+        "levShort": 2429
+      },
+      {
+        "date": "2019-02-12",
+        "openInterest": 3361,
+        "levLong": 1697,
+        "levShort": 2090
+      },
+      {
+        "date": "2019-02-19",
+        "openInterest": 3964,
+        "levLong": 1834,
+        "levShort": 2259
+      },
+      {
+        "date": "2019-02-26",
+        "openInterest": 3324,
+        "levLong": 1575,
+        "levShort": 1885
+      },
+      {
+        "date": "2019-03-05",
+        "openInterest": 3226,
+        "levLong": 1347,
+        "levShort": 1812
+      },
+      {
+        "date": "2019-03-12",
+        "openInterest": 3480,
+        "levLong": 1459,
+        "levShort": 2257
+      },
+      {
+        "date": "2019-03-19",
+        "openInterest": 3681,
+        "levLong": 1460,
+        "levShort": 2528
+      },
+      {
+        "date": "2019-03-26",
+        "openInterest": 3428,
+        "levLong": 1238,
+        "levShort": 2105
+      },
+      {
+        "date": "2019-04-02",
+        "openInterest": 4000,
+        "levLong": 1517,
+        "levShort": 2598
+      },
+      {
+        "date": "2019-04-09",
+        "openInterest": 4443,
+        "levLong": 1968,
+        "levShort": 2714
+      },
+      {
+        "date": "2019-04-16",
+        "openInterest": 4324,
+        "levLong": 2272,
+        "levShort": 2541
+      },
+      {
+        "date": "2019-04-23",
+        "openInterest": 4313,
+        "levLong": 2025,
+        "levShort": 2458
+      },
+      {
+        "date": "2019-04-30",
+        "openInterest": 3817,
+        "levLong": 1789,
+        "levShort": 2375
+      },
+      {
+        "date": "2019-05-07",
+        "openInterest": 4388,
+        "levLong": 1941,
+        "levShort": 2692
+      },
+      {
+        "date": "2019-05-14",
+        "openInterest": 4447,
+        "levLong": 2289,
+        "levShort": 2455
+      },
+      {
+        "date": "2019-05-21",
+        "openInterest": 4650,
+        "levLong": 2354,
+        "levShort": 2498
+      },
+      {
+        "date": "2019-05-28",
+        "openInterest": 5190,
+        "levLong": 2709,
+        "levShort": 2763
+      },
+      {
+        "date": "2019-06-04",
+        "openInterest": 4436,
+        "levLong": 2321,
+        "levShort": 2698
+      },
+      {
+        "date": "2019-06-11",
+        "openInterest": 4434,
+        "levLong": 2073,
+        "levShort": 3044
+      },
+      {
+        "date": "2019-06-18",
+        "openInterest": 5391,
+        "levLong": 2564,
+        "levShort": 2911
+      },
+      {
+        "date": "2019-06-25",
+        "openInterest": 6021,
+        "levLong": 3093,
+        "levShort": 3246
+      },
+      {
+        "date": "2019-07-02",
+        "openInterest": 5839,
+        "levLong": 3253,
+        "levShort": 3326
+      },
+      {
+        "date": "2019-07-09",
+        "openInterest": 6075,
+        "levLong": 3233,
+        "levShort": 3730
+      },
+      {
+        "date": "2019-07-16",
+        "openInterest": 5322,
+        "levLong": 2566,
+        "levShort": 3394
+      },
+      {
+        "date": "2019-07-23",
+        "openInterest": 4928,
+        "levLong": 2208,
+        "levShort": 2799
+      },
+      {
+        "date": "2019-07-30",
+        "openInterest": 4302,
+        "levLong": 1843,
+        "levShort": 2288
+      },
+      {
+        "date": "2019-08-06",
+        "openInterest": 4692,
+        "levLong": 1847,
+        "levShort": 2264
+      },
+      {
+        "date": "2019-08-13",
+        "openInterest": 4729,
+        "levLong": 2002,
+        "levShort": 2480
+      },
+      {
+        "date": "2019-08-20",
+        "openInterest": 4485,
+        "levLong": 1836,
+        "levShort": 2209
+      },
+      {
+        "date": "2019-08-27",
+        "openInterest": 4091,
+        "levLong": 1739,
+        "levShort": 2093
+      },
+      {
+        "date": "2019-09-03",
+        "openInterest": 4493,
+        "levLong": 1979,
+        "levShort": 2467
+      },
+      {
+        "date": "2019-09-10",
+        "openInterest": 4128,
+        "levLong": 1692,
+        "levShort": 2233
+      },
+      {
+        "date": "2019-09-17",
+        "openInterest": 4174,
+        "levLong": 1688,
+        "levShort": 2254
+      },
+      {
+        "date": "2019-09-24",
+        "openInterest": 4178,
+        "levLong": 1651,
+        "levShort": 2510
+      },
+      {
+        "date": "2019-10-01",
+        "openInterest": 3348,
+        "levLong": 1298,
+        "levShort": 2063
+      },
+      {
+        "date": "2019-10-08",
+        "openInterest": 3335,
+        "levLong": 1211,
+        "levShort": 2048
+      },
+      {
+        "date": "2019-10-15",
+        "openInterest": 3444,
+        "levLong": 1186,
+        "levShort": 2031
+      },
+      {
+        "date": "2019-10-22",
+        "openInterest": 3093,
+        "levLong": 950,
+        "levShort": 1714
+      },
+      {
+        "date": "2019-10-29",
+        "openInterest": 3155,
+        "levLong": 956,
+        "levShort": 2016
+      },
+      {
+        "date": "2019-11-05",
+        "openInterest": 3520,
+        "levLong": 1221,
+        "levShort": 2345
+      },
+      {
+        "date": "2019-11-12",
+        "openInterest": 3091,
+        "levLong": 912,
+        "levShort": 2043
+      },
+      {
+        "date": "2019-11-19",
+        "openInterest": 3157,
+        "levLong": 1059,
+        "levShort": 1914
+      },
+      {
+        "date": "2019-11-26",
+        "openInterest": 3554,
+        "levLong": 1155,
+        "levShort": 1669
+      },
+      {
+        "date": "2019-12-03",
+        "openInterest": 2983,
+        "levLong": 894,
+        "levShort": 1257
+      },
+      {
+        "date": "2019-12-10",
+        "openInterest": 3232,
+        "levLong": 1069,
+        "levShort": 1766
+      },
+      {
+        "date": "2019-12-17",
+        "openInterest": 3840,
+        "levLong": 1578,
+        "levShort": 2446
+      },
+      {
+        "date": "2019-12-24",
+        "openInterest": 3541,
+        "levLong": 1179,
+        "levShort": 2256
+      },
+      {
+        "date": "2019-12-31",
+        "openInterest": 3186,
+        "levLong": 1037,
+        "levShort": 1840
+      },
+      {
+        "date": "2020-01-07",
+        "openInterest": 5400,
+        "levLong": 2517,
+        "levShort": 3661
+      },
+      {
+        "date": "2020-01-14",
+        "openInterest": 5405,
+        "levLong": 2688,
+        "levShort": 3339
+      },
+      {
+        "date": "2020-01-21",
+        "openInterest": 5139,
+        "levLong": 2304,
+        "levShort": 3035
+      },
+      {
+        "date": "2020-01-28",
+        "openInterest": 4917,
+        "levLong": 1747,
+        "levShort": 2907
+      },
+      {
+        "date": "2020-02-04",
+        "openInterest": 4367,
+        "levLong": 1436,
+        "levShort": 3136
+      },
+      {
+        "date": "2020-02-11",
+        "openInterest": 6106,
+        "levLong": 2237,
+        "levShort": 4553
+      },
+      {
+        "date": "2020-02-18",
+        "openInterest": 6463,
+        "levLong": 2452,
+        "levShort": 5258
+      },
+      {
+        "date": "2020-02-25",
+        "openInterest": 5632,
+        "levLong": 1774,
+        "levShort": 4511
+      },
+      {
+        "date": "2020-03-03",
+        "openInterest": 4837,
+        "levLong": 764,
+        "levShort": 3454
+      },
+      {
+        "date": "2020-03-10",
+        "openInterest": 4368,
+        "levLong": 1421,
+        "levShort": 3002
+      },
+      {
+        "date": "2020-03-17",
+        "openInterest": 4474,
+        "levLong": 1869,
+        "levShort": 2907
+      },
+      {
+        "date": "2020-03-24",
+        "openInterest": 3909,
+        "levLong": 1136,
+        "levShort": 2291
+      },
+      {
+        "date": "2020-03-31",
+        "openInterest": 3947,
+        "levLong": 1489,
+        "levShort": 2602
+      },
+      {
+        "date": "2020-04-07",
+        "openInterest": 5448,
+        "levLong": 2452,
+        "levShort": 3652
+      },
+      {
+        "date": "2020-04-14",
+        "openInterest": 5538,
+        "levLong": 2260,
+        "levShort": 3198
+      },
+      {
+        "date": "2020-04-21",
+        "openInterest": 5648,
+        "levLong": 2394,
+        "levShort": 3026
+      },
+      {
+        "date": "2020-04-28",
+        "openInterest": 6111,
+        "levLong": 2024,
+        "levShort": 3379
+      },
+      {
+        "date": "2020-05-05",
+        "openInterest": 7784,
+        "levLong": 3312,
+        "levShort": 4269
+      },
+      {
+        "date": "2020-05-12",
+        "openInterest": 9939,
+        "levLong": 4923,
+        "levShort": 6477
+      },
+      {
+        "date": "2020-05-19",
+        "openInterest": 10878,
+        "levLong": 5458,
+        "levShort": 6815
+      },
+      {
+        "date": "2020-05-26",
+        "openInterest": 8722,
+        "levLong": 3880,
+        "levShort": 4783
+      },
+      {
+        "date": "2020-06-02",
+        "openInterest": 8824,
+        "levLong": 3684,
+        "levShort": 5752
+      },
+      {
+        "date": "2020-06-09",
+        "openInterest": 9565,
+        "levLong": 4203,
+        "levShort": 6198
+      },
+      {
+        "date": "2020-06-16",
+        "openInterest": 8784,
+        "levLong": 3776,
+        "levShort": 5710
+      },
+      {
+        "date": "2020-06-23",
+        "openInterest": 9330,
+        "levLong": 3847,
+        "levShort": 6230
+      },
+      {
+        "date": "2020-06-30",
+        "openInterest": 7675,
+        "levLong": 3079,
+        "levShort": 5332
+      },
+      {
+        "date": "2020-07-07",
+        "openInterest": 8165,
+        "levLong": 3262,
+        "levShort": 5731
+      },
+      {
+        "date": "2020-07-14",
+        "openInterest": 8322,
+        "levLong": 3573,
+        "levShort": 5460
+      },
+      {
+        "date": "2020-07-21",
+        "openInterest": 9230,
+        "levLong": 4122,
+        "levShort": 6062
+      },
+      {
+        "date": "2020-07-28",
+        "openInterest": 13068,
+        "levLong": 5982,
+        "levShort": 7942
+      },
+      {
+        "date": "2020-08-04",
+        "openInterest": 12703,
+        "levLong": 6312,
+        "levShort": 7702
+      },
+      {
+        "date": "2020-08-11",
+        "openInterest": 13090,
+        "levLong": 6444,
+        "levShort": 7785
+      },
+      {
+        "date": "2020-08-18",
+        "openInterest": 14454,
+        "levLong": 5760,
+        "levShort": 8590
+      },
+      {
+        "date": "2020-08-25",
+        "openInterest": 11615,
+        "levLong": 4839,
+        "levShort": 6148
+      },
+      {
+        "date": "2020-09-01",
+        "openInterest": 10617,
+        "levLong": 4271,
+        "levShort": 6842
+      },
+      {
+        "date": "2020-09-08",
+        "openInterest": 8198,
+        "levLong": 2758,
+        "levShort": 4661
+      },
+      {
+        "date": "2020-09-15",
+        "openInterest": 9383,
+        "levLong": 2819,
+        "levShort": 5224
+      },
+      {
+        "date": "2020-09-22",
+        "openInterest": 8426,
+        "levLong": 2280,
+        "levShort": 4480
+      },
+      {
+        "date": "2020-09-29",
+        "openInterest": 7324,
+        "levLong": 2004,
+        "levShort": 4730
+      },
+      {
+        "date": "2020-10-06",
+        "openInterest": 7511,
+        "levLong": 2153,
+        "levShort": 4854
+      },
+      {
+        "date": "2020-10-13",
+        "openInterest": 9353,
+        "levLong": 3487,
+        "levShort": 6314
+      },
+      {
+        "date": "2020-10-20",
+        "openInterest": 10896,
+        "levLong": 4558,
+        "levShort": 7741
+      },
+      {
+        "date": "2020-10-27",
+        "openInterest": 12665,
+        "levLong": 5462,
+        "levShort": 9010
+      },
+      {
+        "date": "2020-11-03",
+        "openInterest": 11278,
+        "levLong": 4379,
+        "levShort": 8007
+      },
+      {
+        "date": "2020-11-10",
+        "openInterest": 11311,
+        "levLong": 5097,
+        "levShort": 7881
+      },
+      {
+        "date": "2020-11-17",
+        "openInterest": 11509,
+        "levLong": 5305,
+        "levShort": 8097
+      },
+      {
+        "date": "2020-11-24",
+        "openInterest": 12336,
+        "levLong": 5441,
+        "levShort": 9864
+      },
+      {
+        "date": "2020-12-01",
+        "openInterest": 11812,
+        "levLong": 4509,
+        "levShort": 9375
+      },
+      {
+        "date": "2020-12-08",
+        "openInterest": 11750,
+        "levLong": 4365,
+        "levShort": 9354
+      },
+      {
+        "date": "2020-12-15",
+        "openInterest": 11370,
+        "levLong": 3946,
+        "levShort": 8702
+      },
+      {
+        "date": "2020-12-21",
+        "openInterest": 12603,
+        "levLong": 4357,
+        "levShort": 10320
+      },
+      {
+        "date": "2020-12-29",
+        "openInterest": 10653,
+        "levLong": 3679,
+        "levShort": 8466
+      },
+      {
+        "date": "2021-01-05",
+        "openInterest": 11296,
+        "levLong": 3544,
+        "levShort": 9058
+      },
+      {
+        "date": "2021-01-12",
+        "openInterest": 12039,
+        "levLong": 4107,
+        "levShort": 9602
+      },
+      {
+        "date": "2021-01-19",
+        "openInterest": 11945,
+        "levLong": 3911,
+        "levShort": 9119
+      },
+      {
+        "date": "2021-01-26",
+        "openInterest": 10787,
+        "levLong": 3605,
+        "levShort": 7991
+      },
+      {
+        "date": "2021-02-02",
+        "openInterest": 9469,
+        "levLong": 3031,
+        "levShort": 7224
+      },
+      {
+        "date": "2021-02-09",
+        "openInterest": 11055,
+        "levLong": 3149,
+        "levShort": 8481
+      },
+      {
+        "date": "2021-02-16",
+        "openInterest": 11426,
+        "levLong": 3301,
+        "levShort": 8750
+      },
+      {
+        "date": "2021-02-23",
+        "openInterest": 10572,
+        "levLong": 2633,
+        "levShort": 7639
+      },
+      {
+        "date": "2021-03-02",
+        "openInterest": 8068,
+        "levLong": 1757,
+        "levShort": 5563
+      },
+      {
+        "date": "2021-03-09",
+        "openInterest": 8785,
+        "levLong": 2055,
+        "levShort": 6148
+      },
+      {
+        "date": "2021-03-16",
+        "openInterest": 9335,
+        "levLong": 2099,
+        "levShort": 6756
+      },
+      {
+        "date": "2021-03-23",
+        "openInterest": 9897,
+        "levLong": 2606,
+        "levShort": 7198
+      },
+      {
+        "date": "2021-03-30",
+        "openInterest": 9322,
+        "levLong": 2335,
+        "levShort": 7144
+      },
+      {
+        "date": "2021-04-06",
+        "openInterest": 9865,
+        "levLong": 2481,
+        "levShort": 7477
+      },
+      {
+        "date": "2021-04-13",
+        "openInterest": 9653,
+        "levLong": 2979,
+        "levShort": 7634
+      },
+      {
+        "date": "2021-04-20",
+        "openInterest": 8817,
+        "levLong": 2616,
+        "levShort": 6709
+      },
+      {
+        "date": "2021-04-27",
+        "openInterest": 8429,
+        "levLong": 1991,
+        "levShort": 5464
+      },
+      {
+        "date": "2021-05-04",
+        "openInterest": 8306,
+        "levLong": 2544,
+        "levShort": 5507
+      },
+      {
+        "date": "2021-05-11",
+        "openInterest": 8259,
+        "levLong": 2327,
+        "levShort": 5409
+      },
+      {
+        "date": "2021-05-18",
+        "openInterest": 9160,
+        "levLong": 3302,
+        "levShort": 6123
+      },
+      {
+        "date": "2021-05-25",
+        "openInterest": 8893,
+        "levLong": 2261,
+        "levShort": 5748
+      },
+      {
+        "date": "2021-06-01",
+        "openInterest": 7318,
+        "levLong": 2081,
+        "levShort": 4949
+      },
+      {
+        "date": "2021-06-08",
+        "openInterest": 7566,
+        "levLong": 2507,
+        "levShort": 4964
+      },
+      {
+        "date": "2021-06-15",
+        "openInterest": 7528,
+        "levLong": 2603,
+        "levShort": 5090
+      },
+      {
+        "date": "2021-06-22",
+        "openInterest": 7914,
+        "levLong": 2563,
+        "levShort": 4927
+      },
+      {
+        "date": "2021-06-29",
+        "openInterest": 6788,
+        "levLong": 2291,
+        "levShort": 4357
+      },
+      {
+        "date": "2021-07-06",
+        "openInterest": 6889,
+        "levLong": 2412,
+        "levShort": 4603
+      },
+      {
+        "date": "2021-07-13",
+        "openInterest": 7129,
+        "levLong": 2696,
+        "levShort": 4923
+      },
+      {
+        "date": "2021-07-20",
+        "openInterest": 8283,
+        "levLong": 3738,
+        "levShort": 5724
+      },
+      {
+        "date": "2021-07-27",
+        "openInterest": 7802,
+        "levLong": 2800,
+        "levShort": 4841
+      },
+      {
+        "date": "2021-08-03",
+        "openInterest": 6408,
+        "levLong": 1969,
+        "levShort": 4782
+      },
+      {
+        "date": "2021-08-10",
+        "openInterest": 6769,
+        "levLong": 1995,
+        "levShort": 5113
+      },
+      {
+        "date": "2021-08-17",
+        "openInterest": 7363,
+        "levLong": 2292,
+        "levShort": 5542
+      },
+      {
+        "date": "2021-08-24",
+        "openInterest": 7515,
+        "levLong": 2016,
+        "levShort": 5302
+      },
+      {
+        "date": "2021-08-31",
+        "openInterest": 6362,
+        "levLong": 1810,
+        "levShort": 4797
+      },
+      {
+        "date": "2021-09-07",
+        "openInterest": 6659,
+        "levLong": 1684,
+        "levShort": 4990
+      },
+      {
+        "date": "2021-09-14",
+        "openInterest": 6620,
+        "levLong": 1780,
+        "levShort": 4496
+      },
+      {
+        "date": "2021-09-21",
+        "openInterest": 7348,
+        "levLong": 1971,
+        "levShort": 4939
+      },
+      {
+        "date": "2021-09-28",
+        "openInterest": 7039,
+        "levLong": 1338,
+        "levShort": 4956
+      },
+      {
+        "date": "2021-10-05",
+        "openInterest": 8886,
+        "levLong": 1710,
+        "levShort": 5994
+      },
+      {
+        "date": "2021-10-12",
+        "openInterest": 10918,
+        "levLong": 2148,
+        "levShort": 6863
+      },
+      {
+        "date": "2021-10-19",
+        "openInterest": 13605,
+        "levLong": 2072,
+        "levShort": 8317
+      },
+      {
+        "date": "2021-10-26",
+        "openInterest": 16671,
+        "levLong": 3185,
+        "levShort": 9423
+      },
+      {
+        "date": "2021-11-02",
+        "openInterest": 13512,
+        "levLong": 2957,
+        "levShort": 8642
+      },
+      {
+        "date": "2021-11-09",
+        "openInterest": 13821,
+        "levLong": 2620,
+        "levShort": 8676
+      },
+      {
+        "date": "2021-11-16",
+        "openInterest": 13648,
+        "levLong": 2236,
+        "levShort": 8182
+      },
+      {
+        "date": "2021-11-23",
+        "openInterest": 14357,
+        "levLong": 2414,
+        "levShort": 7063
+      },
+      {
+        "date": "2021-11-30",
+        "openInterest": 13197,
+        "levLong": 2374,
+        "levShort": 7811
+      },
+      {
+        "date": "2021-12-07",
+        "openInterest": 13242,
+        "levLong": 1997,
+        "levShort": 8095
+      },
+      {
+        "date": "2021-12-14",
+        "openInterest": 13518,
+        "levLong": 2198,
+        "levShort": 7824
+      },
+      {
+        "date": "2021-12-21",
+        "openInterest": 12852,
+        "levLong": 1893,
+        "levShort": 7571
+      },
+      {
+        "date": "2021-12-28",
+        "openInterest": 12468,
+        "levLong": 2453,
+        "levShort": 8104
+      },
+      {
+        "date": "2022-01-04",
+        "openInterest": 10563,
+        "levLong": 1451,
+        "levShort": 6807
+      },
+      {
+        "date": "2022-01-11",
+        "openInterest": 10855,
+        "levLong": 1464,
+        "levShort": 7159
+      },
+      {
+        "date": "2022-01-18",
+        "openInterest": 11468,
+        "levLong": 1496,
+        "levShort": 7339
+      },
+      {
+        "date": "2022-01-25",
+        "openInterest": 11756,
+        "levLong": 1565,
+        "levShort": 7612
+      },
+      {
+        "date": "2022-02-01",
+        "openInterest": 9948,
+        "levLong": 1248,
+        "levShort": 6716
+      },
+      {
+        "date": "2022-02-08",
+        "openInterest": 9886,
+        "levLong": 1045,
+        "levShort": 6361
+      },
+      {
+        "date": "2022-02-15",
+        "openInterest": 10646,
+        "levLong": 1103,
+        "levShort": 6396
+      },
+      {
+        "date": "2022-02-22",
+        "openInterest": 11007,
+        "levLong": 1365,
+        "levShort": 7243
+      },
+      {
+        "date": "2022-03-01",
+        "openInterest": 9980,
+        "levLong": 1036,
+        "levShort": 6299
+      },
+      {
+        "date": "2022-03-08",
+        "openInterest": 9591,
+        "levLong": 906,
+        "levShort": 6174
+      },
+      {
+        "date": "2022-03-15",
+        "openInterest": 10198,
+        "levLong": 982,
+        "levShort": 6512
+      },
+      {
+        "date": "2022-03-22",
+        "openInterest": 11274,
+        "levLong": 1159,
+        "levShort": 6807
+      },
+      {
+        "date": "2022-03-29",
+        "openInterest": 12024,
+        "levLong": 1788,
+        "levShort": 7133
+      },
+      {
+        "date": "2022-04-05",
+        "openInterest": 11374,
+        "levLong": 1507,
+        "levShort": 6702
+      },
+      {
+        "date": "2022-04-12",
+        "openInterest": 10632,
+        "levLong": 1374,
+        "levShort": 6654
+      },
+      {
+        "date": "2022-04-19",
+        "openInterest": 11276,
+        "levLong": 1194,
+        "levShort": 6226
+      },
+      {
+        "date": "2022-04-26",
+        "openInterest": 10709,
+        "levLong": 1714,
+        "levShort": 6812
+      },
+      {
+        "date": "2022-05-03",
+        "openInterest": 10051,
+        "levLong": 1496,
+        "levShort": 6834
+      },
+      {
+        "date": "2022-05-10",
+        "openInterest": 10841,
+        "levLong": 1863,
+        "levShort": 7192
+      },
+      {
+        "date": "2022-05-17",
+        "openInterest": 11644,
+        "levLong": 1413,
+        "levShort": 7691
+      },
+      {
+        "date": "2022-05-24",
+        "openInterest": 11729,
+        "levLong": 2116,
+        "levShort": 7249
+      },
+      {
+        "date": "2022-05-31",
+        "openInterest": 10900,
+        "levLong": 1102,
+        "levShort": 6428
+      },
+      {
+        "date": "2022-06-07",
+        "openInterest": 10990,
+        "levLong": 1118,
+        "levShort": 6173
+      },
+      {
+        "date": "2022-06-14",
+        "openInterest": 12242,
+        "levLong": 1344,
+        "levShort": 6572
+      },
+      {
+        "date": "2022-06-21",
+        "openInterest": 13537,
+        "levLong": 1508,
+        "levShort": 7167
+      },
+      {
+        "date": "2022-06-28",
+        "openInterest": 13707,
+        "levLong": 2478,
+        "levShort": 7597
+      },
+      {
+        "date": "2022-07-05",
+        "openInterest": 13258,
+        "levLong": 2171,
+        "levShort": 7408
+      },
+      {
+        "date": "2022-07-12",
+        "openInterest": 13505,
+        "levLong": 2264,
+        "levShort": 7149
+      },
+      {
+        "date": "2022-07-19",
+        "openInterest": 14512,
+        "levLong": 2800,
+        "levShort": 8296
+      },
+      {
+        "date": "2022-07-26",
+        "openInterest": 14957,
+        "levLong": 2184,
+        "levShort": 6814
+      },
+      {
+        "date": "2022-08-02",
+        "openInterest": 12849,
+        "levLong": 2233,
+        "levShort": 7094
+      },
+      {
+        "date": "2022-08-09",
+        "openInterest": 12510,
+        "levLong": 2029,
+        "levShort": 6556
+      },
+      {
+        "date": "2022-08-16",
+        "openInterest": 12423,
+        "levLong": 1673,
+        "levShort": 6270
+      },
+      {
+        "date": "2022-08-23",
+        "openInterest": 13302,
+        "levLong": 2804,
+        "levShort": 7502
+      },
+      {
+        "date": "2022-08-30",
+        "openInterest": 14440,
+        "levLong": 3928,
+        "levShort": 7908
+      },
+      {
+        "date": "2022-09-06",
+        "openInterest": 15337,
+        "levLong": 4538,
+        "levShort": 8072
+      },
+      {
+        "date": "2022-09-13",
+        "openInterest": 13089,
+        "levLong": 3420,
+        "levShort": 7045
+      },
+      {
+        "date": "2022-09-20",
+        "openInterest": 13880,
+        "levLong": 3390,
+        "levShort": 7241
+      },
+      {
+        "date": "2022-09-27",
+        "openInterest": 14271,
+        "levLong": 3472,
+        "levShort": 7962
+      },
+      {
+        "date": "2022-10-04",
+        "openInterest": 14230,
+        "levLong": 2682,
+        "levShort": 8175
+      },
+      {
+        "date": "2022-10-11",
+        "openInterest": 15756,
+        "levLong": 3722,
+        "levShort": 8172
+      },
+      {
+        "date": "2022-10-18",
+        "openInterest": 14228,
+        "levLong": 2091,
+        "levShort": 7219
+      },
+      {
+        "date": "2022-10-25",
+        "openInterest": 14854,
+        "levLong": 3525,
+        "levShort": 7875
+      },
+      {
+        "date": "2022-11-01",
+        "openInterest": 12183,
+        "levLong": 2304,
+        "levShort": 5873
+      },
+      {
+        "date": "2022-11-08",
+        "openInterest": 14439,
+        "levLong": 3998,
+        "levShort": 7038
+      },
+      {
+        "date": "2022-11-15",
+        "openInterest": 17901,
+        "levLong": 5365,
+        "levShort": 9052
+      },
+      {
+        "date": "2022-11-22",
+        "openInterest": 18354,
+        "levLong": 5743,
+        "levShort": 8672
+      },
+      {
+        "date": "2022-11-29",
+        "openInterest": 16832,
+        "levLong": 4842,
+        "levShort": 8606
+      },
+      {
+        "date": "2022-12-06",
+        "openInterest": 15769,
+        "levLong": 4197,
+        "levShort": 7707
+      },
+      {
+        "date": "2022-12-13",
+        "openInterest": 13989,
+        "levLong": 4176,
+        "levShort": 5677
+      },
+      {
+        "date": "2022-12-20",
+        "openInterest": 14563,
+        "levLong": 3962,
+        "levShort": 5692
+      },
+      {
+        "date": "2022-12-27",
+        "openInterest": 16028,
+        "levLong": 4768,
+        "levShort": 6690
+      },
+      {
+        "date": "2023-01-03",
+        "openInterest": 14530,
+        "levLong": 4453,
+        "levShort": 5650
+      },
+      {
+        "date": "2023-01-10",
+        "openInterest": 14891,
+        "levLong": 5217,
+        "levShort": 6612
+      },
+      {
+        "date": "2023-01-17",
+        "openInterest": 15885,
+        "levLong": 5291,
+        "levShort": 6490
+      },
+      {
+        "date": "2023-01-24",
+        "openInterest": 17390,
+        "levLong": 5605,
+        "levShort": 7642
+      },
+      {
+        "date": "2023-01-31",
+        "openInterest": 17542,
+        "levLong": 5683,
+        "levShort": 7201
+      },
+      {
+        "date": "2023-02-07",
+        "openInterest": 16843,
+        "levLong": 5274,
+        "levShort": 6690
+      },
+      {
+        "date": "2023-02-14",
+        "openInterest": 15158,
+        "levLong": 4207,
+        "levShort": 6159
+      },
+      {
+        "date": "2023-02-21",
+        "openInterest": 16501,
+        "levLong": 4614,
+        "levShort": 6405
+      },
+      {
+        "date": "2023-02-28",
+        "openInterest": 15161,
+        "levLong": 4527,
+        "levShort": 6106
+      },
+      {
+        "date": "2023-03-07",
+        "openInterest": 12821,
+        "levLong": 2346,
+        "levShort": 5259
+      },
+      {
+        "date": "2023-03-14",
+        "openInterest": 13472,
+        "levLong": 2551,
+        "levShort": 6047
+      },
+      {
+        "date": "2023-03-21",
+        "openInterest": 14049,
+        "levLong": 3484,
+        "levShort": 7746
+      },
+      {
+        "date": "2023-03-28",
+        "openInterest": 14409,
+        "levLong": 4147,
+        "levShort": 7217
+      },
+      {
+        "date": "2023-04-04",
+        "openInterest": 13380,
+        "levLong": 3327,
+        "levShort": 6656
+      },
+      {
+        "date": "2023-04-11",
+        "openInterest": 15977,
+        "levLong": 4637,
+        "levShort": 8136
+      },
+      {
+        "date": "2023-04-18",
+        "openInterest": 15385,
+        "levLong": 4053,
+        "levShort": 7737
+      },
+      {
+        "date": "2023-04-25",
+        "openInterest": 14064,
+        "levLong": 2249,
+        "levShort": 6625
+      },
+      {
+        "date": "2023-05-02",
+        "openInterest": 12521,
+        "levLong": 2280,
+        "levShort": 6596
+      },
+      {
+        "date": "2023-05-09",
+        "openInterest": 13102,
+        "levLong": 2752,
+        "levShort": 7634
+      },
+      {
+        "date": "2023-05-16",
+        "openInterest": 13043,
+        "levLong": 2337,
+        "levShort": 7062
+      },
+      {
+        "date": "2023-05-23",
+        "openInterest": 13043,
+        "levLong": 2184,
+        "levShort": 7078
+      },
+      {
+        "date": "2023-05-30",
+        "openInterest": 11715,
+        "levLong": 1865,
+        "levShort": 6639
+      },
+      {
+        "date": "2023-06-06",
+        "openInterest": 13026,
+        "levLong": 2397,
+        "levShort": 7625
+      },
+      {
+        "date": "2023-06-13",
+        "openInterest": 13251,
+        "levLong": 1859,
+        "levShort": 7634
+      },
+      {
+        "date": "2023-06-20",
+        "openInterest": 15687,
+        "levLong": 3308,
+        "levShort": 9079
+      },
+      {
+        "date": "2023-06-27",
+        "openInterest": 18829,
+        "levLong": 6145,
+        "levShort": 10411
+      },
+      {
+        "date": "2023-07-03",
+        "openInterest": 17008,
+        "levLong": 5356,
+        "levShort": 10464
+      },
+      {
+        "date": "2023-07-11",
+        "openInterest": 16302,
+        "levLong": 4189,
+        "levShort": 9931
+      },
+      {
+        "date": "2023-07-18",
+        "openInterest": 15455,
+        "levLong": 2487,
+        "levShort": 8830
+      },
+      {
+        "date": "2023-07-25",
+        "openInterest": 16017,
+        "levLong": 2440,
+        "levShort": 8844
+      },
+      {
+        "date": "2023-08-01",
+        "openInterest": 14860,
+        "levLong": 2311,
+        "levShort": 8957
+      },
+      {
+        "date": "2023-08-08",
+        "openInterest": 16743,
+        "levLong": 3637,
+        "levShort": 10164
+      },
+      {
+        "date": "2023-08-15",
+        "openInterest": 15432,
+        "levLong": 2131,
+        "levShort": 8694
+      },
+      {
+        "date": "2023-08-22",
+        "openInterest": 17262,
+        "levLong": 2771,
+        "levShort": 10163
+      },
+      {
+        "date": "2023-08-29",
+        "openInterest": 16172,
+        "levLong": 2483,
+        "levShort": 10012
+      },
+      {
+        "date": "2023-09-05",
+        "openInterest": 14962,
+        "levLong": 1670,
+        "levShort": 8755
+      },
+      {
+        "date": "2023-09-12",
+        "openInterest": 15423,
+        "levLong": 1660,
+        "levShort": 9221
+      },
+      {
+        "date": "2023-09-19",
+        "openInterest": 16670,
+        "levLong": 2204,
+        "levShort": 10304
+      },
+      {
+        "date": "2023-09-26",
+        "openInterest": 14844,
+        "levLong": 1594,
+        "levShort": 8220
+      },
+      {
+        "date": "2023-10-03",
+        "openInterest": 14447,
+        "levLong": 2373,
+        "levShort": 8565
+      },
+      {
+        "date": "2023-10-10",
+        "openInterest": 14683,
+        "levLong": 1946,
+        "levShort": 9114
+      },
+      {
+        "date": "2023-10-17",
+        "openInterest": 16561,
+        "levLong": 2576,
+        "levShort": 10429
+      },
+      {
+        "date": "2023-10-24",
+        "openInterest": 19678,
+        "levLong": 3536,
+        "levShort": 11489
+      },
+      {
+        "date": "2023-10-31",
+        "openInterest": 19603,
+        "levLong": 4780,
+        "levShort": 11822
+      },
+      {
+        "date": "2023-11-07",
+        "openInterest": 21749,
+        "levLong": 4782,
+        "levShort": 12188
+      },
+      {
+        "date": "2023-11-14",
+        "openInterest": 21203,
+        "levLong": 3958,
+        "levShort": 10635
+      },
+      {
+        "date": "2023-11-21",
+        "openInterest": 21939,
+        "levLong": 3780,
+        "levShort": 11322
+      },
+      {
+        "date": "2023-11-28",
+        "openInterest": 23027,
+        "levLong": 4479,
+        "levShort": 13303
+      },
+      {
+        "date": "2023-12-05",
+        "openInterest": 23035,
+        "levLong": 4390,
+        "levShort": 12535
+      },
+      {
+        "date": "2023-12-12",
+        "openInterest": 21211,
+        "levLong": 3435,
+        "levShort": 11606
+      },
+      {
+        "date": "2023-12-19",
+        "openInterest": 23239,
+        "levLong": 3187,
+        "levShort": 12415
+      },
+      {
+        "date": "2023-12-26",
+        "openInterest": 22526,
+        "levLong": 2818,
+        "levShort": 12649
+      },
+      {
+        "date": "2024-01-02",
+        "openInterest": 23579,
+        "levLong": 3317,
+        "levShort": 13616
+      },
+      {
+        "date": "2024-01-09",
+        "openInterest": 26846,
+        "levLong": 3579,
+        "levShort": 14998
+      },
+      {
+        "date": "2024-01-16",
+        "openInterest": 23286,
+        "levLong": 3578,
+        "levShort": 13413
+      },
+      {
+        "date": "2024-01-23",
+        "openInterest": 22815,
+        "levLong": 2972,
+        "levShort": 11328
+      },
+      {
+        "date": "2024-01-30",
+        "openInterest": 20679,
+        "levLong": 2642,
+        "levShort": 12123
+      },
+      {
+        "date": "2024-02-06",
+        "openInterest": 20897,
+        "levLong": 2938,
+        "levShort": 12252
+      },
+      {
+        "date": "2024-02-13",
+        "openInterest": 24769,
+        "levLong": 3935,
+        "levShort": 14059
+      },
+      {
+        "date": "2024-02-20",
+        "openInterest": 25530,
+        "levLong": 4400,
+        "levShort": 14677
+      },
+      {
+        "date": "2024-02-27",
+        "openInterest": 25229,
+        "levLong": 4141,
+        "levShort": 15037
+      },
+      {
+        "date": "2024-03-05",
+        "openInterest": 27747,
+        "levLong": 4650,
+        "levShort": 17059
+      },
+      {
+        "date": "2024-03-12",
+        "openInterest": 30398,
+        "levLong": 3813,
+        "levShort": 19287
+      },
+      {
+        "date": "2024-03-19",
+        "openInterest": 33196,
+        "levLong": 5548,
+        "levShort": 19917
+      },
+      {
+        "date": "2024-03-26",
+        "openInterest": 31238,
+        "levLong": 3629,
+        "levShort": 19731
+      },
+      {
+        "date": "2024-04-02",
+        "openInterest": 29745,
+        "levLong": 3232,
+        "levShort": 19313
+      },
+      {
+        "date": "2024-04-09",
+        "openInterest": 29074,
+        "levLong": 2994,
+        "levShort": 19010
+      },
+      {
+        "date": "2024-04-16",
+        "openInterest": 29526,
+        "levLong": 2653,
+        "levShort": 17836
+      },
+      {
+        "date": "2024-04-23",
+        "openInterest": 27932,
+        "levLong": 2566,
+        "levShort": 19059
+      },
+      {
+        "date": "2024-04-30",
+        "openInterest": 24795,
+        "levLong": 2061,
+        "levShort": 16525
+      },
+      {
+        "date": "2024-05-07",
+        "openInterest": 26155,
+        "levLong": 1899,
+        "levShort": 17120
+      },
+      {
+        "date": "2024-05-14",
+        "openInterest": 27077,
+        "levLong": 1833,
+        "levShort": 17479
+      },
+      {
+        "date": "2024-05-21",
+        "openInterest": 30694,
+        "levLong": 2332,
+        "levShort": 19154
+      },
+      {
+        "date": "2024-05-28",
+        "openInterest": 30255,
+        "levLong": 2140,
+        "levShort": 19191
+      },
+      {
+        "date": "2024-06-04",
+        "openInterest": 31086,
+        "levLong": 3326,
+        "levShort": 21276
+      },
+      {
+        "date": "2024-06-11",
+        "openInterest": 30503,
+        "levLong": 2402,
+        "levShort": 20045
+      },
+      {
+        "date": "2024-06-18",
+        "openInterest": 30627,
+        "levLong": 2477,
+        "levShort": 19548
+      },
+      {
+        "date": "2024-06-25",
+        "openInterest": 30171,
+        "levLong": 1655,
+        "levShort": 18592
+      },
+      {
+        "date": "2024-07-02",
+        "openInterest": 27063,
+        "levLong": 1251,
+        "levShort": 18022
+      },
+      {
+        "date": "2024-07-09",
+        "openInterest": 28241,
+        "levLong": 1152,
+        "levShort": 18928
+      },
+      {
+        "date": "2024-07-16",
+        "openInterest": 31183,
+        "levLong": 1636,
+        "levShort": 20439
+      },
+      {
+        "date": "2024-07-23",
+        "openInterest": 32435,
+        "levLong": 1868,
+        "levShort": 20542
+      },
+      {
+        "date": "2024-07-30",
+        "openInterest": 28605,
+        "levLong": 2700,
+        "levShort": 20293
+      },
+      {
+        "date": "2024-08-06",
+        "openInterest": 27535,
+        "levLong": 1882,
+        "levShort": 19127
+      },
+      {
+        "date": "2024-08-13",
+        "openInterest": 27874,
+        "levLong": 2203,
+        "levShort": 19491
+      },
+      {
+        "date": "2024-08-20",
+        "openInterest": 29630,
+        "levLong": 1905,
+        "levShort": 19036
+      },
+      {
+        "date": "2024-08-27",
+        "openInterest": 29817,
+        "levLong": 2365,
+        "levShort": 20297
+      },
+      {
+        "date": "2024-09-03",
+        "openInterest": 26859,
+        "levLong": 2184,
+        "levShort": 18876
+      },
+      {
+        "date": "2024-09-10",
+        "openInterest": 28157,
+        "levLong": 1748,
+        "levShort": 18886
+      },
+      {
+        "date": "2024-09-17",
+        "openInterest": 30995,
+        "levLong": 1914,
+        "levShort": 19963
+      },
+      {
+        "date": "2024-09-24",
+        "openInterest": 30542,
+        "levLong": 1985,
+        "levShort": 20623
+      },
+      {
+        "date": "2024-10-01",
+        "openInterest": 28539,
+        "levLong": 2690,
+        "levShort": 20031
+      },
+      {
+        "date": "2024-10-08",
+        "openInterest": 29382,
+        "levLong": 1980,
+        "levShort": 20828
+      },
+      {
+        "date": "2024-10-15",
+        "openInterest": 34494,
+        "levLong": 2795,
+        "levShort": 23179
+      },
+      {
+        "date": "2024-10-22",
+        "openInterest": 33562,
+        "levLong": 3054,
+        "levShort": 23303
+      },
+      {
+        "date": "2024-10-29",
+        "openInterest": 33787,
+        "levLong": 3745,
+        "levShort": 24660
+      },
+      {
+        "date": "2024-11-05",
+        "openInterest": 32011,
+        "levLong": 3484,
+        "levShort": 22738
+      },
+      {
+        "date": "2024-11-12",
+        "openInterest": 38531,
+        "levLong": 4830,
+        "levShort": 25189
+      },
+      {
+        "date": "2024-11-19",
+        "openInterest": 41203,
+        "levLong": 4914,
+        "levShort": 25022
+      },
+      {
+        "date": "2024-11-26",
+        "openInterest": 40510,
+        "levLong": 5300,
+        "levShort": 24505
+      },
+      {
+        "date": "2024-12-03",
+        "openInterest": 37021,
+        "levLong": 4094,
+        "levShort": 25749
+      },
+      {
+        "date": "2024-12-10",
+        "openInterest": 37588,
+        "levLong": 4657,
+        "levShort": 25643
+      },
+      {
+        "date": "2024-12-17",
+        "openInterest": 42524,
+        "levLong": 3653,
+        "levShort": 26850
+      },
+      {
+        "date": "2024-12-24",
+        "openInterest": 37125,
+        "levLong": 4140,
+        "levShort": 25242
+      },
+      {
+        "date": "2024-12-31",
+        "openInterest": 33893,
+        "levLong": 3771,
+        "levShort": 23835
+      },
+      {
+        "date": "2025-01-07",
+        "openInterest": 35079,
+        "levLong": 4035,
+        "levShort": 25239
+      },
+      {
+        "date": "2025-01-14",
+        "openInterest": 35471,
+        "levLong": 3877,
+        "levShort": 25213
+      },
+      {
+        "date": "2025-01-21",
+        "openInterest": 38556,
+        "levLong": 2596,
+        "levShort": 25465
+      },
+      {
+        "date": "2025-01-28",
+        "openInterest": 34317,
+        "levLong": 3497,
+        "levShort": 25715
+      },
+      {
+        "date": "2025-02-04",
+        "openInterest": 32892,
+        "levLong": 3542,
+        "levShort": 24540
+      },
+      {
+        "date": "2025-02-11",
+        "openInterest": 32949,
+        "levLong": 3361,
+        "levShort": 23444
+      },
+      {
+        "date": "2025-02-18",
+        "openInterest": 33833,
+        "levLong": 4032,
+        "levShort": 23814
+      },
+      {
+        "date": "2025-02-25",
+        "openInterest": 32060,
+        "levLong": 3849,
+        "levShort": 23048
+      },
+      {
+        "date": "2025-03-04",
+        "openInterest": 28209,
+        "levLong": 2809,
+        "levShort": 21286
+      },
+      {
+        "date": "2025-03-11",
+        "openInterest": 28545,
+        "levLong": 2547,
+        "levShort": 20818
+      },
+      {
+        "date": "2025-03-18",
+        "openInterest": 30213,
+        "levLong": 3381,
+        "levShort": 21349
+      },
+      {
+        "date": "2025-03-25",
+        "openInterest": 29036,
+        "levLong": 1825,
+        "levShort": 20637
+      },
+      {
+        "date": "2025-04-01",
+        "openInterest": 27069,
+        "levLong": 1963,
+        "levShort": 19104
+      },
+      {
+        "date": "2025-04-08",
+        "openInterest": 26909,
+        "levLong": 2883,
+        "levShort": 16828
+      },
+      {
+        "date": "2025-04-15",
+        "openInterest": 27126,
+        "levLong": 888,
+        "levShort": 15328
+      },
+      {
+        "date": "2025-04-22",
+        "openInterest": 28202,
+        "levLong": 1983,
+        "levShort": 18186
+      },
+      {
+        "date": "2025-04-29",
+        "openInterest": 26966,
+        "levLong": 2162,
+        "levShort": 18060
+      },
+      {
+        "date": "2025-05-06",
+        "openInterest": 27971,
+        "levLong": 3156,
+        "levShort": 19432
+      },
+      {
+        "date": "2025-05-13",
+        "openInterest": 29070,
+        "levLong": 3043,
+        "levShort": 17182
+      },
+      {
+        "date": "2025-05-20",
+        "openInterest": 32033,
+        "levLong": 3128,
+        "levShort": 17839
+      },
+      {
+        "date": "2025-05-27",
+        "openInterest": 31964,
+        "levLong": 3525,
+        "levShort": 18786
+      },
+      {
+        "date": "2025-06-03",
+        "openInterest": 29758,
+        "levLong": 4040,
+        "levShort": 18484
+      },
+      {
+        "date": "2025-06-10",
+        "openInterest": 30261,
+        "levLong": 3649,
+        "levShort": 18785
+      },
+      {
+        "date": "2025-06-17",
+        "openInterest": 30860,
+        "levLong": 3782,
+        "levShort": 18800
+      },
+      {
+        "date": "2025-06-24",
+        "openInterest": 31352,
+        "levLong": 3429,
+        "levShort": 19112
+      },
+      {
+        "date": "2025-07-01",
+        "openInterest": 29388,
+        "levLong": 3712,
+        "levShort": 18353
+      },
+      {
+        "date": "2025-07-08",
+        "openInterest": 29591,
+        "levLong": 3940,
+        "levShort": 18764
+      },
+      {
+        "date": "2025-07-15",
+        "openInterest": 31309,
+        "levLong": 5258,
+        "levShort": 19605
+      },
+      {
+        "date": "2025-07-22",
+        "openInterest": 30797,
+        "levLong": 4724,
+        "levShort": 19707
+      },
+      {
+        "date": "2025-07-29",
+        "openInterest": 28068,
+        "levLong": 3776,
+        "levShort": 19584
+      },
+      {
+        "date": "2025-08-05",
+        "openInterest": 27561,
+        "levLong": 4889,
+        "levShort": 18987
+      },
+      {
+        "date": "2025-08-12",
+        "openInterest": 27851,
+        "levLong": 4120,
+        "levShort": 19736
+      },
+      {
+        "date": "2025-08-19",
+        "openInterest": 28971,
+        "levLong": 4322,
+        "levShort": 19148
+      },
+      {
+        "date": "2025-08-26",
+        "openInterest": 27481,
+        "levLong": 3581,
+        "levShort": 18587
+      },
+      {
+        "date": "2025-09-02",
+        "openInterest": 26684,
+        "levLong": 2848,
+        "levShort": 18170
+      },
+      {
+        "date": "2025-09-09",
+        "openInterest": 26930,
+        "levLong": 3754,
+        "levShort": 18505
+      },
+      {
+        "date": "2025-09-16",
+        "openInterest": 28844,
+        "levLong": 2958,
+        "levShort": 19327
+      },
+      {
+        "date": "2025-09-23",
+        "openInterest": 27809,
+        "levLong": 3623,
+        "levShort": 18016
+      },
+      {
+        "date": "2025-09-30",
+        "openInterest": 26874,
+        "levLong": 3010,
+        "levShort": 16883
+      },
+      {
+        "date": "2025-10-07",
+        "openInterest": 29001,
+        "levLong": 3383,
+        "levShort": 17430
+      },
+      {
+        "date": "2025-10-14",
+        "openInterest": 28503,
+        "levLong": 4039,
+        "levShort": 17470
+      },
+      {
+        "date": "2025-10-21",
+        "openInterest": 28477,
+        "levLong": 3138,
+        "levShort": 17140
+      },
+      {
+        "date": "2025-10-28",
+        "openInterest": 28717,
+        "levLong": 2721,
+        "levShort": 19944
+      },
+      {
+        "date": "2025-11-04",
+        "openInterest": 27093,
+        "levLong": 4270,
+        "levShort": 19438
+      },
+      {
+        "date": "2025-11-10",
+        "openInterest": 27544,
+        "levLong": 3776,
+        "levShort": 19586
+      },
+      {
+        "date": "2025-11-18",
+        "openInterest": 27116,
+        "levLong": 5570,
+        "levShort": 19134
+      },
+      {
+        "date": "2025-11-25",
+        "openInterest": 26260,
+        "levLong": 4352,
+        "levShort": 18116
+      },
+      {
+        "date": "2025-12-02",
+        "openInterest": 24329,
+        "levLong": 2674,
+        "levShort": 16800
+      },
+      {
+        "date": "2025-12-09",
+        "openInterest": 24793,
+        "levLong": 2303,
+        "levShort": 17173
+      },
+      {
+        "date": "2025-12-16",
+        "openInterest": 24502,
+        "levLong": 3092,
+        "levShort": 15635
+      },
+      {
+        "date": "2025-12-23",
+        "openInterest": 21988,
+        "levLong": 2686,
+        "levShort": 13937
+      },
+      {
+        "date": "2025-12-30",
+        "openInterest": 20166,
+        "levLong": 2115,
+        "levShort": 13026
+      },
+      {
+        "date": "2026-01-06",
+        "openInterest": 22168,
+        "levLong": 2554,
+        "levShort": 14294
+      },
+      {
+        "date": "2026-01-13",
+        "openInterest": 23843,
+        "levLong": 2690,
+        "levShort": 15408
+      },
+      {
+        "date": "2026-01-20",
+        "openInterest": 24541,
+        "levLong": 4591,
+        "levShort": 16149
+      },
+      {
+        "date": "2026-01-27",
+        "openInterest": 24276,
+        "levLong": 3003,
+        "levShort": 15399
+      },
+      {
+        "date": "2026-02-03",
+        "openInterest": 23044,
+        "levLong": 4450,
+        "levShort": 15875
+      },
+      {
+        "date": "2026-02-10",
+        "openInterest": 24157,
+        "levLong": 4372,
+        "levShort": 13871
+      },
+      {
+        "date": "2026-02-17",
+        "openInterest": 23335,
+        "levLong": 3954,
+        "levShort": 12830
+      },
+      {
+        "date": "2026-02-24",
+        "openInterest": 22919,
+        "levLong": 4124,
+        "levShort": 12360
+      },
+      {
+        "date": "2026-03-03",
+        "openInterest": 20302,
+        "levLong": 3138,
+        "levShort": 12333
+      },
+      {
+        "date": "2026-03-10",
+        "openInterest": 21047,
+        "levLong": 3058,
+        "levShort": 12737
+      },
+      {
+        "date": "2026-03-17",
+        "openInterest": 23807,
+        "levLong": 2530,
+        "levShort": 13390
+      },
+      {
+        "date": "2026-03-24",
+        "openInterest": 23268,
+        "levLong": 3814,
+        "levShort": 12165
+      },
+      {
+        "date": "2026-03-31",
+        "openInterest": 20631,
+        "levLong": 2991,
+        "levShort": 11043
+      },
+      {
+        "date": "2026-04-07",
+        "openInterest": 22308,
+        "levLong": 3601,
+        "levShort": 12028
+      },
+      {
+        "date": "2026-04-14",
+        "openInterest": 23761,
+        "levLong": 3318,
+        "levShort": 13557
+      },
+      {
+        "date": "2026-04-21",
+        "openInterest": 24994,
+        "levLong": 2935,
+        "levShort": 13657
+      },
+      {
+        "date": "2026-04-28",
+        "openInterest": 21692,
+        "levLong": 3534,
+        "levShort": 13894
+      },
+      {
+        "date": "2026-05-05",
+        "openInterest": 23402,
+        "levLong": 4148,
+        "levShort": 15886
+      },
+      {
+        "date": "2026-05-12",
+        "openInterest": 23535,
+        "levLong": 4347,
+        "levShort": 15417
+      },
+      {
+        "date": "2026-05-19",
+        "openInterest": 23000,
+        "levLong": 5253,
+        "levShort": 14214
+      },
+      {
+        "date": "2026-05-26",
+        "openInterest": 21625,
+        "levLong": 4666,
+        "levShort": 13300
+      },
+      {
+        "date": "2026-06-02",
+        "openInterest": 19882,
+        "levLong": 6269,
+        "levShort": 12827
+      },
+      {
+        "date": "2026-06-09",
+        "openInterest": 19776,
+        "levLong": 6153,
+        "levShort": 12148
+      },
+      {
+        "date": "2026-06-16",
+        "openInterest": 21125,
+        "levLong": 6077,
+        "levShort": 12684
+      },
+      {
+        "date": "2026-06-23",
+        "openInterest": 20554,
+        "levLong": 4925,
+        "levShort": 11055
+      },
+      {
+        "date": "2026-06-30",
+        "openInterest": 18336,
+        "levLong": 5408,
+        "levShort": 10721
+      },
+      {
+        "date": "2026-07-07",
+        "openInterest": 18832,
+        "levLong": 4406,
+        "levShort": 11123
+      },
+      {
+        "date": "2026-07-14",
+        "openInterest": 19385,
+        "levLong": 4015,
+        "levShort": 11506
+      },
+      {
+        "date": "2026-07-21",
+        "openInterest": 20527,
+        "levLong": 4042,
+        "levShort": 11991
+      },
+      {
+        "date": "2026-07-28",
+        "openInterest": 20019,
+        "levLong": 3295,
+        "levShort": 10168
+      },
+      {
+        "date": "2026-08-04",
+        "openInterest": 20143,
+        "levLong": 4243,
+        "levShort": 11483
+      },
+      {
+        "date": "2026-08-11",
+        "openInterest": 21185,
+        "levLong": 4997,
+        "levShort": 12049
+      },
+      {
+        "date": "2026-08-18",
+        "openInterest": 21760,
+        "levLong": 4488,
+        "levShort": 11927
+      },
+      {
+        "date": "2026-08-25",
+        "openInterest": 22216,
+        "levLong": 3181,
+        "levShort": 11270
+      },
+      {
+        "date": "2026-09-01",
+        "openInterest": 19697,
+        "levLong": 4530,
+        "levShort": 12150
+      },
+      {
+        "date": "2026-09-08",
+        "openInterest": 21083,
+        "levLong": 5146,
+        "levShort": 13038
+      },
+      {
+        "date": "2026-09-15",
+        "openInterest": 20773,
+        "levLong": 5545,
+        "levShort": 11899
+      },
+      {
+        "date": "2026-09-22",
+        "openInterest": 22315,
+        "levLong": 4745,
+        "levShort": 12698
+      },
+      {
+        "date": "2026-09-29",
+        "openInterest": 19596,
+        "levLong": 4980,
+        "levShort": 11836
+      },
+      {
+        "date": "2026-10-06",
+        "openInterest": 21432,
+        "levLong": 5731,
+        "levShort": 12583
+      },
+      {
+        "date": "2026-10-13",
+        "openInterest": 20752,
+        "levLong": 5520,
+        "levShort": 11364
+      },
+      {
+        "date": "2026-10-20",
+        "openInterest": 21040,
+        "levLong": 5466,
+        "levShort": 10408
+      }
+    ],
+    "error": null
+  }
+}

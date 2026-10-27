@@ -1,0 +1,1762 @@
+{
+  "status": "ok",
+  "fetchedAt": "2026-10-26T02:56:34.399Z",
+  "source": "https://monitor-rf-0.pplx.app/assets/index-C6ib584h.js",
+  "sourceNote": "локальная копия бандла landing-bundle.js",
+  "note": "История рядов — распарс бандла лендинга monitor-rf-0 (#/macro, scripts/rf-macro-fetch.mjs); свежие месяцы дописывает будничный рефреш живым фетчем первоисточников подписи (scripts/rf-macro-live.mjs): Росстат КЭП/jil_dom-oper, АСОП morport, autostat (Lada/HCV), ЦБ monetary_agg и SOAP KeyRate; Минэк/РЖД/Сбер IR — попытка с честной ошибкой при TLS/WAF-блоке, ряд не подменяется и не пустеет.",
+  "order": [
+    "gdp",
+    "avtovaz",
+    "kamaz",
+    "rzhd",
+    "ports",
+    "housing",
+    "consumer",
+    "m2",
+    "sberbank",
+    "roe"
+  ],
+  "groups": {
+    "activity": "Экономическая активность",
+    "consumer": "Потребительский сектор",
+    "transport": "Транспорт и грузопотоки",
+    "construction": "Строительство",
+    "monetary": "Монетарные условия",
+    "banking": "Банковский сектор"
+  },
+  "series": {
+    "gdp": {
+      "key": "gdp",
+      "title": "ВВП РФ",
+      "meta": "Помесячная динамика г/г %, мар–май'26: +1.9% → +1.3% → +0.3%; янв–май +0.2%",
+      "latest": {
+        "value": "+0.6%",
+        "label": "июл'26 г/г"
+      },
+      "unit": "%",
+      "source": "Минэкономразвития",
+      "sourceUrl": "https://www.economy.gov.ru/",
+      "category": "activity",
+      "points": [
+        {
+          "date": "2022-01-01",
+          "label": "янв'22",
+          "value": 4.1
+        },
+        {
+          "date": "2022-02-01",
+          "label": "фев'22",
+          "value": 4.3
+        },
+        {
+          "date": "2022-03-01",
+          "label": "мар'22",
+          "value": 2.2
+        },
+        {
+          "date": "2022-04-01",
+          "label": "апр'22",
+          "value": -3.5
+        },
+        {
+          "date": "2022-05-01",
+          "label": "май'22",
+          "value": -4.5
+        },
+        {
+          "date": "2022-06-01",
+          "label": "июн'22",
+          "value": -4.8
+        },
+        {
+          "date": "2022-07-01",
+          "label": "июл'22",
+          "value": -4.1
+        },
+        {
+          "date": "2022-08-01",
+          "label": "авг'22",
+          "value": -4
+        },
+        {
+          "date": "2022-09-01",
+          "label": "сен'22",
+          "value": -3.8
+        },
+        {
+          "date": "2022-10-01",
+          "label": "окт'22",
+          "value": -2.8
+        },
+        {
+          "date": "2022-11-01",
+          "label": "ноя'22",
+          "value": -1.5
+        },
+        {
+          "date": "2022-12-01",
+          "label": "дек'22",
+          "value": -2.7
+        },
+        {
+          "date": "2023-01-01",
+          "label": "янв'23",
+          "value": -0.8
+        },
+        {
+          "date": "2023-02-01",
+          "label": "фев'23",
+          "value": 0.6
+        },
+        {
+          "date": "2023-03-01",
+          "label": "мар'23",
+          "value": 1.8
+        },
+        {
+          "date": "2023-04-01",
+          "label": "апр'23",
+          "value": 3.5
+        },
+        {
+          "date": "2023-05-01",
+          "label": "май'23",
+          "value": 5.4
+        },
+        {
+          "date": "2023-06-01",
+          "label": "июн'23",
+          "value": 6.3
+        },
+        {
+          "date": "2023-07-01",
+          "label": "июл'23",
+          "value": 5.7
+        },
+        {
+          "date": "2023-08-01",
+          "label": "авг'23",
+          "value": 5.2
+        },
+        {
+          "date": "2023-09-01",
+          "label": "сен'23",
+          "value": 5.8
+        },
+        {
+          "date": "2023-10-01",
+          "label": "окт'23",
+          "value": 5.5
+        },
+        {
+          "date": "2023-11-01",
+          "label": "ноя'23",
+          "value": 4.8
+        },
+        {
+          "date": "2023-12-01",
+          "label": "дек'23",
+          "value": 4.4
+        },
+        {
+          "date": "2024-01-01",
+          "label": "янв'24",
+          "value": 4.9
+        },
+        {
+          "date": "2024-02-01",
+          "label": "фев'24",
+          "value": 7.7
+        },
+        {
+          "date": "2024-03-01",
+          "label": "мар'24",
+          "value": 4.3
+        },
+        {
+          "date": "2024-04-01",
+          "label": "апр'24",
+          "value": 4.5
+        },
+        {
+          "date": "2024-05-01",
+          "label": "май'24",
+          "value": 4.5
+        },
+        {
+          "date": "2024-06-01",
+          "label": "июн'24",
+          "value": 3.2
+        },
+        {
+          "date": "2024-07-01",
+          "label": "июл'24",
+          "value": 3.1
+        },
+        {
+          "date": "2024-08-01",
+          "label": "авг'24",
+          "value": 2.9
+        },
+        {
+          "date": "2024-09-01",
+          "label": "сен'24",
+          "value": 2.9
+        },
+        {
+          "date": "2024-10-01",
+          "label": "окт'24",
+          "value": 3.2
+        },
+        {
+          "date": "2024-11-01",
+          "label": "ноя'24",
+          "value": 2.3
+        },
+        {
+          "date": "2024-12-01",
+          "label": "дек'24",
+          "value": 4.5
+        },
+        {
+          "date": "2025-01-01",
+          "label": "янв'25",
+          "value": 2.7
+        },
+        {
+          "date": "2025-02-01",
+          "label": "фев'25",
+          "value": 0.5
+        },
+        {
+          "date": "2025-03-01",
+          "label": "мар'25",
+          "value": 1.1
+        },
+        {
+          "date": "2025-04-01",
+          "label": "апр'25",
+          "value": 1.5
+        },
+        {
+          "date": "2025-05-01",
+          "label": "май'25",
+          "value": 0.7
+        },
+        {
+          "date": "2025-06-01",
+          "label": "июн'25",
+          "value": 1
+        },
+        {
+          "date": "2025-07-01",
+          "label": "июл'25",
+          "value": 0.4
+        },
+        {
+          "date": "2025-08-01",
+          "label": "авг'25",
+          "value": 0.4
+        },
+        {
+          "date": "2025-09-01",
+          "label": "сен'25",
+          "value": 0.9
+        },
+        {
+          "date": "2025-10-01",
+          "label": "окт'25",
+          "value": 1.6
+        },
+        {
+          "date": "2025-11-01",
+          "label": "ноя'25",
+          "value": 0.1
+        },
+        {
+          "date": "2025-12-01",
+          "label": "дек'25",
+          "value": 1.9
+        },
+        {
+          "date": "2026-01-01",
+          "label": "янв'26",
+          "value": -1.7
+        },
+        {
+          "date": "2026-02-01",
+          "label": "фев'26",
+          "value": -1
+        },
+        {
+          "date": "2026-03-01",
+          "label": "мар'26",
+          "value": 1.9
+        },
+        {
+          "date": "2026-04-01",
+          "label": "апр'26",
+          "value": 1.3
+        },
+        {
+          "date": "2026-05-01",
+          "label": "май'26",
+          "value": 0.3
+        },
+        {
+          "date": "2026-06-01",
+          "label": "июн'26",
+          "value": 1.7
+        },
+        {
+          "date": "2026-07-01",
+          "label": "июл'26",
+          "value": 0.6
+        }
+      ],
+      "error": null,
+      "lastAttempt": "2026-10-26T02:56:34.399Z",
+      "live": {
+        "source": "https://mfd.ru/news/view/?id=2784825 (цитата обзора Минэка «О текущей ситуации…»; economy.gov.ru недоступен с CI)",
+        "fetchedAt": "2026-10-26T02:56:34.399Z",
+        "appended": 0,
+        "revised": 0,
+        "note": "Минэкономразвития, месячная оценка ВВП"
+      }
+    },
+    "avtovaz": {
+      "key": "avtovaz",
+      "title": "АвтоВАЗ — продажи Lada",
+      "meta": "г/г %, спад −24% за 2025, разгон апр–июн'26: +6.0% → +7.3% → +14.3%",
+      "latest": {
+        "value": "+9.0%",
+        "label": "сен'26 г/г"
+      },
+      "unit": "%",
+      "source": "АЕБ / autostat.ru",
+      "sourceUrl": "https://www.autostat.ru/",
+      "category": "consumer",
+      "points": [
+        {
+          "date": "2022-06-01",
+          "label": "июн'22",
+          "value": -60
+        },
+        {
+          "date": "2022-08-01",
+          "label": "авг'22",
+          "value": -65
+        },
+        {
+          "date": "2022-10-01",
+          "label": "окт'22",
+          "value": -55
+        },
+        {
+          "date": "2022-12-01",
+          "label": "дек'22",
+          "value": -38
+        },
+        {
+          "date": "2023-03-01",
+          "label": "мар'23",
+          "value": null
+        },
+        {
+          "date": "2023-06-01",
+          "label": "июн'23",
+          "value": null
+        },
+        {
+          "date": "2023-09-01",
+          "label": "сен'23",
+          "value": null
+        },
+        {
+          "date": "2023-12-01",
+          "label": "дек'23",
+          "value": 55
+        },
+        {
+          "date": "2024-03-01",
+          "label": "мар'24",
+          "value": 38
+        },
+        {
+          "date": "2024-06-01",
+          "label": "июн'24",
+          "value": 28
+        },
+        {
+          "date": "2024-09-01",
+          "label": "сен'24",
+          "value": 20
+        },
+        {
+          "date": "2024-12-01",
+          "label": "дек'24",
+          "value": 22
+        },
+        {
+          "date": "2025-01-01",
+          "label": "янв'25",
+          "value": 0
+        },
+        {
+          "date": "2025-03-01",
+          "label": "мар'25",
+          "value": -8
+        },
+        {
+          "date": "2025-05-01",
+          "label": "май'25",
+          "value": -15
+        },
+        {
+          "date": "2025-07-01",
+          "label": "июл'25",
+          "value": -22
+        },
+        {
+          "date": "2025-09-01",
+          "label": "сен'25",
+          "value": -20
+        },
+        {
+          "date": "2025-11-01",
+          "label": "ноя'25",
+          "value": -27
+        },
+        {
+          "date": "2025-12-01",
+          "label": "дек'25",
+          "value": -24
+        },
+        {
+          "date": "2026-01-01",
+          "label": "янв'26",
+          "value": -28.7
+        },
+        {
+          "date": "2026-02-01",
+          "label": "фев'26",
+          "value": -22.5
+        },
+        {
+          "date": "2026-03-01",
+          "label": "мар'26",
+          "value": -0.1
+        },
+        {
+          "date": "2026-04-01",
+          "label": "апр'26",
+          "value": 6
+        },
+        {
+          "date": "2026-05-01",
+          "label": "май'26",
+          "value": 7.3
+        },
+        {
+          "date": "2026-06-01",
+          "label": "июн'26",
+          "value": 14.3
+        },
+        {
+          "date": "2026-07-01",
+          "label": "июл'26",
+          "value": 4.3
+        },
+        {
+          "date": "2026-08-01",
+          "label": "авг'26",
+          "value": 3
+        },
+        {
+          "date": "2026-09-01",
+          "label": "сен'26",
+          "value": 9
+        }
+      ],
+      "error": null,
+      "lastAttempt": "2026-10-26T02:56:34.399Z",
+      "live": {
+        "source": "https://www.autostat.ru/news/",
+        "fetchedAt": "2026-10-26T02:56:34.399Z",
+        "appended": 0,
+        "revised": 0,
+        "note": "autostat.ru: «Продажи автомобилей LADA в <месяце>»"
+      }
+    },
+    "kamaz": {
+      "key": "kamaz",
+      "title": "КАМАЗ / HCV — рынок тяж. грузовиков",
+      "meta": "Опережающий индикатор инвестактивности, г/г %. Май'26 +5.0% — первый плюс за 2 года, июн'26 −1.1%; 1П'26 −17.3%",
+      "latest": {
+        "value": "−3.9%",
+        "label": "июл'26 г/г"
+      },
+      "unit": "%",
+      "source": "АЕБ / autostat.ru",
+      "sourceUrl": "https://www.autostat.ru/",
+      "category": "consumer",
+      "points": [
+        {
+          "date": "2022-06-01",
+          "label": "июн'22",
+          "value": -28
+        },
+        {
+          "date": "2022-08-01",
+          "label": "авг'22",
+          "value": -40
+        },
+        {
+          "date": "2022-10-01",
+          "label": "окт'22",
+          "value": -42
+        },
+        {
+          "date": "2022-12-01",
+          "label": "дек'22",
+          "value": -32
+        },
+        {
+          "date": "2023-03-01",
+          "label": "мар'23",
+          "value": null
+        },
+        {
+          "date": "2023-06-01",
+          "label": "июн'23",
+          "value": null
+        },
+        {
+          "date": "2023-09-01",
+          "label": "сен'23",
+          "value": null
+        },
+        {
+          "date": "2023-12-01",
+          "label": "дек'23",
+          "value": 38
+        },
+        {
+          "date": "2024-03-01",
+          "label": "мар'24",
+          "value": 20
+        },
+        {
+          "date": "2024-06-01",
+          "label": "июн'24",
+          "value": 18
+        },
+        {
+          "date": "2024-09-01",
+          "label": "сен'24",
+          "value": 15
+        },
+        {
+          "date": "2024-12-01",
+          "label": "дек'24",
+          "value": -30
+        },
+        {
+          "date": "2025-01-01",
+          "label": "янв'25",
+          "value": -44
+        },
+        {
+          "date": "2025-03-01",
+          "label": "мар'25",
+          "value": -40
+        },
+        {
+          "date": "2025-06-01",
+          "label": "июн'25",
+          "value": -55
+        },
+        {
+          "date": "2025-09-01",
+          "label": "сен'25",
+          "value": -52
+        },
+        {
+          "date": "2025-11-01",
+          "label": "ноя'25",
+          "value": -50
+        },
+        {
+          "date": "2025-12-01",
+          "label": "дек'25",
+          "value": -54
+        },
+        {
+          "date": "2026-01-01",
+          "label": "янв'26",
+          "value": -44
+        },
+        {
+          "date": "2026-02-01",
+          "label": "фев'26",
+          "value": -33.4
+        },
+        {
+          "date": "2026-03-01",
+          "label": "мар'26",
+          "value": -30
+        },
+        {
+          "date": "2026-04-01",
+          "label": "апр'26",
+          "value": -4
+        },
+        {
+          "date": "2026-05-01",
+          "label": "май'26",
+          "value": 5
+        },
+        {
+          "date": "2026-06-01",
+          "label": "июн'26",
+          "value": -1.1
+        },
+        {
+          "date": "2026-07-01",
+          "label": "июл'26",
+          "value": -3.9
+        }
+      ],
+      "error": null,
+      "lastAttempt": "2026-10-26T02:56:34.399Z",
+      "live": {
+        "source": "https://www.autostat.ru/news/",
+        "fetchedAt": "2026-10-26T02:56:34.399Z",
+        "appended": 0,
+        "revised": 0,
+        "note": "autostat.ru: «Рынок крупнотоннажных грузовых автомобилей в <месяце>»"
+      }
+    },
+    "rzhd": {
+      "key": "rzhd",
+      "title": "РЖД — погрузка",
+      "meta": "г/г %, восстановление с −8% (янв'25); май'26 +0.5%, июн'26 +1.0% (90.2 млн т)",
+      "latest": {
+        "value": "+1.0%",
+        "label": "июн'26 г/г"
+      },
+      "unit": "%",
+      "source": "rzd.ru",
+      "sourceUrl": "https://www.rzd.ru/ru/9402",
+      "category": "transport",
+      "points": [
+        {
+          "date": "2022-01-01",
+          "label": "янв'22",
+          "value": 1.2
+        },
+        {
+          "date": "2022-04-01",
+          "label": "апр'22",
+          "value": -0.8
+        },
+        {
+          "date": "2022-07-01",
+          "label": "июл'22",
+          "value": -3.1
+        },
+        {
+          "date": "2022-10-01",
+          "label": "окт'22",
+          "value": -3.5
+        },
+        {
+          "date": "2023-01-01",
+          "label": "янв'23",
+          "value": -3.8
+        },
+        {
+          "date": "2023-04-01",
+          "label": "апр'23",
+          "value": -0.5
+        },
+        {
+          "date": "2023-07-01",
+          "label": "июл'23",
+          "value": 0.2
+        },
+        {
+          "date": "2023-10-01",
+          "label": "окт'23",
+          "value": -1.8
+        },
+        {
+          "date": "2024-01-01",
+          "label": "янв'24",
+          "value": -4.2
+        },
+        {
+          "date": "2024-04-01",
+          "label": "апр'24",
+          "value": -5.5
+        },
+        {
+          "date": "2024-07-01",
+          "label": "июл'24",
+          "value": -5
+        },
+        {
+          "date": "2024-10-01",
+          "label": "окт'24",
+          "value": -5.8
+        },
+        {
+          "date": "2025-01-01",
+          "label": "янв'25",
+          "value": -8
+        },
+        {
+          "date": "2025-02-01",
+          "label": "фев'25",
+          "value": -7.2
+        },
+        {
+          "date": "2025-03-01",
+          "label": "мар'25",
+          "value": -6.5
+        },
+        {
+          "date": "2025-04-01",
+          "label": "апр'25",
+          "value": -6.2
+        },
+        {
+          "date": "2025-05-01",
+          "label": "май'25",
+          "value": -5.8
+        },
+        {
+          "date": "2025-06-01",
+          "label": "июн'25",
+          "value": -6
+        },
+        {
+          "date": "2025-07-01",
+          "label": "июл'25",
+          "value": -5.5
+        },
+        {
+          "date": "2025-08-01",
+          "label": "авг'25",
+          "value": -6
+        },
+        {
+          "date": "2025-09-01",
+          "label": "сен'25",
+          "value": -6.8
+        },
+        {
+          "date": "2025-10-01",
+          "label": "окт'25",
+          "value": -5.5
+        },
+        {
+          "date": "2025-11-01",
+          "label": "ноя'25",
+          "value": -4.8
+        },
+        {
+          "date": "2025-12-01",
+          "label": "дек'25",
+          "value": -4.8
+        },
+        {
+          "date": "2026-01-01",
+          "label": "янв'26",
+          "value": -4
+        },
+        {
+          "date": "2026-02-01",
+          "label": "фев'26",
+          "value": -3.2
+        },
+        {
+          "date": "2026-03-01",
+          "label": "мар'26",
+          "value": -2.1
+        },
+        {
+          "date": "2026-04-01",
+          "label": "апр'26",
+          "value": 1.9
+        },
+        {
+          "date": "2026-05-01",
+          "label": "май'26",
+          "value": 0.5
+        },
+        {
+          "date": "2026-06-01",
+          "label": "июн'26",
+          "value": 1
+        }
+      ],
+      "error": "https://www.rzd.ru/ru/9402: curl: (28) Connection timed out after 6000 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2116-6zlcvlrqdcn -w %{http_code} https://www.rzd.ru/ru/9402\ncurl: (28) Connection timed out after 6000 milliseconds\n; https://company.rzd.ru/ru/9397: curl: (28) Connection timed out after 6000 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2116-w4bzdx6g1hs -w %{http_code} https://company.rzd.ru/ru/9397\ncurl: (28) Connection timed out after 6000 milliseconds\n; https://press.rzd.ru/: curl: (28) Connection timed out after 6000 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2116-3k86zrx25nj -w %{http_code} https://press.rzd.ru/\ncurl: (28) Connection timed out after 6000 milliseconds\n",
+      "lastAttempt": "2026-10-26T02:56:34.399Z"
+    },
+    "ports": {
+      "key": "ports",
+      "title": "Морские порты — грузооборот",
+      "meta": "г/г % нарастающим итогом. Янв–июн'26 +5.8% (451.5 млн т), ускорение с +3.7% за 5 мес",
+      "latest": {
+        "value": "+5.8%",
+        "label": "янв–июн'26"
+      },
+      "unit": "%",
+      "source": "АСОП / morport.com",
+      "sourceUrl": "https://www.morport.com",
+      "category": "transport",
+      "points": [
+        {
+          "date": "2022-01-01",
+          "label": "янв'22",
+          "value": 8.2
+        },
+        {
+          "date": "2022-04-01",
+          "label": "апр'22",
+          "value": 5.5
+        },
+        {
+          "date": "2022-07-01",
+          "label": "июл'22",
+          "value": 3.2
+        },
+        {
+          "date": "2022-10-01",
+          "label": "окт'22",
+          "value": 4
+        },
+        {
+          "date": "2023-01-01",
+          "label": "янв'23",
+          "value": 5
+        },
+        {
+          "date": "2023-04-01",
+          "label": "апр'23",
+          "value": 7.8
+        },
+        {
+          "date": "2023-07-01",
+          "label": "июл'23",
+          "value": 8.5
+        },
+        {
+          "date": "2023-10-01",
+          "label": "окт'23",
+          "value": 6.2
+        },
+        {
+          "date": "2024-01-01",
+          "label": "янв'24",
+          "value": 3
+        },
+        {
+          "date": "2024-04-01",
+          "label": "апр'24",
+          "value": 2
+        },
+        {
+          "date": "2024-07-01",
+          "label": "июл'24",
+          "value": 0.5
+        },
+        {
+          "date": "2024-10-01",
+          "label": "окт'24",
+          "value": -1.5
+        },
+        {
+          "date": "2025-01-01",
+          "label": "янв'25",
+          "value": -2.5
+        },
+        {
+          "date": "2025-04-01",
+          "label": "апр'25",
+          "value": -3.5
+        },
+        {
+          "date": "2025-07-01",
+          "label": "июл'25",
+          "value": -1.5
+        },
+        {
+          "date": "2025-10-01",
+          "label": "окт'25",
+          "value": -3
+        },
+        {
+          "date": "2025-12-01",
+          "label": "дек'25",
+          "value": -0.4
+        },
+        {
+          "date": "2026-01-01",
+          "label": "янв'26",
+          "value": -7
+        },
+        {
+          "date": "2026-02-01",
+          "label": "янв–фев'26",
+          "value": -4.7
+        },
+        {
+          "date": "2026-03-01",
+          "label": "янв–мар'26",
+          "value": 0.6
+        },
+        {
+          "date": "2026-04-01",
+          "label": "янв–апр'26",
+          "value": 2.6
+        },
+        {
+          "date": "2026-05-01",
+          "label": "янв–май'26",
+          "value": 3.7
+        },
+        {
+          "date": "2026-06-01",
+          "label": "янв–июн'26",
+          "value": 5.8
+        }
+      ],
+      "error": "нет новостей «Грузооборот морских портов…» (страницы без ссылок)",
+      "lastAttempt": "2026-10-26T02:56:34.399Z",
+      "live": {
+        "source": "https://www.morport.com/rus/news",
+        "fetchedAt": "2026-09-01T01:06:04.351Z",
+        "appended": 0,
+        "revised": 0,
+        "note": "АСОП morport.com, грузооборот нарастающим итогом"
+      }
+    },
+    "housing": {
+      "key": "housing",
+      "title": "Ввод жилья",
+      "meta": "г/г %, глубокий спад: янв–май'26 −21.7% (ИЖС −32%, МКД +7.7%). Росстат",
+      "latest": {
+        "value": "−13.4%",
+        "label": "янв–сен'26"
+      },
+      "unit": "%",
+      "source": "Росстат",
+      "sourceUrl": "https://rosstat.gov.ru",
+      "category": "construction",
+      "points": [
+        {
+          "date": "2022-01-01",
+          "label": "янв'22",
+          "value": 42
+        },
+        {
+          "date": "2022-04-01",
+          "label": "апр'22",
+          "value": 30
+        },
+        {
+          "date": "2022-07-01",
+          "label": "июл'22",
+          "value": 18
+        },
+        {
+          "date": "2022-10-01",
+          "label": "окт'22",
+          "value": 10
+        },
+        {
+          "date": "2023-01-01",
+          "label": "янв'23",
+          "value": 15
+        },
+        {
+          "date": "2023-04-01",
+          "label": "апр'23",
+          "value": 22
+        },
+        {
+          "date": "2023-07-01",
+          "label": "июл'23",
+          "value": 28
+        },
+        {
+          "date": "2023-10-01",
+          "label": "окт'23",
+          "value": 18
+        },
+        {
+          "date": "2024-01-01",
+          "label": "янв'24",
+          "value": 5
+        },
+        {
+          "date": "2024-04-01",
+          "label": "апр'24",
+          "value": 8
+        },
+        {
+          "date": "2024-07-01",
+          "label": "июл'24",
+          "value": 3
+        },
+        {
+          "date": "2024-10-01",
+          "label": "окт'24",
+          "value": -2
+        },
+        {
+          "date": "2025-01-01",
+          "label": "янв'25",
+          "value": -9.6
+        },
+        {
+          "date": "2025-04-01",
+          "label": "апр'25",
+          "value": -10
+        },
+        {
+          "date": "2025-07-01",
+          "label": "июл'25",
+          "value": -15
+        },
+        {
+          "date": "2025-10-01",
+          "label": "окт'25",
+          "value": -20
+        },
+        {
+          "date": "2025-12-01",
+          "label": "дек'25",
+          "value": -5
+        },
+        {
+          "date": "2026-01-01",
+          "label": "янв'26",
+          "value": -26.7
+        },
+        {
+          "date": "2026-02-01",
+          "label": "фев'26",
+          "value": -35.7
+        },
+        {
+          "date": "2026-03-01",
+          "label": "Q1'26",
+          "value": -28.2
+        },
+        {
+          "date": "2026-04-01",
+          "label": "янв–апр'26",
+          "value": -24
+        },
+        {
+          "date": "2026-05-01",
+          "label": "янв–май'26",
+          "value": -21.7
+        },
+        {
+          "date": "2026-06-01",
+          "label": "янв–июн'26",
+          "value": -18
+        },
+        {
+          "date": "2026-07-01",
+          "label": "янв–июл'26",
+          "value": -15
+        },
+        {
+          "date": "2026-08-01",
+          "label": "янв–авг'26",
+          "value": -14
+        },
+        {
+          "date": "2026-09-01",
+          "label": "янв–сен'26",
+          "value": -13.4
+        }
+      ],
+      "error": null,
+      "lastAttempt": "2026-10-26T02:56:34.399Z",
+      "live": {
+        "source": "http://ssl.rosstat.gov.ru/storage/mediabank/jil_dom-oper_09-2026.xls",
+        "fetchedAt": "2026-10-26T02:56:34.399Z",
+        "appended": 0,
+        "revised": 0,
+        "note": "Росстат jil_dom-oper, % к соответствующему периоду нарастающим итогом"
+      }
+    },
+    "consumer": {
+      "key": "consumer",
+      "title": "Розничная торговля",
+      "meta": "г/г %, ускорение: мар–май'26 +6.2% → +6.5% → +7.8% (Росстат)",
+      "latest": {
+        "value": "+3.3%",
+        "label": "авг'26 г/г"
+      },
+      "unit": "%",
+      "source": "Росстат",
+      "sourceUrl": "https://rosstat.gov.ru",
+      "category": "consumer",
+      "points": [
+        {
+          "date": "2022-03-01",
+          "label": "Q1'22",
+          "value": -1
+        },
+        {
+          "date": "2022-06-01",
+          "label": "Q2'22",
+          "value": -8.2
+        },
+        {
+          "date": "2022-09-01",
+          "label": "Q3'22",
+          "value": -5
+        },
+        {
+          "date": "2022-12-01",
+          "label": "Q4'22",
+          "value": -2.8
+        },
+        {
+          "date": "2023-03-01",
+          "label": "Q1'23",
+          "value": 5.5
+        },
+        {
+          "date": "2023-06-01",
+          "label": "Q2'23",
+          "value": 8
+        },
+        {
+          "date": "2023-09-01",
+          "label": "Q3'23",
+          "value": 6.5
+        },
+        {
+          "date": "2023-12-01",
+          "label": "Q4'23",
+          "value": 7.2
+        },
+        {
+          "date": "2024-03-01",
+          "label": "Q1'24",
+          "value": 7.8
+        },
+        {
+          "date": "2024-06-01",
+          "label": "Q2'24",
+          "value": 8.5
+        },
+        {
+          "date": "2024-09-01",
+          "label": "Q3'24",
+          "value": 8.2
+        },
+        {
+          "date": "2024-12-01",
+          "label": "Q4'24",
+          "value": 7.5
+        },
+        {
+          "date": "2025-03-01",
+          "label": "Q1'25",
+          "value": 6.5
+        },
+        {
+          "date": "2025-06-01",
+          "label": "Q2'25",
+          "value": 5.2
+        },
+        {
+          "date": "2025-09-01",
+          "label": "Q3'25",
+          "value": 4
+        },
+        {
+          "date": "2025-12-01",
+          "label": "Q4'25",
+          "value": 3.4
+        },
+        {
+          "date": "2026-01-01",
+          "label": "янв'26",
+          "value": 2.2
+        },
+        {
+          "date": "2026-02-01",
+          "label": "фев'26",
+          "value": 2
+        },
+        {
+          "date": "2026-03-01",
+          "label": "мар'26",
+          "value": 6.2
+        },
+        {
+          "date": "2026-04-01",
+          "label": "апр'26",
+          "value": 6.5
+        },
+        {
+          "date": "2026-05-01",
+          "label": "май'26",
+          "value": 7.8
+        },
+        {
+          "date": "2026-06-01",
+          "label": "июн'26",
+          "value": 7.3
+        },
+        {
+          "date": "2026-07-01",
+          "label": "июл'26",
+          "value": 5.3
+        },
+        {
+          "date": "2026-08-01",
+          "label": "авг'26",
+          "value": 3.3
+        }
+      ],
+      "error": null,
+      "lastAttempt": "2026-10-26T02:56:34.399Z",
+      "live": {
+        "source": "http://ssl.rosstat.gov.ru/storage/mediabank/ind_08-2026.xlsx",
+        "fetchedAt": "2026-10-26T02:56:34.399Z",
+        "appended": 0,
+        "revised": 0,
+        "note": "Росстат КЭП 1.12, г/г в сопоставимых ценах"
+      }
+    },
+    "m2": {
+      "key": "m2",
+      "title": "Денежная масса M2",
+      "meta": "г/г %, ЦБ РФ. Разворот вверх: 13.0% (на 01.06) → 13.4% (на 01.07, 135.0 трлн, предв.)",
+      "latest": {
+        "value": "+13.3%",
+        "label": "сен'26 г/г"
+      },
+      "unit": "%",
+      "source": "ЦБ РФ",
+      "sourceUrl": "https://www.cbr.ru/statistics/macro_itm/dkfs/monetary_agg/",
+      "category": "monetary",
+      "points": [
+        {
+          "date": "2022-01-01",
+          "label": "янв'22",
+          "value": 13.4
+        },
+        {
+          "date": "2022-04-01",
+          "label": "апр'22",
+          "value": 15.7
+        },
+        {
+          "date": "2022-07-01",
+          "label": "июл'22",
+          "value": 19.3
+        },
+        {
+          "date": "2022-10-01",
+          "label": "окт'22",
+          "value": 24.4
+        },
+        {
+          "date": "2023-01-01",
+          "label": "янв'23",
+          "value": 25.9
+        },
+        {
+          "date": "2023-04-01",
+          "label": "апр'23",
+          "value": 23.6
+        },
+        {
+          "date": "2023-07-01",
+          "label": "июл'23",
+          "value": 24.7
+        },
+        {
+          "date": "2023-10-01",
+          "label": "окт'23",
+          "value": 20.5
+        },
+        {
+          "date": "2024-01-01",
+          "label": "янв'24",
+          "value": 19
+        },
+        {
+          "date": "2024-04-01",
+          "label": "апр'24",
+          "value": 21.8
+        },
+        {
+          "date": "2024-07-01",
+          "label": "июл'24",
+          "value": 18.2
+        },
+        {
+          "date": "2024-10-01",
+          "label": "окт'24",
+          "value": 19.5
+        },
+        {
+          "date": "2025-01-01",
+          "label": "янв'25",
+          "value": 19.2
+        },
+        {
+          "date": "2025-04-01",
+          "label": "апр'25",
+          "value": 14
+        },
+        {
+          "date": "2025-07-01",
+          "label": "июл'25",
+          "value": 15
+        },
+        {
+          "date": "2025-10-01",
+          "label": "окт'25",
+          "value": 13
+        },
+        {
+          "date": "2025-12-01",
+          "label": "дек'25",
+          "value": 10.6
+        },
+        {
+          "date": "2026-01-01",
+          "label": "янв'26",
+          "value": 9.7
+        },
+        {
+          "date": "2026-02-01",
+          "label": "фев'26",
+          "value": 11.4
+        },
+        {
+          "date": "2026-03-01",
+          "label": "мар'26",
+          "value": 11.8
+        },
+        {
+          "date": "2026-04-01",
+          "label": "апр'26",
+          "value": 12.4
+        },
+        {
+          "date": "2026-05-01",
+          "label": "май'26",
+          "value": 13.1
+        },
+        {
+          "date": "2026-06-01",
+          "label": "июн'26",
+          "value": 13.3
+        },
+        {
+          "date": "2026-07-01",
+          "label": "июл'26",
+          "value": 13.1
+        },
+        {
+          "date": "2026-08-01",
+          "label": "авг'26",
+          "value": 12.8
+        },
+        {
+          "date": "2026-09-01",
+          "label": "сен'26",
+          "value": 13.3
+        }
+      ],
+      "error": null,
+      "lastAttempt": "2026-10-26T02:56:34.399Z",
+      "live": {
+        "source": "cbr.ru monetary_agg.xlsx («Годовые темпы прироста», на 1-е число → месяц)",
+        "fetchedAt": "2026-10-26T02:56:34.399Z",
+        "appended": 0,
+        "revised": 0,
+        "note": null
+      }
+    },
+    "sberbank": {
+      "key": "sberbank",
+      "title": "Прибыль Сбербанка РСБУ",
+      "meta": "г/г %, 1П'26 +20.4% (995.3 млрд); июн'26 +17.0% — замедление",
+      "latest": {
+        "value": "+17.0%",
+        "label": "июн'26 г/г"
+      },
+      "unit": "%",
+      "source": "Sberbank IR",
+      "sourceUrl": "https://www.sberbank.com/investor-relations",
+      "category": "banking",
+      "points": [
+        {
+          "date": "2022-03-01",
+          "label": "Q1'22",
+          "value": -42
+        },
+        {
+          "date": "2022-06-01",
+          "label": "Q2'22",
+          "value": -88
+        },
+        {
+          "date": "2022-09-01",
+          "label": "Q3'22",
+          "value": -80
+        },
+        {
+          "date": "2022-12-01",
+          "label": "Q4'22",
+          "value": -72
+        },
+        {
+          "date": "2023-03-01",
+          "label": "Q1'23",
+          "value": null
+        },
+        {
+          "date": "2023-06-01",
+          "label": "Q2'23",
+          "value": null
+        },
+        {
+          "date": "2023-09-01",
+          "label": "Q3'23",
+          "value": null
+        },
+        {
+          "date": "2023-12-01",
+          "label": "Q4'23",
+          "value": null
+        },
+        {
+          "date": "2024-03-01",
+          "label": "Q1'24",
+          "value": 5.2
+        },
+        {
+          "date": "2024-06-01",
+          "label": "Q2'24",
+          "value": 8.1
+        },
+        {
+          "date": "2024-09-01",
+          "label": "Q3'24",
+          "value": 9.4
+        },
+        {
+          "date": "2024-12-01",
+          "label": "Q4'24",
+          "value": 4.8
+        },
+        {
+          "date": "2025-03-01",
+          "label": "Q1'25",
+          "value": 10.5
+        },
+        {
+          "date": "2025-06-01",
+          "label": "Q2'25",
+          "value": 7.2
+        },
+        {
+          "date": "2025-09-01",
+          "label": "Q3'25",
+          "value": 5.8
+        },
+        {
+          "date": "2025-12-01",
+          "label": "Q4'25",
+          "value": 8.4
+        },
+        {
+          "date": "2026-01-01",
+          "label": "янв'26",
+          "value": 21
+        },
+        {
+          "date": "2026-02-01",
+          "label": "фев'26",
+          "value": 21.1
+        },
+        {
+          "date": "2026-03-01",
+          "label": "мар'26",
+          "value": 21.4
+        },
+        {
+          "date": "2026-04-01",
+          "label": "апр'26",
+          "value": 21.3
+        },
+        {
+          "date": "2026-05-01",
+          "label": "май'26",
+          "value": 20.5
+        },
+        {
+          "date": "2026-06-01",
+          "label": "июн'26",
+          "value": 17
+        }
+      ],
+      "error": "https://www.sberbank.com/ru/investor-relations/news: WAF/F5 блокирует (страница-заглушка, нужны сертификаты Минцифры); https://www.sberbank.com/investor-relations: WAF/F5 блокирует (страница-заглушка, нужны сертификаты Минцифры); https://www.sberbank.ru/ru/about/investor_relations: WAF/F5 блокирует (страница-заглушка, нужны сертификаты Минцифры)",
+      "lastAttempt": "2026-10-26T02:56:34.399Z"
+    },
+    "roe": {
+      "key": "roe",
+      "title": "ROE Сбербанк vs ключевая ставка",
+      "meta": "ROE Сбера vs средняя КС за квартал, %. Q2'26 ROE ≈21.9% (расчёт из 1П 23.0%), КС 14.6%",
+      "latest": {
+        "value": "21.9% / 14.1%",
+        "label": "Q2'26 ROE / Q3'26 КС"
+      },
+      "unit": "%",
+      "source": "ЦБ РФ + Sberbank IR",
+      "sourceUrl": "https://www.cbr.ru/hd_base/KeyRate/",
+      "category": "banking",
+      "points": [
+        {
+          "date": "2022-03-01",
+          "label": "Q1'22",
+          "value": 6.2
+        },
+        {
+          "date": "2022-06-01",
+          "label": "Q2'22",
+          "value": 2.1
+        },
+        {
+          "date": "2022-09-01",
+          "label": "Q3'22",
+          "value": 4.8
+        },
+        {
+          "date": "2022-12-01",
+          "label": "Q4'22",
+          "value": 7.5
+        },
+        {
+          "date": "2023-03-01",
+          "label": "Q1'23",
+          "value": 18.5
+        },
+        {
+          "date": "2023-06-01",
+          "label": "Q2'23",
+          "value": 26.2
+        },
+        {
+          "date": "2023-09-01",
+          "label": "Q3'23",
+          "value": 28.4
+        },
+        {
+          "date": "2023-12-01",
+          "label": "Q4'23",
+          "value": 27.8
+        },
+        {
+          "date": "2024-03-01",
+          "label": "Q1'24",
+          "value": 24.2
+        },
+        {
+          "date": "2024-06-01",
+          "label": "Q2'24",
+          "value": 25.9
+        },
+        {
+          "date": "2024-09-01",
+          "label": "Q3'24",
+          "value": 25.4
+        },
+        {
+          "date": "2024-12-01",
+          "label": "Q4'24",
+          "value": 24
+        },
+        {
+          "date": "2025-03-01",
+          "label": "Q1'25",
+          "value": 24.4
+        },
+        {
+          "date": "2025-06-01",
+          "label": "Q2'25",
+          "value": 23
+        },
+        {
+          "date": "2025-09-01",
+          "label": "Q3'25",
+          "value": 23.7
+        },
+        {
+          "date": "2025-12-01",
+          "label": "Q4'25",
+          "value": 19.9
+        },
+        {
+          "date": "2026-03-01",
+          "label": "Q1'26*",
+          "value": 24.1
+        },
+        {
+          "date": "2026-06-01",
+          "label": "Q2'26",
+          "value": 21.9
+        }
+      ],
+      "secondary": {
+        "name": "Ключевая ставка",
+        "points": [
+          {
+            "date": "2022-03-01",
+            "label": "Q1'22",
+            "value": 12.5
+          },
+          {
+            "date": "2022-06-01",
+            "label": "Q2'22",
+            "value": 11
+          },
+          {
+            "date": "2022-09-01",
+            "label": "Q3'22",
+            "value": 7.5
+          },
+          {
+            "date": "2022-12-01",
+            "label": "Q4'22",
+            "value": 7.5
+          },
+          {
+            "date": "2023-03-01",
+            "label": "Q1'23",
+            "value": 7.5
+          },
+          {
+            "date": "2023-06-01",
+            "label": "Q2'23",
+            "value": 7.5
+          },
+          {
+            "date": "2023-09-01",
+            "label": "Q3'23",
+            "value": 8.5
+          },
+          {
+            "date": "2023-12-01",
+            "label": "Q4'23",
+            "value": 15.5
+          },
+          {
+            "date": "2024-03-01",
+            "label": "Q1'24",
+            "value": 16
+          },
+          {
+            "date": "2024-06-01",
+            "label": "Q2'24",
+            "value": 17
+          },
+          {
+            "date": "2024-09-01",
+            "label": "Q3'24",
+            "value": 18.5
+          },
+          {
+            "date": "2024-12-01",
+            "label": "Q4'24",
+            "value": 20.5
+          },
+          {
+            "date": "2025-03-01",
+            "label": "Q1'25",
+            "value": 21
+          },
+          {
+            "date": "2025-06-01",
+            "label": "Q2'25",
+            "value": 20.5
+          },
+          {
+            "date": "2025-09-01",
+            "label": "Q3'25",
+            "value": 18
+          },
+          {
+            "date": "2025-12-01",
+            "label": "Q4'25",
+            "value": 16.5
+          },
+          {
+            "date": "2026-03-01",
+            "label": "Q1'26*",
+            "value": 15.7
+          },
+          {
+            "date": "2026-06-01",
+            "label": "Q2'26",
+            "value": 14.6
+          },
+          {
+            "date": "2026-09-01",
+            "label": "Q3'26",
+            "value": 14.1
+          }
+        ]
+      },
+      "error": null,
+      "lastAttempt": "2026-10-26T02:56:34.399Z",
+      "live": {
+        "source": "средняя ключевая ставка за квартал из живого SOAP KeyRate ЦБ; ROE — Sberbank IR (обновляется при доступности)",
+        "fetchedAt": "2026-10-26T02:56:34.399Z",
+        "appended": 0,
+        "revised": 0
+      }
+    }
+  },
+  "liveErrors": [
+    "ports: нет новостей «Грузооборот морских портов…» (страницы без ссылок)",
+    "rzhd: https://www.rzd.ru/ru/9402: curl: (28) Connection timed out after 6000 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2116-6zlcvlrqdcn -w %{http_code} https://www.rzd.ru/ru/9402\ncurl: (28) Connection timed out after 6000 milliseconds\n; https://company.rzd.ru/ru/9397: curl: (28) Connection timed out after 6000 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2116-w4bzdx6g1hs -w %{http_code} https://company.rzd.ru/ru/9397\ncurl: (28) Connection timed out after 6000 milliseconds\n; https://press.rzd.ru/: curl: (28) Connection timed out after 6000 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2116-3k86zrx25nj -w %{http_code} https://press.rzd.ru/\ncurl: (28) Connection timed out after 6000 milliseconds\n",
+    "sberbank: https://www.sberbank.com/ru/investor-relations/news: WAF/F5 блокирует (страница-заглушка, нужны сертификаты Минцифры); https://www.sberbank.com/investor-relations: WAF/F5 блокирует (страница-заглушка, нужны сертификаты Минцифры); https://www.sberbank.ru/ru/about/investor_relations: WAF/F5 блокирует (страница-заглушка, нужны сертификаты Минцифры)"
+  ],
+  "liveSummary": [
+    "consumer: +0 новых, 0 ревизий",
+    "housing: +0 новых, 0 ревизий",
+    "gdp: +0 новых, 0 ревизий",
+    "avtovaz: +0 новых, 0 ревизий (скан 0 новостей)",
+    "kamaz: +0 новых, 0 ревизий",
+    "m2: +0 новых, 0 ревизий",
+    "roe: КС за квартал +0 новых, 0 ревизий"
+  ],
+  "scrape": {
+    "autostat": {
+      "lastSeenNewsId": 63356,
+      "scannedAt": "2026-10-26T02:56:34.399Z"
+    },
+    "minek": {
+      "lastSeenMfdId": 2784825
+    }
+  }
+}
