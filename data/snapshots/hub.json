@@ -1,16 +1,16 @@
 {
   "status": "ok",
-  "fetchedAt": "2026-10-28T01:58:07.459Z",
+  "fetchedAt": "2026-10-28T02:52:10.490Z",
   "kpis": [
     {
       "id": "barometer",
       "kicker": "Бизнес",
       "name": "Барометр среды",
-      "value": 21,
+      "value": 4,
       "unit": "баллы −100…+100",
       "soWhat": "Смешанные сигналы. Удерживайте базу, готовьте пайплайн к развороту фона.",
       "base": "17 карточек, 16 весов сумма 1.28 + вес-0; score = round((Σ signal×weight / Σweight)×100)",
-      "date": "2026-09-01",
+      "date": "2026-10-27",
       "status": "ok",
       "extra": {
         "light": "yellow",
@@ -65,7 +65,7 @@
         "sofr": 3.93,
         "sofrDate": "2026-10-26",
         "iorb": 3.9,
-        "iorbDate": "2026-10-26",
+        "iorbDate": "2026-09-30",
         "rrpBn": 0.226,
         "rrpDate": "2026-10-27",
         "walclMn": 6753604,
@@ -91,8 +91,8 @@
     }
   ],
   "barometer": {
-    "score": 21,
-    "rawScore": 21,
+    "score": 4,
+    "rawScore": 4,
     "light": "yellow",
     "label": "Нейтрально",
     "directive": "Удерживайте базу",
@@ -101,10 +101,10 @@
     "restrictive": false,
     "note": null,
     "leadMonths": 1.4,
-    "greenShare": 27,
-    "redShare": 9,
+    "greenShare": 21,
+    "redShare": 14,
     "neutralShare": 64,
-    "sumWeight": 0.7100000000000002,
+    "sumWeight": 1.15,
     "indicators": [
       {
         "id": "key_rate_dir",
@@ -112,10 +112,10 @@
         "group": "monetary",
         "unit": "%",
         "weight": 0.22,
-        "latest": null,
-        "signal": null,
-        "status": "empty",
-        "statusWord": "нет данных"
+        "latest": 14,
+        "signal": 0,
+        "status": "ok",
+        "statusWord": "нейтрально"
       },
       {
         "id": "key_rate_lvl",
@@ -123,10 +123,10 @@
         "group": "monetary",
         "unit": "%",
         "weight": 0.12,
-        "latest": null,
-        "signal": null,
-        "status": "empty",
-        "statusWord": "нет данных"
+        "latest": 14,
+        "signal": 0,
+        "status": "ok",
+        "statusWord": "нейтрально"
       },
       {
         "id": "depo_rate",
@@ -167,10 +167,10 @@
         "group": "monetary",
         "unit": "п.п.",
         "weight": 0.1,
-        "latest": null,
-        "signal": null,
-        "status": "empty",
-        "statusWord": "нет данных"
+        "latest": 7.65,
+        "signal": -1,
+        "status": "ok",
+        "statusWord": "ограничивает"
       },
       {
         "id": "mmf_flow",
@@ -366,7 +366,7 @@
     "sofr": 3.93,
     "sofrDate": "2026-10-26",
     "iorb": 3.9,
-    "iorbDate": "2026-10-26",
+    "iorbDate": "2026-09-30",
     "rrpBn": 0.226,
     "rrpDate": "2026-10-27",
     "walclMn": 6753604,
@@ -418,5 +418,6 @@
     "gapPct": 0.15402563459874452,
     "diverged": false,
     "note": "площадки согласованы, среднее всё равно не показываем"
-  }
+  },
+  "manual": {}
 }

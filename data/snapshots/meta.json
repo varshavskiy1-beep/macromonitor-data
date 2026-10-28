@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-10-28T01:58:07.459Z",
+  "fetchedAt": "2026-10-28T02:52:10.490Z",
   "asOf": {
     "sofr": "2026-10-26",
-    "iorb": "2026-10-26",
+    "iorb": "2026-09-30",
     "rrp": "2026-10-27",
-    "keyRate": null,
+    "keyRate": "2026-10-27",
     "gpr": "2026-10-26"
   },
   "status": "ok",
@@ -123,5 +123,6 @@
     "Режим доллара /dollar: Yahoo ICE DXY (DX-Y.NYB) и ETF-корзины + FRED DGS2/DGS10/T10YIE (после ~22:30 UTC / в будничном рефреше 01:00 UTC).",
     "Россия /rossiya/akcii-obligacii: MCFTR CLOSE + YIELD RUCBITRBBB3+ / RUCBTR3A5YNS / RUGBITR5+ (MOEX ISS history, board RTSI). Месячный срез, last-good при сбое.",
     "Россия/макро: 10 карточек /rossiya/makro живые. История — распарс бандла лендинга monitor-rf-0 (rf-macro.json), свежие месяцы дописывает будничный рефреш живым фетчем первоисточников подписи (scripts/rf-macro-live.mjs): Росстат КЭП/jil_dom-oper, АСОП morport, autostat (Lada/HCV), ЦБ monetary_agg + SOAP KeyRate. Минэк/РЖД/Сбер IR пробуем каждый запуск; при TLS/WAF-блоке ряд остаётся last-good с series.error, метрика не подменяется (никаких ИВБО/WB/OECD/квартального ВВП на makro). wb-russia.json и rosstat-ru.json остаются справочными снимками, карточки makro их не используют."
-  ]
+  ],
+  "fredOutageNote": null
 }
