@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-27T05:55:18.027Z",
+  "fetchedAt": "2026-10-28T02:05:59.241Z",
   "asOf": "2026-08-01",
   "status": "ok",
   "caption": "Форвардная доходность S&P 500 (E/P = 100 / forward P/E) минус доходность 10-летних трежерис. Это оценка относительной привлекательности акций, не рекомендация к сделке.",
@@ -2862,8 +2862,8 @@
     },
     {
       "date": "2026-10-01",
-      "dgs2": 4.774375,
-      "dgs10": 5.174374999999999,
+      "dgs2": 4.7688235294117645,
+      "dgs10": 5.164117647058823,
       "forwardPe": null,
       "forwardEp": null,
       "erp": null
@@ -2880,7 +2880,7 @@
   "sources": {
     "forwardPe": "historyofmarket.com/api/sp500/forward-pe.json (12-мес. консенсус, недельный ряд → месячный)",
     "forwardPeNote": "Trailing PE is cap-weighted Σ(w·P)/Σ(w·trailingEps) computed from the 500 constituents daily, seeded with a long-run monthly series back to 1871. Forward PE is terminal data — 12-month blended-forward consensus estimates back to June 1990, published as one point per week (the last reading of each week). Alongside it we publish a second forward series computed daily from consensus estimates and published ETF holdings. The two are never blended: different estimate vintage, different weighting, different cadence. They agree to within 3%, and where they do not, the gap is the measurement and not an error to be smoothed away.",
-    "forwardPeUpdated": "2026-10-24",
+    "forwardPeUpdated": "2026-10-27",
     "dgs2": "FRED DGS2 / DGS10 (среднемесячные)",
     "dgs10": "FRED DGS2 / DGS10 (среднемесячные)"
   }

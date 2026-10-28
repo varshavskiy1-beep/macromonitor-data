@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "fetchedAt": "2026-10-27T05:54:38.096Z",
+  "fetchedAt": "2026-10-28T01:58:07.459Z",
   "keyRate": null,
   "keyRateHistory": [],
   "usdRub": {
@@ -9,10 +9,6 @@
     "source": null
   },
   "usdHistory": [
-    {
-      "date": "2016-10-29",
-      "value": 62.9037
-    },
     {
       "date": "2016-11-30",
       "value": 64.9449
@@ -490,15 +486,11 @@
       "value": 84.4283
     },
     {
-      "date": "2026-10-27",
-      "value": 80.4909
+      "date": "2026-10-28",
+      "value": 80.5307
     }
   ],
   "cnyHistory": [
-    {
-      "date": "2016-10-29",
-      "value": 9.27824
-    },
     {
       "date": "2016-11-30",
       "value": 9.42419
@@ -976,8 +968,8 @@
       "value": 12.5764
     },
     {
-      "date": "2026-10-27",
-      "value": 12.068
+      "date": "2026-10-28",
+      "value": 12.0677
     }
   ],
   "cpi": {
@@ -6300,7 +6292,7 @@
       "value": 11.08
     }
   ],
-  "depoError": "fetch failed",
+  "depoError": null,
   "transferHistory": [
     {
       "date": "2017-02-01",
@@ -7258,7 +7250,7 @@
         "value": 14.2
       }
     ],
-    "error": "fetch failed",
+    "error": "Ruonia SOAP HTTP 500",
     "usedCache": true,
     "source": null
   },
@@ -7748,7 +7740,7 @@
       "value": 14.2
     }
   ],
-  "ruoniaError": "fetch failed",
+  "ruoniaError": "Ruonia SOAP HTTP 500",
   "meetings": {
     "source": "https://cbr.ru/dkp/cal_mp/",
     "items": [
@@ -8078,7 +8070,7 @@
     "nextMeetingRate": 13.5,
     "yearEnd2026": 13.75,
     "source": "sbercib.ru/publication/prognoz-klyuchevoi-stavki-na-2026-god",
-    "fetchedAt": "2026-10-27T05:54:37.837Z",
+    "fetchedAt": "2026-10-28T01:58:07.177Z",
     "error": null
   },
   "depositMax": {
@@ -8092,6 +8084,8 @@
     "m2": "https://cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx",
     "m0": "https://cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx",
     "usd": "www.cbr.ru XML_dynamic R01235",
-    "cny": "www.cbr.ru XML_dynamic R01375"
+    "cny": "www.cbr.ru XML_dynamic R01375",
+    "deposit": "https://www.cbr.ru/dataservice/data?y1=2016&y2=2026&publicationId=18&datasetId=37&measureId=2",
+    "transfer": "https://www.cbr.ru/dataservice/data?y1=2016&y2=2026&publicationId=5&datasetId=6&measureId=-1 · переводные депозиты ДХ element_id=16, YoY"
   }
 }

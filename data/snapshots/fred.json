@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "fetchedAt": "2026-10-27T05:54:38.096Z",
+  "fetchedAt": "2026-10-28T01:58:07.459Z",
   "series": {
     "IORB": {
       "source": "fred-api",
@@ -10,11 +10,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-10-27",
+        "date": "2026-10-28",
         "value": 3.9
       },
-      "lastUpdated": "2026-10-26 15:31:31-05",
-      "observationEnd": "2026-10-27",
+      "lastUpdated": "2026-10-27 15:31:31-05",
+      "observationEnd": "2026-10-28",
       "nextRelease": null,
       "points": [
         {
@@ -270,7 +270,7 @@
           "value": 3.9
         },
         {
-          "date": "2026-10-27",
+          "date": "2026-10-28",
           "value": 3.9
         }
       ]
@@ -283,11 +283,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-10-26",
-        "value": 0.2
+        "date": "2026-10-27",
+        "value": 0.226
       },
-      "lastUpdated": "2026-10-26 13:02:36-05",
-      "observationEnd": "2026-10-26",
+      "lastUpdated": "2026-10-27 13:02:33-05",
+      "observationEnd": "2026-10-27",
       "nextRelease": null,
       "points": [
         {
@@ -855,8 +855,8 @@
           "value": 11.539
         },
         {
-          "date": "2026-10-26",
-          "value": 0.2
+          "date": "2026-10-27",
+          "value": 0.226
         }
       ]
     },
@@ -1453,11 +1453,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-10-23",
-        "value": 3.38
+        "date": "2026-10-26",
+        "value": 3.3
       },
-      "lastUpdated": "2026-10-26 09:06:26-05",
-      "observationEnd": "2026-10-23",
+      "lastUpdated": "2026-10-27 10:13:53-05",
+      "observationEnd": "2026-10-26",
       "nextRelease": null,
       "points": [
         {
@@ -1605,8 +1605,8 @@
           "value": 3.12
         },
         {
-          "date": "2026-10-23",
-          "value": 3.38
+          "date": "2026-10-26",
+          "value": 3.3
         }
       ]
     },
@@ -1618,11 +1618,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-10-23",
+        "date": "2026-10-26",
         "value": 3.88
       },
-      "lastUpdated": "2026-10-26 15:16:52-05",
-      "observationEnd": "2026-10-23",
+      "lastUpdated": "2026-10-27 15:16:35-05",
+      "observationEnd": "2026-10-26",
       "nextRelease": null,
       "points": [
         {
@@ -2190,7 +2190,7 @@
           "value": 3.88
         },
         {
-          "date": "2026-10-23",
+          "date": "2026-10-26",
           "value": 3.88
         }
       ]
@@ -2203,11 +2203,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-10-26",
-        "value": 3.89253
+        "date": "2026-10-27",
+        "value": 3.89355
       },
-      "lastUpdated": "2026-10-26 07:02:30-05",
-      "observationEnd": "2026-10-26",
+      "lastUpdated": "2026-10-27 07:02:25-05",
+      "observationEnd": "2026-10-27",
       "nextRelease": null,
       "points": [
         {
@@ -2615,8 +2615,8 @@
           "value": 3.74678
         },
         {
-          "date": "2026-10-26",
-          "value": 3.89253
+          "date": "2026-10-27",
+          "value": 3.89355
         }
       ]
     },
@@ -2628,11 +2628,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-10-26",
-        "value": 3.76242
+        "date": "2026-10-27",
+        "value": 3.76556
       },
-      "lastUpdated": "2026-10-26 07:02:28-05",
-      "observationEnd": "2026-10-26",
+      "lastUpdated": "2026-10-27 07:02:27-05",
+      "observationEnd": "2026-10-27",
       "nextRelease": null,
       "points": [
         {
@@ -3032,8 +3032,8 @@
           "value": 3.6818
         },
         {
-          "date": "2026-10-26",
-          "value": 3.76242
+          "date": "2026-10-27",
+          "value": 3.76556
         }
       ]
     },
@@ -4207,11 +4207,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-10-26",
-        "value": 0.78
+        "date": "2026-10-27",
+        "value": 0.77
       },
-      "lastUpdated": "2026-10-26 16:03:32-05",
-      "observationEnd": "2026-10-26",
+      "lastUpdated": "2026-10-27 16:04:30-05",
+      "observationEnd": "2026-10-27",
       "nextRelease": null,
       "points": [
         {
@@ -6363,8 +6363,8 @@
           "value": 1.09
         },
         {
-          "date": "2026-10-26",
-          "value": 0.78
+          "date": "2026-10-27",
+          "value": 0.77
         }
       ]
     },
@@ -20139,11 +20139,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-10-23",
-        "value": 3.92
+        "date": "2026-10-26",
+        "value": 3.93
       },
-      "lastUpdated": "2026-10-26 07:02:30-05",
-      "observationEnd": "2026-10-23",
+      "lastUpdated": "2026-10-27 07:01:28-05",
+      "observationEnd": "2026-10-26",
       "nextRelease": null,
       "points": [
         {
@@ -20555,8 +20555,8 @@
           "value": 3.9
         },
         {
-          "date": "2026-10-23",
-          "value": 3.92
+          "date": "2026-10-26",
+          "value": 3.93
         }
       ]
     },
@@ -20568,11 +20568,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-10-23",
-        "value": 2.06
+        "date": "2026-10-26",
+        "value": 1.98
       },
-      "lastUpdated": "2026-10-26 09:09:54-05",
-      "observationEnd": "2026-10-23",
+      "lastUpdated": "2026-10-27 10:14:55-05",
+      "observationEnd": "2026-10-26",
       "nextRelease": null,
       "points": [
         {
@@ -20720,8 +20720,8 @@
           "value": 1.94
         },
         {
-          "date": "2026-10-23",
-          "value": 2.06
+          "date": "2026-10-26",
+          "value": 1.98
         }
       ]
     },
@@ -20733,11 +20733,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-10-23",
-        "value": 3.43
+        "date": "2026-10-26",
+        "value": 3.36
       },
-      "lastUpdated": "2026-10-26 09:08:50-05",
-      "observationEnd": "2026-10-23",
+      "lastUpdated": "2026-10-27 10:15:15-05",
+      "observationEnd": "2026-10-26",
       "nextRelease": null,
       "points": [
         {
@@ -20885,8 +20885,8 @@
           "value": 3.16
         },
         {
-          "date": "2026-10-23",
-          "value": 3.43
+          "date": "2026-10-26",
+          "value": 3.36
         }
       ]
     },
@@ -20898,11 +20898,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-10-23",
-        "value": 13.56
+        "date": "2026-10-26",
+        "value": 13.45
       },
-      "lastUpdated": "2026-10-26 09:10:06-05",
-      "observationEnd": "2026-10-23",
+      "lastUpdated": "2026-10-27 10:13:35-05",
+      "observationEnd": "2026-10-26",
       "nextRelease": null,
       "points": [
         {
@@ -21050,8 +21050,8 @@
           "value": 11.79
         },
         {
-          "date": "2026-10-23",
-          "value": 13.56
+          "date": "2026-10-26",
+          "value": 13.45
         }
       ]
     },
@@ -21063,11 +21063,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-10-23",
-        "value": 0.91
+        "date": "2026-10-26",
+        "value": 0.9
       },
-      "lastUpdated": "2026-10-26 09:06:34-05",
-      "observationEnd": "2026-10-23",
+      "lastUpdated": "2026-10-27 10:10:13-05",
+      "observationEnd": "2026-10-26",
       "nextRelease": null,
       "points": [
         {
@@ -21215,8 +21215,8 @@
           "value": 0.84
         },
         {
-          "date": "2026-10-23",
-          "value": 0.91
+          "date": "2026-10-26",
+          "value": 0.9
         }
       ]
     },
@@ -22233,11 +22233,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-08-01",
-        "value": 30868
+        "date": "2026-09-01",
+        "value": 31256
       },
-      "lastUpdated": "2026-10-02 09:05:47-05",
-      "observationEnd": "2026-08-01",
+      "lastUpdated": "2026-10-27 07:33:32-05",
+      "observationEnd": "2026-09-01",
       "nextRelease": null,
       "points": [
         {
@@ -23898,7 +23898,11 @@
         },
         {
           "date": "2026-08-01",
-          "value": 30868
+          "value": 31012
+        },
+        {
+          "date": "2026-09-01",
+          "value": 31256
         }
       ]
     },
@@ -25587,11 +25591,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-08-01",
-        "value": 87640
+        "date": "2026-09-01",
+        "value": 88039
       },
-      "lastUpdated": "2026-10-02 09:06:38-05",
-      "observationEnd": "2026-08-01",
+      "lastUpdated": "2026-10-27 07:33:57-05",
+      "observationEnd": "2026-09-01",
       "nextRelease": null,
       "points": [
         {
@@ -27252,7 +27256,11 @@
         },
         {
           "date": "2026-08-01",
-          "value": 87640
+          "value": 87633
+        },
+        {
+          "date": "2026-09-01",
+          "value": 88039
         }
       ]
     },
@@ -36694,11 +36702,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-08-01",
-        "value": 34233
+        "date": "2026-09-01",
+        "value": 34662
       },
-      "lastUpdated": "2026-10-02 09:06:13-05",
-      "observationEnd": "2026-08-01",
+      "lastUpdated": "2026-10-27 07:33:40-05",
+      "observationEnd": "2026-09-01",
       "nextRelease": null,
       "points": [
         {
@@ -38363,7 +38371,11 @@
         },
         {
           "date": "2026-08-01",
-          "value": 34233
+          "value": 34225
+        },
+        {
+          "date": "2026-09-01",
+          "value": 34662
         }
       ]
     },
@@ -58868,11 +58880,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-10-26",
-        "value": 80056.43
+        "date": "2026-10-27",
+        "value": 80728.47
       },
-      "lastUpdated": "2026-10-26 19:05:28-05",
-      "observationEnd": "2026-10-26",
+      "lastUpdated": "2026-10-27 19:06:27-05",
+      "observationEnd": "2026-10-27",
       "nextRelease": null,
       "points": [
         {
@@ -59440,8 +59452,8 @@
           "value": 83482.51
         },
         {
-          "date": "2026-10-26",
-          "value": 80056.43
+          "date": "2026-10-27",
+          "value": 80728.47
         }
       ]
     },
@@ -59453,11 +59465,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-10-26",
-        "value": 2320.66
+        "date": "2026-10-27",
+        "value": 2345.06
       },
-      "lastUpdated": "2026-10-26 19:05:27-05",
-      "observationEnd": "2026-10-26",
+      "lastUpdated": "2026-10-27 19:06:28-05",
+      "observationEnd": "2026-10-27",
       "nextRelease": null,
       "points": [
         {
@@ -59961,8 +59973,8 @@
           "value": 2682.34
         },
         {
-          "date": "2026-10-26",
-          "value": 2320.66
+          "date": "2026-10-27",
+          "value": 2345.06
         }
       ]
     },
@@ -69800,11 +69812,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-10-23",
-        "value": 7623.68
+        "date": "2026-10-27",
+        "value": 7722.6
       },
-      "lastUpdated": "2026-10-26 13:29:03-05",
-      "observationEnd": "2026-10-23",
+      "lastUpdated": "2026-10-27 19:01:52-05",
+      "observationEnd": "2026-10-27",
       "nextRelease": null,
       "points": [
         {
@@ -70288,8 +70300,8 @@
           "value": 7651.54
         },
         {
-          "date": "2026-10-23",
-          "value": 7623.68
+          "date": "2026-10-27",
+          "value": 7722.6
         }
       ]
     },
@@ -70301,11 +70313,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-10-23",
-        "value": 1864.53
+        "date": "2026-10-26",
+        "value": 1870.03
       },
-      "lastUpdated": "2026-10-26 09:11:30-05",
-      "observationEnd": "2026-10-23",
+      "lastUpdated": "2026-10-27 10:16:37-05",
+      "observationEnd": "2026-10-26",
       "nextRelease": null,
       "points": [
         {
@@ -70453,8 +70465,8 @@
           "value": 1867.85
         },
         {
-          "date": "2026-10-23",
-          "value": 1864.53
+          "date": "2026-10-26",
+          "value": 1870.03
         }
       ]
     },
@@ -70466,11 +70478,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-10-23",
-        "value": 3541.71
+        "date": "2026-10-26",
+        "value": 3548.13
       },
-      "lastUpdated": "2026-10-26 09:12:28-05",
-      "observationEnd": "2026-10-23",
+      "lastUpdated": "2026-10-27 10:15:17-05",
+      "observationEnd": "2026-10-26",
       "nextRelease": null,
       "points": [
         {
@@ -70618,8 +70630,8 @@
           "value": 3487.27
         },
         {
-          "date": "2026-10-23",
-          "value": 3541.71
+          "date": "2026-10-26",
+          "value": 3548.13
         }
       ]
     }
@@ -70628,8 +70640,8 @@
     "source": "Treasury DTS operating_cash_balance open_today_bal · Treasury General Account (TGA) Opening Balance",
     "error": null,
     "last": {
-      "date": "2026-10-23",
-      "value": 961759
+      "date": "2026-10-26",
+      "value": 982489
     },
     "points": [
       {
@@ -70849,16 +70861,16 @@
         "value": 936600
       },
       {
-        "date": "2026-10-23",
-        "value": 961759
+        "date": "2026-10-26",
+        "value": 982489
       }
     ]
   },
   "sofrNy": {
     "source": "https://markets.newyorkfed.org/api/rates/secured/sofr/last/120.json",
     "last": {
-      "date": "2026-10-23",
-      "value": 3.92
+      "date": "2026-10-26",
+      "value": 3.93
     },
     "points": [
       {
@@ -70882,8 +70894,8 @@
         "value": 3.9
       },
       {
-        "date": "2026-10-23",
-        "value": 3.92
+        "date": "2026-10-26",
+        "value": 3.93
       }
     ]
   },
@@ -71360,8 +71372,8 @@
         "value": 0
       },
       {
-        "date": "2026-10-23",
-        "value": 2.0000000000000018
+        "date": "2026-10-26",
+        "value": 3.000000000000025
       }
     ]
   },
@@ -71373,11 +71385,11 @@
     "staleNote": null,
     "staleAsOf": null,
     "last": {
-      "date": "2026-10-23",
+      "date": "2026-10-26",
       "value": 1.227
     },
-    "lastUpdated": "2026-10-27",
-    "observationEnd": "2026-10-23",
+    "lastUpdated": "2026-10-28",
+    "observationEnd": "2026-10-26",
     "nextRelease": null,
     "points": [
       {
@@ -71897,7 +71909,7 @@
         "value": 1.226
       },
       {
-        "date": "2026-10-23",
+        "date": "2026-10-26",
         "value": 1.227
       }
     ]
