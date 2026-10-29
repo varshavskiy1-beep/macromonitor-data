@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "fetchedAt": "2026-10-28T02:06:43.480Z",
+  "fetchedAt": "2026-10-29T02:01:26.043Z",
   "source": "https://monitor-rf-0.pplx.app/assets/index-C6ib584h.js",
   "sourceNote": "локальная копия бандла landing-bundle.js",
   "note": "История рядов — распарс бандла лендинга monitor-rf-0 (#/macro, scripts/rf-macro-fetch.mjs); свежие месяцы дописывает будничный рефреш живым фетчем первоисточников подписи (scripts/rf-macro-live.mjs): Росстат КЭП/jil_dom-oper, АСОП morport, autostat (Lada/HCV), ЦБ monetary_agg и SOAP KeyRate; Минэк/РЖД/Сбер IR — попытка с честной ошибкой при TLS/WAF-блоке, ряд не подменяется и не пустеет.",
@@ -315,10 +315,10 @@
         }
       ],
       "error": null,
-      "lastAttempt": "2026-10-28T02:06:43.480Z",
+      "lastAttempt": "2026-10-29T02:01:26.043Z",
       "live": {
         "source": "https://mfd.ru/news/view/?id=2784825 (цитата обзора Минэка «О текущей ситуации…»; economy.gov.ru недоступен с CI)",
-        "fetchedAt": "2026-10-28T02:06:43.480Z",
+        "fetchedAt": "2026-10-29T02:01:26.043Z",
         "appended": 0,
         "revised": 0,
         "note": "Минэкономразвития, месячная оценка ВВП"
@@ -479,10 +479,10 @@
         }
       ],
       "error": null,
-      "lastAttempt": "2026-10-28T02:06:43.480Z",
+      "lastAttempt": "2026-10-29T02:01:26.043Z",
       "live": {
         "source": "https://www.autostat.ru/news/",
-        "fetchedAt": "2026-10-28T02:06:43.480Z",
+        "fetchedAt": "2026-10-29T02:01:26.043Z",
         "appended": 0,
         "revised": 0,
         "note": "autostat.ru: «Продажи автомобилей LADA в <месяце>»"
@@ -628,10 +628,10 @@
         }
       ],
       "error": null,
-      "lastAttempt": "2026-10-28T02:06:43.480Z",
+      "lastAttempt": "2026-10-29T02:01:26.043Z",
       "live": {
         "source": "https://www.autostat.ru/news/",
-        "fetchedAt": "2026-10-28T02:06:43.480Z",
+        "fetchedAt": "2026-10-29T02:01:26.043Z",
         "appended": 0,
         "revised": 0,
         "note": "autostat.ru: «Рынок крупнотоннажных грузовых автомобилей в <месяце>»"
@@ -801,8 +801,8 @@
           "value": 1
         }
       ],
-      "error": "https://www.rzd.ru/ru/9402: curl: (28) Connection timed out after 6002 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2019651-bshzop9t9c -w %{http_code} https://www.rzd.ru/ru/9402\ncurl: (28) Connection timed out after 6002 milliseconds\n; https://company.rzd.ru/ru/9397: curl: (28) Connection timed out after 6002 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2019651-1vjbqr95gqn -w %{http_code} https://company.rzd.ru/ru/9397\ncurl: (28) Connection timed out after 6002 milliseconds\n; https://press.rzd.ru/: curl: (28) Connection timed out after 6002 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2019651-cldd3zybqbu -w %{http_code} https://press.rzd.ru/\ncurl: (28) Connection timed out after 6002 milliseconds\n",
-      "lastAttempt": "2026-10-28T02:06:43.480Z"
+      "error": "https://www.rzd.ru/ru/9402: curl: (28) Connection timed out after 6001 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2522210-21tfuf6atr4 -w %{http_code} https://www.rzd.ru/ru/9402\ncurl: (28) Connection timed out after 6001 milliseconds\n; https://company.rzd.ru/ru/9397: curl: (28) Connection timed out after 6002 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2522210-7pawl91d3ir -w %{http_code} https://company.rzd.ru/ru/9397\ncurl: (28) Connection timed out after 6002 milliseconds\n; https://press.rzd.ru/: curl: (28) Connection timed out after 6002 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2522210-0hv7yp43344g -w %{http_code} https://press.rzd.ru/\ncurl: (28) Connection timed out after 6002 milliseconds\n",
+      "lastAttempt": "2026-10-29T02:01:26.043Z"
     },
     "ports": {
       "key": "ports",
@@ -933,8 +933,8 @@
           "value": 5.8
         }
       ],
-      "error": "нет новостей «Грузооборот морских портов…» (https://www.morport.com/rus/news: curl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received; curl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received; Command failed: curl -sSL -k --connect-timeout 15 --max-time 40 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2019651-xr466fcozgg -w %{http_code} https://www.morport.com/rus/news\ncurl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received\n; wget: Command failed: wget -q --no-check-certificate --timeout=40 --tries=1 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rf-live-2019651-xr466fcozgg https://www.morport.com/rus/news\n; https://www.morport.com/rus/news/202610: curl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received; curl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received; Command failed: curl -sSL -k --connect-timeout 15 --max-time 40 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2019651-wu6i5jno31d -w %{http_code} https://www.morport.com/rus/news/202610\ncurl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received\n; wget: Command failed: wget -q --no-check-certificate --timeout=40 --tries=1 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rf-live-2019651-wu6i5jno31d https://www.morport.com/rus/news/202610\n; https://www.morport.com/rus/news/202609: curl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received; curl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received; Command failed: curl -sSL -k --connect-timeout 15 --max-time 40 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2019651-7bhulf0tkc -w %{http_code} https://www.morport.com/rus/news/202609\ncurl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received\n; wget: Command failed: wget -q --no-check-certificate --timeout=40 --tries=1 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rf-live-2019651-7bhulf0tkc https://www.morport.com/rus/news/202609\n)",
-      "lastAttempt": "2026-10-28T02:06:43.480Z",
+      "error": "нет новостей «Грузооборот морских портов…» (https://www.morport.com/rus/news: curl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received; curl: (35) TLS connect error: error:0A000126:SSL routines::unexpected eof while reading; Command failed: curl -sSL -k --connect-timeout 15 --max-time 40 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2522210-3qcy7so45cs -w %{http_code} https://www.morport.com/rus/news\ncurl: (35) TLS connect error: error:0A000126:SSL routines::unexpected eof while reading\n; wget: Command failed: wget -q --no-check-certificate --timeout=40 --tries=1 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rf-live-2522210-3qcy7so45cs https://www.morport.com/rus/news\n; https://www.morport.com/rus/news/202610: curl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received; curl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received; Command failed: curl -sSL -k --connect-timeout 15 --max-time 40 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2522210-ik72emski7 -w %{http_code} https://www.morport.com/rus/news/202610\ncurl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received\n; wget: Command failed: wget -q --no-check-certificate --timeout=40 --tries=1 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rf-live-2522210-ik72emski7 https://www.morport.com/rus/news/202610\n; https://www.morport.com/rus/news/202609: curl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received; curl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received; Command failed: curl -sSL -k --connect-timeout 15 --max-time 40 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2522210-z3am2ia8er8 -w %{http_code} https://www.morport.com/rus/news/202609\ncurl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received\n; wget: Command failed: wget -q --no-check-certificate --timeout=40 --tries=1 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rf-live-2522210-z3am2ia8er8 https://www.morport.com/rus/news/202609\n)",
+      "lastAttempt": "2026-10-29T02:01:26.043Z",
       "live": {
         "source": "https://www.morport.com/rus/news",
         "fetchedAt": "2026-09-01T01:06:04.351Z",
@@ -1088,10 +1088,10 @@
         }
       ],
       "error": null,
-      "lastAttempt": "2026-10-28T02:06:43.480Z",
+      "lastAttempt": "2026-10-29T02:01:26.043Z",
       "live": {
         "source": "https://rosstat.gov.ru/storage/mediabank/jil_dom-oper_09-2026.xls",
-        "fetchedAt": "2026-10-28T02:06:43.480Z",
+        "fetchedAt": "2026-10-29T02:01:26.043Z",
         "appended": 0,
         "revised": 0,
         "note": "Росстат jil_dom-oper, % к соответствующему периоду нарастающим итогом"
@@ -1232,10 +1232,10 @@
         }
       ],
       "error": null,
-      "lastAttempt": "2026-10-28T02:06:43.480Z",
+      "lastAttempt": "2026-10-29T02:01:26.043Z",
       "live": {
         "source": "https://rosstat.gov.ru/storage/mediabank/ind_08-2026.xlsx",
-        "fetchedAt": "2026-10-28T02:06:43.480Z",
+        "fetchedAt": "2026-10-29T02:01:26.043Z",
         "appended": 0,
         "revised": 0,
         "note": "Росстат КЭП 1.12, г/г в сопоставимых ценах"
@@ -1386,10 +1386,10 @@
         }
       ],
       "error": null,
-      "lastAttempt": "2026-10-28T02:06:43.480Z",
+      "lastAttempt": "2026-10-29T02:01:26.043Z",
       "live": {
         "source": "cbr.ru monetary_agg.xlsx («Годовые темпы прироста», на 1-е число → месяц)",
-        "fetchedAt": "2026-10-28T02:06:43.480Z",
+        "fetchedAt": "2026-10-29T02:01:26.043Z",
         "appended": 0,
         "revised": 0,
         "note": null
@@ -1520,7 +1520,7 @@
         }
       ],
       "error": "https://www.sberbank.com/ru/investor-relations/news: WAF/F5 блокирует (страница-заглушка, нужны сертификаты Минцифры); https://www.sberbank.com/investor-relations: WAF/F5 блокирует (страница-заглушка, нужны сертификаты Минцифры); https://www.sberbank.ru/ru/about/investor_relations: WAF/F5 блокирует (страница-заглушка, нужны сертификаты Минцифры)",
-      "lastAttempt": "2026-10-28T02:06:43.480Z"
+      "lastAttempt": "2026-10-29T02:01:26.043Z"
     },
     "roe": {
       "key": "roe",
@@ -1727,7 +1727,7 @@
         ]
       },
       "error": "живой SOAP-ряд ключевой ставки пуст — квартальные средние не пересчитаны",
-      "lastAttempt": "2026-10-28T02:06:43.480Z",
+      "lastAttempt": "2026-10-29T02:01:26.043Z",
       "live": {
         "source": "средняя ключевая ставка за квартал из живого SOAP KeyRate ЦБ; ROE — Sberbank IR (обновляется при доступности)",
         "fetchedAt": "2026-10-26T02:56:34.399Z",
@@ -1737,24 +1737,23 @@
     }
   },
   "liveErrors": [
-    "ports: нет новостей «Грузооборот морских портов…» (https://www.morport.com/rus/news: curl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received; curl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received; Command failed: curl -sSL -k --connect-timeout 15 --max-time 40 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2019651-xr466fcozgg -w %{http_code} https://www.morport.com/rus/news\ncurl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received\n; wget: Command failed: wget -q --no-check-certificate --timeout=40 --tries=1 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rf-live-2019651-xr466fcozgg https://www.morport.com/rus/news\n; https://www.morport.com/rus/news/202610: curl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received; curl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received; Command failed: curl -sSL -k --connect-timeout 15 --max-time 40 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2019651-wu6i5jno31d -w %{http_code} https://www.morport.com/rus/news/202610\ncurl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received\n; wget: Command failed: wget -q --no-check-certificate --timeout=40 --tries=1 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rf-live-2019651-wu6i5jno31d https://www.morport.com/rus/news/202610\n; https://www.morport.com/rus/news/202609: curl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received; curl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received; Command failed: curl -sSL -k --connect-timeout 15 --max-time 40 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2019651-7bhulf0tkc -w %{http_code} https://www.morport.com/rus/news/202609\ncurl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received\n; wget: Command failed: wget -q --no-check-certificate --timeout=40 --tries=1 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rf-live-2019651-7bhulf0tkc https://www.morport.com/rus/news/202609\n)",
-    "rzhd: https://www.rzd.ru/ru/9402: curl: (28) Connection timed out after 6002 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2019651-bshzop9t9c -w %{http_code} https://www.rzd.ru/ru/9402\ncurl: (28) Connection timed out after 6002 milliseconds\n; https://company.rzd.ru/ru/9397: curl: (28) Connection timed out after 6002 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2019651-1vjbqr95gqn -w %{http_code} https://company.rzd.ru/ru/9397\ncurl: (28) Connection timed out after 6002 milliseconds\n; https://press.rzd.ru/: curl: (28) Connection timed out after 6002 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2019651-cldd3zybqbu -w %{http_code} https://press.rzd.ru/\ncurl: (28) Connection timed out after 6002 milliseconds\n",
+    "ports: нет новостей «Грузооборот морских портов…» (https://www.morport.com/rus/news: curl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received; curl: (35) TLS connect error: error:0A000126:SSL routines::unexpected eof while reading; Command failed: curl -sSL -k --connect-timeout 15 --max-time 40 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2522210-3qcy7so45cs -w %{http_code} https://www.morport.com/rus/news\ncurl: (35) TLS connect error: error:0A000126:SSL routines::unexpected eof while reading\n; wget: Command failed: wget -q --no-check-certificate --timeout=40 --tries=1 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rf-live-2522210-3qcy7so45cs https://www.morport.com/rus/news\n; https://www.morport.com/rus/news/202610: curl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received; curl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received; Command failed: curl -sSL -k --connect-timeout 15 --max-time 40 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2522210-ik72emski7 -w %{http_code} https://www.morport.com/rus/news/202610\ncurl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received\n; wget: Command failed: wget -q --no-check-certificate --timeout=40 --tries=1 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rf-live-2522210-ik72emski7 https://www.morport.com/rus/news/202610\n; https://www.morport.com/rus/news/202609: curl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received; curl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received; Command failed: curl -sSL -k --connect-timeout 15 --max-time 40 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2522210-z3am2ia8er8 -w %{http_code} https://www.morport.com/rus/news/202609\ncurl: (28) Operation timed out after 40002 milliseconds with 16134 bytes received\n; wget: Command failed: wget -q --no-check-certificate --timeout=40 --tries=1 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rf-live-2522210-z3am2ia8er8 https://www.morport.com/rus/news/202609\n)",
+    "rzhd: https://www.rzd.ru/ru/9402: curl: (28) Connection timed out after 6001 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2522210-21tfuf6atr4 -w %{http_code} https://www.rzd.ru/ru/9402\ncurl: (28) Connection timed out after 6001 milliseconds\n; https://company.rzd.ru/ru/9397: curl: (28) Connection timed out after 6002 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2522210-7pawl91d3ir -w %{http_code} https://company.rzd.ru/ru/9397\ncurl: (28) Connection timed out after 6002 milliseconds\n; https://press.rzd.ru/: curl: (28) Connection timed out after 6002 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-2522210-0hv7yp43344g -w %{http_code} https://press.rzd.ru/\ncurl: (28) Connection timed out after 6002 milliseconds\n",
     "sberbank: https://www.sberbank.com/ru/investor-relations/news: WAF/F5 блокирует (страница-заглушка, нужны сертификаты Минцифры); https://www.sberbank.com/investor-relations: WAF/F5 блокирует (страница-заглушка, нужны сертификаты Минцифры); https://www.sberbank.ru/ru/about/investor_relations: WAF/F5 блокирует (страница-заглушка, нужны сертификаты Минцифры)",
-    "autostat: /news/63389/: HTTP 404",
     "roe: живой SOAP-ряд ключевой ставки пуст — квартальные средние не пересчитаны"
   ],
   "liveSummary": [
     "consumer: +0 новых, 0 ревизий",
     "housing: +0 новых, 0 ревизий",
     "gdp: +0 новых, 0 ревизий",
-    "avtovaz: +0 новых, 0 ревизий (скан 12 новостей)",
+    "avtovaz: +0 новых, 0 ревизий (скан 0 новостей)",
     "kamaz: +0 новых, 0 ревизий",
     "m2: +0 новых, 0 ревизий"
   ],
   "scrape": {
     "autostat": {
-      "lastSeenNewsId": 63390,
-      "scannedAt": "2026-10-28T02:06:43.480Z"
+      "lastSeenNewsId": 63388,
+      "scannedAt": "2026-10-29T02:01:26.043Z"
     },
     "minek": {
       "lastSeenMfdId": 2784825

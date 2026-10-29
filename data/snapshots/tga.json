@@ -1,8 +1,8 @@
 {
   "status": "ok",
-  "fetchedAt": "2026-10-28T01:58:07.459Z",
+  "fetchedAt": "2026-10-29T01:53:16.792Z",
   "source": "Treasury DTS operating_cash_balance open_today_bal · Treasury General Account (TGA) Opening Balance",
-  "asOf": "2026-10-26",
+  "asOf": "2026-10-27",
   "points": [
     {
       "date": "2022-04-29",
@@ -221,8 +221,8 @@
       "value": 936600
     },
     {
-      "date": "2026-10-26",
-      "value": 982489
+      "date": "2026-10-27",
+      "value": 1020700
     }
   ]
 }

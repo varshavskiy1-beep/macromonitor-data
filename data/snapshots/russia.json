@@ -1,14 +1,12 @@
 {
-  "fetchedAt": "2026-10-28T02:53:54.836Z",
+  "fetchedAt": "2026-10-29T01:53:16.792Z",
   "status": "ok",
   "phase": {
-    "id": 8,
-    "roman": "VIII",
-    "name": "Жёсткая ДКП — стагнация",
-    "status": "ok",
-    "realRate": 7.65,
-    "cashGate": true,
-    "why": "Реальная ставка ≥ 6 п.п. — зона кэша: депозиты/короткие фонды/короткие ОФЗ бьют индекс на горизонте ~1г. Растущая М2 / широкий спред М2−ИПЦ не отменяют этот режим. Полный режим принятия риска только при ключе ≤ 12% и реальной ставке < 6 п.п. (и ИПЦ < 5%, если фильтр инфляции включён)."
+    "id": null,
+    "roman": null,
+    "name": "нет данных",
+    "status": "empty",
+    "why": "Нет первичных рядов ЦБ/Росстата по ставке, ИПЦ или М2."
   },
   "riskOn": {
     "items": [
@@ -16,11 +14,11 @@
         "id": "key",
         "name": "Ключевая ставка",
         "need": "≤ 12%",
-        "value": 14,
+        "value": null,
         "unit": "%",
         "digits": 2,
         "pass": false,
-        "near": true
+        "near": false
       },
       {
         "id": "m2",
@@ -58,7 +56,7 @@
         "id": "real",
         "name": "Реальная ставка",
         "need": "< 6 п.п.",
-        "value": 7.65,
+        "value": null,
         "unit": "п.п.",
         "digits": 1,
         "pass": false,
@@ -66,34 +64,34 @@
       }
     ],
     "allPass": false,
-    "missing": 0
+    "missing": 2
   },
   "crs": {
-    "score": 0.12,
-    "liveCount": 4,
+    "score": 0.33,
+    "liveCount": 3,
     "legCount": 4,
     "oilLive": true,
-    "renormalizedOver": 1,
+    "renormalizedOver": 0.7000000000000001,
     "legs": [
       {
         "id": "vol",
         "name": "Волатильность (IMOEX г/г)",
         "prior": 0.3,
-        "value": -8.77,
+        "value": -8.81,
         "unit": "%",
-        "signal": -0.4385,
+        "signal": -0.4405,
         "meaning": "Годовой ход индекса. Сильный минус — рынок уже в просадке, вес тянет CRS вниз. Это не прогноз, а текущий импульс.",
-        "weight": 0.3
+        "weight": 0.4285714285714285
       },
       {
         "id": "monetary",
         "name": "Монетарные (реальная ставка)",
         "prior": 0.3,
-        "value": 7.65,
+        "value": null,
         "unit": "п.п.",
-        "signal": -0.3576923076923077,
+        "signal": null,
         "meaning": "Ключ минус ИПЦ — главный драйвер режима РФ. Зона кэша ≥ 6 п.п.; режим принятия риска по ставке — < 6 п.п. (переход 3–6 п.п. — не полный режим принятия риска). Нейтраль этой CRS-ноги около 3 п.п. — шкала сигнала, не единственный порог режима принятия риска.",
-        "weight": 0.3
+        "weight": null
       },
       {
         "id": "oil",
@@ -104,7 +102,7 @@
         "signal": 1,
         "emptyReason": null,
         "meaning": "Календарный г/г месячного Brent EIA (FRED MCOILBRENTEU), сверка — МВФ POILBREUSDM. Для экспортно-сырьевого цикла падение нефти — стресс, рост — поддержка. Шкала ±20% → ±1, как у волатильности.",
-        "weight": 0.25
+        "weight": 0.3571428571428571
       },
       {
         "id": "liquidity",
@@ -114,12 +112,12 @@
         "unit": "п.п.",
         "signal": 0.7416666666666668,
         "meaning": "Деньги в системе минус цены. Спред выше 5 п.п. — топливо для активов; около 2 п.п. — нейтраль этой ноги.",
-        "weight": 0.15
+        "weight": 0.21428571428571425
       }
     ],
     "label": "СЕРЕДИНА ЦИКЛА",
     "band": "middle",
-    "note": "Все четыре ноги живые, веса исходные 30/30/25/15. Нефть — календарный г/г месячного Brent EIA (FRED MCOILBRENTEU), не хардкод."
+    "note": "Нефть живая (EIA Brent г/г); недостающие ноги исключены из знаменателя, живые перенормированы."
   },
   "oil": {
     "last": {
@@ -143,1014 +141,134 @@
     "dualSource": "МВФ via FRED POILBREUSDM"
   },
   "implied": {
-    "i1y": 14.0112,
-    "i10y": 16.4348,
-    "i3m": 13.0923,
-    "i6m": 13.431,
-    "key": 14,
-    "gapBps": 1,
-    "signal": "короткий участок кривой около ключа (ZCYC)",
+    "i1y": 13.972,
+    "i10y": 16.3568,
+    "i3m": 12.8358,
+    "i6m": 13.2624,
+    "key": null,
+    "gapBps": null,
+    "signal": "нет данных",
     "points": [
-      {
-        "date": "0",
-        "tenor": 0,
-        "value": 14,
-        "label": "ключ SOAP"
-      },
       {
         "date": "0.25",
         "tenor": 0.25,
-        "value": 13.0923,
+        "value": 12.8358,
         "label": "I_0.25Y"
       },
       {
         "date": "0.5",
         "tenor": 0.5,
-        "value": 13.431,
+        "value": 13.2624,
         "label": "I_0.5Y"
       },
       {
         "date": "1",
         "tenor": 1,
-        "value": 14.0112,
+        "value": 13.972,
         "label": "I_1Y"
       },
       {
         "date": "10",
         "tenor": 10,
-        "value": 16.4348,
+        "value": 16.3568,
         "label": "I_10Y"
       }
     ]
   },
   "keyRate": {
-    "asOf": "2026-10-27",
+    "asOf": "2026-10-28",
     "current": {
-      "keyRate": 14,
-      "effectiveSince": "2026-07-24",
+      "keyRate": null,
+      "effectiveSince": null,
       "ruonia": 14.2,
-      "rusfar": 14.01,
-      "isLive": true
+      "rusfar": 14.03,
+      "isLive": false
     },
     "nextMeeting": {
       "date": "2026-11-05",
       "type": "заседание",
-      "daysUntil": 8,
+      "daysUntil": 7,
       "isAnchor": false
     },
     "marketImplied": {
-      "y3m": 13.0923,
-      "y6m": 13.431,
-      "y9m": 13.7347,
-      "y1y": 14.0112,
-      "rusfar": 14.01,
-      "nextMeetingRate": 13,
-      "nextMeetingChangeBps": -100,
-      "horizon3m": 13.0923,
-      "horizon6m": 13.431,
-      "horizon9m": 13.7347,
-      "horizon12m": 14.0112,
-      "emptyReason": null
+      "y3m": 12.8358,
+      "y6m": 13.2624,
+      "y9m": 13.6382,
+      "y1y": 13.972,
+      "rusfar": 14.03,
+      "nextMeetingRate": null,
+      "nextMeetingChangeBps": null,
+      "horizon3m": 12.8358,
+      "horizon6m": 13.2624,
+      "horizon9m": 13.6382,
+      "horizon12m": 13.972,
+      "emptyReason": "нет SOAP KeyRate"
     },
     "consensus": {
       "nextMeetingRate": 13.5,
-      "nextMeetingChangeBps": -50,
+      "nextMeetingChangeBps": null,
       "yearEnd2026": 13.75,
       "source": "sbercib.ru/publication/prognoz-klyuchevoi-stavki-na-2026-god",
       "emptyReason": null
     },
     "signal": {
-      "divergenceBps": -50,
-      "color": "green",
-      "label": "рынок закладывает больше консенсуса",
-      "detail": "dovish-позиция в цене, риск hawkish surprise",
-      "emptyReason": null
+      "divergenceBps": null,
+      "color": "neutral",
+      "text": "нет implied",
+      "label": "нет данных",
+      "emptyReason": "нет рыночного implied из ZCYC"
     },
     "probabilities": {
-      "items": [
-        {
-          "bps": -100,
-          "probability": 0.5537900804506523
-        },
-        {
-          "bps": -75,
-          "probability": 0.3495926823258314
-        },
-        {
-          "bps": -50,
-          "probability": 0.0876367648259706
-        },
-        {
-          "bps": -25,
-          "probability": 0.008644005402878133
-        },
-        {
-          "bps": 0,
-          "probability": 0.00033157625032346545
-        },
-        {
-          "bps": 25,
-          "probability": 0.000004890744344153127
-        }
-      ],
+      "items": [],
       "sigmaBps": 25,
-      "emptyReason": null,
-      "label": "модель (σ=25 bps), не официальный ряд"
+      "emptyReason": "нет implied move для модели вероятностей"
     },
-    "spreadSeries": [
-      {
-        "date": "2016-10-31",
-        "ruonia": 10.36,
-        "keyRate": 10,
-        "spreadBps": 36,
-        "spread": 0.36
-      },
-      {
-        "date": "2016-11-30",
-        "ruonia": 10.09,
-        "keyRate": 10,
-        "spreadBps": 9,
-        "spread": 0.09
-      },
-      {
-        "date": "2016-12-29",
-        "ruonia": 10.5,
-        "keyRate": 10,
-        "spreadBps": 50,
-        "spread": 0.5
-      },
-      {
-        "date": "2017-01-31",
-        "ruonia": 10.24,
-        "keyRate": 10,
-        "spreadBps": 24,
-        "spread": 0.24
-      },
-      {
-        "date": "2017-02-28",
-        "ruonia": 10,
-        "keyRate": 10,
-        "spreadBps": 0,
-        "spread": 0
-      },
-      {
-        "date": "2017-03-31",
-        "ruonia": 9.82,
-        "keyRate": 9.75,
-        "spreadBps": 7,
-        "spread": 0.07
-      },
-      {
-        "date": "2017-04-28",
-        "ruonia": 9.71,
-        "keyRate": 9.75,
-        "spreadBps": -4,
-        "spread": -0.04
-      },
-      {
-        "date": "2017-05-31",
-        "ruonia": 9.15,
-        "keyRate": 9.25,
-        "spreadBps": -10,
-        "spread": -0.1
-      },
-      {
-        "date": "2017-06-30",
-        "ruonia": 9.09,
-        "keyRate": 9,
-        "spreadBps": 9,
-        "spread": 0.09
-      },
-      {
-        "date": "2017-07-31",
-        "ruonia": 9.24,
-        "keyRate": 9,
-        "spreadBps": 24,
-        "spread": 0.24
-      },
-      {
-        "date": "2017-08-31",
-        "ruonia": 8.71,
-        "keyRate": 9,
-        "spreadBps": -29,
-        "spread": -0.29
-      },
-      {
-        "date": "2017-09-29",
-        "ruonia": 8.49,
-        "keyRate": 8.5,
-        "spreadBps": -1,
-        "spread": -0.01
-      },
-      {
-        "date": "2017-10-31",
-        "ruonia": 8.02,
-        "keyRate": 8.25,
-        "spreadBps": -23,
-        "spread": -0.23
-      },
-      {
-        "date": "2017-11-30",
-        "ruonia": 8.24,
-        "keyRate": 8.25,
-        "spreadBps": -1,
-        "spread": -0.01
-      },
-      {
-        "date": "2017-12-28",
-        "ruonia": 7.19,
-        "keyRate": 8.25,
-        "spreadBps": -106,
-        "spread": -1.06
-      },
-      {
-        "date": "2018-01-31",
-        "ruonia": 7.12,
-        "keyRate": 7.75,
-        "spreadBps": -63,
-        "spread": -0.63
-      },
-      {
-        "date": "2018-02-28",
-        "ruonia": 7.5,
-        "keyRate": 7.5,
-        "spreadBps": 0,
-        "spread": 0
-      },
-      {
-        "date": "2018-03-30",
-        "ruonia": 7.19,
-        "keyRate": 7.25,
-        "spreadBps": -6,
-        "spread": -0.06
-      },
-      {
-        "date": "2018-04-28",
-        "ruonia": 7.07,
-        "keyRate": 7.25,
-        "spreadBps": -18,
-        "spread": -0.18
-      },
-      {
-        "date": "2018-05-31",
-        "ruonia": 7.1,
-        "keyRate": 7.25,
-        "spreadBps": -15,
-        "spread": -0.15
-      },
-      {
-        "date": "2018-06-29",
-        "ruonia": 7.16,
-        "keyRate": 7.25,
-        "spreadBps": -9,
-        "spread": -0.09
-      },
-      {
-        "date": "2018-07-31",
-        "ruonia": 7.74,
-        "keyRate": 7.25,
-        "spreadBps": 49,
-        "spread": 0.49
-      },
-      {
-        "date": "2018-08-31",
-        "ruonia": 7.14,
-        "keyRate": 7.25,
-        "spreadBps": -11,
-        "spread": -0.11
-      },
-      {
-        "date": "2018-09-28",
-        "ruonia": 7.4,
-        "keyRate": 7.5,
-        "spreadBps": -10,
-        "spread": -0.1
-      },
-      {
-        "date": "2018-10-31",
-        "ruonia": 7.06,
-        "keyRate": 7.5,
-        "spreadBps": -44,
-        "spread": -0.44
-      },
-      {
-        "date": "2018-11-30",
-        "ruonia": 7.5,
-        "keyRate": 7.5,
-        "spreadBps": 0,
-        "spread": 0
-      },
-      {
-        "date": "2018-12-28",
-        "ruonia": 7.07,
-        "keyRate": 7.75,
-        "spreadBps": -68,
-        "spread": -0.68
-      },
-      {
-        "date": "2019-01-31",
-        "ruonia": 7.62,
-        "keyRate": 7.75,
-        "spreadBps": -13,
-        "spread": -0.13
-      },
-      {
-        "date": "2019-02-28",
-        "ruonia": 7.54,
-        "keyRate": 7.75,
-        "spreadBps": -21,
-        "spread": -0.21
-      },
-      {
-        "date": "2019-03-29",
-        "ruonia": 7.81,
-        "keyRate": 7.75,
-        "spreadBps": 6,
-        "spread": 0.06
-      },
-      {
-        "date": "2019-04-30",
-        "ruonia": 7.96,
-        "keyRate": 7.75,
-        "spreadBps": 21,
-        "spread": 0.21
-      },
-      {
-        "date": "2019-05-31",
-        "ruonia": 7.89,
-        "keyRate": 7.75,
-        "spreadBps": 14,
-        "spread": 0.14
-      },
-      {
-        "date": "2019-06-28",
-        "ruonia": 7.55,
-        "keyRate": 7.5,
-        "spreadBps": 5,
-        "spread": 0.05
-      },
-      {
-        "date": "2019-07-31",
-        "ruonia": 7.3,
-        "keyRate": 7.25,
-        "spreadBps": 5,
-        "spread": 0.05
-      },
-      {
-        "date": "2019-08-30",
-        "ruonia": 7.13,
-        "keyRate": 7.25,
-        "spreadBps": -12,
-        "spread": -0.12
-      },
-      {
-        "date": "2019-09-30",
-        "ruonia": 6.89,
-        "keyRate": 7,
-        "spreadBps": -11,
-        "spread": -0.11
-      },
-      {
-        "date": "2019-10-31",
-        "ruonia": 6.6,
-        "keyRate": 6.5,
-        "spreadBps": 10,
-        "spread": 0.1
-      },
-      {
-        "date": "2019-11-29",
-        "ruonia": 6.6,
-        "keyRate": 6.5,
-        "spreadBps": 10,
-        "spread": 0.1
-      },
-      {
-        "date": "2019-12-30",
-        "ruonia": 6.23,
-        "keyRate": 6.5,
-        "spreadBps": -27,
-        "spread": -0.27
-      },
-      {
-        "date": "2020-01-31",
-        "ruonia": 6.05,
-        "keyRate": 6.25,
-        "spreadBps": -20,
-        "spread": -0.2
-      },
-      {
-        "date": "2020-02-28",
-        "ruonia": 6.32,
-        "keyRate": 6,
-        "spreadBps": 32,
-        "spread": 0.32
-      },
-      {
-        "date": "2020-03-27",
-        "ruonia": 6.24,
-        "keyRate": 6,
-        "spreadBps": 24,
-        "spread": 0.24
-      },
-      {
-        "date": "2020-04-30",
-        "ruonia": 5.76,
-        "keyRate": 5.5,
-        "spreadBps": 26,
-        "spread": 0.26
-      },
-      {
-        "date": "2020-05-29",
-        "ruonia": 5.47,
-        "keyRate": 5.5,
-        "spreadBps": -3,
-        "spread": -0.03
-      },
-      {
-        "date": "2020-06-30",
-        "ruonia": 4.38,
-        "keyRate": 4.5,
-        "spreadBps": -12,
-        "spread": -0.12
-      },
-      {
-        "date": "2020-07-31",
-        "ruonia": 4.26,
-        "keyRate": 4.25,
-        "spreadBps": 1,
-        "spread": 0.01
-      },
-      {
-        "date": "2020-08-31",
-        "ruonia": 4.1,
-        "keyRate": 4.25,
-        "spreadBps": -15,
-        "spread": -0.15
-      },
-      {
-        "date": "2020-09-30",
-        "ruonia": 4.19,
-        "keyRate": 4.25,
-        "spreadBps": -6,
-        "spread": -0.06
-      },
-      {
-        "date": "2020-10-30",
-        "ruonia": 4.26,
-        "keyRate": 4.25,
-        "spreadBps": 1,
-        "spread": 0.01
-      },
-      {
-        "date": "2020-11-30",
-        "ruonia": 4.07,
-        "keyRate": 4.25,
-        "spreadBps": -18,
-        "spread": -0.18
-      },
-      {
-        "date": "2020-12-30",
-        "ruonia": 4.27,
-        "keyRate": 4.25,
-        "spreadBps": 2,
-        "spread": 0.02
-      },
-      {
-        "date": "2021-01-29",
-        "ruonia": 4.43,
-        "keyRate": 4.25,
-        "spreadBps": 18,
-        "spread": 0.18
-      },
-      {
-        "date": "2021-02-26",
-        "ruonia": 4.18,
-        "keyRate": 4.25,
-        "spreadBps": -7,
-        "spread": -0.07
-      },
-      {
-        "date": "2021-03-31",
-        "ruonia": 4.45,
-        "keyRate": 4.5,
-        "spreadBps": -5,
-        "spread": -0.05
-      },
-      {
-        "date": "2021-04-30",
-        "ruonia": 4.84,
-        "keyRate": 5,
-        "spreadBps": -16,
-        "spread": -0.16
-      },
-      {
-        "date": "2021-05-31",
-        "ruonia": 4.85,
-        "keyRate": 5,
-        "spreadBps": -15,
-        "spread": -0.15
-      },
-      {
-        "date": "2021-06-30",
-        "ruonia": 5.28,
-        "keyRate": 5.5,
-        "spreadBps": -22,
-        "spread": -0.22
-      },
-      {
-        "date": "2021-07-30",
-        "ruonia": 6.76,
-        "keyRate": 6.5,
-        "spreadBps": 26,
-        "spread": 0.26
-      },
-      {
-        "date": "2021-08-31",
-        "ruonia": 6.48,
-        "keyRate": 6.5,
-        "spreadBps": -2,
-        "spread": -0.02
-      },
-      {
-        "date": "2021-09-30",
-        "ruonia": 6.78,
-        "keyRate": 6.75,
-        "spreadBps": 3,
-        "spread": 0.03
-      },
-      {
-        "date": "2021-10-29",
-        "ruonia": 7.35,
-        "keyRate": 7.5,
-        "spreadBps": -15,
-        "spread": -0.15
-      },
-      {
-        "date": "2021-11-30",
-        "ruonia": 7.27,
-        "keyRate": 7.5,
-        "spreadBps": -23,
-        "spread": -0.23
-      },
-      {
-        "date": "2021-12-29",
-        "ruonia": 8.13,
-        "keyRate": 7.5,
-        "spreadBps": 63,
-        "spread": 0.63
-      },
-      {
-        "date": "2022-01-31",
-        "ruonia": 8.28,
-        "keyRate": 8.5,
-        "spreadBps": -22,
-        "spread": -0.22
-      },
-      {
-        "date": "2022-02-28",
-        "ruonia": 20,
-        "keyRate": 20,
-        "spreadBps": 0,
-        "spread": 0
-      },
-      {
-        "date": "2022-03-31",
-        "ruonia": 19.25,
-        "keyRate": 20,
-        "spreadBps": -75,
-        "spread": -0.75
-      },
-      {
-        "date": "2022-04-29",
-        "ruonia": 16.56,
-        "keyRate": 17,
-        "spreadBps": -44,
-        "spread": -0.44
-      },
-      {
-        "date": "2022-05-31",
-        "ruonia": 10.75,
-        "keyRate": 11,
-        "spreadBps": -25,
-        "spread": -0.25
-      },
-      {
-        "date": "2022-06-30",
-        "ruonia": 9,
-        "keyRate": 9.5,
-        "spreadBps": -50,
-        "spread": -0.5
-      },
-      {
-        "date": "2022-07-29",
-        "ruonia": 8.1,
-        "keyRate": 8,
-        "spreadBps": 10,
-        "spread": 0.1
-      },
-      {
-        "date": "2022-08-31",
-        "ruonia": 8.03,
-        "keyRate": 8,
-        "spreadBps": 3,
-        "spread": 0.03
-      },
-      {
-        "date": "2022-09-30",
-        "ruonia": 7.86,
-        "keyRate": 7.5,
-        "spreadBps": 36,
-        "spread": 0.36
-      },
-      {
-        "date": "2022-10-31",
-        "ruonia": 7.54,
-        "keyRate": 7.5,
-        "spreadBps": 4,
-        "spread": 0.04
-      },
-      {
-        "date": "2022-11-30",
-        "ruonia": 7.18,
-        "keyRate": 7.5,
-        "spreadBps": -32,
-        "spread": -0.32
-      },
-      {
-        "date": "2022-12-29",
-        "ruonia": 7.37,
-        "keyRate": 7.5,
-        "spreadBps": -13,
-        "spread": -0.13
-      },
-      {
-        "date": "2023-01-31",
-        "ruonia": 7.11,
-        "keyRate": 7.5,
-        "spreadBps": -39,
-        "spread": -0.39
-      },
-      {
-        "date": "2023-02-28",
-        "ruonia": 7.51,
-        "keyRate": 7.5,
-        "spreadBps": 1,
-        "spread": 0.01
-      },
-      {
-        "date": "2023-03-31",
-        "ruonia": 7.25,
-        "keyRate": 7.5,
-        "spreadBps": -25,
-        "spread": -0.25
-      },
-      {
-        "date": "2023-04-28",
-        "ruonia": 7.53,
-        "keyRate": 7.5,
-        "spreadBps": 3,
-        "spread": 0.03
-      },
-      {
-        "date": "2023-05-31",
-        "ruonia": 7.37,
-        "keyRate": 7.5,
-        "spreadBps": -13,
-        "spread": -0.13
-      },
-      {
-        "date": "2023-06-30",
-        "ruonia": 7.45,
-        "keyRate": 7.5,
-        "spreadBps": -5,
-        "spread": -0.05
-      },
-      {
-        "date": "2023-07-31",
-        "ruonia": 8.42,
-        "keyRate": 8.5,
-        "spreadBps": -8,
-        "spread": -0.08
-      },
-      {
-        "date": "2023-08-31",
-        "ruonia": 11.84,
-        "keyRate": 12,
-        "spreadBps": -16,
-        "spread": -0.16
-      },
-      {
-        "date": "2023-09-29",
-        "ruonia": 12.43,
-        "keyRate": 13,
-        "spreadBps": -57,
-        "spread": -0.57
-      },
-      {
-        "date": "2023-10-31",
-        "ruonia": 14.5,
-        "keyRate": 15,
-        "spreadBps": -50,
-        "spread": -0.5
-      },
-      {
-        "date": "2023-11-30",
-        "ruonia": 14.91,
-        "keyRate": 15,
-        "spreadBps": -9,
-        "spread": -0.09
-      },
-      {
-        "date": "2023-12-28",
-        "ruonia": 15.27,
-        "keyRate": 15,
-        "spreadBps": 27,
-        "spread": 0.27
-      },
-      {
-        "date": "2024-01-31",
-        "ruonia": 16,
-        "keyRate": 16,
-        "spreadBps": 0,
-        "spread": 0
-      },
-      {
-        "date": "2024-02-29",
-        "ruonia": 15.75,
-        "keyRate": 16,
-        "spreadBps": -25,
-        "spread": -0.25
-      },
-      {
-        "date": "2024-03-29",
-        "ruonia": 15.99,
-        "keyRate": 16,
-        "spreadBps": -1,
-        "spread": -0.01
-      },
-      {
-        "date": "2024-04-27",
-        "ruonia": 15.86,
-        "keyRate": 16,
-        "spreadBps": -14,
-        "spread": -0.14
-      },
-      {
-        "date": "2024-05-31",
-        "ruonia": 16.14,
-        "keyRate": 16,
-        "spreadBps": 14,
-        "spread": 0.14
-      },
-      {
-        "date": "2024-06-28",
-        "ruonia": 15.66,
-        "keyRate": 16,
-        "spreadBps": -34,
-        "spread": -0.34
-      },
-      {
-        "date": "2024-07-31",
-        "ruonia": 17.28,
-        "keyRate": 18,
-        "spreadBps": -72,
-        "spread": -0.72
-      },
-      {
-        "date": "2024-08-30",
-        "ruonia": 18.98,
-        "keyRate": 18,
-        "spreadBps": 98,
-        "spread": 0.98
-      },
-      {
-        "date": "2024-09-30",
-        "ruonia": 18.41,
-        "keyRate": 19,
-        "spreadBps": -59,
-        "spread": -0.59
-      },
-      {
-        "date": "2024-10-31",
-        "ruonia": 20.57,
-        "keyRate": 21,
-        "spreadBps": -43,
-        "spread": -0.43
-      },
-      {
-        "date": "2024-11-29",
-        "ruonia": 21.09,
-        "keyRate": 21,
-        "spreadBps": 9,
-        "spread": 0.09
-      },
-      {
-        "date": "2024-12-27",
-        "ruonia": 20.47,
-        "keyRate": 21,
-        "spreadBps": -53,
-        "spread": -0.53
-      },
-      {
-        "date": "2025-01-31",
-        "ruonia": 20.76,
-        "keyRate": 21,
-        "spreadBps": -24,
-        "spread": -0.24
-      },
-      {
-        "date": "2025-02-28",
-        "ruonia": 21.17,
-        "keyRate": 21,
-        "spreadBps": 17,
-        "spread": 0.17
-      },
-      {
-        "date": "2025-03-31",
-        "ruonia": 21.45,
-        "keyRate": 21,
-        "spreadBps": 45,
-        "spread": 0.45
-      },
-      {
-        "date": "2025-04-30",
-        "ruonia": 20.74,
-        "keyRate": 21,
-        "spreadBps": -26,
-        "spread": -0.26
-      },
-      {
-        "date": "2025-05-30",
-        "ruonia": 21.03,
-        "keyRate": 21,
-        "spreadBps": 3,
-        "spread": 0.03
-      },
-      {
-        "date": "2025-06-30",
-        "ruonia": 20.23,
-        "keyRate": 20,
-        "spreadBps": 23,
-        "spread": 0.23
-      },
-      {
-        "date": "2025-07-31",
-        "ruonia": 18.23,
-        "keyRate": 18,
-        "spreadBps": 23,
-        "spread": 0.23
-      },
-      {
-        "date": "2025-08-29",
-        "ruonia": 17.75,
-        "keyRate": 18,
-        "spreadBps": -25,
-        "spread": -0.25
-      },
-      {
-        "date": "2025-09-30",
-        "ruonia": 16.99,
-        "keyRate": 17,
-        "spreadBps": -1,
-        "spread": -0.01
-      },
-      {
-        "date": "2025-10-31",
-        "ruonia": 16.29,
-        "keyRate": 16.5,
-        "spreadBps": -21,
-        "spread": -0.21
-      },
-      {
-        "date": "2025-11-28",
-        "ruonia": 16.25,
-        "keyRate": 16.5,
-        "spreadBps": -25,
-        "spread": -0.25
-      },
-      {
-        "date": "2025-12-29",
-        "ruonia": 15.85,
-        "keyRate": 16.5,
-        "spreadBps": -65,
-        "spread": -0.65
-      },
-      {
-        "date": "2026-01-30",
-        "ruonia": 15.83,
-        "keyRate": 16,
-        "spreadBps": -17,
-        "spread": -0.17
-      },
-      {
-        "date": "2026-02-27",
-        "ruonia": 15.3,
-        "keyRate": 15.5,
-        "spreadBps": -20,
-        "spread": -0.2
-      },
-      {
-        "date": "2026-03-31",
-        "ruonia": 14.87,
-        "keyRate": 15,
-        "spreadBps": -13,
-        "spread": -0.13
-      },
-      {
-        "date": "2026-04-30",
-        "ruonia": 14.49,
-        "keyRate": 14.5,
-        "spreadBps": -1,
-        "spread": -0.01
-      },
-      {
-        "date": "2026-05-29",
-        "ruonia": 14.22,
-        "keyRate": 14.5,
-        "spreadBps": -28,
-        "spread": -0.28
-      },
-      {
-        "date": "2026-06-30",
-        "ruonia": 14.25,
-        "keyRate": 14.25,
-        "spreadBps": 0,
-        "spread": 0
-      },
-      {
-        "date": "2026-07-31",
-        "ruonia": 13.95,
-        "keyRate": 14,
-        "spreadBps": -5,
-        "spread": -0.05
-      },
-      {
-        "date": "2026-08-31",
-        "ruonia": 13.68,
-        "keyRate": 14,
-        "spreadBps": -32,
-        "spread": -0.32
-      },
-      {
-        "date": "2026-09-30",
-        "ruonia": 14.04,
-        "keyRate": 14,
-        "spreadBps": 4,
-        "spread": 0.04
-      },
-      {
-        "date": "2026-10-22",
-        "ruonia": 14.2,
-        "keyRate": 14,
-        "spreadBps": 20,
-        "spread": 0.2
-      }
-    ],
-    "spreadRuoniaKey": 20,
+    "spreadSeries": [],
+    "spreadRuoniaKey": null,
     "path": {
       "market": [
         {
           "label": "Сегодня",
-          "date": "2026-10-28",
-          "rate": 14,
+          "date": "2026-10-29",
+          "rate": null,
           "series": "implied"
         },
         {
           "label": "Заседание",
           "date": "2026-11-05",
-          "rate": 13,
+          "rate": null,
           "series": "implied"
         },
         {
           "label": "3М",
           "date": null,
-          "rate": 13.0923,
+          "rate": 12.8358,
           "series": "implied"
         },
         {
           "label": "6М",
           "date": null,
-          "rate": 13.431,
+          "rate": 13.2624,
           "series": "implied"
         },
         {
           "label": "9М",
           "date": null,
-          "rate": 13.7347,
+          "rate": 13.6382,
           "series": "implied"
         },
         {
           "label": "1Г",
           "date": null,
-          "rate": 14.0112,
+          "rate": 13.972,
           "series": "implied"
         }
       ],
       "consensus": [
         {
           "label": "Сегодня",
-          "date": "2026-10-28",
-          "rate": 14,
+          "date": "2026-10-29",
+          "rate": null,
           "series": "consensus"
         },
         {
@@ -1167,248 +285,7 @@
         }
       ]
     },
-    "rateHistory": [
-      {
-        "date": "2023-07-31",
-        "rate": 8.5,
-        "change": null,
-        "shortDate": "23-07"
-      },
-      {
-        "date": "2023-08-31",
-        "rate": 12,
-        "change": 350,
-        "shortDate": "23-08"
-      },
-      {
-        "date": "2023-09-29",
-        "rate": 13,
-        "change": 100,
-        "shortDate": "23-09"
-      },
-      {
-        "date": "2023-10-31",
-        "rate": 15,
-        "change": 200,
-        "shortDate": "23-10"
-      },
-      {
-        "date": "2023-11-30",
-        "rate": 15,
-        "change": 0,
-        "shortDate": "23-11"
-      },
-      {
-        "date": "2023-12-29",
-        "rate": 16,
-        "change": 100,
-        "shortDate": "23-12"
-      },
-      {
-        "date": "2024-01-31",
-        "rate": 16,
-        "change": 0,
-        "shortDate": "24-01"
-      },
-      {
-        "date": "2024-02-29",
-        "rate": 16,
-        "change": 0,
-        "shortDate": "24-02"
-      },
-      {
-        "date": "2024-03-29",
-        "rate": 16,
-        "change": 0,
-        "shortDate": "24-03"
-      },
-      {
-        "date": "2024-04-30",
-        "rate": 16,
-        "change": 0,
-        "shortDate": "24-04"
-      },
-      {
-        "date": "2024-05-31",
-        "rate": 16,
-        "change": 0,
-        "shortDate": "24-05"
-      },
-      {
-        "date": "2024-06-28",
-        "rate": 16,
-        "change": 0,
-        "shortDate": "24-06"
-      },
-      {
-        "date": "2024-07-31",
-        "rate": 18,
-        "change": 200,
-        "shortDate": "24-07"
-      },
-      {
-        "date": "2024-08-30",
-        "rate": 18,
-        "change": 0,
-        "shortDate": "24-08"
-      },
-      {
-        "date": "2024-09-30",
-        "rate": 19,
-        "change": 100,
-        "shortDate": "24-09"
-      },
-      {
-        "date": "2024-10-31",
-        "rate": 21,
-        "change": 200,
-        "shortDate": "24-10"
-      },
-      {
-        "date": "2024-11-29",
-        "rate": 21,
-        "change": 0,
-        "shortDate": "24-11"
-      },
-      {
-        "date": "2024-12-30",
-        "rate": 21,
-        "change": 0,
-        "shortDate": "24-12"
-      },
-      {
-        "date": "2025-01-31",
-        "rate": 21,
-        "change": 0,
-        "shortDate": "25-01"
-      },
-      {
-        "date": "2025-02-28",
-        "rate": 21,
-        "change": 0,
-        "shortDate": "25-02"
-      },
-      {
-        "date": "2025-03-31",
-        "rate": 21,
-        "change": 0,
-        "shortDate": "25-03"
-      },
-      {
-        "date": "2025-04-30",
-        "rate": 21,
-        "change": 0,
-        "shortDate": "25-04"
-      },
-      {
-        "date": "2025-05-30",
-        "rate": 21,
-        "change": 0,
-        "shortDate": "25-05"
-      },
-      {
-        "date": "2025-06-30",
-        "rate": 20,
-        "change": -100,
-        "shortDate": "25-06"
-      },
-      {
-        "date": "2025-07-31",
-        "rate": 18,
-        "change": -200,
-        "shortDate": "25-07"
-      },
-      {
-        "date": "2025-08-29",
-        "rate": 18,
-        "change": 0,
-        "shortDate": "25-08"
-      },
-      {
-        "date": "2025-09-30",
-        "rate": 17,
-        "change": -100,
-        "shortDate": "25-09"
-      },
-      {
-        "date": "2025-10-31",
-        "rate": 16.5,
-        "change": -50,
-        "shortDate": "25-10"
-      },
-      {
-        "date": "2025-11-28",
-        "rate": 16.5,
-        "change": 0,
-        "shortDate": "25-11"
-      },
-      {
-        "date": "2025-12-30",
-        "rate": 16,
-        "change": -50,
-        "shortDate": "25-12"
-      },
-      {
-        "date": "2026-01-30",
-        "rate": 16,
-        "change": 0,
-        "shortDate": "26-01"
-      },
-      {
-        "date": "2026-02-27",
-        "rate": 15.5,
-        "change": -50,
-        "shortDate": "26-02"
-      },
-      {
-        "date": "2026-03-31",
-        "rate": 15,
-        "change": -50,
-        "shortDate": "26-03"
-      },
-      {
-        "date": "2026-04-30",
-        "rate": 14.5,
-        "change": -50,
-        "shortDate": "26-04"
-      },
-      {
-        "date": "2026-05-29",
-        "rate": 14.5,
-        "change": 0,
-        "shortDate": "26-05"
-      },
-      {
-        "date": "2026-06-30",
-        "rate": 14.25,
-        "change": -25,
-        "shortDate": "26-06"
-      },
-      {
-        "date": "2026-07-31",
-        "rate": 14,
-        "change": -25,
-        "shortDate": "26-07"
-      },
-      {
-        "date": "2026-08-31",
-        "rate": 14,
-        "change": 0,
-        "shortDate": "26-08"
-      },
-      {
-        "date": "2026-09-30",
-        "rate": 14,
-        "change": 0,
-        "shortDate": "26-09"
-      },
-      {
-        "date": "2026-10-27",
-        "rate": 14,
-        "change": 0,
-        "shortDate": "26-10"
-      }
-    ],
+    "rateHistory": [],
     "meetings": [
       {
         "date": "2024-02-16",
@@ -1813,12 +690,12 @@
         "right": "RGBI",
         "meaning": "Главный локальный барометр риска: деньги в широкий рынок акций или в длинные ОФЗ. Растёт — акции обгоняют госдолг.",
         "mode": "смешанный",
-        "last": 22.446064917741218,
-        "asOf": "2026-10-27",
-        "ma12": 21.905420695016634,
-        "ma7y": 22.944330932335244,
-        "vs12": 2.4680841799471933,
-        "vs7": -2.1716301776829092,
+        "last": 22.420065760241712,
+        "asOf": "2026-10-28",
+        "ma12": 21.903420759824364,
+        "ma7y": 22.944025059894074,
+        "vs12": 2.3587411577509743,
+        "vs7": -2.2836415942041346,
         "points": [
           {
             "date": "2016-01-29",
@@ -2337,8 +1214,8 @@
             "value": 20.38095666247078
           },
           {
-            "date": "2026-10-27",
-            "value": 22.446064917741218
+            "date": "2026-10-28",
+            "value": 22.420065760241712
           }
         ],
         "emptyReason": null,
@@ -2351,12 +1228,12 @@
         "right": "RUCBTRBBBNS",
         "meaning": "Кредитный аппетит. Растёт — инвесторы готовы держать высокодоходные бумаги против BBB.",
         "mode": "режим снижения риска",
-        "last": 0.7951723839598563,
-        "asOf": "2026-10-27",
-        "ma12": 0.8638715857164295,
-        "ma7y": 0.8497996182759869,
-        "vs12": -7.952478457732728,
-        "vs7": -6.428248864944708,
+        "last": 0.7959697732997482,
+        "asOf": "2026-10-28",
+        "ma12": 0.8639329233579596,
+        "ma7y": 0.8498113445898089,
+        "vs12": -7.866716063331661,
+        "vs7": -6.335708699681956,
         "points": [
           {
             "date": "2021-03-31",
@@ -2627,8 +1504,8 @@
             "value": 0.7980138322397589
           },
           {
-            "date": "2026-10-27",
-            "value": 0.7951723839598563
+            "date": "2026-10-28",
+            "value": 0.7959697732997482
           }
         ],
         "emptyReason": null,
@@ -2641,12 +1518,12 @@
         "right": "MOEXOG",
         "meaning": "Финансы против нефтегаза. Растёт — рынок платит за внутренний финансовый цикл, а не только за сырьё.",
         "mode": "смешанный",
-        "last": 1.2402609369176134,
-        "asOf": "2026-10-27",
-        "ma12": 1.372457430047605,
-        "ma7y": 1.200653229715318,
-        "vs12": -9.63210153085813,
-        "vs7": 3.2988465130507802,
+        "last": 1.242896029605487,
+        "asOf": "2026-10-28",
+        "ma12": 1.3726601294851335,
+        "ma7y": 1.2006842308057637,
+        "vs12": -9.453476289744012,
+        "vs7": 3.515645305959874,
         "points": [
           {
             "date": "2016-01-29",
@@ -3165,8 +2042,8 @@
             "value": 1.2650376700285988
           },
           {
-            "date": "2026-10-27",
-            "value": 1.2402609369176134
+            "date": "2026-10-28",
+            "value": 1.242896029605487
           }
         ],
         "emptyReason": null,
@@ -3179,12 +2056,12 @@
         "right": "USDRUB",
         "meaning": "Индекс в долларовом выражении (кросс с курсом ЦБ R01235). Растёт — рублёвые акции обгоняют ослабление валюты.",
         "mode": "режим снижения риска",
-        "last": 31.342829504772716,
-        "asOf": "2026-10-27",
-        "ma12": 32.41646991206099,
-        "ma7y": 37.35560926751782,
-        "vs12": -3.312021358898215,
-        "vs7": -16.096055935496288,
+        "last": 31.198742617452982,
+        "asOf": "2026-10-28",
+        "ma12": 32.40538630534408,
+        "ma7y": 37.353914127667,
+        "vs12": -3.7235898887960692,
+        "vs7": -16.477982706650415,
         "points": [
           {
             "date": "2016-11-30",
@@ -3663,8 +2540,8 @@
             "value": 26.84846194937006
           },
           {
-            "date": "2026-10-27",
-            "value": 31.342829504772716
+            "date": "2026-10-28",
+            "value": 31.198742617452982
           }
         ],
         "emptyReason": null,
@@ -3677,12 +2554,12 @@
         "right": "USDRUB",
         "meaning": "ОФЗ против доллара. Растёт — госдолг держит стоимость лучше, чем валютная «подушка».",
         "mode": "режим снижения риска",
-        "last": 1.3963618843496952,
-        "asOf": "2026-10-27",
-        "ma12": 1.4764650727472959,
-        "ma7y": 1.6729963103524723,
-        "vs12": -5.425335815668882,
-        "vs7": -16.535268146795545,
+        "last": 1.3915544651425067,
+        "asOf": "2026-10-28",
+        "ma12": 1.4760952712698199,
+        "ma7y": 1.672939752479447,
+        "vs12": -5.72732721070141,
+        "vs7": -16.819809973425638,
         "points": [
           {
             "date": "2016-11-30",
@@ -4161,8 +3038,8 @@
             "value": 1.3173308002174626
           },
           {
-            "date": "2026-10-27",
-            "value": 1.3963618843496952
+            "date": "2026-10-28",
+            "value": 1.3915544651425067
           }
         ],
         "emptyReason": null,
@@ -4175,12 +3052,12 @@
         "right": "SPLICE",
         "meaning": "Взвешенный индекс HY+BBB против 5л+3л корпоратов с коэффициентами SPLICE_K. Это реконструкция весов, не котировка одной бумаги.",
         "mode": "режим снижения риска",
-        "last": 1.0488112604999875,
+        "last": 1.0448519528695865,
         "asOf": "2026-10-01",
-        "ma12": 1.079208926829861,
-        "ma7y": 1.0582152967487983,
-        "vs12": -2.816661869093837,
-        "vs7": -0.8886694680849205,
+        "ma12": 1.0788789845273274,
+        "ma7y": 1.0581570716365867,
+        "vs12": -3.1539247817167033,
+        "vs7": -1.2573859896264667,
         "points": [
           {
             "date": "2021-03-01",
@@ -4452,7 +3329,7 @@
           },
           {
             "date": "2026-10-01",
-            "value": 1.0488112604999875
+            "value": 1.0448519528695865
           }
         ],
         "emptyReason": null,
@@ -4468,28 +3345,28 @@
     }
   },
   "metrics": {
-    "imoex": 2524.06,
-    "imoexYoy": -8.77,
+    "imoex": 2522.93,
+    "imoexYoy": -8.81,
     "imoexHl": {
       "high": 2912.01,
       "low": 1898.51
     },
-    "key": 14,
-    "keyEffectiveSince": "2026-07-24",
+    "key": null,
+    "keyEffectiveSince": null,
     "m2": 13.3,
     "m2Date": "2026-10-01",
     "cpi": 6.35,
     "cpiDate": "2026-09-01",
     "spread": 6.450000000000001,
     "spreadMonth": "2026-09-01",
-    "real": 7.65,
-    "keyDate": "2026-10-27",
-    "asOf": "2026-10-27",
+    "real": null,
+    "keyDate": null,
+    "asOf": "2026-09-01",
     "kpis": [
       {
         "id": "imoex",
         "label": "IMOEX",
-        "value": 2524.06,
+        "value": 2522.93,
         "digits": 2,
         "unit": "",
         "badge": "г/г −8,8%",
@@ -4499,11 +3376,11 @@
       {
         "id": "key",
         "label": "Ключ. ставка",
-        "value": 14,
+        "value": null,
         "digits": 2,
         "unit": "%",
-        "hint": "на 2026-07-24",
-        "tone": "warn"
+        "hint": null,
+        "tone": "none"
       },
       {
         "id": "m2",
@@ -4535,11 +3412,11 @@
       {
         "id": "real",
         "label": "Реальн. ставка",
-        "value": 7.65,
+        "value": null,
         "digits": 1,
         "unit": "п.п.",
-        "hint": "Жёсткость ДКП = ключевая ставка − ИПЦ · ключ 27.10.2026 · ИПЦ сентябрь 2026",
-        "tone": "bad"
+        "hint": "Жёсткость ДКП = ключевая ставка − ИПЦ · ИПЦ сентябрь 2026",
+        "tone": "none"
       }
     ]
   },
@@ -6041,865 +4918,865 @@
         "imoex": 1989.64,
         "m2": 12.8,
         "cpi": 6.09,
-        "key": 10
+        "key": null
       },
       {
         "date": "2016-11-01",
         "imoex": 2104.91,
         "m2": 12.1,
         "cpi": 5.76,
-        "key": 10
+        "key": null
       },
       {
         "date": "2016-12-01",
         "imoex": 2232.72,
         "m2": 11.3,
         "cpi": 5.38,
-        "key": 10
+        "key": null
       },
       {
         "date": "2017-01-01",
         "imoex": 2217.39,
         "m2": 9.2,
         "cpi": 5.02,
-        "key": 10
+        "key": null
       },
       {
         "date": "2017-02-01",
         "imoex": 2035.77,
         "m2": 12,
         "cpi": 4.59,
-        "key": 10
+        "key": null
       },
       {
         "date": "2017-03-01",
         "imoex": 1995.9,
         "m2": 12.1,
         "cpi": 4.25,
-        "key": 9.75
+        "key": null
       },
       {
         "date": "2017-04-01",
         "imoex": 2016.71,
         "m2": 11.1,
         "cpi": 4.13,
-        "key": 9.75
+        "key": null
       },
       {
         "date": "2017-05-01",
         "imoex": 1900.38,
         "m2": 10.1,
         "cpi": 4.09,
-        "key": 9.25
+        "key": null
       },
       {
         "date": "2017-06-01",
         "imoex": 1879.5,
         "m2": 10,
         "cpi": 4.35,
-        "key": 9
+        "key": null
       },
       {
         "date": "2017-07-01",
         "imoex": 1919.53,
         "m2": 10.5,
         "cpi": 3.86,
-        "key": 9
+        "key": null
       },
       {
         "date": "2017-08-01",
         "imoex": 2022.22,
         "m2": 9,
         "cpi": 3.29,
-        "key": 9
+        "key": null
       },
       {
         "date": "2017-09-01",
         "imoex": 2077.19,
         "m2": 9.1,
         "cpi": 2.96,
-        "key": 8.5
+        "key": null
       },
       {
         "date": "2017-10-01",
         "imoex": 2064.31,
         "m2": 9.5,
         "cpi": 2.73,
-        "key": 8.25
+        "key": null
       },
       {
         "date": "2017-11-01",
         "imoex": 2100.62,
         "m2": 10,
         "cpi": 2.5,
-        "key": 8.25
+        "key": null
       },
       {
         "date": "2017-12-01",
         "imoex": 2109.74,
         "m2": 10.1,
         "cpi": 2.52,
-        "key": 7.75
+        "key": null
       },
       {
         "date": "2018-01-01",
         "imoex": 2289.99,
         "m2": 10.5,
         "cpi": 2.21,
-        "key": 7.75
+        "key": null
       },
       {
         "date": "2018-02-01",
         "imoex": 2296.8,
         "m2": 9.4,
         "cpi": 2.2,
-        "key": 7.5
+        "key": null
       },
       {
         "date": "2018-03-01",
         "imoex": 2270.98,
         "m2": 9.3,
         "cpi": 2.36,
-        "key": 7.25
+        "key": null
       },
       {
         "date": "2018-04-01",
         "imoex": 2307.02,
         "m2": 9.9,
         "cpi": 2.41,
-        "key": 7.25
+        "key": null
       },
       {
         "date": "2018-05-01",
         "imoex": 2302.88,
         "m2": 11.5,
         "cpi": 2.42,
-        "key": 7.25
+        "key": null
       },
       {
         "date": "2018-06-01",
         "imoex": 2295.95,
         "m2": 10.3,
         "cpi": 2.3,
-        "key": 7.25
+        "key": null
       },
       {
         "date": "2018-07-01",
         "imoex": 2321.11,
         "m2": 11.4,
         "cpi": 2.5,
-        "key": 7.25
+        "key": null
       },
       {
         "date": "2018-08-01",
         "imoex": 2345.85,
         "m2": 11.8,
         "cpi": 3.07,
-        "key": 7.25
+        "key": null
       },
       {
         "date": "2018-09-01",
         "imoex": 2475.36,
         "m2": 12.6,
         "cpi": 3.39,
-        "key": 7.5
+        "key": null
       },
       {
         "date": "2018-10-01",
         "imoex": 2352.71,
         "m2": 11.8,
         "cpi": 3.55,
-        "key": 7.5
+        "key": null
       },
       {
         "date": "2018-11-01",
         "imoex": 2392.5,
         "m2": 11.5,
         "cpi": 3.83,
-        "key": 7.5
+        "key": null
       },
       {
         "date": "2018-12-01",
         "imoex": 2369.33,
         "m2": 11.9,
         "cpi": 4.27,
-        "key": 7.75
+        "key": null
       },
       {
         "date": "2019-01-01",
         "imoex": 2521.1,
         "m2": 11,
         "cpi": 5,
-        "key": 7.75
+        "key": null
       },
       {
         "date": "2019-02-01",
         "imoex": 2485.27,
         "m2": 9.9,
         "cpi": 5.24,
-        "key": 7.75
+        "key": null
       },
       {
         "date": "2019-03-01",
         "imoex": 2497.1,
         "m2": 9.9,
         "cpi": 5.27,
-        "key": 7.75
+        "key": null
       },
       {
         "date": "2019-04-01",
         "imoex": 2559.32,
         "m2": 8.9,
         "cpi": 5.17,
-        "key": 7.75
+        "key": null
       },
       {
         "date": "2019-05-01",
         "imoex": 2665.33,
         "m2": 7.7,
         "cpi": 5.13,
-        "key": 7.75
+        "key": null
       },
       {
         "date": "2019-06-01",
         "imoex": 2765.85,
         "m2": 8,
         "cpi": 4.66,
-        "key": 7.5
+        "key": null
       },
       {
         "date": "2019-07-01",
         "imoex": 2739.5,
         "m2": 7.3,
         "cpi": 4.59,
-        "key": 7.25
+        "key": null
       },
       {
         "date": "2019-08-01",
         "imoex": 2740.04,
         "m2": 7.8,
         "cpi": 4.33,
-        "key": 7.25
+        "key": null
       },
       {
         "date": "2019-09-01",
         "imoex": 2747.18,
         "m2": 7.2,
         "cpi": 3.99,
-        "key": 7
+        "key": null
       },
       {
         "date": "2019-10-01",
         "imoex": 2893.98,
         "m2": 9.1,
         "cpi": 3.77,
-        "key": 6.5
+        "key": null
       },
       {
         "date": "2019-11-01",
         "imoex": 2935.37,
         "m2": 8.7,
         "cpi": 3.54,
-        "key": 6.5
+        "key": null
       },
       {
         "date": "2019-12-01",
         "imoex": 3045.87,
         "m2": 9.6,
         "cpi": 3.05,
-        "key": 6.25
+        "key": null
       },
       {
         "date": "2020-01-01",
         "imoex": 3076.65,
         "m2": 9.7,
         "cpi": 2.42,
-        "key": 6.25
+        "key": null
       },
       {
         "date": "2020-02-01",
         "imoex": 2785.08,
         "m2": 10.7,
         "cpi": 2.31,
-        "key": 6
+        "key": null
       },
       {
         "date": "2020-03-01",
         "imoex": 2508.81,
         "m2": 11,
         "cpi": 2.55,
-        "key": 6
+        "key": null
       },
       {
         "date": "2020-04-01",
         "imoex": 2650.56,
         "m2": 13.4,
         "cpi": 3.1,
-        "key": 5.5
+        "key": null
       },
       {
         "date": "2020-05-01",
         "imoex": 2734.83,
         "m2": 14,
         "cpi": 3.03,
-        "key": 5.5
+        "key": null
       },
       {
         "date": "2020-06-01",
         "imoex": 2743.2,
         "m2": 13.5,
         "cpi": 3.21,
-        "key": 4.5
+        "key": null
       },
       {
         "date": "2020-07-01",
         "imoex": 2911.57,
         "m2": 14.9,
         "cpi": 3.37,
-        "key": 4.25
+        "key": null
       },
       {
         "date": "2020-08-01",
         "imoex": 2966.2,
         "m2": 15.5,
         "cpi": 3.57,
-        "key": 4.25
+        "key": null
       },
       {
         "date": "2020-09-01",
         "imoex": 2905.81,
         "m2": 16.2,
         "cpi": 3.67,
-        "key": 4.25
+        "key": null
       },
       {
         "date": "2020-10-01",
         "imoex": 2690.59,
         "m2": 16.1,
         "cpi": 3.98,
-        "key": 4.25
+        "key": null
       },
       {
         "date": "2020-11-01",
         "imoex": 3107.58,
         "m2": 16.2,
         "cpi": 4.42,
-        "key": 4.25
+        "key": null
       },
       {
         "date": "2020-12-01",
         "imoex": 3289.02,
         "m2": 14.1,
         "cpi": 4.91,
-        "key": 4.25
+        "key": null
       },
       {
         "date": "2021-01-01",
         "imoex": 3277.08,
         "m2": 13.5,
         "cpi": 5.19,
-        "key": 4.25
+        "key": null
       },
       {
         "date": "2021-02-01",
         "imoex": 3346.64,
         "m2": 13.8,
         "cpi": 5.67,
-        "key": 4.25
+        "key": null
       },
       {
         "date": "2021-03-01",
         "imoex": 3541.72,
         "m2": 13.4,
         "cpi": 5.78,
-        "key": 4.5
+        "key": null
       },
       {
         "date": "2021-04-01",
         "imoex": 3544,
         "m2": 11.3,
         "cpi": 5.52,
-        "key": 5
+        "key": null
       },
       {
         "date": "2021-05-01",
         "imoex": 3721.63,
         "m2": 11.8,
         "cpi": 6.01,
-        "key": 5
+        "key": null
       },
       {
         "date": "2021-06-01",
         "imoex": 3841.85,
         "m2": 11.5,
         "cpi": 6.51,
-        "key": 5.5
+        "key": null
       },
       {
         "date": "2021-07-01",
         "imoex": 3771.58,
         "m2": 9.5,
         "cpi": 6.47,
-        "key": 6.5
+        "key": null
       },
       {
         "date": "2021-08-01",
         "imoex": 3918.96,
         "m2": 8.6,
         "cpi": 6.69,
-        "key": 6.5
+        "key": null
       },
       {
         "date": "2021-09-01",
         "imoex": 4103.52,
         "m2": 8.2,
         "cpi": 7.41,
-        "key": 6.75
+        "key": null
       },
       {
         "date": "2021-10-01",
         "imoex": 4150,
         "m2": 8.2,
         "cpi": 8.14,
-        "key": 7.5
+        "key": null
       },
       {
         "date": "2021-11-01",
         "imoex": 3890.59,
         "m2": 8.8,
         "cpi": 8.4,
-        "key": 7.5
+        "key": null
       },
       {
         "date": "2021-12-01",
         "imoex": 3787.26,
         "m2": 11,
         "cpi": 8.39,
-        "key": 8.5
+        "key": null
       },
       {
         "date": "2022-01-01",
         "imoex": 3530.38,
         "m2": 13,
         "cpi": 8.74,
-        "key": 8.5
+        "key": null
       },
       {
         "date": "2022-02-01",
         "imoex": 2470.48,
         "m2": 13.4,
         "cpi": 9.16,
-        "key": 20
+        "key": null
       },
       {
         "date": "2022-03-01",
         "imoex": 2703.51,
         "m2": 14.6,
         "cpi": 16.7,
-        "key": 20
+        "key": null
       },
       {
         "date": "2022-04-01",
         "imoex": 2445.17,
         "m2": 17.1,
         "cpi": 17.83,
-        "key": 17
+        "key": null
       },
       {
         "date": "2022-05-01",
         "imoex": 2355.75,
         "m2": 15.7,
         "cpi": 17.11,
-        "key": 11
+        "key": null
       },
       {
         "date": "2022-06-01",
         "imoex": 2204.85,
         "m2": 16.6,
         "cpi": 15.9,
-        "key": 9.5
+        "key": null
       },
       {
         "date": "2022-07-01",
         "imoex": 2213.81,
         "m2": 16.8,
         "cpi": 15.09,
-        "key": 8
+        "key": null
       },
       {
         "date": "2022-08-01",
         "imoex": 2400.08,
         "m2": 19.3,
         "cpi": 14.3,
-        "key": 8
+        "key": null
       },
       {
         "date": "2022-09-01",
         "imoex": 1957.31,
         "m2": 22.6,
         "cpi": 13.67,
-        "key": 7.5
+        "key": null
       },
       {
         "date": "2022-10-01",
         "imoex": 2166.61,
         "m2": 23.9,
         "cpi": 12.63,
-        "key": 7.5
+        "key": null
       },
       {
         "date": "2022-11-01",
         "imoex": 2174.53,
         "m2": 24.4,
         "cpi": 11.97,
-        "key": 7.5
+        "key": null
       },
       {
         "date": "2022-12-01",
         "imoex": 2154.12,
         "m2": 23.4,
         "cpi": 11.92,
-        "key": 7.5
+        "key": null
       },
       {
         "date": "2023-01-01",
         "imoex": 2225.6,
         "m2": 24.4,
         "cpi": 11.76,
-        "key": 7.5
+        "key": null
       },
       {
         "date": "2023-02-01",
         "imoex": 2253.16,
         "m2": 25.9,
         "cpi": 10.97,
-        "key": 7.5
+        "key": null
       },
       {
         "date": "2023-03-01",
         "imoex": 2450.67,
         "m2": 25.9,
         "cpi": 3.51,
-        "key": 7.5
+        "key": null
       },
       {
         "date": "2023-04-01",
         "imoex": 2634.94,
         "m2": 24.4,
         "cpi": 2.3,
-        "key": 7.5
+        "key": null
       },
       {
         "date": "2023-05-01",
         "imoex": 2717.64,
         "m2": 23.6,
         "cpi": 2.5,
-        "key": 7.5
+        "key": null
       },
       {
         "date": "2023-06-01",
         "imoex": 2797.37,
         "m2": 24.9,
         "cpi": 3.24,
-        "key": 7.5
+        "key": null
       },
       {
         "date": "2023-07-01",
         "imoex": 3073.5,
         "m2": 25.4,
         "cpi": 4.3,
-        "key": 8.5
+        "key": null
       },
       {
         "date": "2023-08-01",
         "imoex": 3227.99,
         "m2": 24.7,
         "cpi": 5.13,
-        "key": 12
+        "key": null
       },
       {
         "date": "2023-09-01",
         "imoex": 3133.26,
         "m2": 22.9,
         "cpi": 6,
-        "key": 13
+        "key": null
       },
       {
         "date": "2023-10-01",
         "imoex": 3200.97,
         "m2": 20.6,
         "cpi": 6.68,
-        "key": 15
+        "key": null
       },
       {
         "date": "2023-11-01",
         "imoex": 3165.79,
         "m2": 20.5,
         "cpi": 7.47,
-        "key": 15
+        "key": null
       },
       {
         "date": "2023-12-01",
         "imoex": 3099.11,
         "m2": 20.4,
         "cpi": 7.42,
-        "key": 16
+        "key": null
       },
       {
         "date": "2024-01-01",
         "imoex": 3214.19,
         "m2": 19.4,
         "cpi": 7.44,
-        "key": 16
+        "key": null
       },
       {
         "date": "2024-02-01",
         "imoex": 3256.8,
         "m2": 19,
         "cpi": 7.67,
-        "key": 16
+        "key": null
       },
       {
         "date": "2024-03-01",
         "imoex": 3332.53,
         "m2": 18.4,
         "cpi": 7.69,
-        "key": 16
+        "key": null
       },
       {
         "date": "2024-04-01",
         "imoex": 3469.83,
         "m2": 17.4,
         "cpi": 7.82,
-        "key": 16
+        "key": null
       },
       {
         "date": "2024-05-01",
         "imoex": 3217.19,
         "m2": 21.8,
         "cpi": 8.29,
-        "key": 16
+        "key": null
       },
       {
         "date": "2024-06-01",
         "imoex": 3154.36,
         "m2": 18.9,
         "cpi": 8.58,
-        "key": 16
+        "key": null
       },
       {
         "date": "2024-07-01",
         "imoex": 2942.68,
         "m2": 18.7,
         "cpi": 9.13,
-        "key": 18
+        "key": null
       },
       {
         "date": "2024-08-01",
         "imoex": 2650.32,
         "m2": 18.2,
         "cpi": 9.04,
-        "key": 18
+        "key": null
       },
       {
         "date": "2024-09-01",
         "imoex": 2857.56,
         "m2": 17.9,
         "cpi": 8.62,
-        "key": 19
+        "key": null
       },
       {
         "date": "2024-10-01",
         "imoex": 2560.2,
         "m2": 18.8,
         "cpi": 8.53,
-        "key": 21
+        "key": null
       },
       {
         "date": "2024-11-01",
         "imoex": 2578,
         "m2": 19.5,
         "cpi": 8.88,
-        "key": 21
+        "key": null
       },
       {
         "date": "2024-12-01",
         "imoex": 2883.04,
         "m2": 20,
         "cpi": 9.51,
-        "key": 21
+        "key": null
       },
       {
         "date": "2025-01-01",
         "imoex": 2948.1,
         "m2": 19.2,
         "cpi": 9.92,
-        "key": 21
+        "key": null
       },
       {
         "date": "2025-02-01",
         "imoex": 3200.48,
         "m2": 19.2,
         "cpi": 10.06,
-        "key": 21
+        "key": null
       },
       {
         "date": "2025-03-01",
         "imoex": 3013.36,
         "m2": 18.4,
         "cpi": 10.34,
-        "key": 21
+        "key": null
       },
       {
         "date": "2025-04-01",
         "imoex": 2918.47,
         "m2": 17,
         "cpi": 10.23,
-        "key": 21
+        "key": null
       },
       {
         "date": "2025-05-01",
         "imoex": 2828.83,
         "m2": 14,
         "cpi": 9.89,
-        "key": 21
+        "key": null
       },
       {
         "date": "2025-06-01",
         "imoex": 2847.38,
         "m2": 15.3,
         "cpi": 9.41,
-        "key": 20
+        "key": null
       },
       {
         "date": "2025-07-01",
         "imoex": 2732.12,
         "m2": 15,
         "cpi": 8.8,
-        "key": 18
+        "key": null
       },
       {
         "date": "2025-08-01",
         "imoex": 2899.38,
         "m2": 15,
         "cpi": 8.14,
-        "key": 18
+        "key": null
       },
       {
         "date": "2025-09-01",
         "imoex": 2684.6,
         "m2": 14.5,
         "cpi": 7.99,
-        "key": 17
+        "key": null
       },
       {
         "date": "2025-10-01",
         "imoex": 2525.2,
         "m2": 12.7,
         "cpi": 7.73,
-        "key": 16.5
+        "key": null
       },
       {
         "date": "2025-11-01",
         "imoex": 2676.42,
         "m2": 13,
         "cpi": 6.65,
-        "key": 16.5
+        "key": null
       },
       {
         "date": "2025-12-01",
         "imoex": 2766.62,
         "m2": 12.4,
         "cpi": 5.6,
-        "key": 16
+        "key": null
       },
       {
         "date": "2026-01-01",
         "imoex": 2782.74,
         "m2": 10.6,
         "cpi": 6.01,
-        "key": 16
+        "key": null
       },
       {
         "date": "2026-02-01",
         "imoex": 2799.14,
         "m2": 9.7,
         "cpi": 5.92,
-        "key": 15.5
+        "key": null
       },
       {
         "date": "2026-03-01",
         "imoex": 2776.37,
         "m2": 11.4,
         "cpi": 5.87,
-        "key": 15
+        "key": null
       },
       {
         "date": "2026-04-01",
         "imoex": 2658.21,
         "m2": 11.8,
         "cpi": 5.6,
-        "key": 14.5
+        "key": null
       },
       {
         "date": "2026-05-01",
         "imoex": 2565.61,
         "m2": 12.4,
         "cpi": 5.32,
-        "key": 14.5
+        "key": null
       },
       {
         "date": "2026-06-01",
         "imoex": 2348.15,
         "m2": 13.1,
         "cpi": 6.03,
-        "key": 14.25
+        "key": null
       },
       {
         "date": "2026-07-01",
         "imoex": 2226.36,
         "m2": 13.3,
         "cpi": 6,
-        "key": 14
+        "key": null
       },
       {
         "date": "2026-08-01",
         "imoex": 2178.87,
         "m2": 13.1,
         "cpi": 6.34,
-        "key": 14
+        "key": null
       },
       {
         "date": "2026-09-01",
         "imoex": 2266.77,
         "m2": 12.8,
         "cpi": 6.35,
-        "key": 14
+        "key": null
       },
       {
         "date": "2026-10-01",
-        "imoex": 2524.06,
+        "imoex": 2522.93,
         "m2": 13.3,
         "cpi": null,
-        "key": 14
+        "key": null
       }
     ],
     "emptyReason": null,
     "meaning": "Индекс — левая шкала (пункты), М2, ИПЦ и ключ — правая (%). Рынок обычно оживает, когда М2 обгоняет инфляцию, а ключ идёт вниз. Это обзор; скользящие средние каждой серии — на карточках ниже.",
-    "conclusion": "Реальная ставка ≥ 6 п.п. — зона кэша: депозиты/короткие фонды/короткие ОФЗ бьют индекс на горизонте ~1г. Растущая М2 / широкий спред М2−ИПЦ не отменяют этот режим. Полный режим принятия риска только при ключе ≤ 12% и реальной ставке < 6 п.п. (и ИПЦ < 5%, если фильтр инфляции включён). Полный режим принятия риска не активен. Правило перехода в полный режим принятия риска: одновременно ключ ≤ 12%, реальная ставка < 6 п.п. и ИПЦ < 5%. М2 и спред М2−ИПЦ — справочно, не блокируют. Кэш / короткий фонд / короткие ОФЗ, индекс не догонять, пока реальная ставка ≥ 6 п.п. или ключ > 12%."
+    "conclusion": "Нет первичных рядов ЦБ/Росстата по ставке, ИПЦ или М2. Полный режим принятия риска не активен. Правило перехода в полный режим принятия риска: одновременно ключ ≤ 12%, реальная ставка < 6 п.п. и ИПЦ < 5%. М2 и спред М2−ИПЦ — справочно, не блокируют. Кэш / короткий фонд / короткие ОФЗ, индекс не догонять, пока реальная ставка ≥ 6 п.п. или ключ > 12%."
   },
   "ticker": [
     {
       "id": "imoex",
       "label": "IMOEX",
-      "value": 2524.06,
+      "value": 2522.93,
       "unit": "",
-      "extra": -8.77
+      "extra": -8.81
     },
     {
       "id": "key",
       "label": "КЛЮЧ",
-      "value": 14,
+      "value": null,
       "unit": "%"
     },
     {
@@ -7337,15 +6214,15 @@
     {
       "id": "fazy",
       "kicker": "Фазы",
-      "title": "VIII Жёсткая ДКП — стагнация",
-      "conclusion": "Реальная ставка ≥ 6 п.п. — зона кэша: депозиты/короткие фонды/короткие ОФЗ бьют индекс на горизонте ~1г. Растущая М2 / широкий спред М2−ИПЦ не отменяют этот режим. Полный режим принятия риска только при ключе ≤ 12% и реальной ставке < 6 п.п. (и ИПЦ < 5%, если фильтр инфляции включён). Полный режим принятия риска не активен. Правило перехода в полный режим принятия риска: одновременно ключ ≤ 12%, реальная ставка < 6 п.п. и ИПЦ < 5%. М2 и спред М2−ИПЦ — справочно, не блокируют. Кэш / короткий фонд / короткие ОФЗ, индекс не догонять, пока реальная ставка ≥ 6 п.п. или ключ > 12%.",
+      "title": "Фаза: нет данных",
+      "conclusion": "Нет первичных рядов ЦБ/Росстата по ставке, ИПЦ или М2. Полный режим принятия риска не активен. Правило перехода в полный режим принятия риска: одновременно ключ ≤ 12%, реальная ставка < 6 п.п. и ИПЦ < 5%. М2 и спред М2−ИПЦ — справочно, не блокируют. Кэш / короткий фонд / короткие ОФЗ, индекс не догонять, пока реальная ставка ≥ 6 п.п. или ключ > 12%.",
       "cards": [
         {
           "id": "imoex",
           "title": "IMOEX",
-          "latest": 2524.06,
+          "latest": 2522.93,
           "unit": "пт",
-          "asOf": "2026-10-27",
+          "asOf": "2026-10-28",
           "source": "https://iss.moex.com/iss/engines/stock/markets/index/boards/SNDX/securities/IMOEX.json?iss.meta=off&iss.only=marketdata,securities",
           "points": [
             {
@@ -8681,8 +7558,8 @@
               "value": 2266.77
             },
             {
-              "date": "2026-10-27",
-              "value": 2524.06
+              "date": "2026-10-28",
+              "value": 2522.93
             }
           ],
           "emptyReason": null,
@@ -8702,508 +7579,23 @@
         {
           "id": "key_rate",
           "title": "Ключевая ставка",
-          "latest": 14,
+          "latest": null,
           "unit": "%",
-          "asOf": "2026-10-27",
+          "asOf": null,
           "source": "www.cbr.ru SOAP KeyRate",
-          "points": [
-            {
-              "date": "2016-10-31",
-              "value": 10
-            },
-            {
-              "date": "2016-11-30",
-              "value": 10
-            },
-            {
-              "date": "2016-12-30",
-              "value": 10
-            },
-            {
-              "date": "2017-01-31",
-              "value": 10
-            },
-            {
-              "date": "2017-02-28",
-              "value": 10
-            },
-            {
-              "date": "2017-03-31",
-              "value": 9.75
-            },
-            {
-              "date": "2017-04-28",
-              "value": 9.75
-            },
-            {
-              "date": "2017-05-31",
-              "value": 9.25
-            },
-            {
-              "date": "2017-06-30",
-              "value": 9
-            },
-            {
-              "date": "2017-07-31",
-              "value": 9
-            },
-            {
-              "date": "2017-08-31",
-              "value": 9
-            },
-            {
-              "date": "2017-09-29",
-              "value": 8.5
-            },
-            {
-              "date": "2017-10-31",
-              "value": 8.25
-            },
-            {
-              "date": "2017-11-30",
-              "value": 8.25
-            },
-            {
-              "date": "2017-12-29",
-              "value": 7.75
-            },
-            {
-              "date": "2018-01-31",
-              "value": 7.75
-            },
-            {
-              "date": "2018-02-28",
-              "value": 7.5
-            },
-            {
-              "date": "2018-03-30",
-              "value": 7.25
-            },
-            {
-              "date": "2018-04-28",
-              "value": 7.25
-            },
-            {
-              "date": "2018-05-31",
-              "value": 7.25
-            },
-            {
-              "date": "2018-06-29",
-              "value": 7.25
-            },
-            {
-              "date": "2018-07-31",
-              "value": 7.25
-            },
-            {
-              "date": "2018-08-31",
-              "value": 7.25
-            },
-            {
-              "date": "2018-09-28",
-              "value": 7.5
-            },
-            {
-              "date": "2018-10-31",
-              "value": 7.5
-            },
-            {
-              "date": "2018-11-30",
-              "value": 7.5
-            },
-            {
-              "date": "2018-12-28",
-              "value": 7.75
-            },
-            {
-              "date": "2019-01-31",
-              "value": 7.75
-            },
-            {
-              "date": "2019-02-28",
-              "value": 7.75
-            },
-            {
-              "date": "2019-03-29",
-              "value": 7.75
-            },
-            {
-              "date": "2019-04-30",
-              "value": 7.75
-            },
-            {
-              "date": "2019-05-31",
-              "value": 7.75
-            },
-            {
-              "date": "2019-06-28",
-              "value": 7.5
-            },
-            {
-              "date": "2019-07-31",
-              "value": 7.25
-            },
-            {
-              "date": "2019-08-30",
-              "value": 7.25
-            },
-            {
-              "date": "2019-09-30",
-              "value": 7
-            },
-            {
-              "date": "2019-10-31",
-              "value": 6.5
-            },
-            {
-              "date": "2019-11-29",
-              "value": 6.5
-            },
-            {
-              "date": "2019-12-31",
-              "value": 6.25
-            },
-            {
-              "date": "2020-01-31",
-              "value": 6.25
-            },
-            {
-              "date": "2020-02-28",
-              "value": 6
-            },
-            {
-              "date": "2020-03-31",
-              "value": 6
-            },
-            {
-              "date": "2020-04-30",
-              "value": 5.5
-            },
-            {
-              "date": "2020-05-29",
-              "value": 5.5
-            },
-            {
-              "date": "2020-06-30",
-              "value": 4.5
-            },
-            {
-              "date": "2020-07-31",
-              "value": 4.25
-            },
-            {
-              "date": "2020-08-31",
-              "value": 4.25
-            },
-            {
-              "date": "2020-09-30",
-              "value": 4.25
-            },
-            {
-              "date": "2020-10-30",
-              "value": 4.25
-            },
-            {
-              "date": "2020-11-30",
-              "value": 4.25
-            },
-            {
-              "date": "2020-12-31",
-              "value": 4.25
-            },
-            {
-              "date": "2021-01-29",
-              "value": 4.25
-            },
-            {
-              "date": "2021-02-26",
-              "value": 4.25
-            },
-            {
-              "date": "2021-03-31",
-              "value": 4.5
-            },
-            {
-              "date": "2021-04-30",
-              "value": 5
-            },
-            {
-              "date": "2021-05-31",
-              "value": 5
-            },
-            {
-              "date": "2021-06-30",
-              "value": 5.5
-            },
-            {
-              "date": "2021-07-30",
-              "value": 6.5
-            },
-            {
-              "date": "2021-08-31",
-              "value": 6.5
-            },
-            {
-              "date": "2021-09-30",
-              "value": 6.75
-            },
-            {
-              "date": "2021-10-29",
-              "value": 7.5
-            },
-            {
-              "date": "2021-11-30",
-              "value": 7.5
-            },
-            {
-              "date": "2021-12-30",
-              "value": 8.5
-            },
-            {
-              "date": "2022-01-31",
-              "value": 8.5
-            },
-            {
-              "date": "2022-02-28",
-              "value": 20
-            },
-            {
-              "date": "2022-03-31",
-              "value": 20
-            },
-            {
-              "date": "2022-04-29",
-              "value": 17
-            },
-            {
-              "date": "2022-05-31",
-              "value": 11
-            },
-            {
-              "date": "2022-06-30",
-              "value": 9.5
-            },
-            {
-              "date": "2022-07-29",
-              "value": 8
-            },
-            {
-              "date": "2022-08-31",
-              "value": 8
-            },
-            {
-              "date": "2022-09-30",
-              "value": 7.5
-            },
-            {
-              "date": "2022-10-31",
-              "value": 7.5
-            },
-            {
-              "date": "2022-11-30",
-              "value": 7.5
-            },
-            {
-              "date": "2022-12-30",
-              "value": 7.5
-            },
-            {
-              "date": "2023-01-31",
-              "value": 7.5
-            },
-            {
-              "date": "2023-02-28",
-              "value": 7.5
-            },
-            {
-              "date": "2023-03-31",
-              "value": 7.5
-            },
-            {
-              "date": "2023-04-28",
-              "value": 7.5
-            },
-            {
-              "date": "2023-05-31",
-              "value": 7.5
-            },
-            {
-              "date": "2023-06-30",
-              "value": 7.5
-            },
-            {
-              "date": "2023-07-31",
-              "value": 8.5
-            },
-            {
-              "date": "2023-08-31",
-              "value": 12
-            },
-            {
-              "date": "2023-09-29",
-              "value": 13
-            },
-            {
-              "date": "2023-10-31",
-              "value": 15
-            },
-            {
-              "date": "2023-11-30",
-              "value": 15
-            },
-            {
-              "date": "2023-12-29",
-              "value": 16
-            },
-            {
-              "date": "2024-01-31",
-              "value": 16
-            },
-            {
-              "date": "2024-02-29",
-              "value": 16
-            },
-            {
-              "date": "2024-03-29",
-              "value": 16
-            },
-            {
-              "date": "2024-04-30",
-              "value": 16
-            },
-            {
-              "date": "2024-05-31",
-              "value": 16
-            },
-            {
-              "date": "2024-06-28",
-              "value": 16
-            },
-            {
-              "date": "2024-07-31",
-              "value": 18
-            },
-            {
-              "date": "2024-08-30",
-              "value": 18
-            },
-            {
-              "date": "2024-09-30",
-              "value": 19
-            },
-            {
-              "date": "2024-10-31",
-              "value": 21
-            },
-            {
-              "date": "2024-11-29",
-              "value": 21
-            },
-            {
-              "date": "2024-12-30",
-              "value": 21
-            },
-            {
-              "date": "2025-01-31",
-              "value": 21
-            },
-            {
-              "date": "2025-02-28",
-              "value": 21
-            },
-            {
-              "date": "2025-03-31",
-              "value": 21
-            },
-            {
-              "date": "2025-04-30",
-              "value": 21
-            },
-            {
-              "date": "2025-05-30",
-              "value": 21
-            },
-            {
-              "date": "2025-06-30",
-              "value": 20
-            },
-            {
-              "date": "2025-07-31",
-              "value": 18
-            },
-            {
-              "date": "2025-08-29",
-              "value": 18
-            },
-            {
-              "date": "2025-09-30",
-              "value": 17
-            },
-            {
-              "date": "2025-10-31",
-              "value": 16.5
-            },
-            {
-              "date": "2025-11-28",
-              "value": 16.5
-            },
-            {
-              "date": "2025-12-30",
-              "value": 16
-            },
-            {
-              "date": "2026-01-30",
-              "value": 16
-            },
-            {
-              "date": "2026-02-27",
-              "value": 15.5
-            },
-            {
-              "date": "2026-03-31",
-              "value": 15
-            },
-            {
-              "date": "2026-04-30",
-              "value": 14.5
-            },
-            {
-              "date": "2026-05-29",
-              "value": 14.5
-            },
-            {
-              "date": "2026-06-30",
-              "value": 14.25
-            },
-            {
-              "date": "2026-07-31",
-              "value": 14
-            },
-            {
-              "date": "2026-08-31",
-              "value": 14
-            },
-            {
-              "date": "2026-09-30",
-              "value": 14
-            },
-            {
-              "date": "2026-10-27",
-              "value": 14
-            }
-          ],
-          "emptyReason": null,
+          "points": [],
+          "emptyReason": "нет SOAP KeyRate",
           "meaning": "Официальный ключ ЦБ, ряд SOAP. Это не 14,25 «на память» и не консенсус. Пока ключ далеко выше 12%, порог режима принятия риска по ставке закрыт.",
-          "conclusion": "Ключ 14.00%. Порог методики ≤ 12% — сейчас закрыт.",
-          "color": "#B8860B",
+          "conclusion": "Нет SOAP-ряда ключа.",
+          "color": "#0C0C0C",
           "showMA": true,
           "refY": null,
           "refLabel": null,
           "maIncomplete": false,
-          "span": 120,
-          "tone": "warn",
+          "span": 0,
+          "tone": "none",
           "toneLabel": null,
-          "toneWord": "внимание",
+          "toneWord": null,
           "padRight": false
         },
         {
@@ -12990,504 +11382,23 @@
         {
           "id": "real_rate",
           "title": "Реальная ставка",
-          "latest": 7.65,
+          "latest": null,
           "unit": "п.п.",
-          "asOf": "2026-10-27",
+          "asOf": null,
           "source": "Ключ SOAP минус ИПЦ Росстата",
-          "points": [
-            {
-              "date": "2016-10-31",
-              "value": 3.91
-            },
-            {
-              "date": "2016-11-30",
-              "value": 4.24
-            },
-            {
-              "date": "2016-12-30",
-              "value": 4.62
-            },
-            {
-              "date": "2017-01-31",
-              "value": 4.98
-            },
-            {
-              "date": "2017-02-28",
-              "value": 5.41
-            },
-            {
-              "date": "2017-03-31",
-              "value": 5.5
-            },
-            {
-              "date": "2017-04-28",
-              "value": 5.62
-            },
-            {
-              "date": "2017-05-31",
-              "value": 5.16
-            },
-            {
-              "date": "2017-06-30",
-              "value": 4.65
-            },
-            {
-              "date": "2017-07-31",
-              "value": 5.140000000000001
-            },
-            {
-              "date": "2017-08-31",
-              "value": 5.71
-            },
-            {
-              "date": "2017-09-29",
-              "value": 5.54
-            },
-            {
-              "date": "2017-10-31",
-              "value": 5.52
-            },
-            {
-              "date": "2017-11-30",
-              "value": 5.75
-            },
-            {
-              "date": "2017-12-29",
-              "value": 5.23
-            },
-            {
-              "date": "2018-01-31",
-              "value": 5.54
-            },
-            {
-              "date": "2018-02-28",
-              "value": 5.3
-            },
-            {
-              "date": "2018-03-30",
-              "value": 4.890000000000001
-            },
-            {
-              "date": "2018-04-28",
-              "value": 4.84
-            },
-            {
-              "date": "2018-05-31",
-              "value": 4.83
-            },
-            {
-              "date": "2018-06-29",
-              "value": 4.95
-            },
-            {
-              "date": "2018-07-31",
-              "value": 4.75
-            },
-            {
-              "date": "2018-08-31",
-              "value": 4.18
-            },
-            {
-              "date": "2018-09-28",
-              "value": 4.109999999999999
-            },
-            {
-              "date": "2018-10-31",
-              "value": 3.95
-            },
-            {
-              "date": "2018-11-30",
-              "value": 3.67
-            },
-            {
-              "date": "2018-12-28",
-              "value": 3.4800000000000004
-            },
-            {
-              "date": "2019-01-31",
-              "value": 2.75
-            },
-            {
-              "date": "2019-02-28",
-              "value": 2.51
-            },
-            {
-              "date": "2019-03-29",
-              "value": 2.4800000000000004
-            },
-            {
-              "date": "2019-04-30",
-              "value": 2.58
-            },
-            {
-              "date": "2019-05-31",
-              "value": 2.62
-            },
-            {
-              "date": "2019-06-28",
-              "value": 2.84
-            },
-            {
-              "date": "2019-07-31",
-              "value": 2.66
-            },
-            {
-              "date": "2019-08-30",
-              "value": 2.92
-            },
-            {
-              "date": "2019-09-30",
-              "value": 3.01
-            },
-            {
-              "date": "2019-10-31",
-              "value": 2.73
-            },
-            {
-              "date": "2019-11-29",
-              "value": 2.96
-            },
-            {
-              "date": "2019-12-31",
-              "value": 3.2
-            },
-            {
-              "date": "2020-01-31",
-              "value": 3.83
-            },
-            {
-              "date": "2020-02-28",
-              "value": 3.69
-            },
-            {
-              "date": "2020-03-31",
-              "value": 3.45
-            },
-            {
-              "date": "2020-04-30",
-              "value": 2.4
-            },
-            {
-              "date": "2020-05-29",
-              "value": 2.47
-            },
-            {
-              "date": "2020-06-30",
-              "value": 1.29
-            },
-            {
-              "date": "2020-07-31",
-              "value": 0.8799999999999999
-            },
-            {
-              "date": "2020-08-31",
-              "value": 0.6800000000000002
-            },
-            {
-              "date": "2020-09-30",
-              "value": 0.5800000000000001
-            },
-            {
-              "date": "2020-10-30",
-              "value": 0.27
-            },
-            {
-              "date": "2020-11-30",
-              "value": -0.16999999999999993
-            },
-            {
-              "date": "2020-12-31",
-              "value": -0.6600000000000001
-            },
-            {
-              "date": "2021-01-29",
-              "value": -0.9400000000000004
-            },
-            {
-              "date": "2021-02-26",
-              "value": -1.42
-            },
-            {
-              "date": "2021-03-31",
-              "value": -1.2800000000000002
-            },
-            {
-              "date": "2021-04-30",
-              "value": -0.5199999999999996
-            },
-            {
-              "date": "2021-05-31",
-              "value": -1.0099999999999998
-            },
-            {
-              "date": "2021-06-30",
-              "value": -1.0099999999999998
-            },
-            {
-              "date": "2021-07-30",
-              "value": 0.03000000000000025
-            },
-            {
-              "date": "2021-08-31",
-              "value": -0.1900000000000004
-            },
-            {
-              "date": "2021-09-30",
-              "value": -0.6600000000000001
-            },
-            {
-              "date": "2021-10-29",
-              "value": -0.6400000000000006
-            },
-            {
-              "date": "2021-11-30",
-              "value": -0.9000000000000004
-            },
-            {
-              "date": "2021-12-30",
-              "value": 0.10999999999999943
-            },
-            {
-              "date": "2022-01-31",
-              "value": -0.2400000000000002
-            },
-            {
-              "date": "2022-02-28",
-              "value": 10.84
-            },
-            {
-              "date": "2022-03-31",
-              "value": 3.3000000000000007
-            },
-            {
-              "date": "2022-04-29",
-              "value": -0.8299999999999983
-            },
-            {
-              "date": "2022-05-31",
-              "value": -6.109999999999999
-            },
-            {
-              "date": "2022-06-30",
-              "value": -6.4
-            },
-            {
-              "date": "2022-07-29",
-              "value": -7.09
-            },
-            {
-              "date": "2022-08-31",
-              "value": -6.300000000000001
-            },
-            {
-              "date": "2022-09-30",
-              "value": -6.17
-            },
-            {
-              "date": "2022-10-31",
-              "value": -5.130000000000001
-            },
-            {
-              "date": "2022-11-30",
-              "value": -4.470000000000001
-            },
-            {
-              "date": "2022-12-30",
-              "value": -4.42
-            },
-            {
-              "date": "2023-01-31",
-              "value": -4.26
-            },
-            {
-              "date": "2023-02-28",
-              "value": -3.4700000000000006
-            },
-            {
-              "date": "2023-03-31",
-              "value": 3.99
-            },
-            {
-              "date": "2023-04-28",
-              "value": 5.2
-            },
-            {
-              "date": "2023-05-31",
-              "value": 5
-            },
-            {
-              "date": "2023-06-30",
-              "value": 4.26
-            },
-            {
-              "date": "2023-07-31",
-              "value": 4.2
-            },
-            {
-              "date": "2023-08-31",
-              "value": 6.87
-            },
-            {
-              "date": "2023-09-29",
-              "value": 7
-            },
-            {
-              "date": "2023-10-31",
-              "value": 8.32
-            },
-            {
-              "date": "2023-11-30",
-              "value": 7.53
-            },
-            {
-              "date": "2023-12-29",
-              "value": 8.58
-            },
-            {
-              "date": "2024-01-31",
-              "value": 8.559999999999999
-            },
-            {
-              "date": "2024-02-29",
-              "value": 8.33
-            },
-            {
-              "date": "2024-03-29",
-              "value": 8.309999999999999
-            },
-            {
-              "date": "2024-04-30",
-              "value": 8.18
-            },
-            {
-              "date": "2024-05-31",
-              "value": 7.710000000000001
-            },
-            {
-              "date": "2024-06-28",
-              "value": 7.42
-            },
-            {
-              "date": "2024-07-31",
-              "value": 8.87
-            },
-            {
-              "date": "2024-08-30",
-              "value": 8.96
-            },
-            {
-              "date": "2024-09-30",
-              "value": 10.38
-            },
-            {
-              "date": "2024-10-31",
-              "value": 12.47
-            },
-            {
-              "date": "2024-11-29",
-              "value": 12.12
-            },
-            {
-              "date": "2024-12-30",
-              "value": 11.49
-            },
-            {
-              "date": "2025-01-31",
-              "value": 11.08
-            },
-            {
-              "date": "2025-02-28",
-              "value": 10.94
-            },
-            {
-              "date": "2025-03-31",
-              "value": 10.66
-            },
-            {
-              "date": "2025-04-30",
-              "value": 10.77
-            },
-            {
-              "date": "2025-05-30",
-              "value": 11.11
-            },
-            {
-              "date": "2025-06-30",
-              "value": 10.59
-            },
-            {
-              "date": "2025-07-31",
-              "value": 9.2
-            },
-            {
-              "date": "2025-08-29",
-              "value": 9.86
-            },
-            {
-              "date": "2025-09-30",
-              "value": 9.01
-            },
-            {
-              "date": "2025-10-31",
-              "value": 8.77
-            },
-            {
-              "date": "2025-11-28",
-              "value": 9.85
-            },
-            {
-              "date": "2025-12-30",
-              "value": 10.4
-            },
-            {
-              "date": "2026-01-30",
-              "value": 9.99
-            },
-            {
-              "date": "2026-02-27",
-              "value": 9.58
-            },
-            {
-              "date": "2026-03-31",
-              "value": 9.129999999999999
-            },
-            {
-              "date": "2026-04-30",
-              "value": 8.9
-            },
-            {
-              "date": "2026-05-29",
-              "value": 9.18
-            },
-            {
-              "date": "2026-06-30",
-              "value": 8.219999999999999
-            },
-            {
-              "date": "2026-07-31",
-              "value": 8
-            },
-            {
-              "date": "2026-08-31",
-              "value": 7.66
-            },
-            {
-              "date": "2026-09-30",
-              "value": 7.65
-            }
-          ],
-          "emptyReason": null,
+          "points": [],
+          "emptyReason": "нет парного ряда ключа и ИПЦ",
           "meaning": "Ключ минус инфляция. Фаза VIII — реальная ставка ≥ 6 п.п. (зона кэша). Порог режима принятия риска — < 6 п.п.",
-          "conclusion": "Реальная ставка 7.7 п.п. — порог < 6 п.п. закрыт.",
+          "conclusion": "Нет реальной ставки.",
           "color": "#0C0C0C",
           "showMA": true,
           "refY": null,
           "refLabel": null,
           "maIncomplete": false,
-          "span": 119,
-          "tone": "bad",
+          "span": 0,
+          "tone": "none",
           "toneLabel": null,
-          "toneWord": "стресс",
+          "toneWord": null,
           "padRight": false
         }
       ]
@@ -13495,9 +11406,9 @@
     {
       "id": "makro",
       "kicker": "Сводка фазы цикла",
-      "title": "СЕРЕДИНА ЦИКЛА · CRS = 0,12",
-      "conclusion": "Потребительский спрос и ликвидность растут (розница +3.3%, М2 +13.3%), жёсткая ДКП смягчается (real rate +7.7 п.п.), инвестактивность остаётся слабой (HCV −3.9% г/г, за 7М −15.4%), 6 положительных индикаторов, 2 отрицательных индикатора.",
-      "summary": "Потребительский спрос и ликвидность растут (розница +3.3%, М2 +13.3%), жёсткая ДКП смягчается (real rate +7.7 п.п.), инвестактивность остаётся слабой (HCV −3.9% г/г, за 7М −15.4%), 6 положительных индикаторов, 2 отрицательных индикатора.",
+      "title": "СЕРЕДИНА ЦИКЛА · CRS = 0,33",
+      "conclusion": "Потребительский спрос и ликвидность растут (розница +3.3%, М2 +13.3%), инвестактивность остаётся слабой (HCV −3.9% г/г, за 7М −15.4%), 6 положительных индикаторов, 2 отрицательных индикатора.",
+      "summary": "Потребительский спрос и ликвидность растут (розница +3.3%, М2 +13.3%), инвестактивность остаётся слабой (HCV −3.9% г/г, за 7М −15.4%), 6 положительных индикаторов, 2 отрицательных индикатора.",
       "cards": [
         {
           "id": "gdp",
@@ -16040,7 +13951,7 @@
       "id": "bolshegruzy",
       "kicker": "Большегрузы",
       "title": "Большегрузы как индикатор экономики",
-      "conclusion": "Последний релиз Autostat — июл'26: 3 498 ед. (-3.9% г/г). Скользящий 12м: 41.2 тыс. (-67.2% от пика 2023). Живой скан autostat: 2026-10-28. Сверка АЕБ: сверочного релиза АЕБ за июл'26 нет — публикуем один ряд Autostat, среднее двух агентств не считаем.",
+      "conclusion": "Последний релиз Autostat — июл'26: 3 498 ед. (-3.9% г/г). Скользящий 12м: 41.2 тыс. (-67.2% от пика 2023). Живой скан autostat: 2026-10-29. Сверка АЕБ: сверочного релиза АЕБ за июл'26 нет — публикуем один ряд Autostat, среднее двух агентств не считаем.",
       "cards": [
         {
           "id": "hcv_units",
@@ -16609,7 +14520,7 @@
           ],
           "emptyReason": null,
           "meaning": "Помесячные продажи новых крупнотоннажных грузовиков (HCV >16т) в штуках. Помесячная детализация 2015–2024 реконструирована из квартальных/годовых сводок Autostat/АЕБ (±10% на отдельных месяцах; годовые суммы сходятся). Свежие месяцы дописывает будничный рефреш из релизов autostat.ru — тех же новостей, что кормят карточку «КАМАЗ / HCV» на «Макро».",
-          "conclusion": "июл'26: 3 498 ед., -3.9% г/г (релиз Autostat). Живой скан autostat: 2026-10-28.",
+          "conclusion": "июл'26: 3 498 ед., -3.9% г/г (релиз Autostat). Живой скан autostat: 2026-10-29.",
           "color": "#0B93A6",
           "showMA": true,
           "refY": null,
@@ -17717,976 +15628,102 @@
       "id": "stavka",
       "kicker": "ИНДИКАТОР · СТАВКА ЦБ РФ · ОЖИДАНИЯ РЫНКА В СРАВНЕНИИ С КОНСЕНСУСОМ",
       "title": "Прогноз ключевой ставки: рынок в сравнении с консенсусом",
-      "conclusion": "рынок закладывает больше консенсуса · Δ -50 б.п.",
+      "conclusion": "нет данных",
       "cards": [],
       "keyRate": {
-        "asOf": "2026-10-27",
+        "asOf": "2026-10-28",
         "current": {
-          "keyRate": 14,
-          "effectiveSince": "2026-07-24",
+          "keyRate": null,
+          "effectiveSince": null,
           "ruonia": 14.2,
-          "rusfar": 14.01,
-          "isLive": true
+          "rusfar": 14.03,
+          "isLive": false
         },
         "nextMeeting": {
           "date": "2026-11-05",
           "type": "заседание",
-          "daysUntil": 8,
+          "daysUntil": 7,
           "isAnchor": false
         },
         "marketImplied": {
-          "y3m": 13.0923,
-          "y6m": 13.431,
-          "y9m": 13.7347,
-          "y1y": 14.0112,
-          "rusfar": 14.01,
-          "nextMeetingRate": 13,
-          "nextMeetingChangeBps": -100,
-          "horizon3m": 13.0923,
-          "horizon6m": 13.431,
-          "horizon9m": 13.7347,
-          "horizon12m": 14.0112,
-          "emptyReason": null
+          "y3m": 12.8358,
+          "y6m": 13.2624,
+          "y9m": 13.6382,
+          "y1y": 13.972,
+          "rusfar": 14.03,
+          "nextMeetingRate": null,
+          "nextMeetingChangeBps": null,
+          "horizon3m": 12.8358,
+          "horizon6m": 13.2624,
+          "horizon9m": 13.6382,
+          "horizon12m": 13.972,
+          "emptyReason": "нет SOAP KeyRate"
         },
         "consensus": {
           "nextMeetingRate": 13.5,
-          "nextMeetingChangeBps": -50,
+          "nextMeetingChangeBps": null,
           "yearEnd2026": 13.75,
           "source": "sbercib.ru/publication/prognoz-klyuchevoi-stavki-na-2026-god",
           "emptyReason": null
         },
         "signal": {
-          "divergenceBps": -50,
-          "color": "green",
-          "label": "рынок закладывает больше консенсуса",
-          "detail": "dovish-позиция в цене, риск hawkish surprise",
-          "emptyReason": null
+          "divergenceBps": null,
+          "color": "neutral",
+          "text": "нет implied",
+          "label": "нет данных",
+          "emptyReason": "нет рыночного implied из ZCYC"
         },
         "probabilities": {
-          "items": [
-            {
-              "bps": -100,
-              "probability": 0.5537900804506523
-            },
-            {
-              "bps": -75,
-              "probability": 0.3495926823258314
-            },
-            {
-              "bps": -50,
-              "probability": 0.0876367648259706
-            },
-            {
-              "bps": -25,
-              "probability": 0.008644005402878133
-            },
-            {
-              "bps": 0,
-              "probability": 0.00033157625032346545
-            },
-            {
-              "bps": 25,
-              "probability": 0.000004890744344153127
-            }
-          ],
+          "items": [],
           "sigmaBps": 25,
-          "emptyReason": null,
-          "label": "модель (σ=25 bps), не официальный ряд"
+          "emptyReason": "нет implied move для модели вероятностей"
         },
-        "spreadSeries": [
-          {
-            "date": "2016-10-31",
-            "ruonia": 10.36,
-            "keyRate": 10,
-            "spreadBps": 36,
-            "spread": 0.36
-          },
-          {
-            "date": "2016-11-30",
-            "ruonia": 10.09,
-            "keyRate": 10,
-            "spreadBps": 9,
-            "spread": 0.09
-          },
-          {
-            "date": "2016-12-29",
-            "ruonia": 10.5,
-            "keyRate": 10,
-            "spreadBps": 50,
-            "spread": 0.5
-          },
-          {
-            "date": "2017-01-31",
-            "ruonia": 10.24,
-            "keyRate": 10,
-            "spreadBps": 24,
-            "spread": 0.24
-          },
-          {
-            "date": "2017-02-28",
-            "ruonia": 10,
-            "keyRate": 10,
-            "spreadBps": 0,
-            "spread": 0
-          },
-          {
-            "date": "2017-03-31",
-            "ruonia": 9.82,
-            "keyRate": 9.75,
-            "spreadBps": 7,
-            "spread": 0.07
-          },
-          {
-            "date": "2017-04-28",
-            "ruonia": 9.71,
-            "keyRate": 9.75,
-            "spreadBps": -4,
-            "spread": -0.04
-          },
-          {
-            "date": "2017-05-31",
-            "ruonia": 9.15,
-            "keyRate": 9.25,
-            "spreadBps": -10,
-            "spread": -0.1
-          },
-          {
-            "date": "2017-06-30",
-            "ruonia": 9.09,
-            "keyRate": 9,
-            "spreadBps": 9,
-            "spread": 0.09
-          },
-          {
-            "date": "2017-07-31",
-            "ruonia": 9.24,
-            "keyRate": 9,
-            "spreadBps": 24,
-            "spread": 0.24
-          },
-          {
-            "date": "2017-08-31",
-            "ruonia": 8.71,
-            "keyRate": 9,
-            "spreadBps": -29,
-            "spread": -0.29
-          },
-          {
-            "date": "2017-09-29",
-            "ruonia": 8.49,
-            "keyRate": 8.5,
-            "spreadBps": -1,
-            "spread": -0.01
-          },
-          {
-            "date": "2017-10-31",
-            "ruonia": 8.02,
-            "keyRate": 8.25,
-            "spreadBps": -23,
-            "spread": -0.23
-          },
-          {
-            "date": "2017-11-30",
-            "ruonia": 8.24,
-            "keyRate": 8.25,
-            "spreadBps": -1,
-            "spread": -0.01
-          },
-          {
-            "date": "2017-12-28",
-            "ruonia": 7.19,
-            "keyRate": 8.25,
-            "spreadBps": -106,
-            "spread": -1.06
-          },
-          {
-            "date": "2018-01-31",
-            "ruonia": 7.12,
-            "keyRate": 7.75,
-            "spreadBps": -63,
-            "spread": -0.63
-          },
-          {
-            "date": "2018-02-28",
-            "ruonia": 7.5,
-            "keyRate": 7.5,
-            "spreadBps": 0,
-            "spread": 0
-          },
-          {
-            "date": "2018-03-30",
-            "ruonia": 7.19,
-            "keyRate": 7.25,
-            "spreadBps": -6,
-            "spread": -0.06
-          },
-          {
-            "date": "2018-04-28",
-            "ruonia": 7.07,
-            "keyRate": 7.25,
-            "spreadBps": -18,
-            "spread": -0.18
-          },
-          {
-            "date": "2018-05-31",
-            "ruonia": 7.1,
-            "keyRate": 7.25,
-            "spreadBps": -15,
-            "spread": -0.15
-          },
-          {
-            "date": "2018-06-29",
-            "ruonia": 7.16,
-            "keyRate": 7.25,
-            "spreadBps": -9,
-            "spread": -0.09
-          },
-          {
-            "date": "2018-07-31",
-            "ruonia": 7.74,
-            "keyRate": 7.25,
-            "spreadBps": 49,
-            "spread": 0.49
-          },
-          {
-            "date": "2018-08-31",
-            "ruonia": 7.14,
-            "keyRate": 7.25,
-            "spreadBps": -11,
-            "spread": -0.11
-          },
-          {
-            "date": "2018-09-28",
-            "ruonia": 7.4,
-            "keyRate": 7.5,
-            "spreadBps": -10,
-            "spread": -0.1
-          },
-          {
-            "date": "2018-10-31",
-            "ruonia": 7.06,
-            "keyRate": 7.5,
-            "spreadBps": -44,
-            "spread": -0.44
-          },
-          {
-            "date": "2018-11-30",
-            "ruonia": 7.5,
-            "keyRate": 7.5,
-            "spreadBps": 0,
-            "spread": 0
-          },
-          {
-            "date": "2018-12-28",
-            "ruonia": 7.07,
-            "keyRate": 7.75,
-            "spreadBps": -68,
-            "spread": -0.68
-          },
-          {
-            "date": "2019-01-31",
-            "ruonia": 7.62,
-            "keyRate": 7.75,
-            "spreadBps": -13,
-            "spread": -0.13
-          },
-          {
-            "date": "2019-02-28",
-            "ruonia": 7.54,
-            "keyRate": 7.75,
-            "spreadBps": -21,
-            "spread": -0.21
-          },
-          {
-            "date": "2019-03-29",
-            "ruonia": 7.81,
-            "keyRate": 7.75,
-            "spreadBps": 6,
-            "spread": 0.06
-          },
-          {
-            "date": "2019-04-30",
-            "ruonia": 7.96,
-            "keyRate": 7.75,
-            "spreadBps": 21,
-            "spread": 0.21
-          },
-          {
-            "date": "2019-05-31",
-            "ruonia": 7.89,
-            "keyRate": 7.75,
-            "spreadBps": 14,
-            "spread": 0.14
-          },
-          {
-            "date": "2019-06-28",
-            "ruonia": 7.55,
-            "keyRate": 7.5,
-            "spreadBps": 5,
-            "spread": 0.05
-          },
-          {
-            "date": "2019-07-31",
-            "ruonia": 7.3,
-            "keyRate": 7.25,
-            "spreadBps": 5,
-            "spread": 0.05
-          },
-          {
-            "date": "2019-08-30",
-            "ruonia": 7.13,
-            "keyRate": 7.25,
-            "spreadBps": -12,
-            "spread": -0.12
-          },
-          {
-            "date": "2019-09-30",
-            "ruonia": 6.89,
-            "keyRate": 7,
-            "spreadBps": -11,
-            "spread": -0.11
-          },
-          {
-            "date": "2019-10-31",
-            "ruonia": 6.6,
-            "keyRate": 6.5,
-            "spreadBps": 10,
-            "spread": 0.1
-          },
-          {
-            "date": "2019-11-29",
-            "ruonia": 6.6,
-            "keyRate": 6.5,
-            "spreadBps": 10,
-            "spread": 0.1
-          },
-          {
-            "date": "2019-12-30",
-            "ruonia": 6.23,
-            "keyRate": 6.5,
-            "spreadBps": -27,
-            "spread": -0.27
-          },
-          {
-            "date": "2020-01-31",
-            "ruonia": 6.05,
-            "keyRate": 6.25,
-            "spreadBps": -20,
-            "spread": -0.2
-          },
-          {
-            "date": "2020-02-28",
-            "ruonia": 6.32,
-            "keyRate": 6,
-            "spreadBps": 32,
-            "spread": 0.32
-          },
-          {
-            "date": "2020-03-27",
-            "ruonia": 6.24,
-            "keyRate": 6,
-            "spreadBps": 24,
-            "spread": 0.24
-          },
-          {
-            "date": "2020-04-30",
-            "ruonia": 5.76,
-            "keyRate": 5.5,
-            "spreadBps": 26,
-            "spread": 0.26
-          },
-          {
-            "date": "2020-05-29",
-            "ruonia": 5.47,
-            "keyRate": 5.5,
-            "spreadBps": -3,
-            "spread": -0.03
-          },
-          {
-            "date": "2020-06-30",
-            "ruonia": 4.38,
-            "keyRate": 4.5,
-            "spreadBps": -12,
-            "spread": -0.12
-          },
-          {
-            "date": "2020-07-31",
-            "ruonia": 4.26,
-            "keyRate": 4.25,
-            "spreadBps": 1,
-            "spread": 0.01
-          },
-          {
-            "date": "2020-08-31",
-            "ruonia": 4.1,
-            "keyRate": 4.25,
-            "spreadBps": -15,
-            "spread": -0.15
-          },
-          {
-            "date": "2020-09-30",
-            "ruonia": 4.19,
-            "keyRate": 4.25,
-            "spreadBps": -6,
-            "spread": -0.06
-          },
-          {
-            "date": "2020-10-30",
-            "ruonia": 4.26,
-            "keyRate": 4.25,
-            "spreadBps": 1,
-            "spread": 0.01
-          },
-          {
-            "date": "2020-11-30",
-            "ruonia": 4.07,
-            "keyRate": 4.25,
-            "spreadBps": -18,
-            "spread": -0.18
-          },
-          {
-            "date": "2020-12-30",
-            "ruonia": 4.27,
-            "keyRate": 4.25,
-            "spreadBps": 2,
-            "spread": 0.02
-          },
-          {
-            "date": "2021-01-29",
-            "ruonia": 4.43,
-            "keyRate": 4.25,
-            "spreadBps": 18,
-            "spread": 0.18
-          },
-          {
-            "date": "2021-02-26",
-            "ruonia": 4.18,
-            "keyRate": 4.25,
-            "spreadBps": -7,
-            "spread": -0.07
-          },
-          {
-            "date": "2021-03-31",
-            "ruonia": 4.45,
-            "keyRate": 4.5,
-            "spreadBps": -5,
-            "spread": -0.05
-          },
-          {
-            "date": "2021-04-30",
-            "ruonia": 4.84,
-            "keyRate": 5,
-            "spreadBps": -16,
-            "spread": -0.16
-          },
-          {
-            "date": "2021-05-31",
-            "ruonia": 4.85,
-            "keyRate": 5,
-            "spreadBps": -15,
-            "spread": -0.15
-          },
-          {
-            "date": "2021-06-30",
-            "ruonia": 5.28,
-            "keyRate": 5.5,
-            "spreadBps": -22,
-            "spread": -0.22
-          },
-          {
-            "date": "2021-07-30",
-            "ruonia": 6.76,
-            "keyRate": 6.5,
-            "spreadBps": 26,
-            "spread": 0.26
-          },
-          {
-            "date": "2021-08-31",
-            "ruonia": 6.48,
-            "keyRate": 6.5,
-            "spreadBps": -2,
-            "spread": -0.02
-          },
-          {
-            "date": "2021-09-30",
-            "ruonia": 6.78,
-            "keyRate": 6.75,
-            "spreadBps": 3,
-            "spread": 0.03
-          },
-          {
-            "date": "2021-10-29",
-            "ruonia": 7.35,
-            "keyRate": 7.5,
-            "spreadBps": -15,
-            "spread": -0.15
-          },
-          {
-            "date": "2021-11-30",
-            "ruonia": 7.27,
-            "keyRate": 7.5,
-            "spreadBps": -23,
-            "spread": -0.23
-          },
-          {
-            "date": "2021-12-29",
-            "ruonia": 8.13,
-            "keyRate": 7.5,
-            "spreadBps": 63,
-            "spread": 0.63
-          },
-          {
-            "date": "2022-01-31",
-            "ruonia": 8.28,
-            "keyRate": 8.5,
-            "spreadBps": -22,
-            "spread": -0.22
-          },
-          {
-            "date": "2022-02-28",
-            "ruonia": 20,
-            "keyRate": 20,
-            "spreadBps": 0,
-            "spread": 0
-          },
-          {
-            "date": "2022-03-31",
-            "ruonia": 19.25,
-            "keyRate": 20,
-            "spreadBps": -75,
-            "spread": -0.75
-          },
-          {
-            "date": "2022-04-29",
-            "ruonia": 16.56,
-            "keyRate": 17,
-            "spreadBps": -44,
-            "spread": -0.44
-          },
-          {
-            "date": "2022-05-31",
-            "ruonia": 10.75,
-            "keyRate": 11,
-            "spreadBps": -25,
-            "spread": -0.25
-          },
-          {
-            "date": "2022-06-30",
-            "ruonia": 9,
-            "keyRate": 9.5,
-            "spreadBps": -50,
-            "spread": -0.5
-          },
-          {
-            "date": "2022-07-29",
-            "ruonia": 8.1,
-            "keyRate": 8,
-            "spreadBps": 10,
-            "spread": 0.1
-          },
-          {
-            "date": "2022-08-31",
-            "ruonia": 8.03,
-            "keyRate": 8,
-            "spreadBps": 3,
-            "spread": 0.03
-          },
-          {
-            "date": "2022-09-30",
-            "ruonia": 7.86,
-            "keyRate": 7.5,
-            "spreadBps": 36,
-            "spread": 0.36
-          },
-          {
-            "date": "2022-10-31",
-            "ruonia": 7.54,
-            "keyRate": 7.5,
-            "spreadBps": 4,
-            "spread": 0.04
-          },
-          {
-            "date": "2022-11-30",
-            "ruonia": 7.18,
-            "keyRate": 7.5,
-            "spreadBps": -32,
-            "spread": -0.32
-          },
-          {
-            "date": "2022-12-29",
-            "ruonia": 7.37,
-            "keyRate": 7.5,
-            "spreadBps": -13,
-            "spread": -0.13
-          },
-          {
-            "date": "2023-01-31",
-            "ruonia": 7.11,
-            "keyRate": 7.5,
-            "spreadBps": -39,
-            "spread": -0.39
-          },
-          {
-            "date": "2023-02-28",
-            "ruonia": 7.51,
-            "keyRate": 7.5,
-            "spreadBps": 1,
-            "spread": 0.01
-          },
-          {
-            "date": "2023-03-31",
-            "ruonia": 7.25,
-            "keyRate": 7.5,
-            "spreadBps": -25,
-            "spread": -0.25
-          },
-          {
-            "date": "2023-04-28",
-            "ruonia": 7.53,
-            "keyRate": 7.5,
-            "spreadBps": 3,
-            "spread": 0.03
-          },
-          {
-            "date": "2023-05-31",
-            "ruonia": 7.37,
-            "keyRate": 7.5,
-            "spreadBps": -13,
-            "spread": -0.13
-          },
-          {
-            "date": "2023-06-30",
-            "ruonia": 7.45,
-            "keyRate": 7.5,
-            "spreadBps": -5,
-            "spread": -0.05
-          },
-          {
-            "date": "2023-07-31",
-            "ruonia": 8.42,
-            "keyRate": 8.5,
-            "spreadBps": -8,
-            "spread": -0.08
-          },
-          {
-            "date": "2023-08-31",
-            "ruonia": 11.84,
-            "keyRate": 12,
-            "spreadBps": -16,
-            "spread": -0.16
-          },
-          {
-            "date": "2023-09-29",
-            "ruonia": 12.43,
-            "keyRate": 13,
-            "spreadBps": -57,
-            "spread": -0.57
-          },
-          {
-            "date": "2023-10-31",
-            "ruonia": 14.5,
-            "keyRate": 15,
-            "spreadBps": -50,
-            "spread": -0.5
-          },
-          {
-            "date": "2023-11-30",
-            "ruonia": 14.91,
-            "keyRate": 15,
-            "spreadBps": -9,
-            "spread": -0.09
-          },
-          {
-            "date": "2023-12-28",
-            "ruonia": 15.27,
-            "keyRate": 15,
-            "spreadBps": 27,
-            "spread": 0.27
-          },
-          {
-            "date": "2024-01-31",
-            "ruonia": 16,
-            "keyRate": 16,
-            "spreadBps": 0,
-            "spread": 0
-          },
-          {
-            "date": "2024-02-29",
-            "ruonia": 15.75,
-            "keyRate": 16,
-            "spreadBps": -25,
-            "spread": -0.25
-          },
-          {
-            "date": "2024-03-29",
-            "ruonia": 15.99,
-            "keyRate": 16,
-            "spreadBps": -1,
-            "spread": -0.01
-          },
-          {
-            "date": "2024-04-27",
-            "ruonia": 15.86,
-            "keyRate": 16,
-            "spreadBps": -14,
-            "spread": -0.14
-          },
-          {
-            "date": "2024-05-31",
-            "ruonia": 16.14,
-            "keyRate": 16,
-            "spreadBps": 14,
-            "spread": 0.14
-          },
-          {
-            "date": "2024-06-28",
-            "ruonia": 15.66,
-            "keyRate": 16,
-            "spreadBps": -34,
-            "spread": -0.34
-          },
-          {
-            "date": "2024-07-31",
-            "ruonia": 17.28,
-            "keyRate": 18,
-            "spreadBps": -72,
-            "spread": -0.72
-          },
-          {
-            "date": "2024-08-30",
-            "ruonia": 18.98,
-            "keyRate": 18,
-            "spreadBps": 98,
-            "spread": 0.98
-          },
-          {
-            "date": "2024-09-30",
-            "ruonia": 18.41,
-            "keyRate": 19,
-            "spreadBps": -59,
-            "spread": -0.59
-          },
-          {
-            "date": "2024-10-31",
-            "ruonia": 20.57,
-            "keyRate": 21,
-            "spreadBps": -43,
-            "spread": -0.43
-          },
-          {
-            "date": "2024-11-29",
-            "ruonia": 21.09,
-            "keyRate": 21,
-            "spreadBps": 9,
-            "spread": 0.09
-          },
-          {
-            "date": "2024-12-27",
-            "ruonia": 20.47,
-            "keyRate": 21,
-            "spreadBps": -53,
-            "spread": -0.53
-          },
-          {
-            "date": "2025-01-31",
-            "ruonia": 20.76,
-            "keyRate": 21,
-            "spreadBps": -24,
-            "spread": -0.24
-          },
-          {
-            "date": "2025-02-28",
-            "ruonia": 21.17,
-            "keyRate": 21,
-            "spreadBps": 17,
-            "spread": 0.17
-          },
-          {
-            "date": "2025-03-31",
-            "ruonia": 21.45,
-            "keyRate": 21,
-            "spreadBps": 45,
-            "spread": 0.45
-          },
-          {
-            "date": "2025-04-30",
-            "ruonia": 20.74,
-            "keyRate": 21,
-            "spreadBps": -26,
-            "spread": -0.26
-          },
-          {
-            "date": "2025-05-30",
-            "ruonia": 21.03,
-            "keyRate": 21,
-            "spreadBps": 3,
-            "spread": 0.03
-          },
-          {
-            "date": "2025-06-30",
-            "ruonia": 20.23,
-            "keyRate": 20,
-            "spreadBps": 23,
-            "spread": 0.23
-          },
-          {
-            "date": "2025-07-31",
-            "ruonia": 18.23,
-            "keyRate": 18,
-            "spreadBps": 23,
-            "spread": 0.23
-          },
-          {
-            "date": "2025-08-29",
-            "ruonia": 17.75,
-            "keyRate": 18,
-            "spreadBps": -25,
-            "spread": -0.25
-          },
-          {
-            "date": "2025-09-30",
-            "ruonia": 16.99,
-            "keyRate": 17,
-            "spreadBps": -1,
-            "spread": -0.01
-          },
-          {
-            "date": "2025-10-31",
-            "ruonia": 16.29,
-            "keyRate": 16.5,
-            "spreadBps": -21,
-            "spread": -0.21
-          },
-          {
-            "date": "2025-11-28",
-            "ruonia": 16.25,
-            "keyRate": 16.5,
-            "spreadBps": -25,
-            "spread": -0.25
-          },
-          {
-            "date": "2025-12-29",
-            "ruonia": 15.85,
-            "keyRate": 16.5,
-            "spreadBps": -65,
-            "spread": -0.65
-          },
-          {
-            "date": "2026-01-30",
-            "ruonia": 15.83,
-            "keyRate": 16,
-            "spreadBps": -17,
-            "spread": -0.17
-          },
-          {
-            "date": "2026-02-27",
-            "ruonia": 15.3,
-            "keyRate": 15.5,
-            "spreadBps": -20,
-            "spread": -0.2
-          },
-          {
-            "date": "2026-03-31",
-            "ruonia": 14.87,
-            "keyRate": 15,
-            "spreadBps": -13,
-            "spread": -0.13
-          },
-          {
-            "date": "2026-04-30",
-            "ruonia": 14.49,
-            "keyRate": 14.5,
-            "spreadBps": -1,
-            "spread": -0.01
-          },
-          {
-            "date": "2026-05-29",
-            "ruonia": 14.22,
-            "keyRate": 14.5,
-            "spreadBps": -28,
-            "spread": -0.28
-          },
-          {
-            "date": "2026-06-30",
-            "ruonia": 14.25,
-            "keyRate": 14.25,
-            "spreadBps": 0,
-            "spread": 0
-          },
-          {
-            "date": "2026-07-31",
-            "ruonia": 13.95,
-            "keyRate": 14,
-            "spreadBps": -5,
-            "spread": -0.05
-          },
-          {
-            "date": "2026-08-31",
-            "ruonia": 13.68,
-            "keyRate": 14,
-            "spreadBps": -32,
-            "spread": -0.32
-          },
-          {
-            "date": "2026-09-30",
-            "ruonia": 14.04,
-            "keyRate": 14,
-            "spreadBps": 4,
-            "spread": 0.04
-          },
-          {
-            "date": "2026-10-22",
-            "ruonia": 14.2,
-            "keyRate": 14,
-            "spreadBps": 20,
-            "spread": 0.2
-          }
-        ],
-        "spreadRuoniaKey": 20,
+        "spreadSeries": [],
+        "spreadRuoniaKey": null,
         "path": {
           "market": [
             {
               "label": "Сегодня",
-              "date": "2026-10-28",
-              "rate": 14,
+              "date": "2026-10-29",
+              "rate": null,
               "series": "implied"
             },
             {
               "label": "Заседание",
               "date": "2026-11-05",
-              "rate": 13,
+              "rate": null,
               "series": "implied"
             },
             {
               "label": "3М",
               "date": null,
-              "rate": 13.0923,
+              "rate": 12.8358,
               "series": "implied"
             },
             {
               "label": "6М",
               "date": null,
-              "rate": 13.431,
+              "rate": 13.2624,
               "series": "implied"
             },
             {
               "label": "9М",
               "date": null,
-              "rate": 13.7347,
+              "rate": 13.6382,
               "series": "implied"
             },
             {
               "label": "1Г",
               "date": null,
-              "rate": 14.0112,
+              "rate": 13.972,
               "series": "implied"
             }
           ],
           "consensus": [
             {
               "label": "Сегодня",
-              "date": "2026-10-28",
-              "rate": 14,
+              "date": "2026-10-29",
+              "rate": null,
               "series": "consensus"
             },
             {
@@ -18703,248 +15740,7 @@
             }
           ]
         },
-        "rateHistory": [
-          {
-            "date": "2023-07-31",
-            "rate": 8.5,
-            "change": null,
-            "shortDate": "23-07"
-          },
-          {
-            "date": "2023-08-31",
-            "rate": 12,
-            "change": 350,
-            "shortDate": "23-08"
-          },
-          {
-            "date": "2023-09-29",
-            "rate": 13,
-            "change": 100,
-            "shortDate": "23-09"
-          },
-          {
-            "date": "2023-10-31",
-            "rate": 15,
-            "change": 200,
-            "shortDate": "23-10"
-          },
-          {
-            "date": "2023-11-30",
-            "rate": 15,
-            "change": 0,
-            "shortDate": "23-11"
-          },
-          {
-            "date": "2023-12-29",
-            "rate": 16,
-            "change": 100,
-            "shortDate": "23-12"
-          },
-          {
-            "date": "2024-01-31",
-            "rate": 16,
-            "change": 0,
-            "shortDate": "24-01"
-          },
-          {
-            "date": "2024-02-29",
-            "rate": 16,
-            "change": 0,
-            "shortDate": "24-02"
-          },
-          {
-            "date": "2024-03-29",
-            "rate": 16,
-            "change": 0,
-            "shortDate": "24-03"
-          },
-          {
-            "date": "2024-04-30",
-            "rate": 16,
-            "change": 0,
-            "shortDate": "24-04"
-          },
-          {
-            "date": "2024-05-31",
-            "rate": 16,
-            "change": 0,
-            "shortDate": "24-05"
-          },
-          {
-            "date": "2024-06-28",
-            "rate": 16,
-            "change": 0,
-            "shortDate": "24-06"
-          },
-          {
-            "date": "2024-07-31",
-            "rate": 18,
-            "change": 200,
-            "shortDate": "24-07"
-          },
-          {
-            "date": "2024-08-30",
-            "rate": 18,
-            "change": 0,
-            "shortDate": "24-08"
-          },
-          {
-            "date": "2024-09-30",
-            "rate": 19,
-            "change": 100,
-            "shortDate": "24-09"
-          },
-          {
-            "date": "2024-10-31",
-            "rate": 21,
-            "change": 200,
-            "shortDate": "24-10"
-          },
-          {
-            "date": "2024-11-29",
-            "rate": 21,
-            "change": 0,
-            "shortDate": "24-11"
-          },
-          {
-            "date": "2024-12-30",
-            "rate": 21,
-            "change": 0,
-            "shortDate": "24-12"
-          },
-          {
-            "date": "2025-01-31",
-            "rate": 21,
-            "change": 0,
-            "shortDate": "25-01"
-          },
-          {
-            "date": "2025-02-28",
-            "rate": 21,
-            "change": 0,
-            "shortDate": "25-02"
-          },
-          {
-            "date": "2025-03-31",
-            "rate": 21,
-            "change": 0,
-            "shortDate": "25-03"
-          },
-          {
-            "date": "2025-04-30",
-            "rate": 21,
-            "change": 0,
-            "shortDate": "25-04"
-          },
-          {
-            "date": "2025-05-30",
-            "rate": 21,
-            "change": 0,
-            "shortDate": "25-05"
-          },
-          {
-            "date": "2025-06-30",
-            "rate": 20,
-            "change": -100,
-            "shortDate": "25-06"
-          },
-          {
-            "date": "2025-07-31",
-            "rate": 18,
-            "change": -200,
-            "shortDate": "25-07"
-          },
-          {
-            "date": "2025-08-29",
-            "rate": 18,
-            "change": 0,
-            "shortDate": "25-08"
-          },
-          {
-            "date": "2025-09-30",
-            "rate": 17,
-            "change": -100,
-            "shortDate": "25-09"
-          },
-          {
-            "date": "2025-10-31",
-            "rate": 16.5,
-            "change": -50,
-            "shortDate": "25-10"
-          },
-          {
-            "date": "2025-11-28",
-            "rate": 16.5,
-            "change": 0,
-            "shortDate": "25-11"
-          },
-          {
-            "date": "2025-12-30",
-            "rate": 16,
-            "change": -50,
-            "shortDate": "25-12"
-          },
-          {
-            "date": "2026-01-30",
-            "rate": 16,
-            "change": 0,
-            "shortDate": "26-01"
-          },
-          {
-            "date": "2026-02-27",
-            "rate": 15.5,
-            "change": -50,
-            "shortDate": "26-02"
-          },
-          {
-            "date": "2026-03-31",
-            "rate": 15,
-            "change": -50,
-            "shortDate": "26-03"
-          },
-          {
-            "date": "2026-04-30",
-            "rate": 14.5,
-            "change": -50,
-            "shortDate": "26-04"
-          },
-          {
-            "date": "2026-05-29",
-            "rate": 14.5,
-            "change": 0,
-            "shortDate": "26-05"
-          },
-          {
-            "date": "2026-06-30",
-            "rate": 14.25,
-            "change": -25,
-            "shortDate": "26-06"
-          },
-          {
-            "date": "2026-07-31",
-            "rate": 14,
-            "change": -25,
-            "shortDate": "26-07"
-          },
-          {
-            "date": "2026-08-31",
-            "rate": 14,
-            "change": 0,
-            "shortDate": "26-08"
-          },
-          {
-            "date": "2026-09-30",
-            "rate": 14,
-            "change": 0,
-            "shortDate": "26-09"
-          },
-          {
-            "date": "2026-10-27",
-            "rate": 14,
-            "change": 0,
-            "shortDate": "26-10"
-          }
-        ],
+        "rateHistory": [],
         "meetings": [
           {
             "date": "2024-02-16",
@@ -19400,9 +16196,9 @@
         {
           "id": "imoex_rgbi",
           "title": "IMOEX / RGBI",
-          "latest": 22.446064917741218,
+          "latest": 22.420065760241712,
           "unit": "отн.",
-          "asOf": "2026-10-27",
+          "asOf": "2026-10-28",
           "source": "MOEX ISS history",
           "points": [
             {
@@ -19922,13 +16718,13 @@
               "value": 20.38095666247078
             },
             {
-              "date": "2026-10-27",
-              "value": 22.446064917741218
+              "date": "2026-10-28",
+              "value": 22.420065760241712
             }
           ],
           "emptyReason": null,
           "meaning": "Главный локальный барометр риска: деньги в широкий рынок акций или в длинные ОФЗ. Растёт — акции обгоняют госдолг.",
-          "conclusion": "смешанный: в сравнении с 12м 2.5%, в сравнении с 7л -2.2%.",
+          "conclusion": "смешанный: в сравнении с 12м 2.4%, в сравнении с 7л -2.3%.",
           "color": "#0C0C0C",
           "showMA": true,
           "refY": null,
@@ -19943,9 +16739,9 @@
         {
           "id": "hy_bbb",
           "title": "RUCBHYTR / RUCBTRBBBNS",
-          "latest": 0.7951723839598563,
+          "latest": 0.7959697732997482,
           "unit": "отн.",
-          "asOf": "2026-10-27",
+          "asOf": "2026-10-28",
           "source": "MOEX ISS history",
           "points": [
             {
@@ -20217,13 +17013,13 @@
               "value": 0.7980138322397589
             },
             {
-              "date": "2026-10-27",
-              "value": 0.7951723839598563
+              "date": "2026-10-28",
+              "value": 0.7959697732997482
             }
           ],
           "emptyReason": null,
           "meaning": "Кредитный аппетит. Растёт — инвесторы готовы держать высокодоходные бумаги против BBB.",
-          "conclusion": "режим снижения риска: в сравнении с 12м -8.0%, в сравнении с 7л -6.4%.",
+          "conclusion": "режим снижения риска: в сравнении с 12м -7.9%, в сравнении с 7л -6.3%.",
           "color": "#A81829",
           "showMA": true,
           "refY": null,
@@ -20238,9 +17034,9 @@
         {
           "id": "fn_og",
           "title": "MOEXFN / MOEXOG",
-          "latest": 1.2402609369176134,
+          "latest": 1.242896029605487,
           "unit": "отн.",
-          "asOf": "2026-10-27",
+          "asOf": "2026-10-28",
           "source": "MOEX ISS history",
           "points": [
             {
@@ -20760,13 +17556,13 @@
               "value": 1.2650376700285988
             },
             {
-              "date": "2026-10-27",
-              "value": 1.2402609369176134
+              "date": "2026-10-28",
+              "value": 1.242896029605487
             }
           ],
           "emptyReason": null,
           "meaning": "Финансы против нефтегаза. Растёт — рынок платит за внутренний финансовый цикл, а не только за сырьё.",
-          "conclusion": "смешанный: в сравнении с 12м -9.6%, в сравнении с 7л 3.3%.",
+          "conclusion": "смешанный: в сравнении с 12м -9.5%, в сравнении с 7л 3.5%.",
           "color": "#0C0C0C",
           "showMA": true,
           "refY": null,
@@ -20781,9 +17577,9 @@
         {
           "id": "imoex_usd",
           "title": "IMOEX / USDRUB",
-          "latest": 31.342829504772716,
+          "latest": 31.198742617452982,
           "unit": "отн.",
-          "asOf": "2026-10-27",
+          "asOf": "2026-10-28",
           "source": "MOEX ISS + ЦБ XML_dynamic R01235",
           "points": [
             {
@@ -21263,13 +18059,13 @@
               "value": 26.84846194937006
             },
             {
-              "date": "2026-10-27",
-              "value": 31.342829504772716
+              "date": "2026-10-28",
+              "value": 31.198742617452982
             }
           ],
           "emptyReason": null,
           "meaning": "Индекс в долларовом выражении (кросс с курсом ЦБ R01235). Растёт — рублёвые акции обгоняют ослабление валюты.",
-          "conclusion": "режим снижения риска: в сравнении с 12м -3.3%, в сравнении с 7л -16.1%.",
+          "conclusion": "режим снижения риска: в сравнении с 12м -3.7%, в сравнении с 7л -16.5%.",
           "color": "#A81829",
           "showMA": true,
           "refY": null,
@@ -21284,9 +18080,9 @@
         {
           "id": "rgbi_usd",
           "title": "RGBI / USDRUB",
-          "latest": 1.3963618843496952,
+          "latest": 1.3915544651425067,
           "unit": "отн.",
-          "asOf": "2026-10-27",
+          "asOf": "2026-10-28",
           "source": "MOEX ISS + ЦБ XML_dynamic R01235",
           "points": [
             {
@@ -21766,13 +18562,13 @@
               "value": 1.3173308002174626
             },
             {
-              "date": "2026-10-27",
-              "value": 1.3963618843496952
+              "date": "2026-10-28",
+              "value": 1.3915544651425067
             }
           ],
           "emptyReason": null,
           "meaning": "ОФЗ против доллара. Растёт — госдолг держит стоимость лучше, чем валютная «подушка».",
-          "conclusion": "режим снижения риска: в сравнении с 12м -5.4%, в сравнении с 7л -16.5%.",
+          "conclusion": "режим снижения риска: в сравнении с 12м -5.7%, в сравнении с 7л -16.8%.",
           "color": "#A81829",
           "showMA": true,
           "refY": null,
@@ -21787,7 +18583,7 @@
         {
           "id": "splice_credit",
           "title": "SPLICE кредит / ОФЗ",
-          "latest": 1.0488112604999875,
+          "latest": 1.0448519528695865,
           "unit": "отн.",
           "asOf": "2026-10-01",
           "source": "MOEX ISS · SPLICE_K bb=4.2058 bbb=3.6838 tr5y=4.4365 tr3y=3.6492",
@@ -22062,12 +18858,12 @@
             },
             {
               "date": "2026-10-01",
-              "value": 1.0488112604999875
+              "value": 1.0448519528695865
             }
           ],
           "emptyReason": null,
           "meaning": "Взвешенный индекс HY+BBB против 5л+3л корпоратов с коэффициентами SPLICE_K. Это реконструкция весов, не котировка одной бумаги.",
-          "conclusion": "режим снижения риска: в сравнении с 12м -2.8%, в сравнении с 7л -0.9%.",
+          "conclusion": "режим снижения риска: в сравнении с 12м -3.2%, в сравнении с 7л -1.3%.",
           "color": "#A81829",
           "showMA": true,
           "refY": null,
@@ -22585,9 +19381,9 @@
         {
           "id": "global_hy_ig",
           "title": "GLOBAL · HY / IG (ICE BofA TR)",
-          "latest": 0.5270466414702956,
+          "latest": 0.5285270322765889,
           "unit": "отн.",
-          "asOf": "2026-10-26",
+          "asOf": "2026-10-27",
           "source": "FRED BAMLHYH0A0HYM2TRIV / BAMLCC0A0CMTRIV · замена HYG/LQD: total return ICE BofA HY Master II и US Corporate Master",
           "points": [
             {
@@ -22735,13 +19531,13 @@
               "value": 0.5356195534042388
             },
             {
-              "date": "2026-10-26",
-              "value": 0.5270466414702956
+              "date": "2026-10-27",
+              "value": 0.5285270322765889
             }
           ],
           "emptyReason": null,
           "meaning": "Кредитный аппетит в США. Растёт — высокодоходные облигации обгоняют инвестиционный корпоративный индекс (режим принятия риска в кредите).",
-          "conclusion": "режим принятия риска: в сравнении с 12м 0.6%, в сравнении с 7л 2.7%.",
+          "conclusion": "режим принятия риска: в сравнении с 12м 0.8%, в сравнении с 7л 3.0%.",
           "color": "#379A8B",
           "showMA": true,
           "refY": null,

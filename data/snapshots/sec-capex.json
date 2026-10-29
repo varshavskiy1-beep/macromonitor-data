@@ -5,7 +5,7 @@
   "companies": [
     {
       "ticker": "MSFT",
-      "name": "Microsoft Corporation",
+      "name": "MICROSOFT CORPORATION",
       "cik": "0000789019",
       "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
       "ink": "#00a4ef",
@@ -298,9 +298,13 @@
         {
           "date": "2026-06-30",
           "value": 35802000000
+        },
+        {
+          "date": "2026-09-30",
+          "value": 39367000000
         }
       ],
-      "lastFiled": "2026-07-29",
+      "lastFiled": "2026-10-28",
       "error": null
     },
     {
