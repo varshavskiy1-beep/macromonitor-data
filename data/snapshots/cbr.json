@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "fetchedAt": "2026-10-29T01:53:16.792Z",
+  "fetchedAt": "2026-10-30T01:58:09.124Z",
   "keyRate": null,
   "keyRateHistory": [],
   "usdRub": {
@@ -486,8 +486,8 @@
       "value": 84.4283
     },
     {
-      "date": "2026-10-29",
-      "value": 80.8664
+      "date": "2026-10-30",
+      "value": 80.6761
     }
   ],
   "cnyHistory": [
@@ -968,8 +968,8 @@
       "value": 12.5764
     },
     {
-      "date": "2026-10-29",
-      "value": 12.0816
+      "date": "2026-10-30",
+      "value": 12.0844
     }
   ],
   "cpi": {
@@ -8070,7 +8070,7 @@
     "nextMeetingRate": 13.5,
     "yearEnd2026": 13.75,
     "source": "sbercib.ru/publication/prognoz-klyuchevoi-stavki-na-2026-god",
-    "fetchedAt": "2026-10-29T01:53:16.508Z",
+    "fetchedAt": "2026-10-30T01:58:08.873Z",
     "error": null
   },
   "depositMax": {

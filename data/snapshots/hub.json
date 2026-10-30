@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetchedAt": "2026-10-29T01:53:16.792Z",
+  "fetchedAt": "2026-10-30T01:58:09.124Z",
   "kpis": [
     {
       "id": "barometer",
       "kicker": "Бизнес",
       "name": "Барометр среды",
-      "value": 21,
+      "value": 10,
       "unit": "баллы −100…+100",
       "soWhat": "Смешанные сигналы. Удерживайте базу, готовьте пайплайн к развороту фона.",
       "base": "17 карточек, 16 весов сумма 1.28 + вес-0; score = round((Σ signal×weight / Σweight)×100)",
@@ -24,15 +24,15 @@
       "name": "Ключевая ставка ЦБ",
       "value": 14,
       "unit": "%",
-      "soWhat": "короткий участок кривой около ключа",
+      "soWhat": "нет данных",
       "base": "SOAP KeyRate + MOEX ZCYC yearyields (не консенсус банков)",
-      "date": "2026-10-28",
+      "date": null,
       "status": "ok",
       "extra": {
-        "zcyc1y": 13.972,
-        "zcyc3y": 15.5455,
-        "zcyc5y": 16.0679,
-        "zcyc10y": 16.3568
+        "zcyc1y": null,
+        "zcyc3y": null,
+        "zcyc5y": null,
+        "zcyc10y": null
       }
     },
     {
@@ -41,13 +41,13 @@
       "name": "Фаза РФ + IMOEX г/г",
       "value": "VIII",
       "unit": "Жёсткая ДКП — стагнация",
-      "soWhat": "Реальная ставка ≥ 6 п.п. — зона кэша: депозиты/короткие фонды/короткие ОФЗ бьют индекс на горизонте ~1г. Растущая М2 / широкий спред М2−ИПЦ не отменяют этот режим. Полный режим принятия риска только при ключе ≤ 12% и реальной ставке < 6 п.п. (и ИПЦ < 5%, если фильтр инфляции включён). IMOEX г/г: -8.81%.",
+      "soWhat": "Реальная ставка ≥ 6 п.п. — зона кэша: депозиты/короткие фонды/короткие ОФЗ бьют индекс на горизонте ~1г. Растущая М2 / широкий спред М2−ИПЦ не отменяют этот режим. Полный режим принятия риска только при ключе ≤ 12% и реальной ставке < 6 п.п. (и ИПЦ < 5%, если фильтр инфляции включён). IMOEX г/г: -9.77%.",
       "base": "ЦБ ключ, ИПЦ Росстата через таблицу ЦБ, М2 CBR monetary_agg, IMOEX ISS YEARCHANGEPRC",
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "status": "ok",
       "extra": {
-        "imoex": 2522.93,
-        "imoexYoy": -8.81,
+        "imoex": 2496.26,
+        "imoexYoy": -9.77,
         "realRate": 7.65
       }
     },
@@ -55,22 +55,22 @@
       "id": "fedLiq",
       "kicker": "Мир",
       "name": "Ликвидность ФРС",
-      "value": 5.000000000000027,
+      "value": 4.0000000000000036,
       "unit": "б.п. SOFR−IORB",
       "soWhat": "SOFR чуть выше IORB — коридор ещё держится; буфер ON RRP почти исчерпан",
       "base": "NY Fed SOFR last/120.json · FRED IORB · FRED RRPONTSYD · WALCL − TGA − RRP",
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "status": "ok",
       "extra": {
-        "sofr": 3.95,
-        "sofrDate": "2026-10-27",
+        "sofr": 3.94,
+        "sofrDate": "2026-10-28",
         "iorb": 3.9,
-        "iorbDate": "2026-10-27",
-        "rrpBn": 0.176,
-        "rrpDate": "2026-10-28",
-        "walclMn": 6753604,
-        "tgaMn": 1020700,
-        "netLiquidityBn": 5732.728
+        "iorbDate": "2026-10-28",
+        "rrpBn": 0.353,
+        "rrpDate": "2026-10-29",
+        "walclMn": 6745635,
+        "tgaMn": 1052530,
+        "netLiquidityBn": 5692.752
       }
     },
     {
@@ -91,8 +91,8 @@
     }
   ],
   "barometer": {
-    "score": 21,
-    "rawScore": 21,
+    "score": 10,
+    "rawScore": 10,
     "light": "yellow",
     "label": "Нейтрально",
     "directive": "Удерживайте базу",
@@ -101,10 +101,10 @@
     "restrictive": false,
     "note": null,
     "leadMonths": 1.4,
-    "greenShare": 27,
-    "redShare": 9,
-    "neutralShare": 64,
-    "sumWeight": 0.7100000000000002,
+    "greenShare": 20,
+    "redShare": 10,
+    "neutralShare": 70,
+    "sumWeight": 0.6200000000000001,
     "indicators": [
       {
         "id": "key_rate_dir",
@@ -145,10 +145,10 @@
         "group": "monetary",
         "unit": "п.п.",
         "weight": 0.09,
-        "latest": 2.3848000000000003,
-        "signal": 1,
-        "status": "ok",
-        "statusWord": "благоприятно"
+        "latest": null,
+        "signal": null,
+        "status": "empty",
+        "statusWord": "нет данных"
       },
       {
         "id": "real_depo",
@@ -200,7 +200,7 @@
         "group": "market",
         "unit": "%",
         "weight": 0.08,
-        "latest": -0.08989386979249096,
+        "latest": -1.1460478377950103,
         "signal": 0,
         "status": "ok",
         "statusWord": "нейтрально"
@@ -211,7 +211,7 @@
         "group": "market",
         "unit": "пункты",
         "weight": 0.04,
-        "latest": 30.54,
+        "latest": 30.89,
         "signal": 0,
         "status": "ok",
         "statusWord": "нейтрально"
@@ -222,7 +222,7 @@
         "group": "market",
         "unit": "×",
         "weight": 0.08,
-        "latest": 1.1977892256801386,
+        "latest": 1.2547218567569722,
         "signal": 0,
         "status": "ok",
         "statusWord": "нейтрально"
@@ -233,7 +233,7 @@
         "group": "fx",
         "unit": "₽",
         "weight": 0.06,
-        "latest": 80.8664,
+        "latest": 80.6761,
         "signal": 0,
         "status": "ok",
         "statusWord": "нейтрально"
@@ -363,15 +363,15 @@
     "missing": 0
   },
   "liquidity": {
-    "sofr": 3.95,
-    "sofrDate": "2026-10-27",
+    "sofr": 3.94,
+    "sofrDate": "2026-10-28",
     "iorb": 3.9,
-    "iorbDate": "2026-10-27",
-    "rrpBn": 0.176,
-    "rrpDate": "2026-10-28",
-    "walclMn": 6753604,
-    "tgaMn": 1020700,
-    "netLiquidityBn": 5732.728
+    "iorbDate": "2026-10-28",
+    "rrpBn": 0.353,
+    "rrpDate": "2026-10-29",
+    "walclMn": 6745635,
+    "tgaMn": 1052530,
+    "netLiquidityBn": 5692.752
   },
   "gpr": {
     "ma30": 175.43894958496094,
@@ -379,15 +379,15 @@
     "tone": "risk"
   },
   "crs": {
-    "score": 0,
-    "renormalizedWeight": 0.5,
-    "liveCount": 2,
+    "score": 100,
+    "renormalizedWeight": 1,
+    "liveCount": 1,
     "dropped": "oilYoY",
     "legs": [
       {
         "id": "hyOas",
         "name": "US HY OAS",
-        "value": 3.18,
+        "value": 3.14,
         "unit": "п.п.",
         "signal": 1,
         "status": "ok"
@@ -395,10 +395,10 @@
       {
         "id": "ofzSlope",
         "name": "ОФЗ 5л − 3л",
-        "value": 0.5224000000000011,
+        "value": null,
         "unit": "п.п.",
-        "signal": -1,
-        "status": "ok"
+        "signal": null,
+        "status": "empty"
       },
       {
         "id": "spliceCredit",
@@ -412,10 +412,10 @@
   },
   "btc": {
     "status": "ok",
-    "coinbase": 80906.365,
-    "binance": 81012,
+    "coinbase": 77074.995,
+    "binance": 77361.02,
     "mid": null,
-    "gapPct": 0.1304793313593486,
+    "gapPct": 0.3704123031146701,
     "diverged": false,
     "note": "площадки согласованы, среднее всё равно не показываем"
   }

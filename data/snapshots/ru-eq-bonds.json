@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-10-29T02:43:46.129Z",
+  "fetchedAt": "2026-10-30T02:37:03.959Z",
   "status": "ok",
-  "asOf": "2026-10-28",
+  "asOf": "2026-10-29",
   "transitionDate": "2023-06-01",
   "usedCache": false,
   "points": [
@@ -1821,35 +1821,35 @@
       "corp_modern": 16.2
     },
     {
-      "date": "2026-10-28",
-      "mcftr": 7283.1,
-      "equity_1y": 10.477886523187463,
-      "equity_5y": -1.7130220904555293,
-      "equity_10y": 10.120718193231216,
-      "base_1y_date": "2025-10-28",
-      "base_5y_date": "2021-10-28",
+      "date": "2026-10-29",
+      "mcftr": 7184.63,
+      "equity_1y": 7.763576885059775,
+      "equity_5y": -1.7936205269138306,
+      "equity_10y": 9.970917535596913,
+      "base_1y_date": "2025-10-29",
+      "base_5y_date": "2021-10-29",
       "base_10y_date": "2016-10-28",
-      "corp_yield": 16.03,
-      "gov_yield": 16.4,
+      "corp_yield": 15.96,
+      "gov_yield": 16.45,
       "corp_source": "RUCBTR3A5YNS",
       "corp_legacy": null,
-      "corp_modern": 16.03
+      "corp_modern": 15.96
     }
   ],
   "latest": {
-    "date": "2026-10-28",
-    "mcftr": 7283.1,
-    "equity_1y": 10.477886523187463,
-    "equity_5y": -1.7130220904555293,
-    "equity_10y": 10.120718193231216,
-    "base_1y_date": "2025-10-28",
-    "base_5y_date": "2021-10-28",
+    "date": "2026-10-29",
+    "mcftr": 7184.63,
+    "equity_1y": 7.763576885059775,
+    "equity_5y": -1.7936205269138306,
+    "equity_10y": 9.970917535596913,
+    "base_1y_date": "2025-10-29",
+    "base_5y_date": "2021-10-29",
     "base_10y_date": "2016-10-28",
-    "corp_yield": 16.03,
-    "gov_yield": 16.4,
+    "corp_yield": 15.96,
+    "gov_yield": 16.45,
     "corp_source": "RUCBTR3A5YNS",
     "corp_legacy": null,
-    "corp_modern": 16.03
+    "corp_modern": 15.96
   },
   "sources": {
     "mcftr": "MOEX ISS history MCFTR RTSI limit=100",
