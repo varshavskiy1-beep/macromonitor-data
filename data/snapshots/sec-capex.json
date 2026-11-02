@@ -513,7 +513,7 @@
     },
     {
       "ticker": "AMZN",
-      "name": "AMAZON COM INC",
+      "name": "AMAZON.COM, INC.",
       "cik": "0001018724",
       "tag": "PaymentsToAcquireProductiveAssets",
       "ink": "#ff9900",
@@ -662,9 +662,13 @@
         {
           "date": "2026-06-30",
           "value": 54208000000
+        },
+        {
+          "date": "2026-09-30",
+          "value": 77259000000
         }
       ],
-      "lastFiled": "2026-07-31",
+      "lastFiled": "2026-10-30",
       "error": null
     },
     {

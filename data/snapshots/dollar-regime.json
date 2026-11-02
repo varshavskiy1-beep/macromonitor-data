@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "fetchedAt": "2026-10-30T02:21:36.244Z",
+  "fetchedAt": "2026-11-02T03:36:43.125Z",
   "source": "live",
   "today": {
     "asof": "2026-10-30",
@@ -32927,7 +32927,28 @@
       "phase": "Q3"
     }
   ],
-  "errors": [],
+  "errors": [
+    "DXY: Yahoo DX-Y.NYB HTTP 403",
+    "oil USO: Yahoo USO HTTP 403",
+    "oil BNO: Yahoo BNO HTTP 403",
+    "oil XLE: Yahoo XLE HTTP 403",
+    "oil OIH: Yahoo OIH HTTP 403",
+    "нефтяная корзина: замена Brent FRED DCOILBRENTEU + доступные ETF",
+    "metals CPER: Yahoo CPER HTTP 403",
+    "metals COPX: Yahoo COPX HTTP 403",
+    "metals DBB: Yahoo DBB HTTP 403",
+    "metals fallback: Yahoo HG=F HTTP 403",
+    "DXY: Yahoo DX-Y.NYB HTTP 403",
+    "oil USO: Yahoo USO HTTP 403",
+    "oil BNO: Yahoo BNO HTTP 403",
+    "oil XLE: Yahoo XLE HTTP 403",
+    "oil OIH: Yahoo OIH HTTP 403",
+    "нефтяная корзина: замена Brent FRED DCOILBRENTEU + доступные ETF",
+    "metals CPER: Yahoo CPER HTTP 403",
+    "metals COPX: Yahoo COPX HTTP 403",
+    "metals DBB: Yahoo DBB HTTP 403",
+    "metals fallback: Yahoo HG=F HTTP 403"
+  ],
   "seriesLast": {
     "dxy": {
       "date": "2026-10-30",
@@ -32953,5 +32974,6 @@
       "date": "2026-10-29",
       "value": 2.35
     }
-  }
+  },
+  "usedCache": true
 }

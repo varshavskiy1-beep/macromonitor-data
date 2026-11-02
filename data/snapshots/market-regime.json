@@ -1,13 +1,13 @@
 {
-  "fetchedAt": "2026-10-30T01:58:09.234Z",
+  "fetchedAt": "2026-11-02T03:23:54.844Z",
   "status": "partial",
   "caption": "Это описание обстановки, а не сигнал к сделке. На истории сравнение с годовой ставкой не улучшало результат портфеля: работал сам факт растущего года, а планка по ставке ничего не добавляла.",
   "usa": {
     "id": "usa",
     "name": "США",
     "asOf": "2026-10-29",
-    "stale": false,
-    "staleNote": null,
+    "stale": true,
+    "staleNote": "данные не обновились",
     "source": "SPY (Adj Close / Close)",
     "rf": {
       "value": 4.47,
@@ -3036,14 +3036,17 @@
         "rfBase": 4.47
       }
     ],
-    "errors": []
+    "errors": [
+      "Yahoo SPY HTTP 403",
+      "Yahoo SPY HTTP 403"
+    ]
   },
   "russia": {
     "id": "russia",
     "name": "Россия",
-    "asOf": "2026-10-29",
-    "stale": false,
-    "staleNote": null,
+    "asOf": "2026-10-30",
+    "stale": true,
+    "staleNote": "данные не обновились",
     "source": "MOEX ISS MCFTR / IMOEX",
     "rf": {
       "value": null,
@@ -3053,13 +3056,13 @@
     },
     "divYieldNote": "Индекс MCFTR — gross (до налога на дивиденды); фактическая дивдоходность у инвестора чуть ниже.",
     "momentum": {
-      "value": 7.684594539502876,
+      "value": 8.257479866639361,
       "regime": null,
       "vsRate": null,
       "switchNote": null
     },
     "divYield": {
-      "value": 8.93301904895829,
+      "value": 9.267030502635354,
       "regime": null,
       "vsRate": null,
       "switchNote": null
@@ -4443,18 +4446,22 @@
         "rfBase": null
       },
       {
-        "date": "2026-10-29",
-        "momentum": 7.684594539502876,
-        "divYield": 8.93301904895829,
+        "date": "2026-10-30",
+        "momentum": 8.257479866639361,
+        "divYield": 9.267030502635354,
         "rf": null,
         "momExcess": 0,
         "divExcess": 0,
         "rfBase": null
       }
     ],
-    "errors": []
+    "errors": [
+      "fetch retry failed https://iss.moex.com/iss/history/engines/stock/markets/index/boards/RTSI/securities/MCFTR.json?iss.meta=off&from=2013-01-01&start=0&limit=100 HTTP 0"
+    ]
   },
   "errors": [
-    "market-regime key rate: ЦБ HTTP 500"
+    "market-regime USA: Yahoo SPY HTTP 403",
+    "market-regime key rate: ЦБ HTTP 500",
+    "market-regime Russia: fetch retry failed https://iss.moex.com/iss/history/engines/stock/markets/index/boards/RTSI/securities/MCFTR.json?iss.meta=off&from=2013-01-01&start=0&limit=100 HTTP 0"
   ]
 }

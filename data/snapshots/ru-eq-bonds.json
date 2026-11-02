@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-10-30T02:37:03.959Z",
+  "fetchedAt": "2026-11-02T03:36:44.748Z",
   "status": "ok",
   "asOf": "2026-10-29",
   "transitionDate": "2023-06-01",
-  "usedCache": false,
+  "usedCache": true,
   "points": [
     {
       "date": "2016-09-30",
@@ -1857,7 +1857,9 @@
     "corpModern": "MOEX ISS history RUCBTR3A5YNS RTSI YIELD limit=100",
     "gov": "MOEX ISS history RUGBITR5+ RTSI YIELD limit=100"
   },
-  "errors": [],
+  "errors": [
+    "MCFTR: fetch retry failed https://iss.moex.com/iss/history/engines/stock/markets/index/boards/RTSI/securities/MCFTR.json?iss.meta=off&from=2006-09-01&start=0&limit=100 HTTP 0; RUCBITRBBB3+: fetch retry failed https://iss.moex.com/iss/history/engines/stock/markets/index/boards/RTSI/securities/RUCBITRBBB3%2B.json?iss.meta=off&from=2016-09-01&start=0&limit=100&till=2023-05-31 HTTP 0; RUCBTR3A5YNS: fetch retry failed https://iss.moex.com/iss/history/engines/stock/markets/index/boards/RTSI/securities/RUCBTR3A5YNS.json?iss.meta=off&from=2023-06-01&start=0&limit=100 HTTP 0; RUGBITR5+: fetch retry failed https://iss.moex.com/iss/history/engines/stock/markets/index/boards/RTSI/securities/RUGBITR5%2B.json?iss.meta=off&from=2016-09-01&start=0&limit=100 HTTP 0; нет рядов: mcftr, corpLegacy, corpModern, gov"
+  ],
   "qa": {
     "date": "2026-09-29",
     "found": false
