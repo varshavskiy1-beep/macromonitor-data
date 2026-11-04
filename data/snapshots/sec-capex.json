@@ -5,7 +5,7 @@
   "companies": [
     {
       "ticker": "MSFT",
-      "name": "MICROSOFT CORPORATION",
+      "name": "MICROSOFT CORP",
       "cik": "0000789019",
       "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
       "ink": "#00a4ef",

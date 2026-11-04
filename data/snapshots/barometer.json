@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-11-02T03:23:54.718Z",
+  "fetchedAt": "2026-11-04T01:38:25.968Z",
   "status": "ok",
-  "score": 10,
-  "rawScore": 10,
+  "score": 23,
+  "rawScore": 23,
   "light": "yellow",
   "label": "Нейтрально",
   "directive": "Удерживайте базу",
@@ -11,9 +11,9 @@
   "restrictive": false,
   "note": null,
   "leadMonths": 1.4,
-  "greenShare": 20,
+  "greenShare": 30,
   "redShare": 10,
-  "neutralShare": 70,
+  "neutralShare": 60,
   "sumWeight": 0.6200000000000001,
   "weightBudget": 1.28,
   "indicators": [
@@ -1917,10 +1917,10 @@
       "signal": null,
       "statusWord": "нет данных",
       "status": "empty",
-      "mom": -0.6635000000000026,
-      "asOf": "2026-10-30",
+      "mom": -0.9780000000000033,
+      "asOf": "2026-11-03",
       "source": "MOEX ISS zcyc.json",
-      "emptyReason": "fetch failed",
+      "emptyReason": "curl https://iss.moex.com/iss/history/engines/stock/zcyc.json?iss.meta=off&from=2016-01-01&start=0: curl: (28) Operation timed out after 25002 milliseconds with 16173 bytes received\n",
       "chartEmpty": false,
       "chartReason": null,
       "points": [
@@ -2539,6 +2539,10 @@
         {
           "date": "2026-10-30",
           "value": 2.495099999999999
+        },
+        {
+          "date": "2026-11-03",
+          "value": 2.1805999999999983
         }
       ],
       "ma12": [
@@ -3310,6 +3314,11 @@
         {
           "date": "2026-10-30",
           "value": 1.627761538461539,
+          "n": 13
+        },
+        {
+          "date": "2026-11-03",
+          "value": 1.6968846153846153,
           "n": 13
         }
       ],
@@ -4083,10 +4092,15 @@
           "date": "2026-10-30",
           "value": 0.5030882352941174,
           "n": 85
+        },
+        {
+          "date": "2026-11-03",
+          "value": 0.5214647058823528,
+          "n": 85
         }
       ],
-      "ma7yLatest": 0.5030882352941174,
-      "ma12Latest": 1.627761538461539,
+      "ma7yLatest": 0.5214647058823528,
+      "ma12Latest": 1.6968846153846153,
       "ma12Note": null,
       "ma7yNote": null,
       "historyMonths": 153
@@ -5934,9 +5948,9 @@
       "mom": null,
       "asOf": "2026-09-01",
       "source": "SOAP KeyRate − ИПЦ Росстата",
-      "emptyReason": "curl http://ssl.rosstat.gov.ru/statistics/price: curl HTTP 500; wget http://ssl.rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-3979849-uxmy2t58vq http://ssl.rosstat.gov.ru/statistics/price\n; curl https://rosstat.gov.ru/statistics/price: Command failed: curl -sSL -k --max-time 120 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rosstat-3979849-uxmy2t58vq -w %{http_code} https://rosstat.gov.ru/statistics/price\ncurl: (35) TLS connect error: error:0A000126:SSL routines::unexpected eof while reading\n; wget https://rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-3979849-uxmy2t58vq https://rosstat.gov.ru/statistics/price\n",
+      "emptyReason": "curl http://ssl.rosstat.gov.ru/statistics/price: curl HTTP 500; wget http://ssl.rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-546140-44y9lealjhp http://ssl.rosstat.gov.ru/statistics/price\n; curl https://rosstat.gov.ru/statistics/price: curl HTTP 404; wget https://rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-546140-44y9lealjhp https://rosstat.gov.ru/statistics/price\n",
       "chartEmpty": true,
-      "chartReason": "curl http://ssl.rosstat.gov.ru/statistics/price: curl HTTP 500; wget http://ssl.rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-3979849-uxmy2t58vq http://ssl.rosstat.gov.ru/statistics/price\n; curl https://rosstat.gov.ru/statistics/price: Command failed: curl -sSL -k --max-time 120 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rosstat-3979849-uxmy2t58vq -w %{http_code} https://rosstat.gov.ru/statistics/price\ncurl: (35) TLS connect error: error:0A000126:SSL routines::unexpected eof while reading\n; wget https://rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-3979849-uxmy2t58vq https://rosstat.gov.ru/statistics/price\n",
+      "chartReason": "curl http://ssl.rosstat.gov.ru/statistics/price: curl HTTP 500; wget http://ssl.rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-546140-44y9lealjhp http://ssl.rosstat.gov.ru/statistics/price\n; curl https://rosstat.gov.ru/statistics/price: curl HTTP 404; wget https://rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-546140-44y9lealjhp https://rosstat.gov.ru/statistics/price\n",
       "points": [],
       "ma12": [],
       "ma7y": [],
@@ -5963,10 +5977,10 @@
       "status": "empty",
       "mom": null,
       "asOf": null,
-      "source": "MOEX ISS LQDT",
-      "emptyReason": "fetch failed",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/LQDT.json?iss.meta=off",
+      "emptyReason": "ISS отдаёт только текущую капитализацию LQDT, нет месячного ряда СЧА",
       "chartEmpty": true,
-      "chartReason": "fetch failed",
+      "chartReason": "ISS отдаёт только текущую капитализацию LQDT, нет месячного ряда СЧА",
       "points": [],
       "ma12": [],
       "ma7y": [],
@@ -6016,14 +6030,14 @@
       "weight": 0.08,
       "context": false,
       "meaning": "Сколько индекс Мосбиржи прибавил или потерял за 12 месяцев. Плюс — тренд уже за риск, клиенту проще заходить. Глубокий минус — «боль» в портфелях, привлечение в акции почти не работает, пока рынок не стабилизируется.",
-      "latest": -0.6312371297322826,
-      "signalValue": -0.6312371297322826,
+      "latest": -8.58534908571899,
+      "signalValue": -8.58534908571899,
       "signal": 0,
       "statusWord": "нейтрально",
       "status": "ok",
-      "mom": 9.032630559487455,
-      "asOf": "2026-10-30",
-      "source": "MOEX ISS history (spot fallback)",
+      "mom": 12.45291667692852,
+      "asOf": "2026-11-03",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/index/boards/SNDX/securities/IMOEX.json?iss.meta=off&iss.only=marketdata,securities",
       "emptyReason": null,
       "chartEmpty": false,
       "chartReason": null,
@@ -7315,6 +7329,10 @@
         {
           "date": "2026-10-30",
           "value": -6.531326827087823
+        },
+        {
+          "date": "2026-11-03",
+          "value": -3.1110407096467587
         }
       ],
       "ma12": [
@@ -8926,6 +8944,11 @@
         {
           "date": "2026-10-30",
           "value": -9.32774424458321,
+          "n": 13
+        },
+        {
+          "date": "2026-11-03",
+          "value": -9.461895014800607,
           "n": 13
         }
       ],
@@ -10539,10 +10562,15 @@
           "date": "2026-10-30",
           "value": 2.94595696892856,
           "n": 85
+        },
+        {
+          "date": "2026-11-03",
+          "value": 2.6386948974900752,
+          "n": 85
         }
       ],
-      "ma7yLatest": 2.94595696892856,
-      "ma12Latest": -9.32774424458321,
+      "ma7yLatest": 2.6386948974900752,
+      "ma12Latest": -9.461895014800607,
       "ma12Note": null,
       "ma7yNote": null,
       "historyMonths": 321
@@ -10557,14 +10585,14 @@
       "weight": 0.04,
       "context": false,
       "meaning": "Индекс волатильности российского рынка. Ниже 30 — спокойно, клиент не боится входить. Выше 40 — «страх»: лучше не толкать агрессивный риск, держать базу и качество. Это термометр нервов, не прогноз индекса.",
-      "latest": 30.44,
-      "signalValue": 30.44,
+      "latest": 31.48,
+      "signalValue": 31.48,
       "signal": 0,
       "statusWord": "нейтрально",
       "status": "ok",
-      "mom": -1.4599999999999973,
-      "asOf": "2026-10-30",
-      "source": "MOEX ISS history (spot fallback)",
+      "mom": -0.41999999999999815,
+      "asOf": "2026-11-03",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/index/boards/RTSI/securities/RVI.json?iss.meta=off&iss.only=marketdata,securities",
       "emptyReason": null,
       "chartEmpty": false,
       "chartReason": null,
@@ -11088,6 +11116,10 @@
         {
           "date": "2026-10-30",
           "value": 30.44
+        },
+        {
+          "date": "2026-11-03",
+          "value": 31.48
         }
       ],
       "ma12": [
@@ -11739,6 +11771,11 @@
         {
           "date": "2026-10-30",
           "value": 32.07,
+          "n": 13
+        },
+        {
+          "date": "2026-11-03",
+          "value": 31.433846153846154,
           "n": 13
         }
       ],
@@ -12392,10 +12429,15 @@
           "date": "2026-10-30",
           "value": 36.422000000000004,
           "n": 85
+        },
+        {
+          "date": "2026-11-03",
+          "value": 36.562705882352944,
+          "n": 85
         }
       ],
-      "ma7yLatest": 36.422000000000004,
-      "ma12Latest": 32.07,
+      "ma7yLatest": 36.562705882352944,
+      "ma12Latest": 31.433846153846154,
       "ma12Note": null,
       "ma7yNote": null,
       "historyMonths": 129
@@ -12410,10 +12452,10 @@
       "weight": 0.08,
       "context": false,
       "meaning": "Во сколько раз вклад выгоднее дивидендной доходности рынка. Выше 2× — депозит явно побеждает «купоны» акций, клиент остаётся в банке. Около 1× и ниже — рынок по доходу уже конкурирует с вкладом, легче предлагать акции.",
-      "latest": 1.2032324525760403,
-      "signalValue": 1.2032324525760403,
-      "signal": 0,
-      "statusWord": "нейтрально",
+      "latest": 0.645588317623449,
+      "signalValue": 0.645588317623449,
+      "signal": 1,
+      "statusWord": "благоприятно",
       "status": "ok",
       "mom": 0.17203948643403866,
       "asOf": "2026-09-01",
@@ -14067,13 +14109,13 @@
       "weight": 0.06,
       "context": false,
       "meaning": "Официальный курс доллара ЦБ. Слабый рубль (курс заметно выше своей семилетней нормы) бьёт по импорту и инфляции и обычно держит жёсткую политику дольше. Крепкий рубль относительно нормы снимает ценовое давление. Смотрим уровень к длинной средней, не дневной шум.",
-      "latest": 80.5573,
-      "signalValue": 80.5573,
+      "latest": 81.6699,
+      "signalValue": 81.6699,
       "signal": 0,
       "statusWord": "нейтрально",
       "status": "ok",
-      "mom": -4.5849555184695125,
-      "asOf": "2026-10-31",
+      "mom": -3.2671509434632635,
+      "asOf": "2026-11-04",
       "source": "www.cbr.ru XML_dynamic R01235",
       "emptyReason": null,
       "chartEmpty": false,
@@ -14558,6 +14600,10 @@
         {
           "date": "2026-10-31",
           "value": 80.5573
+        },
+        {
+          "date": "2026-11-04",
+          "value": 81.6699
         }
       ],
       "ma12": [
@@ -15160,6 +15206,11 @@
           "date": "2026-10-31",
           "value": 78.73811666666667,
           "n": 12
+        },
+        {
+          "date": "2026-11-04",
+          "value": 78.96363846153848,
+          "n": 13
         }
       ],
       "ma7y": [
@@ -15762,10 +15813,15 @@
           "date": "2026-10-31",
           "value": 78.76320238095238,
           "n": 84
+        },
+        {
+          "date": "2026-11-04",
+          "value": 78.7973988235294,
+          "n": 85
         }
       ],
-      "ma7yLatest": 78.76320238095238,
-      "ma12Latest": 78.73811666666667,
+      "ma7yLatest": 78.7973988235294,
+      "ma12Latest": 78.96363846153848,
       "ma12Note": null,
       "ma7yNote": null,
       "historyMonths": 119
@@ -17500,7 +17556,7 @@
       "status": "ok",
       "mom": 0.5,
       "asOf": "2026-10-01",
-      "source": "https://www.cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx",
+      "source": "https://cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx",
       "emptyReason": null,
       "chartEmpty": false,
       "chartReason": null,
@@ -25910,7 +25966,7 @@
       "status": "ok",
       "mom": 0.7000000000000028,
       "asOf": "2026-10-01",
-      "source": "https://www.cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx",
+      "source": "https://cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx",
       "emptyReason": null,
       "chartEmpty": false,
       "chartReason": null,
@@ -31799,7 +31855,7 @@
       "id": "market",
       "title": "Рынок и риск",
       "kicker": "Рынок и риск",
-      "conclusion": "Рыночный блок без живых сигналов. Даже при хорошем монетарном фоне слабый рынок и страх режут конверсию.",
+      "conclusion": "Дивидендная доходность уже конкурирует с вкладом. Даже при хорошем монетарном фоне слабый рынок и страх режут конверсию.",
       "cardIds": [
         "imoex_mom12",
         "rvi",
@@ -33730,10 +33786,10 @@
       "signal": null,
       "statusWord": "нет данных",
       "status": "empty",
-      "mom": -0.6635000000000026,
-      "asOf": "2026-10-30",
+      "mom": -0.9780000000000033,
+      "asOf": "2026-11-03",
       "source": "MOEX ISS zcyc.json",
-      "emptyReason": "fetch failed",
+      "emptyReason": "curl https://iss.moex.com/iss/history/engines/stock/zcyc.json?iss.meta=off&from=2016-01-01&start=0: curl: (28) Operation timed out after 25002 milliseconds with 16173 bytes received\n",
       "chartEmpty": false,
       "chartReason": null,
       "points": [
@@ -34352,6 +34408,10 @@
         {
           "date": "2026-10-30",
           "value": 2.495099999999999
+        },
+        {
+          "date": "2026-11-03",
+          "value": 2.1805999999999983
         }
       ],
       "ma12": [
@@ -35123,6 +35183,11 @@
         {
           "date": "2026-10-30",
           "value": 1.627761538461539,
+          "n": 13
+        },
+        {
+          "date": "2026-11-03",
+          "value": 1.6968846153846153,
           "n": 13
         }
       ],
@@ -35896,10 +35961,15 @@
           "date": "2026-10-30",
           "value": 0.5030882352941174,
           "n": 85
+        },
+        {
+          "date": "2026-11-03",
+          "value": 0.5214647058823528,
+          "n": 85
         }
       ],
-      "ma7yLatest": 0.5030882352941174,
-      "ma12Latest": 1.627761538461539,
+      "ma7yLatest": 0.5214647058823528,
+      "ma12Latest": 1.6968846153846153,
       "ma12Note": null,
       "ma7yNote": null,
       "historyMonths": 153
@@ -37747,9 +37817,9 @@
       "mom": null,
       "asOf": "2026-09-01",
       "source": "SOAP KeyRate − ИПЦ Росстата",
-      "emptyReason": "curl http://ssl.rosstat.gov.ru/statistics/price: curl HTTP 500; wget http://ssl.rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-3979849-uxmy2t58vq http://ssl.rosstat.gov.ru/statistics/price\n; curl https://rosstat.gov.ru/statistics/price: Command failed: curl -sSL -k --max-time 120 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rosstat-3979849-uxmy2t58vq -w %{http_code} https://rosstat.gov.ru/statistics/price\ncurl: (35) TLS connect error: error:0A000126:SSL routines::unexpected eof while reading\n; wget https://rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-3979849-uxmy2t58vq https://rosstat.gov.ru/statistics/price\n",
+      "emptyReason": "curl http://ssl.rosstat.gov.ru/statistics/price: curl HTTP 500; wget http://ssl.rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-546140-44y9lealjhp http://ssl.rosstat.gov.ru/statistics/price\n; curl https://rosstat.gov.ru/statistics/price: curl HTTP 404; wget https://rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-546140-44y9lealjhp https://rosstat.gov.ru/statistics/price\n",
       "chartEmpty": true,
-      "chartReason": "curl http://ssl.rosstat.gov.ru/statistics/price: curl HTTP 500; wget http://ssl.rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-3979849-uxmy2t58vq http://ssl.rosstat.gov.ru/statistics/price\n; curl https://rosstat.gov.ru/statistics/price: Command failed: curl -sSL -k --max-time 120 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rosstat-3979849-uxmy2t58vq -w %{http_code} https://rosstat.gov.ru/statistics/price\ncurl: (35) TLS connect error: error:0A000126:SSL routines::unexpected eof while reading\n; wget https://rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-3979849-uxmy2t58vq https://rosstat.gov.ru/statistics/price\n",
+      "chartReason": "curl http://ssl.rosstat.gov.ru/statistics/price: curl HTTP 500; wget http://ssl.rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-546140-44y9lealjhp http://ssl.rosstat.gov.ru/statistics/price\n; curl https://rosstat.gov.ru/statistics/price: curl HTTP 404; wget https://rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-546140-44y9lealjhp https://rosstat.gov.ru/statistics/price\n",
       "points": [],
       "ma12": [],
       "ma7y": [],
@@ -37776,10 +37846,10 @@
       "status": "empty",
       "mom": null,
       "asOf": null,
-      "source": "MOEX ISS LQDT",
-      "emptyReason": "fetch failed",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/LQDT.json?iss.meta=off",
+      "emptyReason": "ISS отдаёт только текущую капитализацию LQDT, нет месячного ряда СЧА",
       "chartEmpty": true,
-      "chartReason": "fetch failed",
+      "chartReason": "ISS отдаёт только текущую капитализацию LQDT, нет месячного ряда СЧА",
       "points": [],
       "ma12": [],
       "ma7y": [],
@@ -37829,14 +37899,14 @@
       "weight": 0.08,
       "context": false,
       "meaning": "Сколько индекс Мосбиржи прибавил или потерял за 12 месяцев. Плюс — тренд уже за риск, клиенту проще заходить. Глубокий минус — «боль» в портфелях, привлечение в акции почти не работает, пока рынок не стабилизируется.",
-      "latest": -0.6312371297322826,
-      "signalValue": -0.6312371297322826,
+      "latest": -8.58534908571899,
+      "signalValue": -8.58534908571899,
       "signal": 0,
       "statusWord": "нейтрально",
       "status": "ok",
-      "mom": 9.032630559487455,
-      "asOf": "2026-10-30",
-      "source": "MOEX ISS history (spot fallback)",
+      "mom": 12.45291667692852,
+      "asOf": "2026-11-03",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/index/boards/SNDX/securities/IMOEX.json?iss.meta=off&iss.only=marketdata,securities",
       "emptyReason": null,
       "chartEmpty": false,
       "chartReason": null,
@@ -39128,6 +39198,10 @@
         {
           "date": "2026-10-30",
           "value": -6.531326827087823
+        },
+        {
+          "date": "2026-11-03",
+          "value": -3.1110407096467587
         }
       ],
       "ma12": [
@@ -40739,6 +40813,11 @@
         {
           "date": "2026-10-30",
           "value": -9.32774424458321,
+          "n": 13
+        },
+        {
+          "date": "2026-11-03",
+          "value": -9.461895014800607,
           "n": 13
         }
       ],
@@ -42352,10 +42431,15 @@
           "date": "2026-10-30",
           "value": 2.94595696892856,
           "n": 85
+        },
+        {
+          "date": "2026-11-03",
+          "value": 2.6386948974900752,
+          "n": 85
         }
       ],
-      "ma7yLatest": 2.94595696892856,
-      "ma12Latest": -9.32774424458321,
+      "ma7yLatest": 2.6386948974900752,
+      "ma12Latest": -9.461895014800607,
       "ma12Note": null,
       "ma7yNote": null,
       "historyMonths": 321
@@ -42370,14 +42454,14 @@
       "weight": 0.04,
       "context": false,
       "meaning": "Индекс волатильности российского рынка. Ниже 30 — спокойно, клиент не боится входить. Выше 40 — «страх»: лучше не толкать агрессивный риск, держать базу и качество. Это термометр нервов, не прогноз индекса.",
-      "latest": 30.44,
-      "signalValue": 30.44,
+      "latest": 31.48,
+      "signalValue": 31.48,
       "signal": 0,
       "statusWord": "нейтрально",
       "status": "ok",
-      "mom": -1.4599999999999973,
-      "asOf": "2026-10-30",
-      "source": "MOEX ISS history (spot fallback)",
+      "mom": -0.41999999999999815,
+      "asOf": "2026-11-03",
+      "source": "https://iss.moex.com/iss/engines/stock/markets/index/boards/RTSI/securities/RVI.json?iss.meta=off&iss.only=marketdata,securities",
       "emptyReason": null,
       "chartEmpty": false,
       "chartReason": null,
@@ -42901,6 +42985,10 @@
         {
           "date": "2026-10-30",
           "value": 30.44
+        },
+        {
+          "date": "2026-11-03",
+          "value": 31.48
         }
       ],
       "ma12": [
@@ -43552,6 +43640,11 @@
         {
           "date": "2026-10-30",
           "value": 32.07,
+          "n": 13
+        },
+        {
+          "date": "2026-11-03",
+          "value": 31.433846153846154,
           "n": 13
         }
       ],
@@ -44205,10 +44298,15 @@
           "date": "2026-10-30",
           "value": 36.422000000000004,
           "n": 85
+        },
+        {
+          "date": "2026-11-03",
+          "value": 36.562705882352944,
+          "n": 85
         }
       ],
-      "ma7yLatest": 36.422000000000004,
-      "ma12Latest": 32.07,
+      "ma7yLatest": 36.562705882352944,
+      "ma12Latest": 31.433846153846154,
       "ma12Note": null,
       "ma7yNote": null,
       "historyMonths": 129
@@ -44223,10 +44321,10 @@
       "weight": 0.08,
       "context": false,
       "meaning": "Во сколько раз вклад выгоднее дивидендной доходности рынка. Выше 2× — депозит явно побеждает «купоны» акций, клиент остаётся в банке. Около 1× и ниже — рынок по доходу уже конкурирует с вкладом, легче предлагать акции.",
-      "latest": 1.2032324525760403,
-      "signalValue": 1.2032324525760403,
-      "signal": 0,
-      "statusWord": "нейтрально",
+      "latest": 0.645588317623449,
+      "signalValue": 0.645588317623449,
+      "signal": 1,
+      "statusWord": "благоприятно",
       "status": "ok",
       "mom": 0.17203948643403866,
       "asOf": "2026-09-01",
@@ -45880,13 +45978,13 @@
       "weight": 0.06,
       "context": false,
       "meaning": "Официальный курс доллара ЦБ. Слабый рубль (курс заметно выше своей семилетней нормы) бьёт по импорту и инфляции и обычно держит жёсткую политику дольше. Крепкий рубль относительно нормы снимает ценовое давление. Смотрим уровень к длинной средней, не дневной шум.",
-      "latest": 80.5573,
-      "signalValue": 80.5573,
+      "latest": 81.6699,
+      "signalValue": 81.6699,
       "signal": 0,
       "statusWord": "нейтрально",
       "status": "ok",
-      "mom": -4.5849555184695125,
-      "asOf": "2026-10-31",
+      "mom": -3.2671509434632635,
+      "asOf": "2026-11-04",
       "source": "www.cbr.ru XML_dynamic R01235",
       "emptyReason": null,
       "chartEmpty": false,
@@ -46371,6 +46469,10 @@
         {
           "date": "2026-10-31",
           "value": 80.5573
+        },
+        {
+          "date": "2026-11-04",
+          "value": 81.6699
         }
       ],
       "ma12": [
@@ -46973,6 +47075,11 @@
           "date": "2026-10-31",
           "value": 78.73811666666667,
           "n": 12
+        },
+        {
+          "date": "2026-11-04",
+          "value": 78.96363846153848,
+          "n": 13
         }
       ],
       "ma7y": [
@@ -47575,10 +47682,15 @@
           "date": "2026-10-31",
           "value": 78.76320238095238,
           "n": 84
+        },
+        {
+          "date": "2026-11-04",
+          "value": 78.7973988235294,
+          "n": 85
         }
       ],
-      "ma7yLatest": 78.76320238095238,
-      "ma12Latest": 78.73811666666667,
+      "ma7yLatest": 78.7973988235294,
+      "ma12Latest": 78.96363846153848,
       "ma12Note": null,
       "ma7yNote": null,
       "historyMonths": 119
@@ -49313,7 +49425,7 @@
       "status": "ok",
       "mom": 0.5,
       "asOf": "2026-10-01",
-      "source": "https://www.cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx",
+      "source": "https://cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx",
       "emptyReason": null,
       "chartEmpty": false,
       "chartReason": null,
@@ -57723,7 +57835,7 @@
       "status": "ok",
       "mom": 0.7000000000000028,
       "asOf": "2026-10-01",
-      "source": "https://www.cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx",
+      "source": "https://cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx",
       "emptyReason": null,
       "chartEmpty": false,
       "chartReason": null,
@@ -64867,6 +64979,10 @@
     {
       "date": "2026-10-01",
       "value": 2
+    },
+    {
+      "date": "2026-11-01",
+      "value": 24
     }
   ],
   "flowPhase": {

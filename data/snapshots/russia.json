@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-02T03:23:54.718Z",
+  "fetchedAt": "2026-11-04T01:38:25.968Z",
   "status": "ok",
   "phase": {
     "id": null,
@@ -67,7 +67,7 @@
     "missing": 2
   },
   "crs": {
-    "score": 0.5,
+    "score": 0.27,
     "liveCount": 3,
     "legCount": 4,
     "oilLive": true,
@@ -77,9 +77,9 @@
         "id": "vol",
         "name": "Волатильность (IMOEX г/г)",
         "prior": 0.3,
-        "value": -0.6312371297322826,
+        "value": -11.57,
         "unit": "%",
-        "signal": -0.03156185648661413,
+        "signal": -0.5785,
         "meaning": "Годовой ход индекса. Сильный минус — рынок уже в просадке, вес тянет CRS вниз. Это не прогноз, а текущий импульс.",
         "weight": 0.4285714285714285
       },
@@ -115,8 +115,8 @@
         "weight": 0.21428571428571425
       }
     ],
-    "label": "РАННИЙ ЦИКЛ",
-    "band": "early",
+    "label": "СЕРЕДИНА ЦИКЛА",
+    "band": "middle",
     "note": "Нефть живая (EIA Brent г/г); недостающие ноги исключены из знаменателя, живые перенормированы."
   },
   "oil": {
@@ -151,18 +151,18 @@
     "points": []
   },
   "keyRate": {
-    "asOf": "2026-11-02",
+    "asOf": "2026-11-04",
     "current": {
       "keyRate": null,
       "effectiveSince": null,
       "ruonia": 14.2,
-      "rusfar": null,
+      "rusfar": 13.93,
       "isLive": false
     },
     "nextMeeting": {
       "date": "2026-11-05",
       "type": "заседание",
-      "daysUntil": 3,
+      "daysUntil": 1,
       "isAnchor": false
     },
     "marketImplied": {
@@ -170,7 +170,7 @@
       "y6m": null,
       "y9m": null,
       "y1y": null,
-      "rusfar": null,
+      "rusfar": 13.93,
       "nextMeetingRate": null,
       "nextMeetingChangeBps": null,
       "horizon3m": null,
@@ -204,7 +204,7 @@
       "market": [
         {
           "label": "Сегодня",
-          "date": "2026-11-02",
+          "date": "2026-11-04",
           "rate": null,
           "series": "implied"
         },
@@ -242,7 +242,7 @@
       "consensus": [
         {
           "label": "Сегодня",
-          "date": "2026-11-02",
+          "date": "2026-11-04",
           "rate": null,
           "series": "consensus"
         },
@@ -650,9 +650,9 @@
     "sources": {
       "keyRate": "www.cbr.ru SOAP KeyRate",
       "zcyc": "MOEX ISS zcyc.json yearyields",
-      "rusfar": "MOEX ISS RUSFAR MMIX",
+      "rusfar": "MOEX ISS history RUSFAR MMIX limit=50",
       "ruonia": "www.cbr.ru SOAP Ruonia",
-      "meetings": "cbr.ru/dkp/cal_mp/",
+      "meetings": "https://cbr.ru/dkp/cal_mp/",
       "consensus": "sbercib.ru/publication/prognoz-klyuchevoi-stavki-na-2026-god"
     }
   },
@@ -713,12 +713,12 @@
         "right": "USDRUB",
         "meaning": "Индекс в долларовом выражении (кросс с курсом ЦБ R01235). Растёт — рублёвые акции обгоняют ослабление валюты.",
         "mode": "режим снижения риска",
-        "last": 31.14875995099141,
-        "asOf": "2026-10-30",
-        "ma12": 32.40154148484704,
-        "ma7y": 37.35332609629687,
-        "vs12": -3.866425720645133,
-        "vs7": -16.610478352878374,
+        "last": 29.957671063635438,
+        "asOf": "2026-11-03",
+        "ma12": 32.29309292333858,
+        "ma7y": 37.17273325573781,
+        "vs12": -7.231954725573233,
+        "vs7": -19.40955523088604,
         "points": [
           {
             "date": "2016-11-30",
@@ -1199,6 +1199,10 @@
           {
             "date": "2026-10-30",
             "value": 31.14875995099141
+          },
+          {
+            "date": "2026-11-03",
+            "value": 29.957671063635438
           }
         ],
         "emptyReason": null,
@@ -1246,8 +1250,8 @@
     }
   },
   "metrics": {
-    "imoex": 2509.26,
-    "imoexYoy": -0.6312371297322826,
+    "imoex": 2446.64,
+    "imoexYoy": -11.57,
     "imoexHl": {
       "high": 2912.01,
       "low": 1898.51
@@ -1267,10 +1271,10 @@
       {
         "id": "imoex",
         "label": "IMOEX",
-        "value": 2509.26,
+        "value": 2446.64,
         "digits": 2,
         "unit": "",
-        "badge": "г/г −0,6%",
+        "badge": "г/г −11,6%",
         "hint": "H/L: 2 912 / 1 899",
         "tone": "bad"
       },
@@ -3660,6 +3664,13 @@
         "m2": 13.3,
         "cpi": null,
         "key": null
+      },
+      {
+        "date": "2026-11-01",
+        "imoex": 2446.64,
+        "m2": null,
+        "cpi": null,
+        "key": null
       }
     ],
     "emptyReason": null,
@@ -3670,9 +3681,9 @@
     {
       "id": "imoex",
       "label": "IMOEX",
-      "value": 2509.26,
+      "value": 2446.64,
       "unit": "",
-      "extra": -0.6312371297322826
+      "extra": -11.57
     },
     {
       "id": "key",
@@ -3694,6 +3705,7 @@
     }
   ],
   "meetings": {
+    "source": "https://cbr.ru/dkp/cal_mp/",
     "items": [
       {
         "date": "2024-02-16",
@@ -4015,9 +4027,7 @@
         "type": "заседание",
         "source": "https://cbr.ru/dkp/cal_mp/"
       }
-    ],
-    "error": "календарь ЦБ HTTP 403 (cbr.ru без www)",
-    "source": null
+    ]
   },
   "historicalPhases": [
     {
@@ -4122,10 +4132,10 @@
         {
           "id": "imoex",
           "title": "IMOEX",
-          "latest": 2509.26,
+          "latest": 2446.64,
           "unit": "пт",
-          "asOf": "2026-10-30",
-          "source": "MOEX ISS history (spot fallback)",
+          "asOf": "2026-11-03",
+          "source": "https://iss.moex.com/iss/engines/stock/markets/index/boards/SNDX/securities/IMOEX.json?iss.meta=off&iss.only=marketdata,securities",
           "points": [
             {
               "date": "1999-01-29",
@@ -5462,11 +5472,15 @@
             {
               "date": "2026-10-30",
               "value": 2509.26
+            },
+            {
+              "date": "2026-11-03",
+              "value": 2446.64
             }
           ],
           "emptyReason": null,
           "meaning": "Широкий рублёвый рынок акций. При жёсткой реальной ставке индекс обычно стагнирует: капитал сидит в депозите и ОФЗ.",
-          "conclusion": "IMOEX г/г -0.6% — рынок в просадке, не в фазе широкого режима принятия риска.",
+          "conclusion": "IMOEX г/г -11.6% — рынок в просадке, не в фазе широкого режима принятия риска.",
           "color": "#0C0C0C",
           "showMA": true,
           "refY": null,
@@ -5506,7 +5520,7 @@
           "latest": 13.3,
           "unit": "%",
           "asOf": "2026-10-01",
-          "source": "https://www.cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx",
+          "source": "https://cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx",
           "points": [
             {
               "date": "2002-01-01",
@@ -8058,7 +8072,7 @@
           ],
           "emptyReason": null,
           "meaning": "Официальная инфляция. Пока она не ниже 5%, ценовой порог режима принятия риска закрыт. Красная линейка издания — не «плохой» цвет этого графика.",
-          "conclusion": "ИПЦ 6.3% — порог < 5% закрыт. Таблица ЦБ hd_base/infl за общий месяц недоступна — публикуем один длинный ряд Росстата, среднее не считаем.",
+          "conclusion": "ИПЦ 6.3% — порог < 5% закрыт. Сверка: таблица ЦБ hd_base/infl за 2026-09 подтверждает 6,35% г/г (разрыв 0,00 п.п. — округление м/м-индексов); среднее не считаем.",
           "color": "#A81829",
           "showMA": true,
           "refY": null,
@@ -9308,7 +9322,7 @@
     {
       "id": "makro",
       "kicker": "Сводка фазы цикла",
-      "title": "РАННИЙ ЦИКЛ · CRS = 0,5",
+      "title": "СЕРЕДИНА ЦИКЛА · CRS = 0,27",
       "conclusion": "Потребительский спрос и ликвидность растут (розница +3.3%, М2 +13.3%), инвестактивность остаётся слабой (HCV −3.9% г/г, за 7М −15.4%), 6 положительных индикаторов, 2 отрицательных индикатора.",
       "summary": "Потребительский спрос и ликвидность растут (розница +3.3%, М2 +13.3%), инвестактивность остаётся слабой (HCV −3.9% г/г, за 7М −15.4%), 6 положительных индикаторов, 2 отрицательных индикатора.",
       "cards": [
@@ -10313,7 +10327,7 @@
           "latest": 13.3,
           "unit": "%",
           "asOf": "2026-10-01",
-          "source": "https://www.cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx · live ЦБ",
+          "source": "https://cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx · live ЦБ",
           "points": [
             {
               "date": "2002-01-01",
@@ -11853,7 +11867,7 @@
       "id": "bolshegruzy",
       "kicker": "Большегрузы",
       "title": "Большегрузы как индикатор экономики",
-      "conclusion": "Последний релиз Autostat — июл'26: 3 498 ед. (-3.9% г/г). Скользящий 12м: 41.2 тыс. (-67.2% от пика 2023). Живой скан autostat: 2026-11-02. Сверка АЕБ: сверочного релиза АЕБ за июл'26 нет — публикуем один ряд Autostat, среднее двух агентств не считаем.",
+      "conclusion": "Последний релиз Autostat — июл'26: 3 498 ед. (-3.9% г/г). Скользящий 12м: 41.2 тыс. (-67.2% от пика 2023). Живой скан autostat: 2026-11-04. Сверка АЕБ: сверочного релиза АЕБ за июл'26 нет — публикуем один ряд Autostat, среднее двух агентств не считаем.",
       "cards": [
         {
           "id": "hcv_units",
@@ -12422,7 +12436,7 @@
           ],
           "emptyReason": null,
           "meaning": "Помесячные продажи новых крупнотоннажных грузовиков (HCV >16т) в штуках. Помесячная детализация 2015–2024 реконструирована из квартальных/годовых сводок Autostat/АЕБ (±10% на отдельных месяцах; годовые суммы сходятся). Свежие месяцы дописывает будничный рефреш из релизов autostat.ru — тех же новостей, что кормят карточку «КАМАЗ / HCV» на «Макро».",
-          "conclusion": "июл'26: 3 498 ед., -3.9% г/г (релиз Autostat). Живой скан autostat: 2026-11-02.",
+          "conclusion": "июл'26: 3 498 ед., -3.9% г/г (релиз Autostat). Живой скан autostat: 2026-11-04.",
           "color": "#0B93A6",
           "showMA": true,
           "refY": null,
@@ -13533,18 +13547,18 @@
       "conclusion": "нет данных",
       "cards": [],
       "keyRate": {
-        "asOf": "2026-11-02",
+        "asOf": "2026-11-04",
         "current": {
           "keyRate": null,
           "effectiveSince": null,
           "ruonia": 14.2,
-          "rusfar": null,
+          "rusfar": 13.93,
           "isLive": false
         },
         "nextMeeting": {
           "date": "2026-11-05",
           "type": "заседание",
-          "daysUntil": 3,
+          "daysUntil": 1,
           "isAnchor": false
         },
         "marketImplied": {
@@ -13552,7 +13566,7 @@
           "y6m": null,
           "y9m": null,
           "y1y": null,
-          "rusfar": null,
+          "rusfar": 13.93,
           "nextMeetingRate": null,
           "nextMeetingChangeBps": null,
           "horizon3m": null,
@@ -13586,7 +13600,7 @@
           "market": [
             {
               "label": "Сегодня",
-              "date": "2026-11-02",
+              "date": "2026-11-04",
               "rate": null,
               "series": "implied"
             },
@@ -13624,7 +13638,7 @@
           "consensus": [
             {
               "label": "Сегодня",
-              "date": "2026-11-02",
+              "date": "2026-11-04",
               "rate": null,
               "series": "consensus"
             },
@@ -14032,9 +14046,9 @@
         "sources": {
           "keyRate": "www.cbr.ru SOAP KeyRate",
           "zcyc": "MOEX ISS zcyc.json yearyields",
-          "rusfar": "MOEX ISS RUSFAR MMIX",
+          "rusfar": "MOEX ISS history RUSFAR MMIX limit=50",
           "ruonia": "www.cbr.ru SOAP Ruonia",
-          "meetings": "cbr.ru/dkp/cal_mp/",
+          "meetings": "https://cbr.ru/dkp/cal_mp/",
           "consensus": "sbercib.ru/publication/prognoz-klyuchevoi-stavki-na-2026-god"
         }
       }
@@ -14164,9 +14178,9 @@
         {
           "id": "imoex_usd",
           "title": "IMOEX / USDRUB",
-          "latest": 31.14875995099141,
+          "latest": 29.957671063635438,
           "unit": "отн.",
-          "asOf": "2026-10-30",
+          "asOf": "2026-11-03",
           "source": "MOEX ISS + ЦБ XML_dynamic R01235",
           "points": [
             {
@@ -14648,11 +14662,15 @@
             {
               "date": "2026-10-30",
               "value": 31.14875995099141
+            },
+            {
+              "date": "2026-11-03",
+              "value": 29.957671063635438
             }
           ],
           "emptyReason": null,
           "meaning": "Индекс в долларовом выражении (кросс с курсом ЦБ R01235). Растёт — рублёвые акции обгоняют ослабление валюты.",
-          "conclusion": "режим снижения риска: в сравнении с 12м -3.9%, в сравнении с 7л -16.6%.",
+          "conclusion": "режим снижения риска: в сравнении с 12м -7.2%, в сравнении с 7л -19.4%.",
           "color": "#A81829",
           "showMA": true,
           "refY": null,
@@ -14711,15 +14729,11 @@
         {
           "id": "global_equity_duration",
           "title": "GLOBAL · S&P 500 / 10л UST",
-          "latest": 1533.374749498998,
+          "latest": 1477.5964912280701,
           "unit": "отн.",
-          "asOf": "2026-09-30",
+          "asOf": "2026-10-30",
           "source": "FRED SP500 / GS10 · замена SPY/TLT: индекс S&P 500 и доходность 10-летних UST (не NAV TLT)",
           "points": [
-            {
-              "date": "2016-10-31",
-              "value": 1208.0397727272727
-            },
             {
               "date": "2016-11-30",
               "value": 1027.481308411215
@@ -15195,11 +15209,15 @@
             {
               "date": "2026-09-30",
               "value": 1533.374749498998
+            },
+            {
+              "date": "2026-10-30",
+              "value": 1477.5964912280701
             }
           ],
           "emptyReason": null,
           "meaning": "Акции против длинной дюрации. Растёт — широкий рынок США обгоняет доходность 10-летних казначейских (прокси режима принятия риска против «безопасных» облигаций). GS10 — официальная доходность, не цена ETF.",
-          "conclusion": "режим снижения риска: в сравнении с 12м -6.6%, в сравнении с 7л -23.5%.",
+          "conclusion": "режим снижения риска: в сравнении с 12м -9.3%, в сравнении с 7л -26.0%.",
           "color": "#A81829",
           "showMA": true,
           "refY": null,
@@ -15214,15 +15232,11 @@
         {
           "id": "global_hy_ig",
           "title": "GLOBAL · HY / IG (ICE BofA TR)",
-          "latest": 0.5284853499492012,
+          "latest": 0.5270712893203665,
           "unit": "отн.",
-          "asOf": "2026-10-29",
+          "asOf": "2026-11-02",
           "source": "FRED BAMLHYH0A0HYM2TRIV / BAMLCC0A0CMTRIV · замена HYG/LQD: total return ICE BofA HY Master II и US Corporate Master",
           "points": [
-            {
-              "date": "2023-10-31",
-              "value": 0.4978450908794744
-            },
             {
               "date": "2023-11-30",
               "value": 0.49269831479803916
@@ -15364,19 +15378,23 @@
               "value": 0.5356195534042388
             },
             {
-              "date": "2026-10-29",
-              "value": 0.5284853499492012
+              "date": "2026-10-30",
+              "value": 0.5264802761008622
+            },
+            {
+              "date": "2026-11-02",
+              "value": 0.5270712893203665
             }
           ],
           "emptyReason": null,
           "meaning": "Кредитный аппетит в США. Растёт — высокодоходные облигации обгоняют инвестиционный корпоративный индекс (режим принятия риска в кредите).",
-          "conclusion": "режим принятия риска: в сравнении с 12м 0.8%, в сравнении с 7л 3.0%.",
+          "conclusion": "режим принятия риска: в сравнении с 12м 0.4%, в сравнении с 7л 2.6%.",
           "color": "#379A8B",
           "showMA": true,
           "refY": null,
           "refLabel": null,
           "maIncomplete": true,
-          "span": 36,
+          "span": 35,
           "tone": "none",
           "toneLabel": null,
           "toneWord": null,
