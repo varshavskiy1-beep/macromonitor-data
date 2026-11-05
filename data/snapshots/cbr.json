@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "fetchedAt": "2026-11-04T01:38:25.968Z",
+  "fetchedAt": "2026-11-05T01:27:40.103Z",
   "keyRate": null,
   "keyRateHistory": [],
   "usdRub": {
@@ -3086,7 +3086,7 @@
     "warn": false,
     "note": "сверка: таблица ЦБ hd_base/infl за 2026-09 подтверждает 6,35% г/г (разрыв 0,00 п.п. — округление м/м-индексов); среднее не считаем"
   },
-  "cpiError": "curl http://ssl.rosstat.gov.ru/statistics/price: curl HTTP 500; wget http://ssl.rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-546140-44y9lealjhp http://ssl.rosstat.gov.ru/statistics/price\n; curl https://rosstat.gov.ru/statistics/price: curl HTTP 404; wget https://rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-546140-44y9lealjhp https://rosstat.gov.ru/statistics/price\n",
+  "cpiError": "curl http://ssl.rosstat.gov.ru/statistics/price: curl HTTP 500; wget http://ssl.rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1108120-v469rapbz2 http://ssl.rosstat.gov.ru/statistics/price\n; curl https://rosstat.gov.ru/statistics/price: curl HTTP 404; wget https://rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1108120-v469rapbz2 https://rosstat.gov.ru/statistics/price\n",
   "m2Yoy": {
     "date": "2026-10-01",
     "value": 13.3,
@@ -8080,7 +8080,7 @@
     "source": "sbercib.ru/publication/prognoz-klyuchevoi-stavki-na-2026-god",
     "fetchedAt": "2026-11-02T02:22:15.858Z",
     "error": "SberCIB forecast: не разобрали таблицу месяц→ставка",
-    "lastAttempt": "2026-11-04T01:38:25.674Z"
+    "lastAttempt": "2026-11-05T01:27:39.824Z"
   },
   "depositMax": {
     "source": "https://cbr.ru/vfs/statistics/bank_sector/ibudv/szmdv_202609.xls",

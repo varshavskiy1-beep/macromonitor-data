@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-11-04T01:38:25.968Z",
+  "fetchedAt": "2026-11-05T01:27:40.103Z",
   "status": "ok",
-  "score": 23,
-  "rawScore": 23,
+  "score": 21,
+  "rawScore": 21,
   "light": "yellow",
   "label": "Нейтрально",
   "directive": "Удерживайте базу",
@@ -11,10 +11,10 @@
   "restrictive": false,
   "note": null,
   "leadMonths": 1.4,
-  "greenShare": 30,
-  "redShare": 10,
-  "neutralShare": 60,
-  "sumWeight": 0.6200000000000001,
+  "greenShare": 27,
+  "redShare": 9,
+  "neutralShare": 64,
+  "sumWeight": 0.7100000000000002,
   "weightBudget": 1.28,
   "indicators": [
     {
@@ -1912,15 +1912,15 @@
       "weight": 0.09,
       "context": false,
       "meaning": "Разница длинной и короткой ОФЗ. Положительный наклон значит: рынок ждёт более низкие короткие ставки впереди и платит за длительность. Это обычно сопровождает переход «депозит → облигации». Отрицательный наклон (инверсия) — рынок ещё закладывает жёсткость, рано звать в риск.",
-      "latest": null,
-      "signalValue": null,
-      "signal": null,
-      "statusWord": "нет данных",
-      "status": "empty",
+      "latest": 2.428000000000001,
+      "signalValue": 2.428000000000001,
+      "signal": 1,
+      "statusWord": "благоприятно",
+      "status": "ok",
       "mom": -0.9780000000000033,
-      "asOf": "2026-11-03",
-      "source": "MOEX ISS zcyc.json",
-      "emptyReason": "curl https://iss.moex.com/iss/history/engines/stock/zcyc.json?iss.meta=off&from=2016-01-01&start=0: curl: (28) Operation timed out after 25002 milliseconds with 16173 bytes received\n",
+      "asOf": "2026-11-04",
+      "source": "https://iss.moex.com/iss/engines/stock/zcyc.json?iss.meta=off",
+      "emptyReason": null,
       "chartEmpty": false,
       "chartReason": null,
       "points": [
@@ -5948,9 +5948,9 @@
       "mom": null,
       "asOf": "2026-09-01",
       "source": "SOAP KeyRate − ИПЦ Росстата",
-      "emptyReason": "curl http://ssl.rosstat.gov.ru/statistics/price: curl HTTP 500; wget http://ssl.rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-546140-44y9lealjhp http://ssl.rosstat.gov.ru/statistics/price\n; curl https://rosstat.gov.ru/statistics/price: curl HTTP 404; wget https://rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-546140-44y9lealjhp https://rosstat.gov.ru/statistics/price\n",
+      "emptyReason": "curl http://ssl.rosstat.gov.ru/statistics/price: curl HTTP 500; wget http://ssl.rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1108120-v469rapbz2 http://ssl.rosstat.gov.ru/statistics/price\n; curl https://rosstat.gov.ru/statistics/price: curl HTTP 404; wget https://rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1108120-v469rapbz2 https://rosstat.gov.ru/statistics/price\n",
       "chartEmpty": true,
-      "chartReason": "curl http://ssl.rosstat.gov.ru/statistics/price: curl HTTP 500; wget http://ssl.rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-546140-44y9lealjhp http://ssl.rosstat.gov.ru/statistics/price\n; curl https://rosstat.gov.ru/statistics/price: curl HTTP 404; wget https://rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-546140-44y9lealjhp https://rosstat.gov.ru/statistics/price\n",
+      "chartReason": "curl http://ssl.rosstat.gov.ru/statistics/price: curl HTTP 500; wget http://ssl.rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1108120-v469rapbz2 http://ssl.rosstat.gov.ru/statistics/price\n; curl https://rosstat.gov.ru/statistics/price: curl HTTP 404; wget https://rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1108120-v469rapbz2 https://rosstat.gov.ru/statistics/price\n",
       "points": [],
       "ma12": [],
       "ma7y": [],
@@ -12452,10 +12452,10 @@
       "weight": 0.08,
       "context": false,
       "meaning": "Во сколько раз вклад выгоднее дивидендной доходности рынка. Выше 2× — депозит явно побеждает «купоны» акций, клиент остаётся в банке. Около 1× и ниже — рынок по доходу уже конкурирует с вкладом, легче предлагать акции.",
-      "latest": 0.645588317623449,
-      "signalValue": 0.645588317623449,
-      "signal": 1,
-      "statusWord": "благоприятно",
+      "latest": 1.3625460403058935,
+      "signalValue": 1.3625460403058935,
+      "signal": 0,
+      "statusWord": "нейтрально",
       "status": "ok",
       "mom": 0.17203948643403866,
       "asOf": "2026-09-01",
@@ -15836,13 +15836,13 @@
       "weight": 0.05,
       "context": false,
       "meaning": "Баррель Brent, пересчитанный в рубли (FRED × курс ЦБ). Высокая рублевая нефть кормит бюджет и экспортёров — фон для российского рынка лучше. Низкая — дыра в валютной выручке. Это не «прогноз нефти», а текущая рублевая выручка.",
-      "latest": 10393.12373,
-      "signalValue": 10393.12373,
+      "latest": 8622.047819,
+      "signalValue": 8622.047819,
       "signal": 1,
       "statusWord": "благоприятно",
       "status": "ok",
-      "mom": 45.00968791103415,
-      "asOf": "2026-10-27",
+      "mom": -11.894813123473318,
+      "asOf": "2026-11-03",
       "source": "FRED DCOILBRENTEU × USDRUB",
       "emptyReason": null,
       "chartEmpty": false,
@@ -16325,8 +16325,12 @@
           "value": 9786.084252999999
         },
         {
-          "date": "2026-10-27",
-          "value": 10393.12373
+          "date": "2026-10-30",
+          "value": 10144.060244999999
+        },
+        {
+          "date": "2026-11-03",
+          "value": 8622.047819
         }
       ],
       "ma12": [
@@ -16926,8 +16930,13 @@
           "n": 12
         },
         {
-          "date": "2026-10-27",
-          "value": 7184.837378846152,
+          "date": "2026-10-30",
+          "value": 7165.678649230767,
+          "n": 13
+        },
+        {
+          "date": "2026-11-03",
+          "value": 7423.669856230768,
           "n": 13
         }
       ],
@@ -17528,13 +17537,18 @@
           "n": 84
         },
         {
-          "date": "2026-10-27",
-          "value": 6011.202169023531,
+          "date": "2026-10-30",
+          "value": 6008.272010376472,
+          "n": 85
+        },
+        {
+          "date": "2026-11-03",
+          "value": 6065.146777423532,
           "n": 85
         }
       ],
-      "ma7yLatest": 6011.202169023531,
-      "ma12Latest": 7184.837378846152,
+      "ma7yLatest": 6065.146777423532,
+      "ma12Latest": 7423.669856230768,
       "ma12Note": null,
       "ma7yNote": null,
       "historyMonths": 119
@@ -31831,7 +31845,7 @@
       "id": "monetary",
       "title": "Монетарный цикл",
       "kicker": "Монетарный цикл",
-      "conclusion": "По монетарному блоку живых сигналов мало. Для пайплайна важен разворот ключа, а не один удачный день на рынке. Без ряда: Ставка ЦБ — направление цикла, Ставка ЦБ — уровень (зона), Наклон кривой ОФЗ (10Y–1Y), Реальная ключевая ставка — карточки на месте, цифру не подставляли.",
+      "conclusion": "Кривая ОФЗ с положительным наклоном: рынок закладывает более низкие короткие ставки. Для пайплайна важен разворот ключа, а не один удачный день на рынке. Без ряда: Ставка ЦБ — направление цикла, Ставка ЦБ — уровень (зона), Реальная ключевая ставка — карточки на месте, цифру не подставляли.",
       "cardIds": [
         "key_rate_dir",
         "key_rate_lvl",
@@ -31855,7 +31869,7 @@
       "id": "market",
       "title": "Рынок и риск",
       "kicker": "Рынок и риск",
-      "conclusion": "Дивидендная доходность уже конкурирует с вкладом. Даже при хорошем монетарном фоне слабый рынок и страх режут конверсию.",
+      "conclusion": "Рыночный блок без живых сигналов. Даже при хорошем монетарном фоне слабый рынок и страх режут конверсию.",
       "cardIds": [
         "imoex_mom12",
         "rvi",
@@ -33781,15 +33795,15 @@
       "weight": 0.09,
       "context": false,
       "meaning": "Разница длинной и короткой ОФЗ. Положительный наклон значит: рынок ждёт более низкие короткие ставки впереди и платит за длительность. Это обычно сопровождает переход «депозит → облигации». Отрицательный наклон (инверсия) — рынок ещё закладывает жёсткость, рано звать в риск.",
-      "latest": null,
-      "signalValue": null,
-      "signal": null,
-      "statusWord": "нет данных",
-      "status": "empty",
+      "latest": 2.428000000000001,
+      "signalValue": 2.428000000000001,
+      "signal": 1,
+      "statusWord": "благоприятно",
+      "status": "ok",
       "mom": -0.9780000000000033,
-      "asOf": "2026-11-03",
-      "source": "MOEX ISS zcyc.json",
-      "emptyReason": "curl https://iss.moex.com/iss/history/engines/stock/zcyc.json?iss.meta=off&from=2016-01-01&start=0: curl: (28) Operation timed out after 25002 milliseconds with 16173 bytes received\n",
+      "asOf": "2026-11-04",
+      "source": "https://iss.moex.com/iss/engines/stock/zcyc.json?iss.meta=off",
+      "emptyReason": null,
       "chartEmpty": false,
       "chartReason": null,
       "points": [
@@ -37817,9 +37831,9 @@
       "mom": null,
       "asOf": "2026-09-01",
       "source": "SOAP KeyRate − ИПЦ Росстата",
-      "emptyReason": "curl http://ssl.rosstat.gov.ru/statistics/price: curl HTTP 500; wget http://ssl.rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-546140-44y9lealjhp http://ssl.rosstat.gov.ru/statistics/price\n; curl https://rosstat.gov.ru/statistics/price: curl HTTP 404; wget https://rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-546140-44y9lealjhp https://rosstat.gov.ru/statistics/price\n",
+      "emptyReason": "curl http://ssl.rosstat.gov.ru/statistics/price: curl HTTP 500; wget http://ssl.rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1108120-v469rapbz2 http://ssl.rosstat.gov.ru/statistics/price\n; curl https://rosstat.gov.ru/statistics/price: curl HTTP 404; wget https://rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1108120-v469rapbz2 https://rosstat.gov.ru/statistics/price\n",
       "chartEmpty": true,
-      "chartReason": "curl http://ssl.rosstat.gov.ru/statistics/price: curl HTTP 500; wget http://ssl.rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-546140-44y9lealjhp http://ssl.rosstat.gov.ru/statistics/price\n; curl https://rosstat.gov.ru/statistics/price: curl HTTP 404; wget https://rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-546140-44y9lealjhp https://rosstat.gov.ru/statistics/price\n",
+      "chartReason": "curl http://ssl.rosstat.gov.ru/statistics/price: curl HTTP 500; wget http://ssl.rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1108120-v469rapbz2 http://ssl.rosstat.gov.ru/statistics/price\n; curl https://rosstat.gov.ru/statistics/price: curl HTTP 404; wget https://rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1108120-v469rapbz2 https://rosstat.gov.ru/statistics/price\n",
       "points": [],
       "ma12": [],
       "ma7y": [],
@@ -44321,10 +44335,10 @@
       "weight": 0.08,
       "context": false,
       "meaning": "Во сколько раз вклад выгоднее дивидендной доходности рынка. Выше 2× — депозит явно побеждает «купоны» акций, клиент остаётся в банке. Около 1× и ниже — рынок по доходу уже конкурирует с вкладом, легче предлагать акции.",
-      "latest": 0.645588317623449,
-      "signalValue": 0.645588317623449,
-      "signal": 1,
-      "statusWord": "благоприятно",
+      "latest": 1.3625460403058935,
+      "signalValue": 1.3625460403058935,
+      "signal": 0,
+      "statusWord": "нейтрально",
       "status": "ok",
       "mom": 0.17203948643403866,
       "asOf": "2026-09-01",
@@ -47705,13 +47719,13 @@
       "weight": 0.05,
       "context": false,
       "meaning": "Баррель Brent, пересчитанный в рубли (FRED × курс ЦБ). Высокая рублевая нефть кормит бюджет и экспортёров — фон для российского рынка лучше. Низкая — дыра в валютной выручке. Это не «прогноз нефти», а текущая рублевая выручка.",
-      "latest": 10393.12373,
-      "signalValue": 10393.12373,
+      "latest": 8622.047819,
+      "signalValue": 8622.047819,
       "signal": 1,
       "statusWord": "благоприятно",
       "status": "ok",
-      "mom": 45.00968791103415,
-      "asOf": "2026-10-27",
+      "mom": -11.894813123473318,
+      "asOf": "2026-11-03",
       "source": "FRED DCOILBRENTEU × USDRUB",
       "emptyReason": null,
       "chartEmpty": false,
@@ -48194,8 +48208,12 @@
           "value": 9786.084252999999
         },
         {
-          "date": "2026-10-27",
-          "value": 10393.12373
+          "date": "2026-10-30",
+          "value": 10144.060244999999
+        },
+        {
+          "date": "2026-11-03",
+          "value": 8622.047819
         }
       ],
       "ma12": [
@@ -48795,8 +48813,13 @@
           "n": 12
         },
         {
-          "date": "2026-10-27",
-          "value": 7184.837378846152,
+          "date": "2026-10-30",
+          "value": 7165.678649230767,
+          "n": 13
+        },
+        {
+          "date": "2026-11-03",
+          "value": 7423.669856230768,
           "n": 13
         }
       ],
@@ -49397,13 +49420,18 @@
           "n": 84
         },
         {
-          "date": "2026-10-27",
-          "value": 6011.202169023531,
+          "date": "2026-10-30",
+          "value": 6008.272010376472,
+          "n": 85
+        },
+        {
+          "date": "2026-11-03",
+          "value": 6065.146777423532,
           "n": 85
         }
       ],
-      "ma7yLatest": 6011.202169023531,
-      "ma12Latest": 7184.837378846152,
+      "ma7yLatest": 6065.146777423532,
+      "ma12Latest": 7423.669856230768,
       "ma12Note": null,
       "ma7yNote": null,
       "historyMonths": 119
