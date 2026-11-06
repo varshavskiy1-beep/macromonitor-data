@@ -1,6 +1,6 @@
 {
-  "status": "ok",
-  "fetchedAt": "2026-11-05T01:27:40.103Z",
+  "status": "error",
+  "fetchedAt": "2026-11-06T01:15:36.214Z",
   "keyRate": null,
   "keyRateHistory": [],
   "usdRub": {
@@ -490,8 +490,8 @@
       "value": 80.5573
     },
     {
-      "date": "2026-11-04",
-      "value": 81.6699
+      "date": "2026-11-06",
+      "value": 81.7947
     }
   ],
   "cnyHistory": [
@@ -976,8 +976,8 @@
       "value": 12.0873
     },
     {
-      "date": "2026-11-04",
-      "value": 12.1816
+      "date": "2026-11-06",
+      "value": 12.257
     }
   ],
   "cpi": {
@@ -3078,15 +3078,15 @@
     }
   ],
   "cpiDual": {
-    "ok": true,
+    "ok": false,
     "month": "2026-09",
     "rosstat": 6.35,
-    "cbr": 6.35,
-    "gapPp": 0,
+    "cbr": null,
+    "gapPp": null,
     "warn": false,
-    "note": "сверка: таблица ЦБ hd_base/infl за 2026-09 подтверждает 6,35% г/г (разрыв 0,00 п.п. — округление м/м-индексов); среднее не считаем"
+    "note": "таблица ЦБ hd_base/infl за общий месяц недоступна — публикуем один длинный ряд Росстата, среднее не считаем"
   },
-  "cpiError": "curl http://ssl.rosstat.gov.ru/statistics/price: curl HTTP 500; wget http://ssl.rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1108120-v469rapbz2 http://ssl.rosstat.gov.ru/statistics/price\n; curl https://rosstat.gov.ru/statistics/price: curl HTTP 404; wget https://rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1108120-v469rapbz2 https://rosstat.gov.ru/statistics/price\n",
+  "cpiError": "curl http://ssl.rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx: curl HTTP 500; wget http://ssl.rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1493709-w1p3btlg5q http://ssl.rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx\n; curl https://rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx: curl HTTP 404; wget https://rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1493709-w1p3btlg5q https://rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx\n",
   "m2Yoy": {
     "date": "2026-10-01",
     "value": 13.3,
@@ -7750,7 +7750,6 @@
   ],
   "ruoniaError": "Ruonia SOAP HTTP 500",
   "meetings": {
-    "source": "https://cbr.ru/dkp/cal_mp/",
     "items": [
       {
         "date": "2024-02-16",
@@ -8072,26 +8071,28 @@
         "type": "заседание",
         "source": "https://cbr.ru/dkp/cal_mp/"
       }
-    ]
+    ],
+    "error": "календарь ЦБ HTTP 403 (cbr.ru без www)",
+    "source": null
   },
   "consensus": {
     "nextMeetingRate": 13.5,
     "yearEnd2026": 13.75,
     "source": "sbercib.ru/publication/prognoz-klyuchevoi-stavki-na-2026-god",
-    "fetchedAt": "2026-11-02T02:22:15.858Z",
+    "fetchedAt": "2026-10-26T02:55:39.298Z",
     "error": "SberCIB forecast: не разобрали таблицу месяц→ставка",
-    "lastAttempt": "2026-11-05T01:27:39.824Z"
+    "lastAttempt": "2026-11-06T01:15:35.942Z"
   },
   "depositMax": {
-    "source": "https://cbr.ru/vfs/statistics/bank_sector/ibudv/szmdv_202609.xls",
-    "date": "2026-09-01",
-    "value": 22
+    "value": null,
+    "date": null,
+    "source": null
   },
   "sources": {
     "keyRate": null,
-    "infl": "https://rosstat.gov.ru/storage/mediabank/ipc_mes_09-2026.xlsx · г/г цепным произведением м/м-индексов (методика из сноски ipc_mes) · сверка: cbr.ru/hd_base/infl",
-    "m2": "https://cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx",
-    "m0": "https://cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx",
+    "infl": "http://ssl.rosstat.gov.ru/storage/mediabank/ipc_mes_09-2026.xlsx · г/г цепным произведением м/м-индексов (методика из сноски ipc_mes) · сверка: cbr.ru/hd_base/infl",
+    "m2": "https://www.cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx",
+    "m0": "https://www.cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx",
     "usd": "www.cbr.ru XML_dynamic R01235",
     "cny": "www.cbr.ru XML_dynamic R01375",
     "deposit": "https://www.cbr.ru/dataservice/data?y1=2016&y2=2026&publicationId=18&datasetId=37&measureId=2",

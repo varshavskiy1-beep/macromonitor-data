@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-05T01:27:40.103Z",
+  "fetchedAt": "2026-11-06T01:15:36.214Z",
   "status": "ok",
   "score": 21,
   "rawScore": 21,
@@ -1912,13 +1912,13 @@
       "weight": 0.09,
       "context": false,
       "meaning": "Разница длинной и короткой ОФЗ. Положительный наклон значит: рынок ждёт более низкие короткие ставки впереди и платит за длительность. Это обычно сопровождает переход «депозит → облигации». Отрицательный наклон (инверсия) — рынок ещё закладывает жёсткость, рано звать в риск.",
-      "latest": 2.428000000000001,
-      "signalValue": 2.428000000000001,
+      "latest": 2.2353999999999985,
+      "signalValue": 2.2353999999999985,
       "signal": 1,
       "statusWord": "благоприятно",
       "status": "ok",
-      "mom": -0.9780000000000033,
-      "asOf": "2026-11-04",
+      "mom": -0.9232000000000031,
+      "asOf": "2026-11-05",
       "source": "https://iss.moex.com/iss/engines/stock/zcyc.json?iss.meta=off",
       "emptyReason": null,
       "chartEmpty": false,
@@ -2541,8 +2541,8 @@
           "value": 2.495099999999999
         },
         {
-          "date": "2026-11-03",
-          "value": 2.1805999999999983
+          "date": "2026-11-05",
+          "value": 2.2353999999999985
         }
       ],
       "ma12": [
@@ -3317,8 +3317,8 @@
           "n": 13
         },
         {
-          "date": "2026-11-03",
-          "value": 1.6968846153846153,
+          "date": "2026-11-05",
+          "value": 1.7011,
           "n": 13
         }
       ],
@@ -4094,13 +4094,13 @@
           "n": 85
         },
         {
-          "date": "2026-11-03",
-          "value": 0.5214647058823528,
+          "date": "2026-11-05",
+          "value": 0.5221094117647058,
           "n": 85
         }
       ],
-      "ma7yLatest": 0.5214647058823528,
-      "ma12Latest": 1.6968846153846153,
+      "ma7yLatest": 0.5221094117647058,
+      "ma12Latest": 1.7011,
       "ma12Note": null,
       "ma7yNote": null,
       "historyMonths": 153
@@ -5948,9 +5948,9 @@
       "mom": null,
       "asOf": "2026-09-01",
       "source": "SOAP KeyRate − ИПЦ Росстата",
-      "emptyReason": "curl http://ssl.rosstat.gov.ru/statistics/price: curl HTTP 500; wget http://ssl.rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1108120-v469rapbz2 http://ssl.rosstat.gov.ru/statistics/price\n; curl https://rosstat.gov.ru/statistics/price: curl HTTP 404; wget https://rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1108120-v469rapbz2 https://rosstat.gov.ru/statistics/price\n",
+      "emptyReason": "curl http://ssl.rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx: curl HTTP 500; wget http://ssl.rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1493709-w1p3btlg5q http://ssl.rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx\n; curl https://rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx: curl HTTP 404; wget https://rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1493709-w1p3btlg5q https://rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx\n",
       "chartEmpty": true,
-      "chartReason": "curl http://ssl.rosstat.gov.ru/statistics/price: curl HTTP 500; wget http://ssl.rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1108120-v469rapbz2 http://ssl.rosstat.gov.ru/statistics/price\n; curl https://rosstat.gov.ru/statistics/price: curl HTTP 404; wget https://rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1108120-v469rapbz2 https://rosstat.gov.ru/statistics/price\n",
+      "chartReason": "curl http://ssl.rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx: curl HTTP 500; wget http://ssl.rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1493709-w1p3btlg5q http://ssl.rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx\n; curl https://rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx: curl HTTP 404; wget https://rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1493709-w1p3btlg5q https://rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx\n",
       "points": [],
       "ma12": [],
       "ma7y": [],
@@ -6030,13 +6030,13 @@
       "weight": 0.08,
       "context": false,
       "meaning": "Сколько индекс Мосбиржи прибавил или потерял за 12 месяцев. Плюс — тренд уже за риск, клиенту проще заходить. Глубокий минус — «боль» в портфелях, привлечение в акции почти не работает, пока рынок не стабилизируется.",
-      "latest": -8.58534908571899,
-      "signalValue": -8.58534908571899,
+      "latest": -8.14371436471107,
+      "signalValue": -8.14371436471107,
       "signal": 0,
       "statusWord": "нейтрально",
       "status": "ok",
-      "mom": 12.45291667692852,
-      "asOf": "2026-11-03",
+      "mom": 12.920998413028638,
+      "asOf": "2026-11-05",
       "source": "https://iss.moex.com/iss/engines/stock/markets/index/boards/SNDX/securities/IMOEX.json?iss.meta=off&iss.only=marketdata,securities",
       "emptyReason": null,
       "chartEmpty": false,
@@ -7331,8 +7331,8 @@
           "value": -6.531326827087823
         },
         {
-          "date": "2026-11-03",
-          "value": -3.1110407096467587
+          "date": "2026-11-05",
+          "value": -2.642958973546641
         }
       ],
       "ma12": [
@@ -8947,8 +8947,8 @@
           "n": 13
         },
         {
-          "date": "2026-11-03",
-          "value": -9.461895014800607,
+          "date": "2026-11-05",
+          "value": -9.42588872740829,
           "n": 13
         }
       ],
@@ -10564,13 +10564,13 @@
           "n": 85
         },
         {
-          "date": "2026-11-03",
-          "value": 2.6386948974900752,
+          "date": "2026-11-05",
+          "value": 2.6442017414441943,
           "n": 85
         }
       ],
-      "ma7yLatest": 2.6386948974900752,
-      "ma12Latest": -9.461895014800607,
+      "ma7yLatest": 2.6442017414441943,
+      "ma12Latest": -9.42588872740829,
       "ma12Note": null,
       "ma7yNote": null,
       "historyMonths": 321
@@ -10585,13 +10585,13 @@
       "weight": 0.04,
       "context": false,
       "meaning": "Индекс волатильности российского рынка. Ниже 30 — спокойно, клиент не боится входить. Выше 40 — «страх»: лучше не толкать агрессивный риск, держать базу и качество. Это термометр нервов, не прогноз индекса.",
-      "latest": 31.48,
-      "signalValue": 31.48,
+      "latest": 30.17,
+      "signalValue": 30.17,
       "signal": 0,
       "statusWord": "нейтрально",
       "status": "ok",
-      "mom": -0.41999999999999815,
-      "asOf": "2026-11-03",
+      "mom": -1.7299999999999969,
+      "asOf": "2026-11-05",
       "source": "https://iss.moex.com/iss/engines/stock/markets/index/boards/RTSI/securities/RVI.json?iss.meta=off&iss.only=marketdata,securities",
       "emptyReason": null,
       "chartEmpty": false,
@@ -11118,8 +11118,8 @@
           "value": 30.44
         },
         {
-          "date": "2026-11-03",
-          "value": 31.48
+          "date": "2026-11-05",
+          "value": 30.17
         }
       ],
       "ma12": [
@@ -11774,8 +11774,8 @@
           "n": 13
         },
         {
-          "date": "2026-11-03",
-          "value": 31.433846153846154,
+          "date": "2026-11-05",
+          "value": 31.333076923076923,
           "n": 13
         }
       ],
@@ -12431,13 +12431,13 @@
           "n": 85
         },
         {
-          "date": "2026-11-03",
-          "value": 36.562705882352944,
+          "date": "2026-11-05",
+          "value": 36.54729411764706,
           "n": 85
         }
       ],
-      "ma7yLatest": 36.562705882352944,
-      "ma12Latest": 31.433846153846154,
+      "ma7yLatest": 36.54729411764706,
+      "ma12Latest": 31.333076923076923,
       "ma12Note": null,
       "ma7yNote": null,
       "historyMonths": 129
@@ -12452,8 +12452,8 @@
       "weight": 0.08,
       "context": false,
       "meaning": "Во сколько раз вклад выгоднее дивидендной доходности рынка. Выше 2× — депозит явно побеждает «купоны» акций, клиент остаётся в банке. Около 1× и ниже — рынок по доходу уже конкурирует с вкладом, легче предлагать акции.",
-      "latest": 1.3625460403058935,
-      "signalValue": 1.3625460403058935,
+      "latest": 1.3449112955858897,
+      "signalValue": 1.3449112955858897,
       "signal": 0,
       "statusWord": "нейтрально",
       "status": "ok",
@@ -14109,13 +14109,13 @@
       "weight": 0.06,
       "context": false,
       "meaning": "Официальный курс доллара ЦБ. Слабый рубль (курс заметно выше своей семилетней нормы) бьёт по импорту и инфляции и обычно держит жёсткую политику дольше. Крепкий рубль относительно нормы снимает ценовое давление. Смотрим уровень к длинной средней, не дневной шум.",
-      "latest": 81.6699,
-      "signalValue": 81.6699,
+      "latest": 81.7947,
+      "signalValue": 81.7947,
       "signal": 0,
       "statusWord": "нейтрально",
       "status": "ok",
-      "mom": -3.2671509434632635,
-      "asOf": "2026-11-04",
+      "mom": -3.1193332093622486,
+      "asOf": "2026-11-06",
       "source": "www.cbr.ru XML_dynamic R01235",
       "emptyReason": null,
       "chartEmpty": false,
@@ -14602,8 +14602,8 @@
           "value": 80.5573
         },
         {
-          "date": "2026-11-04",
-          "value": 81.6699
+          "date": "2026-11-06",
+          "value": 81.7947
         }
       ],
       "ma12": [
@@ -15208,8 +15208,8 @@
           "n": 12
         },
         {
-          "date": "2026-11-04",
-          "value": 78.96363846153848,
+          "date": "2026-11-06",
+          "value": 78.97323846153846,
           "n": 13
         }
       ],
@@ -15815,13 +15815,13 @@
           "n": 84
         },
         {
-          "date": "2026-11-04",
-          "value": 78.7973988235294,
+          "date": "2026-11-06",
+          "value": 78.79886705882353,
           "n": 85
         }
       ],
-      "ma7yLatest": 78.7973988235294,
-      "ma12Latest": 78.96363846153848,
+      "ma7yLatest": 78.79886705882353,
+      "ma12Latest": 78.97323846153846,
       "ma12Note": null,
       "ma7yNote": null,
       "historyMonths": 119
@@ -17570,7 +17570,7 @@
       "status": "ok",
       "mom": 0.5,
       "asOf": "2026-10-01",
-      "source": "https://cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx",
+      "source": "https://www.cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx",
       "emptyReason": null,
       "chartEmpty": false,
       "chartReason": null,
@@ -25980,7 +25980,7 @@
       "status": "ok",
       "mom": 0.7000000000000028,
       "asOf": "2026-10-01",
-      "source": "https://cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx",
+      "source": "https://www.cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx",
       "emptyReason": null,
       "chartEmpty": false,
       "chartReason": null,
@@ -33795,13 +33795,13 @@
       "weight": 0.09,
       "context": false,
       "meaning": "Разница длинной и короткой ОФЗ. Положительный наклон значит: рынок ждёт более низкие короткие ставки впереди и платит за длительность. Это обычно сопровождает переход «депозит → облигации». Отрицательный наклон (инверсия) — рынок ещё закладывает жёсткость, рано звать в риск.",
-      "latest": 2.428000000000001,
-      "signalValue": 2.428000000000001,
+      "latest": 2.2353999999999985,
+      "signalValue": 2.2353999999999985,
       "signal": 1,
       "statusWord": "благоприятно",
       "status": "ok",
-      "mom": -0.9780000000000033,
-      "asOf": "2026-11-04",
+      "mom": -0.9232000000000031,
+      "asOf": "2026-11-05",
       "source": "https://iss.moex.com/iss/engines/stock/zcyc.json?iss.meta=off",
       "emptyReason": null,
       "chartEmpty": false,
@@ -34424,8 +34424,8 @@
           "value": 2.495099999999999
         },
         {
-          "date": "2026-11-03",
-          "value": 2.1805999999999983
+          "date": "2026-11-05",
+          "value": 2.2353999999999985
         }
       ],
       "ma12": [
@@ -35200,8 +35200,8 @@
           "n": 13
         },
         {
-          "date": "2026-11-03",
-          "value": 1.6968846153846153,
+          "date": "2026-11-05",
+          "value": 1.7011,
           "n": 13
         }
       ],
@@ -35977,13 +35977,13 @@
           "n": 85
         },
         {
-          "date": "2026-11-03",
-          "value": 0.5214647058823528,
+          "date": "2026-11-05",
+          "value": 0.5221094117647058,
           "n": 85
         }
       ],
-      "ma7yLatest": 0.5214647058823528,
-      "ma12Latest": 1.6968846153846153,
+      "ma7yLatest": 0.5221094117647058,
+      "ma12Latest": 1.7011,
       "ma12Note": null,
       "ma7yNote": null,
       "historyMonths": 153
@@ -37831,9 +37831,9 @@
       "mom": null,
       "asOf": "2026-09-01",
       "source": "SOAP KeyRate − ИПЦ Росстата",
-      "emptyReason": "curl http://ssl.rosstat.gov.ru/statistics/price: curl HTTP 500; wget http://ssl.rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1108120-v469rapbz2 http://ssl.rosstat.gov.ru/statistics/price\n; curl https://rosstat.gov.ru/statistics/price: curl HTTP 404; wget https://rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1108120-v469rapbz2 https://rosstat.gov.ru/statistics/price\n",
+      "emptyReason": "curl http://ssl.rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx: curl HTTP 500; wget http://ssl.rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1493709-w1p3btlg5q http://ssl.rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx\n; curl https://rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx: curl HTTP 404; wget https://rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1493709-w1p3btlg5q https://rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx\n",
       "chartEmpty": true,
-      "chartReason": "curl http://ssl.rosstat.gov.ru/statistics/price: curl HTTP 500; wget http://ssl.rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1108120-v469rapbz2 http://ssl.rosstat.gov.ru/statistics/price\n; curl https://rosstat.gov.ru/statistics/price: curl HTTP 404; wget https://rosstat.gov.ru/statistics/price: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1108120-v469rapbz2 https://rosstat.gov.ru/statistics/price\n",
+      "chartReason": "curl http://ssl.rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx: curl HTTP 500; wget http://ssl.rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1493709-w1p3btlg5q http://ssl.rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx\n; curl https://rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx: curl HTTP 404; wget https://rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1493709-w1p3btlg5q https://rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx\n",
       "points": [],
       "ma12": [],
       "ma7y": [],
@@ -37913,13 +37913,13 @@
       "weight": 0.08,
       "context": false,
       "meaning": "Сколько индекс Мосбиржи прибавил или потерял за 12 месяцев. Плюс — тренд уже за риск, клиенту проще заходить. Глубокий минус — «боль» в портфелях, привлечение в акции почти не работает, пока рынок не стабилизируется.",
-      "latest": -8.58534908571899,
-      "signalValue": -8.58534908571899,
+      "latest": -8.14371436471107,
+      "signalValue": -8.14371436471107,
       "signal": 0,
       "statusWord": "нейтрально",
       "status": "ok",
-      "mom": 12.45291667692852,
-      "asOf": "2026-11-03",
+      "mom": 12.920998413028638,
+      "asOf": "2026-11-05",
       "source": "https://iss.moex.com/iss/engines/stock/markets/index/boards/SNDX/securities/IMOEX.json?iss.meta=off&iss.only=marketdata,securities",
       "emptyReason": null,
       "chartEmpty": false,
@@ -39214,8 +39214,8 @@
           "value": -6.531326827087823
         },
         {
-          "date": "2026-11-03",
-          "value": -3.1110407096467587
+          "date": "2026-11-05",
+          "value": -2.642958973546641
         }
       ],
       "ma12": [
@@ -40830,8 +40830,8 @@
           "n": 13
         },
         {
-          "date": "2026-11-03",
-          "value": -9.461895014800607,
+          "date": "2026-11-05",
+          "value": -9.42588872740829,
           "n": 13
         }
       ],
@@ -42447,13 +42447,13 @@
           "n": 85
         },
         {
-          "date": "2026-11-03",
-          "value": 2.6386948974900752,
+          "date": "2026-11-05",
+          "value": 2.6442017414441943,
           "n": 85
         }
       ],
-      "ma7yLatest": 2.6386948974900752,
-      "ma12Latest": -9.461895014800607,
+      "ma7yLatest": 2.6442017414441943,
+      "ma12Latest": -9.42588872740829,
       "ma12Note": null,
       "ma7yNote": null,
       "historyMonths": 321
@@ -42468,13 +42468,13 @@
       "weight": 0.04,
       "context": false,
       "meaning": "Индекс волатильности российского рынка. Ниже 30 — спокойно, клиент не боится входить. Выше 40 — «страх»: лучше не толкать агрессивный риск, держать базу и качество. Это термометр нервов, не прогноз индекса.",
-      "latest": 31.48,
-      "signalValue": 31.48,
+      "latest": 30.17,
+      "signalValue": 30.17,
       "signal": 0,
       "statusWord": "нейтрально",
       "status": "ok",
-      "mom": -0.41999999999999815,
-      "asOf": "2026-11-03",
+      "mom": -1.7299999999999969,
+      "asOf": "2026-11-05",
       "source": "https://iss.moex.com/iss/engines/stock/markets/index/boards/RTSI/securities/RVI.json?iss.meta=off&iss.only=marketdata,securities",
       "emptyReason": null,
       "chartEmpty": false,
@@ -43001,8 +43001,8 @@
           "value": 30.44
         },
         {
-          "date": "2026-11-03",
-          "value": 31.48
+          "date": "2026-11-05",
+          "value": 30.17
         }
       ],
       "ma12": [
@@ -43657,8 +43657,8 @@
           "n": 13
         },
         {
-          "date": "2026-11-03",
-          "value": 31.433846153846154,
+          "date": "2026-11-05",
+          "value": 31.333076923076923,
           "n": 13
         }
       ],
@@ -44314,13 +44314,13 @@
           "n": 85
         },
         {
-          "date": "2026-11-03",
-          "value": 36.562705882352944,
+          "date": "2026-11-05",
+          "value": 36.54729411764706,
           "n": 85
         }
       ],
-      "ma7yLatest": 36.562705882352944,
-      "ma12Latest": 31.433846153846154,
+      "ma7yLatest": 36.54729411764706,
+      "ma12Latest": 31.333076923076923,
       "ma12Note": null,
       "ma7yNote": null,
       "historyMonths": 129
@@ -44335,8 +44335,8 @@
       "weight": 0.08,
       "context": false,
       "meaning": "Во сколько раз вклад выгоднее дивидендной доходности рынка. Выше 2× — депозит явно побеждает «купоны» акций, клиент остаётся в банке. Около 1× и ниже — рынок по доходу уже конкурирует с вкладом, легче предлагать акции.",
-      "latest": 1.3625460403058935,
-      "signalValue": 1.3625460403058935,
+      "latest": 1.3449112955858897,
+      "signalValue": 1.3449112955858897,
       "signal": 0,
       "statusWord": "нейтрально",
       "status": "ok",
@@ -45992,13 +45992,13 @@
       "weight": 0.06,
       "context": false,
       "meaning": "Официальный курс доллара ЦБ. Слабый рубль (курс заметно выше своей семилетней нормы) бьёт по импорту и инфляции и обычно держит жёсткую политику дольше. Крепкий рубль относительно нормы снимает ценовое давление. Смотрим уровень к длинной средней, не дневной шум.",
-      "latest": 81.6699,
-      "signalValue": 81.6699,
+      "latest": 81.7947,
+      "signalValue": 81.7947,
       "signal": 0,
       "statusWord": "нейтрально",
       "status": "ok",
-      "mom": -3.2671509434632635,
-      "asOf": "2026-11-04",
+      "mom": -3.1193332093622486,
+      "asOf": "2026-11-06",
       "source": "www.cbr.ru XML_dynamic R01235",
       "emptyReason": null,
       "chartEmpty": false,
@@ -46485,8 +46485,8 @@
           "value": 80.5573
         },
         {
-          "date": "2026-11-04",
-          "value": 81.6699
+          "date": "2026-11-06",
+          "value": 81.7947
         }
       ],
       "ma12": [
@@ -47091,8 +47091,8 @@
           "n": 12
         },
         {
-          "date": "2026-11-04",
-          "value": 78.96363846153848,
+          "date": "2026-11-06",
+          "value": 78.97323846153846,
           "n": 13
         }
       ],
@@ -47698,13 +47698,13 @@
           "n": 84
         },
         {
-          "date": "2026-11-04",
-          "value": 78.7973988235294,
+          "date": "2026-11-06",
+          "value": 78.79886705882353,
           "n": 85
         }
       ],
-      "ma7yLatest": 78.7973988235294,
-      "ma12Latest": 78.96363846153848,
+      "ma7yLatest": 78.79886705882353,
+      "ma12Latest": 78.97323846153846,
       "ma12Note": null,
       "ma7yNote": null,
       "historyMonths": 119
@@ -49453,7 +49453,7 @@
       "status": "ok",
       "mom": 0.5,
       "asOf": "2026-10-01",
-      "source": "https://cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx",
+      "source": "https://www.cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx",
       "emptyReason": null,
       "chartEmpty": false,
       "chartReason": null,
@@ -57863,7 +57863,7 @@
       "status": "ok",
       "mom": 0.7000000000000028,
       "asOf": "2026-10-01",
-      "source": "https://cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx",
+      "source": "https://www.cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx",
       "emptyReason": null,
       "chartEmpty": false,
       "chartReason": null,

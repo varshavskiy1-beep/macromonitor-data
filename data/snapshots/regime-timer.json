@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-11-05T02:53:55.833Z",
+  "fetchedAt": "2026-11-06T01:15:47.086Z",
   "status": "ok",
   "caption": "Это таймер режима рынка, а не сигнал купить бумагу. Атака только когда оба якоря выше своей средней. Нет котировки по любому якорю — оборона.",
   "usa": {
     "id": "usa",
     "marketLabel": "США",
     "anchorsLabel": "JPM ∧ BTC",
-    "regime": "attack",
-    "regimeWord": "АТАКА",
-    "asOf": "2026-11-04",
+    "regime": "defense",
+    "regimeWord": "ОБОРОНА",
+    "asOf": "2026-11-05",
     "stale": false,
     "staleNote": null,
-    "lastSwitch": "2026-11-04",
-    "daysInRegime": 1,
+    "lastSwitch": "2026-11-05",
+    "daysInRegime": 0,
     "anchors": [
       {
         "id": "jpm",
@@ -35,11 +35,11 @@
         "source": "Binance BTCUSDT daily klines, закрытые сутки UTC, закрытие USDT",
         "note": "по закрытию суток UTC",
         "hasData": true,
-        "asOf": "2026-11-04",
-        "close": 80504.01,
-        "ema100": 77845.94612261165,
-        "gapPct": 3.41451804465418,
-        "above": true,
+        "asOf": "2026-11-05",
+        "close": 76088.01,
+        "ema100": 77811.13550632232,
+        "gapPct": -2.214497314696451,
+        "above": false,
         "warning": null
       }
     ],
@@ -2255,11 +2255,11 @@
             "btcFill": 0
           },
           {
-            "date": "2026-11-04",
-            "btcClose": 80504.01,
-            "btcEma": 77845.94612261165,
-            "btcFillBase": 77845.94612261165,
-            "btcFill": 2658.06387738834
+            "date": "2026-11-05",
+            "btcClose": 76088.01,
+            "btcEma": 77811.13550632232,
+            "btcFillBase": 77811.13550632232,
+            "btcFill": 0
           }
         ]
       }
@@ -2272,7 +2272,7 @@
     "anchorsLabel": "ROSN ∧ HG",
     "regime": "defense",
     "regimeWord": "ОБОРОНА",
-    "asOf": "2026-11-04",
+    "asOf": "2026-11-05",
     "stale": false,
     "staleNote": null,
     "lastSwitch": "2026-11-03",
@@ -2285,10 +2285,10 @@
         "source": "MOEX ISS daily ROSN TQBR",
         "note": null,
         "hasData": true,
-        "asOf": "2026-11-03",
-        "close": 370.8,
-        "ema100": 361.85590409820526,
-        "gapPct": 2.471728608127788,
+        "asOf": "2026-11-05",
+        "close": 363.1,
+        "ema100": 361.88053966061705,
+        "gapPct": 0.33697870035416244,
         "above": true,
         "warning": null
       },
@@ -3357,11 +3357,11 @@
             "rosnFill": 22.221750055525717
           },
           {
-            "date": "2026-11-03",
-            "rosnClose": 370.8,
-            "rosnEma": 361.85590409820526,
-            "rosnFillBase": 361.85590409820526,
-            "rosnFill": 8.944095901794753
+            "date": "2026-11-05",
+            "rosnClose": 363.1,
+            "rosnEma": 361.88053966061705,
+            "rosnFillBase": 361.88053966061705,
+            "rosnFill": 1.2194603393829766
           }
         ]
       },
