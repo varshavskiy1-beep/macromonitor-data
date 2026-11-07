@@ -1,6 +1,6 @@
 {
   "status": "OK",
-  "fetchedAt": "2026-11-06T18:54:15.992Z",
+  "fetchedAt": "2026-11-07T17:25:30.187Z",
   "seamDate": "2026-07-09",
   "formula": "prem = USDT/RUB_spot − USDRUBF_last (₽)",
   "btcDaily": {
@@ -4656,20 +4656,24 @@
       },
       {
         "date": "2026-11-06",
-        "value": 75808.91
+        "value": 75844
+      },
+      {
+        "date": "2026-11-07",
+        "value": 75791.27
       }
     ]
   },
   "live": {
     "usdt": {
-      "value": 86.625,
+      "value": 86.755,
       "source": "Rapira api.rapira.net/open/market/rates USDT/RUB mid",
-      "asOf": "2026-11-06T18:54:06.373Z"
+      "asOf": "2026-11-07T17:25:22.812Z"
     },
     "usdrubf": {
-      "value": 82.28,
+      "value": 80.55,
       "source": "MOEX ISS USDRUBF RFUD (LAST in session, else SETTLEPRICE)",
-      "asOf": "2026-11-06T21:38:07+03:00",
+      "asOf": "2026-10-23T23:49:43+03:00",
       "inSession": true
     },
     "cbr": {
@@ -4677,13 +4681,13 @@
       "source": "ЦБ РФ XML_daily USD",
       "asOf": "2026-11-07"
     },
-    "prem": 4.344999999999999,
-    "premPct": 5.280748663101602,
-    "premCbr": 4.486400000000003,
-    "dprem1d": -0.2049999999999983,
-    "dprem5d": 0.1150000000000091,
-    "premZ60d": 1.4196257400852463,
-    "daysAbove4": 6
+    "prem": 6.204999999999998,
+    "premPct": 7.70328988206083,
+    "premCbr": 4.616399999999999,
+    "dprem1d": 3.2650000000000006,
+    "dprem5d": 2.575000000000003,
+    "premZ60d": 1.324253743106213,
+    "daysAbove4": 0
   },
   "exmoHistory": {
     "points": [
@@ -11489,7 +11493,12 @@
       },
       {
         "date": "2026-11-06",
-        "value": 86.625,
+        "value": 86.54,
+        "source": "rapira"
+      },
+      {
+        "date": "2026-11-07",
+        "value": 86.755,
         "source": "rapira"
       }
     ],
@@ -14704,38 +14713,6 @@
       {
         "date": "2026-10-23",
         "value": 80.54
-      },
-      {
-        "date": "2026-10-26",
-        "value": 80.49
-      },
-      {
-        "date": "2026-10-27",
-        "value": 80.53
-      },
-      {
-        "date": "2026-10-28",
-        "value": 80.87
-      },
-      {
-        "date": "2026-10-29",
-        "value": 80.68
-      },
-      {
-        "date": "2026-10-30",
-        "value": 80.56
-      },
-      {
-        "date": "2026-11-02",
-        "value": 80.97
-      },
-      {
-        "date": "2026-11-03",
-        "value": 81.67
-      },
-      {
-        "date": "2026-11-05",
-        "value": 81.79
       }
     ],
     "source": "MOEX ISS history USDRUBF RFUD SETTLEPRICE"
@@ -22367,36 +22344,31 @@
     {
       "date": "2026-10-26",
       "usdt": 84.4,
-      "usdrubf": 80.49,
-      "prem": 3.910000000000011,
+      "prem": null,
       "sourceUsdt": "rapira"
     },
     {
       "date": "2026-10-27",
       "usdt": 84.86,
-      "usdrubf": 80.53,
-      "prem": 4.329999999999998,
+      "prem": null,
       "sourceUsdt": "rapira"
     },
     {
       "date": "2026-10-28",
       "usdt": 84.75,
-      "usdrubf": 80.87,
-      "prem": 3.8799999999999955,
+      "prem": null,
       "sourceUsdt": "rapira"
     },
     {
       "date": "2026-10-29",
       "usdt": 84.91,
-      "usdrubf": 80.68,
-      "prem": 4.22999999999999,
+      "prem": null,
       "sourceUsdt": "rapira"
     },
     {
       "date": "2026-10-30",
       "usdt": 84.64,
-      "usdrubf": 80.56,
-      "prem": 4.079999999999998,
+      "prem": null,
       "sourceUsdt": "rapira"
     },
     {
@@ -22414,15 +22386,13 @@
     {
       "date": "2026-11-02",
       "usdt": 85.33,
-      "usdrubf": 80.97,
-      "prem": 4.359999999999999,
+      "prem": null,
       "sourceUsdt": "rapira"
     },
     {
       "date": "2026-11-03",
       "usdt": 85.93,
-      "usdrubf": 81.67,
-      "prem": 4.260000000000005,
+      "prem": null,
       "sourceUsdt": "rapira"
     },
     {
@@ -22434,19 +22404,26 @@
     {
       "date": "2026-11-05",
       "usdt": 86.34,
-      "usdrubf": 81.79,
-      "prem": 4.549999999999997,
+      "prem": null,
       "sourceUsdt": "rapira"
     },
     {
       "date": "2026-11-06",
-      "usdt": 86.625,
-      "usdrubf": 82.28,
-      "prem": 4.344999999999999,
+      "usdt": 86.54,
+      "prem": null,
+      "sourceUsdt": "rapira"
+    },
+    {
+      "date": "2026-11-07",
+      "usdt": 86.755,
+      "prem": null,
       "sourceUsdt": "rapira"
     }
   ],
-  "errors": [],
+  "errors": [
+    "USDRUBF: fetch failed",
+    "USDRUBF history: fetch failed"
+  ],
   "notes": [
     "EXMO только до 2026-07-09 и только при объёме ≥ 50 000; после этой даты — Rapira (market/history + live rates).",
     "Единого публичного USDT/RUB с многолетней историей нет: EXMO был ликвидным до 2026-07-09; Rapira API даёт daily с 2020, но цены расходятся с EXMO (ср. |Δ| ~2 ₽, до ~10 ₽ в июле 2026) — это разные площадки, не один рынок.",
