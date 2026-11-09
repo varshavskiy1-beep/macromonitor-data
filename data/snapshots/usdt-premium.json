@@ -1,6 +1,6 @@
 {
   "status": "OK",
-  "fetchedAt": "2026-11-08T17:36:27.034Z",
+  "fetchedAt": "2026-11-09T01:12:40.869Z",
   "seamDate": "2026-07-09",
   "formula": "prem = USDT/RUB_spot − USDRUBF_last (₽)",
   "btcDaily": {
@@ -4664,15 +4664,19 @@
       },
       {
         "date": "2026-11-08",
-        "value": 75686.94
+        "value": 74851.44
+      },
+      {
+        "date": "2026-11-09",
+        "value": 75224.01
       }
     ]
   },
   "live": {
     "usdt": {
-      "value": 86.735,
+      "value": 86.72,
       "source": "Rapira api.rapira.net/open/market/rates USDT/RUB mid",
-      "asOf": "2026-11-08T17:36:19.402Z"
+      "asOf": "2026-11-09T01:12:36.809Z"
     },
     "usdrubf": {
       "value": 82.47,
@@ -4681,16 +4685,16 @@
       "inSession": true
     },
     "cbr": {
-      "value": 82.1386,
+      "value": 80.5381,
       "source": "ЦБ РФ XML_daily USD",
-      "asOf": "2026-11-07"
+      "asOf": null
     },
-    "prem": 4.265000000000001,
-    "premPct": 5.171577543349097,
-    "premCbr": 4.596400000000003,
-    "dprem1d": -0.13500000000000512,
-    "dprem5d": 0.18500000000000227,
-    "premZ60d": 1.287027508279691,
+    "prem": 4.25,
+    "premPct": 5.153389111191949,
+    "premCbr": 6.181899999999999,
+    "dprem1d": -0.15000000000000568,
+    "dprem5d": 0.1700000000000017,
+    "premZ60d": 1.240170209969301,
     "daysAbove4": 7
   },
   "exmoHistory": {
@@ -11507,7 +11511,12 @@
       },
       {
         "date": "2026-11-08",
-        "value": 86.735,
+        "value": 86.69,
+        "source": "rapira"
+      },
+      {
+        "date": "2026-11-09",
+        "value": 86.72,
         "source": "rapira"
       }
     ],
@@ -22475,13 +22484,21 @@
     },
     {
       "date": "2026-11-08",
-      "usdt": 86.735,
+      "usdt": 86.69,
       "usdrubf": 82.47,
-      "prem": 4.265000000000001,
+      "prem": 4.219999999999999,
+      "sourceUsdt": "rapira"
+    },
+    {
+      "date": "2026-11-09",
+      "usdt": 86.72,
+      "prem": null,
       "sourceUsdt": "rapira"
     }
   ],
-  "errors": [],
+  "errors": [
+    "CBR: CBR XML_daily HTTP 500"
+  ],
   "notes": [
     "EXMO только до 2026-07-09 и только при объёме ≥ 50 000; после этой даты — Rapira (market/history + live rates).",
     "Единого публичного USDT/RUB с многолетней историей нет: EXMO был ликвидным до 2026-07-09; Rapira API даёт daily с 2020, но цены расходятся с EXMO (ср. |Δ| ~2 ₽, до ~10 ₽ в июле 2026) — это разные площадки, не один рынок.",

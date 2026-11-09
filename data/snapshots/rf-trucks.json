@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "fetchedAt": "2026-11-06T01:21:39.893Z",
+  "fetchedAt": "2026-11-09T01:14:28.501Z",
   "source": "АЕБ / autostat.ru + autostat.ru",
   "note": "История hcvUnits (помесячная детализация 2015–2024 реконструирована из квартальных/годовых сводок Autostat/АЕБ, ±10% на отдельных месяцах; годовые суммы сходятся с публикациями). Свежие месяцы дописывает будничный рефреш из новостей autostat.ru — тех же, что кормят ряд kamaz на /rossiya/makro. Доли ОЕМ обновляются только когда месячный релиз Autostat называет марки; иначе last-good + error.",
   "series": {
@@ -707,10 +707,10 @@
         }
       ],
       "error": null,
-      "lastAttempt": "2026-11-06T01:21:39.893Z",
+      "lastAttempt": "2026-11-09T01:14:28.501Z",
       "live": {
         "source": "https://www.autostat.ru/news/ («Рынок крупнотоннажных грузовых автомобилей в <месяце>», штуки из описания релиза)",
-        "fetchedAt": "2026-11-06T01:21:39.893Z",
+        "fetchedAt": "2026-11-09T01:14:28.501Z",
         "appended": 0,
         "revised": 0
       }
@@ -839,7 +839,7 @@
     "autostat": -3.9,
     "source": null,
     "note": "АЕБ недоступен/релиз не найден (https://aebrus.ru/en/media/press-releases/: релиз по грузовикам за месяц не найден; https://aebrus.ru/en/media/press-releases/sales-of-cars-and-light-commercial) — публикуем один ряд Autostat, среднее не считаем",
-    "checkedAt": "2026-11-06T01:21:39.893Z"
+    "checkedAt": "2026-11-09T01:14:28.501Z"
   },
   "scrape": {
     "autostat": {
