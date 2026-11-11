@@ -1,21 +1,21 @@
 {
   "status": "ok",
-  "fetchedAt": "2026-11-10T01:15:47.218Z",
+  "fetchedAt": "2026-11-11T00:53:45.049Z",
   "kpis": [
     {
       "id": "barometer",
       "kicker": "Бизнес",
       "name": "Барометр среды",
-      "value": 13,
+      "value": 11,
       "unit": "баллы −100…+100",
-      "soWhat": "Смешанные сигналы. Удерживайте базу, готовьте пайплайн к развороту фона.",
+      "soWhat": "Смешанные сигналы. Удерживайте базу, готовьте пайплайн к развороту фона. Фильтр ограничительности не даёт зелёный.",
       "base": "17 карточек, 16 весов сумма 1.28 + вес-0; score = round((Σ signal×weight / Σweight)×100)",
       "date": "2026-09-01",
       "status": "ok",
       "extra": {
         "light": "yellow",
         "label": "Нейтрально",
-        "gate": null
+        "gate": "restrictive"
       }
     },
     {
@@ -26,13 +26,13 @@
       "unit": "%",
       "soWhat": "короткий участок кривой около ключа",
       "base": "SOAP KeyRate + MOEX ZCYC yearyields (не консенсус банков)",
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "status": "ok",
       "extra": {
-        "zcyc1y": 14.0843,
-        "zcyc3y": 15.5658,
-        "zcyc5y": 16.2346,
-        "zcyc10y": 16.6446
+        "zcyc1y": 13.9192,
+        "zcyc3y": 15.5582,
+        "zcyc5y": 16.3009,
+        "zcyc10y": 16.7638
       }
     },
     {
@@ -41,13 +41,13 @@
       "name": "Фаза РФ + IMOEX г/г",
       "value": "VIII",
       "unit": "Жёсткая ДКП — стагнация",
-      "soWhat": "Реальная ставка ≥ 6 п.п. — зона кэша: депозиты/короткие фонды/короткие ОФЗ бьют индекс на горизонте ~1г. Растущая М2 / широкий спред М2−ИПЦ не отменяют этот режим. Полный режим принятия риска только при ключе ≤ 12% и реальной ставке < 6 п.п. (и ИПЦ < 5%, если фильтр инфляции включён). IMOEX г/г: -10.72%.",
+      "soWhat": "Реальная ставка ≥ 6 п.п. — зона кэша: депозиты/короткие фонды/короткие ОФЗ бьют индекс на горизонте ~1г. Растущая М2 / широкий спред М2−ИПЦ не отменяют этот режим. Полный режим принятия риска только при ключе ≤ 12% и реальной ставке < 6 п.п. (и ИПЦ < 5%, если фильтр инфляции включён). IMOEX г/г: -11.6%.",
       "base": "ЦБ ключ, ИПЦ Росстата через таблицу ЦБ, М2 CBR monetary_agg, IMOEX ISS YEARCHANGEPRC",
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "status": "ok",
       "extra": {
-        "imoex": 2470.07,
-        "imoexYoy": -10.72,
+        "imoex": 2445.6,
+        "imoexYoy": -11.6,
         "realRate": 7.65
       }
     },
@@ -55,22 +55,22 @@
       "id": "fedLiq",
       "kicker": "Мир",
       "name": "Ликвидность ФРС",
-      "value": -0.9999999999999787,
+      "value": -2.0000000000000018,
       "unit": "б.п. SOFR−IORB",
       "soWhat": "SOFR не выше IORB — коридор спокойный; буфер ON RRP почти исчерпан",
       "base": "NY Fed SOFR last/120.json · FRED IORB · FRED RRPONTSYD · WALCL − TGA − RRP",
-      "date": "2026-11-06",
+      "date": "2026-11-09",
       "status": "ok",
       "extra": {
-        "sofr": 3.89,
-        "sofrDate": "2026-11-06",
+        "sofr": 3.88,
+        "sofrDate": "2026-11-09",
         "iorb": 3.9,
-        "iorbDate": "2026-11-06",
-        "rrpBn": 0.252,
-        "rrpDate": "2026-11-09",
+        "iorbDate": "2026-11-09",
+        "rrpBn": 0.152,
+        "rrpDate": "2026-11-10",
         "walclMn": 6748145,
-        "tgaMn": 922752,
-        "netLiquidityBn": 5825.141
+        "tgaMn": 910313,
+        "netLiquidityBn": 5837.68
       }
     },
     {
@@ -91,15 +91,15 @@
     }
   ],
   "barometer": {
-    "score": 13,
-    "rawScore": 13,
+    "score": 11,
+    "rawScore": 11,
     "light": "yellow",
     "label": "Нейтрально",
     "directive": "Удерживайте базу",
-    "soWhat": "Смешанные сигналы. Удерживайте базу, готовьте пайплайн к развороту фона.",
-    "gate": null,
-    "restrictive": false,
-    "note": null,
+    "soWhat": "Смешанные сигналы. Удерживайте базу, готовьте пайплайн к развороту фона. Фильтр ограничительности не даёт зелёный.",
+    "gate": "restrictive",
+    "restrictive": true,
+    "note": "фильтр ограничительности: уровень ключа или реальный вклад медвежьи — зелёный закрыт",
     "leadMonths": 1.4,
     "greenShare": 27,
     "redShare": 18,
@@ -134,7 +134,7 @@
         "group": "monetary",
         "unit": "%",
         "weight": 0.1,
-        "latest": 11.08,
+        "latest": 11.82,
         "signal": 0,
         "status": "ok",
         "statusWord": "нейтрально"
@@ -145,7 +145,7 @@
         "group": "monetary",
         "unit": "п.п.",
         "weight": 0.09,
-        "latest": 2.5603,
+        "latest": 2.8446,
         "signal": 1,
         "status": "ok",
         "statusWord": "благоприятно"
@@ -156,10 +156,10 @@
         "group": "monetary",
         "unit": "п.п.",
         "weight": 0.07,
-        "latest": 4.73,
-        "signal": 0,
+        "latest": 5.470000000000001,
+        "signal": -1,
         "status": "ok",
-        "statusWord": "нейтрально"
+        "statusWord": "ограничивает"
       },
       {
         "id": "real_key_rate",
@@ -200,7 +200,7 @@
         "group": "market",
         "unit": "%",
         "weight": 0.08,
-        "latest": -7.709925945853039,
+        "latest": -8.624206963032714,
         "signal": 0,
         "status": "ok",
         "statusWord": "нейтрально"
@@ -211,7 +211,7 @@
         "group": "market",
         "unit": "пункты",
         "weight": 0.04,
-        "latest": 32.55,
+        "latest": 32.05,
         "signal": 0,
         "status": "ok",
         "statusWord": "нейтрально"
@@ -222,7 +222,7 @@
         "group": "market",
         "unit": "×",
         "weight": 0.08,
-        "latest": 1.2995074651537544,
+        "latest": 1.4302710811984358,
         "signal": 0,
         "status": "ok",
         "statusWord": "нейтрально"
@@ -233,10 +233,10 @@
         "group": "fx",
         "unit": "₽",
         "weight": 0.06,
-        "latest": 82.7536,
-        "signal": -1,
+        "latest": 82.5486,
+        "signal": 0,
         "status": "ok",
-        "statusWord": "ограничивает"
+        "statusWord": "нейтрально"
       },
       {
         "id": "brent_rub",
@@ -363,15 +363,15 @@
     "missing": 0
   },
   "liquidity": {
-    "sofr": 3.89,
-    "sofrDate": "2026-11-06",
+    "sofr": 3.88,
+    "sofrDate": "2026-11-09",
     "iorb": 3.9,
-    "iorbDate": "2026-11-06",
-    "rrpBn": 0.252,
-    "rrpDate": "2026-11-09",
+    "iorbDate": "2026-11-09",
+    "rrpBn": 0.152,
+    "rrpDate": "2026-11-10",
     "walclMn": 6748145,
-    "tgaMn": 922752,
-    "netLiquidityBn": 5825.141
+    "tgaMn": 910313,
+    "netLiquidityBn": 5837.68
   },
   "gpr": {
     "ma30": 184.74339294433594,
@@ -387,7 +387,7 @@
       {
         "id": "hyOas",
         "name": "US HY OAS",
-        "value": 3.42,
+        "value": 3.34,
         "unit": "п.п.",
         "signal": 1,
         "status": "ok"
@@ -395,7 +395,7 @@
       {
         "id": "ofzSlope",
         "name": "ОФЗ 5л − 3л",
-        "value": 0.668800000000001,
+        "value": 0.7426999999999992,
         "unit": "п.п.",
         "signal": -1,
         "status": "ok"
@@ -412,10 +412,10 @@
   },
   "btc": {
     "status": "ok",
-    "coinbase": 75162.285,
-    "binance": 75242.01,
+    "coinbase": 73517.275,
+    "binance": 73617.93,
     "mid": null,
-    "gapPct": 0.10601425976564202,
+    "gapPct": 0.13681973664970098,
     "diverged": false,
     "note": "площадки согласованы, среднее всё равно не показываем"
   }
