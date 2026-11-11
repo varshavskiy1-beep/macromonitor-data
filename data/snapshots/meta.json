@@ -1,15 +1,14 @@
 {
-  "fetchedAt": "2026-11-11T00:53:45.049Z",
+  "fetchedAt": "2026-11-11T02:56:33.499Z",
   "asOf": {
     "sofr": "2026-11-09",
-    "iorb": "2026-11-09",
+    "iorb": "2026-10-31",
     "rrp": "2026-11-10",
-    "keyRate": null,
+    "keyRate": "2026-11-10",
     "gpr": "2026-11-02"
   },
   "status": "ok",
   "errors": [
-    "KeyRate: KeyRate SOAP HTTP 500",
     "USD/RUB: XML_daily HTTP 500",
     "ipc_mes: curl http://ssl.rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx: curl HTTP 500; wget http://ssl.rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1040206-mwrknk1pf6 http://ssl.rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx\n; curl https://rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx: curl HTTP 404; wget https://rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-1040206-mwrknk1pf6 https://rosstat.gov.ru/storage/mediabank/ipc_mes_02-2026.xlsx\n",
     "ZCYC hist: zcyc history empty",
@@ -130,5 +129,6 @@
     "Режим доллара /dollar: Yahoo ICE DXY (DX-Y.NYB) и ETF-корзины + FRED DGS2/DGS10/T10YIE (после ~22:30 UTC / в будничном рефреше 01:00 UTC).",
     "Россия /rossiya/akcii-obligacii: MCFTR CLOSE + YIELD RUCBITRBBB3+ / RUCBTR3A5YNS / RUGBITR5+ (MOEX ISS history, board RTSI). Месячный срез, last-good при сбое.",
     "Россия/макро: 10 карточек /rossiya/makro живые. История — распарс бандла лендинга monitor-rf-0 (rf-macro.json), свежие месяцы дописывает будничный рефреш живым фетчем первоисточников подписи (scripts/rf-macro-live.mjs): Росстат КЭП/jil_dom-oper, АСОП morport, autostat (Lada/HCV), ЦБ monetary_agg + SOAP KeyRate. Минэк/РЖД/Сбер IR пробуем каждый запуск; при TLS/WAF-блоке ряд остаётся last-good с series.error, метрика не подменяется (никаких ИВБО/WB/OECD/квартального ВВП на makro). wb-russia.json и rosstat-ru.json остаются справочными снимками, карточки makro их не используют."
-  ]
+  ],
+  "fredOutageNote": null
 }
