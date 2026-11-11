@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetchedAt": "2026-11-11T11:42:43.452Z",
+  "fetchedAt": "2026-11-11T12:24:15.417Z",
   "coinbase": {
-    "value": 73959.945,
+    "value": 73917.875,
     "source": "Coinbase BTC-USD"
   },
   "binance": {
-    "value": 74050,
+    "value": 74079.98,
     "source": "Binance data-api BTCUSDT"
   },
   "coinbaseHistory": {
@@ -438,7 +438,7 @@
       },
       {
         "date": "2026-11-11",
-        "value": 73972.4
+        "value": 73975.38
       }
     ],
     "volumeSource": "Coinbase Exchange BTC-USD candles granularity=86400, сумма volume (BTC) за месяц · оборот площадки, не TVL DefiLlama и не CoinGecko",
@@ -1298,7 +1298,7 @@
       },
       {
         "date": "2026-11-01",
-        "value": 74050
+        "value": 74074.01
       }
     ],
     "volumeSource": "Binance data-api.binance.vision BTCUSDT klines interval=1M, volume (индекс 5, BTC) · оборот площадки, не TVL DefiLlama и не CoinGecko",
@@ -1731,10 +1731,10 @@
   },
   "divergence": {
     "status": "ok",
-    "coinbase": 73959.945,
-    "binance": 74050,
+    "coinbase": 73917.875,
+    "binance": 74079.98,
     "mid": null,
-    "gapPct": 0.12168776902118707,
+    "gapPct": 0.21906398575843675,
     "diverged": false,
     "note": "площадки согласованы, среднее всё равно не показываем"
   },

@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-11T11:42:43.452Z",
+  "fetchedAt": "2026-11-11T12:24:15.417Z",
   "status": "ok",
   "sections": [
     {
@@ -3900,9 +3900,9 @@
         {
           "id": "sofr_futures",
           "title": "SOFR-фьючерсы · implied 3M (Atlanta Fed MPT)",
-          "latest": 4.3249,
+          "latest": 4.1649,
           "unit": "%",
-          "asOf": "2026-09-18",
+          "asOf": "2026-11-09",
           "source": "Atlanta Fed Market Probability Tracker: распределение из опционов на 3-мес. SOFR CME (с разрешения CME). Last-цены фьючерсов CME не загружаем.",
           "points": [
             {
@@ -4074,18 +4074,26 @@
               "value": 3.8753
             },
             {
-              "date": "2026-09-18",
-              "value": 4.3249
+              "date": "2026-09-30",
+              "value": 4.3002
+            },
+            {
+              "date": "2026-10-30",
+              "value": 4.1294
+            },
+            {
+              "date": "2026-11-09",
+              "value": 4.1649
             }
           ],
           "emptyReason": null,
           "meaning": "Implied 3-мес. SOFR из опционов CME, официальная оценка ФРС Атланты. Это не last фьючерса CME.",
-          "conclusion": "Ближайшее окно SR3: implied mean 4,32% на 2026-09-18 (Atlanta Fed MPT по опционам CME, не last фьючерса). Это выше спотового SOFR 3,88%: рынок закладывает более высокую 3-мес. среднюю, чем сегодняшний овернайт. Выше верхней границы коридора FOMC 375bps - 400bps (3,75–4%). Вероятность 3-мес. средней ниже коридора 1,5%, выше — 94,5% (как публикует MPT). Реализованная 90-дневная средняя FRED SOFR90DAYAVG 3,81% — то, к чему 3-мес. контракт сходится; расхождение со implied не доказывает причинность. Спотовый SOFR — факт овернайт NY Fed/FRED; path — опционная оценка ФРС Атланты.",
+          "conclusion": "Ближайшее окно SR3: implied mean 4,16% на 2026-11-09 (Atlanta Fed MPT по опционам CME, не last фьючерса). Это выше спотового SOFR 3,88%: рынок закладывает более высокую 3-мес. среднюю, чем сегодняшний овернайт. Выше верхней границы коридора FOMC 375bps - 400bps (3,75–4%). Вероятность 3-мес. средней ниже коридора 2,1%, выше — 92% (как публикует MPT). Реализованная 90-дневная средняя FRED SOFR90DAYAVG 3,81% — то, к чему 3-мес. контракт сходится; расхождение со implied не доказывает причинность. Спотовый SOFR — факт овернайт NY Fed/FRED; path — опционная оценка ФРС Атланты.",
           "color": "#0C0C0C",
           "showMA": true,
           "mode": "LIVE",
           "maIncomplete": true,
-          "span": 42,
+          "span": 43,
           "tone": "none",
           "toneWord": null
         },
@@ -53127,24 +53135,24 @@
       "conclusion": "площадки согласованы, среднее всё равно не показываем Фаза: стресс. Вместо Fear & Greed — реализованная волатильность из тех же свечей Coinbase; вместо доминации CoinGecko — официальные споты Coinbase через FRED (CBBTCUSD/CBETHUSD).",
       "divergence": {
         "status": "ok",
-        "coinbase": 73959.945,
-        "binance": 74050,
+        "coinbase": 73917.875,
+        "binance": 74079.98,
         "mid": null,
-        "gapPct": 0.12168776902118707,
+        "gapPct": 0.21906398575843675,
         "diverged": false,
         "note": "площадки согласованы, среднее всё равно не показываем"
       },
       "phase": {
         "label": "стресс",
         "tone": "bad",
-        "text": "Цена ниже MA 12 мес при повышенной волатильности — стресс. Цена 73 972 $ против MA 12 мес 75 112; волатильность 42,8% против её MA 38,8%."
+        "text": "Цена ниже MA 12 мес при повышенной волатильности — стресс. Цена 73 975 $ против MA 12 мес 75 112; волатильность 42,8% против её MA 38,8%."
       },
       "phaseRule": "Правило фазы (официальные ряды, не таксономия CoinGecko): цена BTC против MA 12 мес и реализованная волатильность против её MA 12 мес. Цена выше MA и волатильность не выше своей средней — «рост»; цена выше MA при повышенной волатильности — «перегрев»; цена ниже MA при спокойной волатильности — «остывание»; цена ниже MA при повышенной волатильности — «стресс». MA 7 лет — длинный ориентир на графиках.",
       "cards": [
         {
           "id": "btc_coinbase",
           "title": "BTC-USD Coinbase",
-          "latest": 73972.4,
+          "latest": 73975.38,
           "unit": "$",
           "asOf": "2026-11-11",
           "source": "Coinbase Exchange BTC-USD candles granularity=86400, monthly last close",
@@ -53575,12 +53583,12 @@
             },
             {
               "date": "2026-11-11",
-              "value": 73972.4
+              "value": 73975.38
             }
           ],
           "emptyReason": null,
           "meaning": "Цена ниже MA 12 мес — цикл остывает. Месячные закрытия официальных свечей Coinbase Exchange; спот и расхождение с Binance — отдельно, среднее не считаем.",
-          "conclusion": "Последнее закрытие 73 972 $, MA 12 мес 75 112, MA 7 лет 49 775.",
+          "conclusion": "Последнее закрытие 73 975 $, MA 12 мес 75 112, MA 7 лет 49 775.",
           "color": "#B8860B",
           "showMA": true,
           "mode": "LIVE",
@@ -53592,7 +53600,7 @@
         {
           "id": "btc_binance",
           "title": "BTCUSDT Binance",
-          "latest": 74050,
+          "latest": 74074.01,
           "unit": "$",
           "asOf": "2026-11-01",
           "source": "Binance data-api.binance.vision BTCUSDT klines interval=1M",
@@ -54023,12 +54031,12 @@
             },
             {
               "date": "2026-11-01",
-              "value": 74050
+              "value": 74074.01
             }
           ],
           "emptyReason": null,
           "meaning": "Цена выше MA 12 мес — цикл включён. Месячные klines data-api.binance.vision; при расхождении с Coinbase — флаг, не среднее.",
-          "conclusion": "Последнее закрытие 74 050 $, MA 12 мес 73 918, MA 7 лет 50 286.",
+          "conclusion": "Последнее закрытие 74 074 $, MA 12 мес 73 920, MA 7 лет 50 287.",
           "color": "#379A8B",
           "showMA": true,
           "mode": "LIVE",
@@ -54040,7 +54048,7 @@
         {
           "id": "btc_realized_vol",
           "title": "Реализованная волатильность BTC · Coinbase, не Fear & Greed",
-          "latest": 42.83562731432734,
+          "latest": 42.8353308021179,
           "unit": "% годовых",
           "asOf": "2026-11-11",
           "source": "счёт из месячных закрытий Coinbase Exchange BTC-USD (тот же снимок) · alternative.me не загружаем",
@@ -54423,7 +54431,7 @@
             },
             {
               "date": "2026-11-11",
-              "value": 42.83562731432734
+              "value": 42.8353308021179
             }
           ],
           "emptyReason": null,
@@ -55035,7 +55043,7 @@
           "latest": 2043.05,
           "unit": "$",
           "asOf": "2026-11-10",
-          "source": "FRED CBETHUSD · fred-api",
+          "source": "FRED CBETHUSD · fredgraph.csv",
           "points": [
             {
               "date": "2016-05-31",
@@ -61886,9 +61894,9 @@
     {
       "id": "sofr_futures",
       "title": "SOFR-фьючерсы · implied 3M (Atlanta Fed MPT)",
-      "latest": 4.3249,
+      "latest": 4.1649,
       "unit": "%",
-      "asOf": "2026-09-18",
+      "asOf": "2026-11-09",
       "source": "Atlanta Fed Market Probability Tracker: распределение из опционов на 3-мес. SOFR CME (с разрешения CME). Last-цены фьючерсов CME не загружаем.",
       "points": [
         {
@@ -62060,18 +62068,26 @@
           "value": 3.8753
         },
         {
-          "date": "2026-09-18",
-          "value": 4.3249
+          "date": "2026-09-30",
+          "value": 4.3002
+        },
+        {
+          "date": "2026-10-30",
+          "value": 4.1294
+        },
+        {
+          "date": "2026-11-09",
+          "value": 4.1649
         }
       ],
       "emptyReason": null,
       "meaning": "Implied 3-мес. SOFR из опционов CME, официальная оценка ФРС Атланты. Это не last фьючерса CME.",
-      "conclusion": "Ближайшее окно SR3: implied mean 4,32% на 2026-09-18 (Atlanta Fed MPT по опционам CME, не last фьючерса). Это выше спотового SOFR 3,88%: рынок закладывает более высокую 3-мес. среднюю, чем сегодняшний овернайт. Выше верхней границы коридора FOMC 375bps - 400bps (3,75–4%). Вероятность 3-мес. средней ниже коридора 1,5%, выше — 94,5% (как публикует MPT). Реализованная 90-дневная средняя FRED SOFR90DAYAVG 3,81% — то, к чему 3-мес. контракт сходится; расхождение со implied не доказывает причинность. Спотовый SOFR — факт овернайт NY Fed/FRED; path — опционная оценка ФРС Атланты.",
+      "conclusion": "Ближайшее окно SR3: implied mean 4,16% на 2026-11-09 (Atlanta Fed MPT по опционам CME, не last фьючерса). Это выше спотового SOFR 3,88%: рынок закладывает более высокую 3-мес. среднюю, чем сегодняшний овернайт. Выше верхней границы коридора FOMC 375bps - 400bps (3,75–4%). Вероятность 3-мес. средней ниже коридора 2,1%, выше — 92% (как публикует MPT). Реализованная 90-дневная средняя FRED SOFR90DAYAVG 3,81% — то, к чему 3-мес. контракт сходится; расхождение со implied не доказывает причинность. Спотовый SOFR — факт овернайт NY Fed/FRED; path — опционная оценка ФРС Атланты.",
       "color": "#0C0C0C",
       "showMA": true,
       "mode": "LIVE",
       "maIncomplete": true,
-      "span": 42,
+      "span": 43,
       "tone": "none",
       "toneWord": null
     },
@@ -97916,7 +97932,7 @@
     {
       "id": "btc_coinbase",
       "title": "BTC-USD Coinbase",
-      "latest": 73972.4,
+      "latest": 73975.38,
       "unit": "$",
       "asOf": "2026-11-11",
       "source": "Coinbase Exchange BTC-USD candles granularity=86400, monthly last close",
@@ -98347,12 +98363,12 @@
         },
         {
           "date": "2026-11-11",
-          "value": 73972.4
+          "value": 73975.38
         }
       ],
       "emptyReason": null,
       "meaning": "Цена ниже MA 12 мес — цикл остывает. Месячные закрытия официальных свечей Coinbase Exchange; спот и расхождение с Binance — отдельно, среднее не считаем.",
-      "conclusion": "Последнее закрытие 73 972 $, MA 12 мес 75 112, MA 7 лет 49 775.",
+      "conclusion": "Последнее закрытие 73 975 $, MA 12 мес 75 112, MA 7 лет 49 775.",
       "color": "#B8860B",
       "showMA": true,
       "mode": "LIVE",
@@ -98364,7 +98380,7 @@
     {
       "id": "btc_binance",
       "title": "BTCUSDT Binance",
-      "latest": 74050,
+      "latest": 74074.01,
       "unit": "$",
       "asOf": "2026-11-01",
       "source": "Binance data-api.binance.vision BTCUSDT klines interval=1M",
@@ -98795,12 +98811,12 @@
         },
         {
           "date": "2026-11-01",
-          "value": 74050
+          "value": 74074.01
         }
       ],
       "emptyReason": null,
       "meaning": "Цена выше MA 12 мес — цикл включён. Месячные klines data-api.binance.vision; при расхождении с Coinbase — флаг, не среднее.",
-      "conclusion": "Последнее закрытие 74 050 $, MA 12 мес 73 918, MA 7 лет 50 286.",
+      "conclusion": "Последнее закрытие 74 074 $, MA 12 мес 73 920, MA 7 лет 50 287.",
       "color": "#379A8B",
       "showMA": true,
       "mode": "LIVE",
@@ -98812,7 +98828,7 @@
     {
       "id": "btc_realized_vol",
       "title": "Реализованная волатильность BTC · Coinbase, не Fear & Greed",
-      "latest": 42.83562731432734,
+      "latest": 42.8353308021179,
       "unit": "% годовых",
       "asOf": "2026-11-11",
       "source": "счёт из месячных закрытий Coinbase Exchange BTC-USD (тот же снимок) · alternative.me не загружаем",
@@ -99195,7 +99211,7 @@
         },
         {
           "date": "2026-11-11",
-          "value": 42.83562731432734
+          "value": 42.8353308021179
         }
       ],
       "emptyReason": null,
@@ -99807,7 +99823,7 @@
       "latest": 2043.05,
       "unit": "$",
       "asOf": "2026-11-10",
-      "source": "FRED CBETHUSD · fred-api",
+      "source": "FRED CBETHUSD · fredgraph.csv",
       "points": [
         {
           "date": "2016-05-31",
@@ -102790,7 +102806,7 @@
     {
       "id": "btc",
       "label": "BTC CB",
-      "value": 73959.945,
+      "value": 73917.875,
       "unit": "$"
     }
   ],

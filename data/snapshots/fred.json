@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "fetchedAt": "2026-11-11T11:42:43.452Z",
+  "fetchedAt": "2026-11-11T12:24:15.417Z",
   "series": {
     "IORB": {
       "source": "fred-api",
@@ -52854,7 +52854,7 @@
         "date": "2026-09-01",
         "value": 139.5978
       },
-      "lastUpdated": null,
+      "lastUpdated": "2026-10-16 08:19:44-05",
       "observationEnd": "2026-09-01",
       "nextRelease": null,
       "points": [
@@ -59582,7 +59582,7 @@
       ]
     },
     "CBETHUSD": {
-      "source": "fred-api",
+      "source": "fredgraph.csv",
       "error": null,
       "usedCache": false,
       "stale": false,
@@ -60107,7 +60107,7 @@
       ]
     },
     "MCOILBRENTEU": {
-      "source": "fred-api",
+      "source": "fredgraph.csv",
       "error": null,
       "usedCache": false,
       "stale": false,
@@ -60117,7 +60117,7 @@
         "date": "2026-10-01",
         "value": 123.93
       },
-      "lastUpdated": "2026-11-04 12:18:33-06",
+      "lastUpdated": null,
       "observationEnd": "2026-10-01",
       "nextRelease": null,
       "points": [
@@ -61892,7 +61892,7 @@
       ]
     },
     "POILBREUSDM": {
-      "source": "fred-api",
+      "source": "fredgraph.csv",
       "error": null,
       "usedCache": false,
       "stale": false,
@@ -61902,7 +61902,7 @@
         "date": "2026-09-01",
         "value": 102.0180952380952
       },
-      "lastUpdated": "2026-10-22 14:26:43-05",
+      "lastUpdated": null,
       "observationEnd": "2026-09-01",
       "nextRelease": null,
       "points": [
@@ -62680,7 +62680,7 @@
         },
         {
           "date": "2008-02-01",
-          "value": 94.72238095238095
+          "value": 94.72238095238096
         },
         {
           "date": "2008-03-01",
@@ -62820,7 +62820,7 @@
         },
         {
           "date": "2011-01-01",
-          "value": 96.95238095238095
+          "value": 96.95238095238096
         },
         {
           "date": "2011-02-01",
@@ -62996,7 +62996,7 @@
         },
         {
           "date": "2014-09-01",
-          "value": 97.85272727272726
+          "value": 97.85272727272728
         },
         {
           "date": "2014-10-01",
@@ -63376,7 +63376,7 @@
         },
         {
           "date": "2022-08-01",
-          "value": 97.64304347826086
+          "value": 97.64304347826088
         },
         {
           "date": "2022-09-01",
@@ -63428,7 +63428,7 @@
         },
         {
           "date": "2023-09-01",
-          "value": 92.67333333333333
+          "value": 92.67333333333332
         },
         {
           "date": "2023-10-01",
@@ -63577,7 +63577,7 @@
       ]
     },
     "DTWEXBGS": {
-      "source": "fred-api",
+      "source": "fredgraph.csv",
       "error": null,
       "usedCache": false,
       "stale": false,
@@ -63587,7 +63587,7 @@
         "date": "2026-11-06",
         "value": 121.8803
       },
-      "lastUpdated": "2026-11-09 15:16:53-06",
+      "lastUpdated": null,
       "observationEnd": "2026-11-06",
       "nextRelease": null,
       "points": [
@@ -64598,7 +64598,7 @@
       ]
     },
     "CPIAUCSL": {
-      "source": "fred-api",
+      "source": "fredgraph.csv",
       "error": null,
       "usedCache": false,
       "stale": false,
@@ -64608,7 +64608,7 @@
         "date": "2026-10-01",
         "value": 337.476
       },
-      "lastUpdated": "2026-11-10 08:12:46-06",
+      "lastUpdated": null,
       "observationEnd": "2026-10-01",
       "nextRelease": null,
       "points": [
@@ -66379,7 +66379,7 @@
       ]
     },
     "FEDFUNDS": {
-      "source": "fred-api",
+      "source": "fredgraph.csv",
       "error": null,
       "usedCache": false,
       "stale": false,
@@ -66389,7 +66389,7 @@
         "date": "2026-10-01",
         "value": 3.88
       },
-      "lastUpdated": "2026-11-02 15:16:50-06",
+      "lastUpdated": null,
       "observationEnd": "2026-10-01",
       "nextRelease": null,
       "points": [
@@ -68164,7 +68164,7 @@
       ]
     },
     "DEXJPUS": {
-      "source": "fred-api",
+      "source": "fredgraph.csv",
       "error": null,
       "usedCache": false,
       "stale": false,
@@ -68174,7 +68174,7 @@
         "date": "2026-11-06",
         "value": 158.23
       },
-      "lastUpdated": "2026-11-09 15:16:41-06",
+      "lastUpdated": null,
       "observationEnd": "2026-11-06",
       "nextRelease": null,
       "points": [
@@ -69953,7 +69953,7 @@
       ]
     },
     "SP500": {
-      "source": "fred-api",
+      "source": "fredgraph.csv",
       "error": null,
       "usedCache": false,
       "stale": false,
@@ -69963,7 +69963,7 @@
         "date": "2026-11-10",
         "value": 7520.93
       },
-      "lastUpdated": "2026-11-10 19:57:58-06",
+      "lastUpdated": null,
       "observationEnd": "2026-11-10",
       "nextRelease": null,
       "points": [
@@ -70454,7 +70454,7 @@
       ]
     },
     "BAMLHYH0A0HYM2TRIV": {
-      "source": "fred-api",
+      "source": "fredgraph.csv",
       "error": null,
       "usedCache": false,
       "stale": false,
@@ -70464,7 +70464,7 @@
         "date": "2026-11-09",
         "value": 1886.03
       },
-      "lastUpdated": "2026-11-10 10:02:42-06",
+      "lastUpdated": null,
       "observationEnd": "2026-11-09",
       "nextRelease": null,
       "points": [
@@ -70619,7 +70619,7 @@
       ]
     },
     "BAMLCC0A0CMTRIV": {
-      "source": "fred-api",
+      "source": "fredgraph.csv",
       "error": null,
       "usedCache": false,
       "stale": false,
@@ -70629,7 +70629,7 @@
         "date": "2026-11-09",
         "value": 3578.34
       },
-      "lastUpdated": "2026-11-10 10:03:05-06",
+      "lastUpdated": null,
       "observationEnd": "2026-11-09",
       "nextRelease": null,
       "points": [
