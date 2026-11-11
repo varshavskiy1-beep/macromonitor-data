@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-11T02:56:33.499Z",
+  "fetchedAt": "2026-11-11T11:42:43.452Z",
   "status": "ok",
   "sections": [
     {
@@ -48308,7 +48308,7 @@
           "latest": 0.5,
           "unit": "% кв/кв SA",
           "asOf": "2026-04-01",
-          "source": "FRED PQREV5415TUSY · fredgraph.csv",
+          "source": "FRED PQREV5415TUSY · fred-api",
           "points": [
             {
               "date": "2004-01-01",
@@ -48684,7 +48684,7 @@
           "latest": 85.8,
           "unit": "индекс",
           "asOf": "2026-09-01",
-          "source": "FRED IY3344 · fredgraph.csv",
+          "source": "FRED IY3344 · fred-api",
           "points": [
             {
               "date": "2005-12-01",
@@ -49700,7 +49700,7 @@
           "latest": 103.337,
           "unit": "индекс",
           "asOf": "2026-09-01",
-          "source": "FRED PCU334111334111 · fredgraph.csv",
+          "source": "FRED PCU334111334111 · fred-api",
           "points": [
             {
               "date": "1990-12-01",
@@ -53127,24 +53127,24 @@
       "conclusion": "площадки согласованы, среднее всё равно не показываем Фаза: стресс. Вместо Fear & Greed — реализованная волатильность из тех же свечей Coinbase; вместо доминации CoinGecko — официальные споты Coinbase через FRED (CBBTCUSD/CBETHUSD).",
       "divergence": {
         "status": "ok",
-        "coinbase": 73517.275,
-        "binance": 73617.93,
+        "coinbase": 73959.945,
+        "binance": 74050,
         "mid": null,
-        "gapPct": 0.13681973664970098,
+        "gapPct": 0.12168776902118707,
         "diverged": false,
         "note": "площадки согласованы, среднее всё равно не показываем"
       },
       "phase": {
         "label": "стресс",
         "tone": "bad",
-        "text": "Цена ниже MA 12 мес при повышенной волатильности — стресс. Цена 73 522 $ против MA 12 мес 75 077; волатильность 42,9% против её MA 38,9%."
+        "text": "Цена ниже MA 12 мес при повышенной волатильности — стресс. Цена 73 972 $ против MA 12 мес 75 112; волатильность 42,8% против её MA 38,8%."
       },
       "phaseRule": "Правило фазы (официальные ряды, не таксономия CoinGecko): цена BTC против MA 12 мес и реализованная волатильность против её MA 12 мес. Цена выше MA и волатильность не выше своей средней — «рост»; цена выше MA при повышенной волатильности — «перегрев»; цена ниже MA при спокойной волатильности — «остывание»; цена ниже MA при повышенной волатильности — «стресс». MA 7 лет — длинный ориентир на графиках.",
       "cards": [
         {
           "id": "btc_coinbase",
           "title": "BTC-USD Coinbase",
-          "latest": 73521.75,
+          "latest": 73972.4,
           "unit": "$",
           "asOf": "2026-11-11",
           "source": "Coinbase Exchange BTC-USD candles granularity=86400, monthly last close",
@@ -53575,12 +53575,12 @@
             },
             {
               "date": "2026-11-11",
-              "value": 73521.75
+              "value": 73972.4
             }
           ],
           "emptyReason": null,
           "meaning": "Цена ниже MA 12 мес — цикл остывает. Месячные закрытия официальных свечей Coinbase Exchange; спот и расхождение с Binance — отдельно, среднее не считаем.",
-          "conclusion": "Последнее закрытие 73 522 $, MA 12 мес 75 077, MA 7 лет 49 770.",
+          "conclusion": "Последнее закрытие 73 972 $, MA 12 мес 75 112, MA 7 лет 49 775.",
           "color": "#B8860B",
           "showMA": true,
           "mode": "LIVE",
@@ -53592,7 +53592,7 @@
         {
           "id": "btc_binance",
           "title": "BTCUSDT Binance",
-          "latest": 73617.94,
+          "latest": 74050,
           "unit": "$",
           "asOf": "2026-11-01",
           "source": "Binance data-api.binance.vision BTCUSDT klines interval=1M",
@@ -54023,24 +54023,24 @@
             },
             {
               "date": "2026-11-01",
-              "value": 73617.94
+              "value": 74050
             }
           ],
           "emptyReason": null,
-          "meaning": "Цена ниже MA 12 мес — цикл остывает. Месячные klines data-api.binance.vision; при расхождении с Coinbase — флаг, не среднее.",
-          "conclusion": "Последнее закрытие 73 618 $, MA 12 мес 73 882, MA 7 лет 50 281.",
-          "color": "#B8860B",
+          "meaning": "Цена выше MA 12 мес — цикл включён. Месячные klines data-api.binance.vision; при расхождении с Coinbase — флаг, не среднее.",
+          "conclusion": "Последнее закрытие 74 050 $, MA 12 мес 73 918, MA 7 лет 50 286.",
+          "color": "#379A8B",
           "showMA": true,
           "mode": "LIVE",
           "maIncomplete": false,
           "span": 106,
-          "tone": "warn",
-          "toneWord": "остывает"
+          "tone": "good",
+          "toneWord": "цикл включён"
         },
         {
           "id": "btc_realized_vol",
           "title": "Реализованная волатильность BTC · Coinbase, не Fear & Greed",
-          "latest": 42.88496423592691,
+          "latest": 42.83562731432734,
           "unit": "% годовых",
           "asOf": "2026-11-11",
           "source": "счёт из месячных закрытий Coinbase Exchange BTC-USD (тот же снимок) · alternative.me не загружаем",
@@ -54423,12 +54423,12 @@
             },
             {
               "date": "2026-11-11",
-              "value": 42.88496423592691
+              "value": 42.83562731432734
             }
           ],
           "emptyReason": null,
           "meaning": "Реализованная волатильность BTC · Coinbase, не Fear & Greed: 12-месячное скользящее стандартное отклонение месячных лог-доходностей тех же официальных свечей Coinbase Exchange, годовое (×√12), в процентах. Индекс alternative.me не в реестре источников и не загружается.",
-          "conclusion": "Реализованная волатильность 42,9% годовых против MA 12 мес 38,9%. Высокая волатильность = стресс.",
+          "conclusion": "Реализованная волатильность 42,8% годовых против MA 12 мес 38,8%. Высокая волатильность = стресс.",
           "color": "#B8860B",
           "showMA": true,
           "mode": "LIVE",
@@ -54440,10 +54440,10 @@
         {
           "id": "cbbtcusd",
           "title": "Bitcoin — официальный спот Coinbase (FRED CBBTCUSD)",
-          "latest": 75090.89,
+          "latest": 73302.84,
           "unit": "$",
-          "asOf": "2026-11-09",
-          "source": "FRED CBBTCUSD · fredgraph.csv",
+          "asOf": "2026-11-10",
+          "source": "FRED CBBTCUSD · fred-api",
           "points": [
             {
               "date": "2015-01-31",
@@ -55014,13 +55014,13 @@
               "value": 77403.92
             },
             {
-              "date": "2026-11-09",
-              "value": 75090.89
+              "date": "2026-11-10",
+              "value": 73302.84
             }
           ],
           "emptyReason": null,
           "meaning": "Ряд авторства Coinbase, зеркалируемый St. Louis Fed. Живая замена слота CoinGecko: это официальная цена, а НЕ market-cap доминация. Сверка с историей свечей Coinbase — та же площадка, два канала данных; средних не считаем.",
-          "conclusion": "FRED CBBTCUSD: 75 091 $.",
+          "conclusion": "FRED CBBTCUSD: 73 303 $.",
           "color": "#0C0C0C",
           "showMA": true,
           "mode": "LIVE",
@@ -55032,10 +55032,10 @@
         {
           "id": "cbethusd",
           "title": "Ethereum — официальный спот Coinbase (FRED CBETHUSD)",
-          "latest": 2127.75,
+          "latest": 2043.05,
           "unit": "$",
-          "asOf": "2026-11-09",
-          "source": "FRED CBETHUSD · fredgraph.csv",
+          "asOf": "2026-11-10",
+          "source": "FRED CBETHUSD · fred-api",
           "points": [
             {
               "date": "2016-05-31",
@@ -55542,13 +55542,13 @@
               "value": 2252.88
             },
             {
-              "date": "2026-11-09",
-              "value": 2127.75
+              "date": "2026-11-10",
+              "value": 2043.05
             }
           ],
           "emptyReason": null,
           "meaning": "Ряд авторства Coinbase через FRED. Вторая нога замены слота CoinGecko: цены двух активов, кросс BTC/ETH — отношение двух официальных спотов, не доминация по капитализации.",
-          "conclusion": "FRED CBETHUSD: 2 128 $.",
+          "conclusion": "FRED CBETHUSD: 2 043 $.",
           "color": "#0C0C0C",
           "showMA": true,
           "mode": "LIVE",
@@ -93103,7 +93103,7 @@
       "latest": 0.5,
       "unit": "% кв/кв SA",
       "asOf": "2026-04-01",
-      "source": "FRED PQREV5415TUSY · fredgraph.csv",
+      "source": "FRED PQREV5415TUSY · fred-api",
       "points": [
         {
           "date": "2004-01-01",
@@ -93479,7 +93479,7 @@
       "latest": 85.8,
       "unit": "индекс",
       "asOf": "2026-09-01",
-      "source": "FRED IY3344 · fredgraph.csv",
+      "source": "FRED IY3344 · fred-api",
       "points": [
         {
           "date": "2005-12-01",
@@ -94495,7 +94495,7 @@
       "latest": 103.337,
       "unit": "индекс",
       "asOf": "2026-09-01",
-      "source": "FRED PCU334111334111 · fredgraph.csv",
+      "source": "FRED PCU334111334111 · fred-api",
       "points": [
         {
           "date": "1990-12-01",
@@ -97916,7 +97916,7 @@
     {
       "id": "btc_coinbase",
       "title": "BTC-USD Coinbase",
-      "latest": 73521.75,
+      "latest": 73972.4,
       "unit": "$",
       "asOf": "2026-11-11",
       "source": "Coinbase Exchange BTC-USD candles granularity=86400, monthly last close",
@@ -98347,12 +98347,12 @@
         },
         {
           "date": "2026-11-11",
-          "value": 73521.75
+          "value": 73972.4
         }
       ],
       "emptyReason": null,
       "meaning": "Цена ниже MA 12 мес — цикл остывает. Месячные закрытия официальных свечей Coinbase Exchange; спот и расхождение с Binance — отдельно, среднее не считаем.",
-      "conclusion": "Последнее закрытие 73 522 $, MA 12 мес 75 077, MA 7 лет 49 770.",
+      "conclusion": "Последнее закрытие 73 972 $, MA 12 мес 75 112, MA 7 лет 49 775.",
       "color": "#B8860B",
       "showMA": true,
       "mode": "LIVE",
@@ -98364,7 +98364,7 @@
     {
       "id": "btc_binance",
       "title": "BTCUSDT Binance",
-      "latest": 73617.94,
+      "latest": 74050,
       "unit": "$",
       "asOf": "2026-11-01",
       "source": "Binance data-api.binance.vision BTCUSDT klines interval=1M",
@@ -98795,24 +98795,24 @@
         },
         {
           "date": "2026-11-01",
-          "value": 73617.94
+          "value": 74050
         }
       ],
       "emptyReason": null,
-      "meaning": "Цена ниже MA 12 мес — цикл остывает. Месячные klines data-api.binance.vision; при расхождении с Coinbase — флаг, не среднее.",
-      "conclusion": "Последнее закрытие 73 618 $, MA 12 мес 73 882, MA 7 лет 50 281.",
-      "color": "#B8860B",
+      "meaning": "Цена выше MA 12 мес — цикл включён. Месячные klines data-api.binance.vision; при расхождении с Coinbase — флаг, не среднее.",
+      "conclusion": "Последнее закрытие 74 050 $, MA 12 мес 73 918, MA 7 лет 50 286.",
+      "color": "#379A8B",
       "showMA": true,
       "mode": "LIVE",
       "maIncomplete": false,
       "span": 106,
-      "tone": "warn",
-      "toneWord": "остывает"
+      "tone": "good",
+      "toneWord": "цикл включён"
     },
     {
       "id": "btc_realized_vol",
       "title": "Реализованная волатильность BTC · Coinbase, не Fear & Greed",
-      "latest": 42.88496423592691,
+      "latest": 42.83562731432734,
       "unit": "% годовых",
       "asOf": "2026-11-11",
       "source": "счёт из месячных закрытий Coinbase Exchange BTC-USD (тот же снимок) · alternative.me не загружаем",
@@ -99195,12 +99195,12 @@
         },
         {
           "date": "2026-11-11",
-          "value": 42.88496423592691
+          "value": 42.83562731432734
         }
       ],
       "emptyReason": null,
       "meaning": "Реализованная волатильность BTC · Coinbase, не Fear & Greed: 12-месячное скользящее стандартное отклонение месячных лог-доходностей тех же официальных свечей Coinbase Exchange, годовое (×√12), в процентах. Индекс alternative.me не в реестре источников и не загружается.",
-      "conclusion": "Реализованная волатильность 42,9% годовых против MA 12 мес 38,9%. Высокая волатильность = стресс.",
+      "conclusion": "Реализованная волатильность 42,8% годовых против MA 12 мес 38,8%. Высокая волатильность = стресс.",
       "color": "#B8860B",
       "showMA": true,
       "mode": "LIVE",
@@ -99212,10 +99212,10 @@
     {
       "id": "cbbtcusd",
       "title": "Bitcoin — официальный спот Coinbase (FRED CBBTCUSD)",
-      "latest": 75090.89,
+      "latest": 73302.84,
       "unit": "$",
-      "asOf": "2026-11-09",
-      "source": "FRED CBBTCUSD · fredgraph.csv",
+      "asOf": "2026-11-10",
+      "source": "FRED CBBTCUSD · fred-api",
       "points": [
         {
           "date": "2015-01-31",
@@ -99786,13 +99786,13 @@
           "value": 77403.92
         },
         {
-          "date": "2026-11-09",
-          "value": 75090.89
+          "date": "2026-11-10",
+          "value": 73302.84
         }
       ],
       "emptyReason": null,
       "meaning": "Ряд авторства Coinbase, зеркалируемый St. Louis Fed. Живая замена слота CoinGecko: это официальная цена, а НЕ market-cap доминация. Сверка с историей свечей Coinbase — та же площадка, два канала данных; средних не считаем.",
-      "conclusion": "FRED CBBTCUSD: 75 091 $.",
+      "conclusion": "FRED CBBTCUSD: 73 303 $.",
       "color": "#0C0C0C",
       "showMA": true,
       "mode": "LIVE",
@@ -99804,10 +99804,10 @@
     {
       "id": "cbethusd",
       "title": "Ethereum — официальный спот Coinbase (FRED CBETHUSD)",
-      "latest": 2127.75,
+      "latest": 2043.05,
       "unit": "$",
-      "asOf": "2026-11-09",
-      "source": "FRED CBETHUSD · fredgraph.csv",
+      "asOf": "2026-11-10",
+      "source": "FRED CBETHUSD · fred-api",
       "points": [
         {
           "date": "2016-05-31",
@@ -100314,13 +100314,13 @@
           "value": 2252.88
         },
         {
-          "date": "2026-11-09",
-          "value": 2127.75
+          "date": "2026-11-10",
+          "value": 2043.05
         }
       ],
       "emptyReason": null,
       "meaning": "Ряд авторства Coinbase через FRED. Вторая нога замены слота CoinGecko: цены двух активов, кросс BTC/ETH — отношение двух официальных спотов, не доминация по капитализации.",
-      "conclusion": "FRED CBETHUSD: 2 128 $.",
+      "conclusion": "FRED CBETHUSD: 2 043 $.",
       "color": "#0C0C0C",
       "showMA": true,
       "mode": "LIVE",
@@ -102790,7 +102790,7 @@
     {
       "id": "btc",
       "label": "BTC CB",
-      "value": 73517.275,
+      "value": 73959.945,
       "unit": "$"
     }
   ],

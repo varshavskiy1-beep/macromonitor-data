@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "fetchedAt": "2026-11-11T00:53:45.049Z",
+  "fetchedAt": "2026-11-11T11:42:43.452Z",
   "series": {
     "IORB": {
       "source": "fred-api",
@@ -52854,7 +52854,7 @@
         "date": "2026-09-01",
         "value": 139.5978
       },
-      "lastUpdated": "2026-10-16 08:19:44-05",
+      "lastUpdated": null,
       "observationEnd": "2026-09-01",
       "nextRelease": null,
       "points": [
@@ -55870,7 +55870,7 @@
       ]
     },
     "IY3344": {
-      "source": "fredgraph.csv",
+      "source": "fred-api",
       "error": null,
       "usedCache": false,
       "stale": false,
@@ -55880,7 +55880,7 @@
         "date": "2026-09-01",
         "value": 85.8
       },
-      "lastUpdated": null,
+      "lastUpdated": "2026-10-16 07:42:03-05",
       "observationEnd": "2026-09-01",
       "nextRelease": null,
       "points": [
@@ -56883,7 +56883,7 @@
       ]
     },
     "PCU334111334111": {
-      "source": "fredgraph.csv",
+      "source": "fred-api",
       "error": null,
       "usedCache": false,
       "stale": false,
@@ -56893,7 +56893,7 @@
         "date": "2026-09-01",
         "value": 103.337
       },
-      "lastUpdated": null,
+      "lastUpdated": "2026-10-15 09:20:39-05",
       "observationEnd": "2026-09-01",
       "nextRelease": null,
       "points": [
@@ -58620,7 +58620,7 @@
       ]
     },
     "PQREV5415TUSY": {
-      "source": "fredgraph.csv",
+      "source": "fred-api",
       "error": null,
       "usedCache": false,
       "stale": false,
@@ -58630,7 +58630,7 @@
         "date": "2026-04-01",
         "value": 0.5
       },
-      "lastUpdated": null,
+      "lastUpdated": "2026-09-09 09:10:58-05",
       "observationEnd": "2026-04-01",
       "nextRelease": null,
       "points": [
@@ -58993,18 +58993,18 @@
       ]
     },
     "CBBTCUSD": {
-      "source": "fredgraph.csv",
+      "source": "fred-api",
       "error": null,
       "usedCache": false,
       "stale": false,
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-11-09",
-        "value": 75090.89
+        "date": "2026-11-10",
+        "value": 73302.84
       },
-      "lastUpdated": null,
-      "observationEnd": "2026-11-09",
+      "lastUpdated": "2026-11-10 19:05:29-06",
+      "observationEnd": "2026-11-10",
       "nextRelease": null,
       "points": [
         {
@@ -59576,24 +59576,24 @@
           "value": 77403.92
         },
         {
-          "date": "2026-11-09",
-          "value": 75090.89
+          "date": "2026-11-10",
+          "value": 73302.84
         }
       ]
     },
     "CBETHUSD": {
-      "source": "fredgraph.csv",
+      "source": "fred-api",
       "error": null,
       "usedCache": false,
       "stale": false,
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-11-09",
-        "value": 2127.75
+        "date": "2026-11-10",
+        "value": 2043.05
       },
-      "lastUpdated": null,
-      "observationEnd": "2026-11-09",
+      "lastUpdated": "2026-11-10 19:05:28-06",
+      "observationEnd": "2026-11-10",
       "nextRelease": null,
       "points": [
         {
@@ -60101,13 +60101,13 @@
           "value": 2252.88
         },
         {
-          "date": "2026-11-09",
-          "value": 2127.75
+          "date": "2026-11-10",
+          "value": 2043.05
         }
       ]
     },
     "MCOILBRENTEU": {
-      "source": "fredgraph.csv",
+      "source": "fred-api",
       "error": null,
       "usedCache": false,
       "stale": false,
@@ -60117,7 +60117,7 @@
         "date": "2026-10-01",
         "value": 123.93
       },
-      "lastUpdated": null,
+      "lastUpdated": "2026-11-04 12:18:33-06",
       "observationEnd": "2026-10-01",
       "nextRelease": null,
       "points": [
@@ -61892,7 +61892,7 @@
       ]
     },
     "POILBREUSDM": {
-      "source": "fredgraph.csv",
+      "source": "fred-api",
       "error": null,
       "usedCache": false,
       "stale": false,
@@ -61902,7 +61902,7 @@
         "date": "2026-09-01",
         "value": 102.0180952380952
       },
-      "lastUpdated": null,
+      "lastUpdated": "2026-10-22 14:26:43-05",
       "observationEnd": "2026-09-01",
       "nextRelease": null,
       "points": [
@@ -62680,7 +62680,7 @@
         },
         {
           "date": "2008-02-01",
-          "value": 94.72238095238096
+          "value": 94.72238095238095
         },
         {
           "date": "2008-03-01",
@@ -62820,7 +62820,7 @@
         },
         {
           "date": "2011-01-01",
-          "value": 96.95238095238096
+          "value": 96.95238095238095
         },
         {
           "date": "2011-02-01",
@@ -62996,7 +62996,7 @@
         },
         {
           "date": "2014-09-01",
-          "value": 97.85272727272728
+          "value": 97.85272727272726
         },
         {
           "date": "2014-10-01",
@@ -63376,7 +63376,7 @@
         },
         {
           "date": "2022-08-01",
-          "value": 97.64304347826088
+          "value": 97.64304347826086
         },
         {
           "date": "2022-09-01",
@@ -63428,7 +63428,7 @@
         },
         {
           "date": "2023-09-01",
-          "value": 92.67333333333332
+          "value": 92.67333333333333
         },
         {
           "date": "2023-10-01",
@@ -63577,7 +63577,7 @@
       ]
     },
     "DTWEXBGS": {
-      "source": "fredgraph.csv",
+      "source": "fred-api",
       "error": null,
       "usedCache": false,
       "stale": false,
@@ -63587,7 +63587,7 @@
         "date": "2026-11-06",
         "value": 121.8803
       },
-      "lastUpdated": null,
+      "lastUpdated": "2026-11-09 15:16:53-06",
       "observationEnd": "2026-11-06",
       "nextRelease": null,
       "points": [
@@ -64598,7 +64598,7 @@
       ]
     },
     "CPIAUCSL": {
-      "source": "fredgraph.csv",
+      "source": "fred-api",
       "error": null,
       "usedCache": false,
       "stale": false,
@@ -64608,7 +64608,7 @@
         "date": "2026-10-01",
         "value": 337.476
       },
-      "lastUpdated": null,
+      "lastUpdated": "2026-11-10 08:12:46-06",
       "observationEnd": "2026-10-01",
       "nextRelease": null,
       "points": [
@@ -66379,7 +66379,7 @@
       ]
     },
     "FEDFUNDS": {
-      "source": "fredgraph.csv",
+      "source": "fred-api",
       "error": null,
       "usedCache": false,
       "stale": false,
@@ -66389,7 +66389,7 @@
         "date": "2026-10-01",
         "value": 3.88
       },
-      "lastUpdated": null,
+      "lastUpdated": "2026-11-02 15:16:50-06",
       "observationEnd": "2026-10-01",
       "nextRelease": null,
       "points": [
@@ -68164,7 +68164,7 @@
       ]
     },
     "DEXJPUS": {
-      "source": "fredgraph.csv",
+      "source": "fred-api",
       "error": null,
       "usedCache": false,
       "stale": false,
@@ -68174,7 +68174,7 @@
         "date": "2026-11-06",
         "value": 158.23
       },
-      "lastUpdated": null,
+      "lastUpdated": "2026-11-09 15:16:41-06",
       "observationEnd": "2026-11-06",
       "nextRelease": null,
       "points": [
@@ -69953,18 +69953,18 @@
       ]
     },
     "SP500": {
-      "source": "fredgraph.csv",
+      "source": "fred-api",
       "error": null,
       "usedCache": false,
       "stale": false,
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-11-09",
-        "value": 7549.94
+        "date": "2026-11-10",
+        "value": 7520.93
       },
-      "lastUpdated": null,
-      "observationEnd": "2026-11-09",
+      "lastUpdated": "2026-11-10 19:57:58-06",
+      "observationEnd": "2026-11-10",
       "nextRelease": null,
       "points": [
         {
@@ -70448,13 +70448,13 @@
           "value": 7580.07
         },
         {
-          "date": "2026-11-09",
-          "value": 7549.94
+          "date": "2026-11-10",
+          "value": 7520.93
         }
       ]
     },
     "BAMLHYH0A0HYM2TRIV": {
-      "source": "fredgraph.csv",
+      "source": "fred-api",
       "error": null,
       "usedCache": false,
       "stale": false,
@@ -70464,7 +70464,7 @@
         "date": "2026-11-09",
         "value": 1886.03
       },
-      "lastUpdated": null,
+      "lastUpdated": "2026-11-10 10:02:42-06",
       "observationEnd": "2026-11-09",
       "nextRelease": null,
       "points": [
