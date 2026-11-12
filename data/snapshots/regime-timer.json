@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-11T12:24:25.701Z",
+  "fetchedAt": "2026-11-12T00:58:10.790Z",
   "status": "ok",
   "caption": "Это таймер режима рынка, а не сигнал купить бумагу. Атака только когда оба якоря выше своей средней. Нет котировки по любому якорю — оборона.",
   "usa": {
@@ -8,11 +8,11 @@
     "anchorsLabel": "JPM ∧ BTC",
     "regime": "defense",
     "regimeWord": "ОБОРОНА",
-    "asOf": "2026-11-10",
+    "asOf": "2026-11-11",
     "stale": false,
     "staleNote": null,
     "lastSwitch": "2026-11-05",
-    "daysInRegime": 4,
+    "daysInRegime": 5,
     "anchors": [
       {
         "id": "jpm",
@@ -21,10 +21,10 @@
         "source": "JPM, закрытие · Yahoo Finance, закрытые дневные свечи",
         "note": "по закрытию дня",
         "hasData": true,
-        "asOf": "2026-11-10",
-        "close": 342.07000732421875,
-        "ema100": 337.8218619256191,
-        "gapPct": 1.2575105040226742,
+        "asOf": "2026-11-11",
+        "close": 343.3900146484375,
+        "ema100": 337.9321223755759,
+        "gapPct": 1.6150853711372593,
         "above": true,
         "warning": null
       },
@@ -35,10 +35,10 @@
         "source": "Binance BTCUSDT daily klines, закрытые сутки UTC, закрытие USDT",
         "note": "по закрытию суток UTC",
         "hasData": true,
-        "asOf": "2026-11-10",
-        "close": 73796.06,
-        "ema100": 77555.70344158044,
-        "gapPct": -4.847668546275807,
+        "asOf": "2026-11-11",
+        "close": 74015.19,
+        "ema100": 77485.59426451944,
+        "gapPct": -4.478773502945865,
         "above": false,
         "warning": null
       }
@@ -1464,11 +1464,11 @@
             "jpmFill": 0
           },
           {
-            "date": "2026-11-10",
-            "jpmClose": 342.07000732421875,
-            "jpmEma": 337.8218619256191,
-            "jpmFillBase": 337.8218619256191,
-            "jpmFill": 4.248145398599661
+            "date": "2026-11-11",
+            "jpmClose": 343.3900146484375,
+            "jpmEma": 337.9321223755759,
+            "jpmFillBase": 337.9321223755759,
+            "jpmFill": 5.4578922728616135
           }
         ]
       },
@@ -2255,10 +2255,10 @@
             "btcFill": 0
           },
           {
-            "date": "2026-11-10",
-            "btcClose": 73796.06,
-            "btcEma": 77555.70344158044,
-            "btcFillBase": 77555.70344158044,
+            "date": "2026-11-11",
+            "btcClose": 74015.19,
+            "btcEma": 77485.59426451944,
+            "btcFillBase": 77485.59426451944,
             "btcFill": 0
           }
         ]
@@ -2272,7 +2272,7 @@
     "anchorsLabel": "ROSN ∧ HG",
     "regime": "defense",
     "regimeWord": "ОБОРОНА",
-    "asOf": "2026-11-10",
+    "asOf": "2026-11-11",
     "stale": false,
     "staleNote": null,
     "lastSwitch": "2026-11-03",
@@ -2285,10 +2285,10 @@
         "source": "MOEX ISS daily ROSN TQBR",
         "note": null,
         "hasData": true,
-        "asOf": "2026-11-10",
-        "close": 347.85,
-        "ema100": 361.46533765584724,
-        "gapPct": -3.766706302779832,
+        "asOf": "2026-11-11",
+        "close": 356.2,
+        "ema100": 361.36107354385024,
+        "gapPct": -1.4282317387525612,
         "above": false,
         "warning": null
       },
@@ -3357,10 +3357,10 @@
             "rosnFill": 22.221750055525717
           },
           {
-            "date": "2026-11-10",
-            "rosnClose": 347.85,
-            "rosnEma": 361.46533765584724,
-            "rosnFillBase": 361.46533765584724,
+            "date": "2026-11-11",
+            "rosnClose": 356.2,
+            "rosnEma": 361.36107354385024,
+            "rosnFillBase": 361.36107354385024,
             "rosnFill": 0
           }
         ]

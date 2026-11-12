@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-11-11T12:24:15.417Z",
+  "fetchedAt": "2026-11-12T00:58:03.880Z",
   "status": "ok",
   "source": "https://api.worldbank.org/v2/country/RUS/indicator",
-  "lastUpdated": "2026-10-08",
+  "lastUpdated": "2026-11-11",
   "series": {
     "NY.GDP.MKTP.KD.ZG": {
       "code": "NY.GDP.MKTP.KD.ZG",

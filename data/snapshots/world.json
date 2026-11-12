@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-11T12:24:15.417Z",
+  "fetchedAt": "2026-11-12T00:58:03.880Z",
   "status": "ok",
   "sections": [
     {
@@ -4472,14 +4472,14 @@
         {
           "id": "fomc_calendar",
           "title": "Календарь событий FOMC",
-          "latest": 28,
+          "latest": 27,
           "unit": "дн. до заседания",
           "asOf": "2026-12-09",
           "source": "Календарь Board of Governors, json/calendar.json — первоисточник, не Investing.com.",
           "points": [],
           "emptyReason": null,
           "meaning": "Календарь Board of Governors, json/calendar.json — первоисточник, не Investing.com.",
-          "conclusion": "До следующего FOMC Meeting 28 дней (statement 08.12–09.12.2026, ET 2:00 p.m.). Это календарь Board of Governors, не вероятность решения.",
+          "conclusion": "До следующего FOMC Meeting 27 дней (statement 08.12–09.12.2026, ET 2:00 p.m.). Это календарь Board of Governors, не вероятность решения.",
           "color": "#0C0C0C",
           "showMA": false,
           "mode": "LIVE",
@@ -4491,7 +4491,7 @@
               "time": "2:00 p.m.",
               "type": "FOMC",
               "kind": "minutes",
-              "daysUntil": 7
+              "daysUntil": 6
             },
             {
               "date": "2026-11-25",
@@ -4500,7 +4500,7 @@
               "time": "2:00 p.m.",
               "type": "Beige",
               "kind": "beige",
-              "daysUntil": 14
+              "daysUntil": 13
             },
             {
               "date": "2026-12-09",
@@ -4509,7 +4509,7 @@
               "time": "2:00 p.m.",
               "type": "FOMC",
               "kind": "meeting",
-              "daysUntil": 28
+              "daysUntil": 27
             },
             {
               "date": "2026-12-09",
@@ -4518,7 +4518,7 @@
               "time": "2:30 p.m.",
               "type": "FOMC",
               "kind": "press",
-              "daysUntil": 28
+              "daysUntil": 27
             },
             {
               "date": "2026-12-30",
@@ -4527,7 +4527,7 @@
               "time": "2:00 p.m.",
               "type": "FOMC",
               "kind": "minutes",
-              "daysUntil": 49
+              "daysUntil": 48
             }
           ],
           "past": [
@@ -4538,7 +4538,7 @@
               "time": "2:00 p.m.",
               "type": "FOMC",
               "kind": "minutes",
-              "daysUntil": -126
+              "daysUntil": -127
             },
             {
               "date": "2026-07-15",
@@ -4547,7 +4547,7 @@
               "time": "2:00 p.m.",
               "type": "Beige",
               "kind": "beige",
-              "daysUntil": -119
+              "daysUntil": -120
             },
             {
               "date": "2026-07-29",
@@ -4556,7 +4556,7 @@
               "time": "2:00 p.m.",
               "type": "FOMC",
               "kind": "meeting",
-              "daysUntil": -105
+              "daysUntil": -106
             },
             {
               "date": "2026-07-29",
@@ -4565,7 +4565,7 @@
               "time": "2:30 p.m.",
               "type": "FOMC",
               "kind": "press",
-              "daysUntil": -105
+              "daysUntil": -106
             },
             {
               "date": "2026-08-19",
@@ -4574,7 +4574,7 @@
               "time": "2:00 p.m.",
               "type": "FOMC",
               "kind": "minutes",
-              "daysUntil": -84
+              "daysUntil": -85
             },
             {
               "date": "2026-09-02",
@@ -4583,7 +4583,7 @@
               "time": "2:00 p.m.",
               "type": "Beige",
               "kind": "beige",
-              "daysUntil": -70
+              "daysUntil": -71
             },
             {
               "date": "2026-09-16",
@@ -4592,7 +4592,7 @@
               "time": "2:00 p.m.",
               "type": "FOMC",
               "kind": "meeting",
-              "daysUntil": -56
+              "daysUntil": -57
             },
             {
               "date": "2026-09-16",
@@ -4601,7 +4601,7 @@
               "time": "2:30 p.m.",
               "type": "FOMC",
               "kind": "press",
-              "daysUntil": -56
+              "daysUntil": -57
             },
             {
               "date": "2026-10-07",
@@ -4610,7 +4610,7 @@
               "time": "2:00 p.m.",
               "type": "FOMC",
               "kind": "minutes",
-              "daysUntil": -35
+              "daysUntil": -36
             },
             {
               "date": "2026-10-14",
@@ -4619,7 +4619,7 @@
               "time": "2:00 p.m.",
               "type": "Beige",
               "kind": "beige",
-              "daysUntil": -28
+              "daysUntil": -29
             },
             {
               "date": "2026-10-28",
@@ -4628,7 +4628,7 @@
               "time": "2:00 p.m.",
               "type": "FOMC",
               "kind": "meeting",
-              "daysUntil": -14
+              "daysUntil": -15
             },
             {
               "date": "2026-10-28",
@@ -4637,7 +4637,7 @@
               "time": "2:30 p.m.",
               "type": "FOMC",
               "kind": "press",
-              "daysUntil": -14
+              "daysUntil": -15
             }
           ],
           "nextMeeting": {
@@ -4645,7 +4645,7 @@
             "startDate": "2026-12-08",
             "title": "FOMC Meeting",
             "time": "2:00 p.m.",
-            "daysUntil": 28
+            "daysUntil": 27
           }
         }
       ]
@@ -53135,26 +53135,26 @@
       "conclusion": "площадки согласованы, среднее всё равно не показываем Фаза: стресс. Вместо Fear & Greed — реализованная волатильность из тех же свечей Coinbase; вместо доминации CoinGecko — официальные споты Coinbase через FRED (CBBTCUSD/CBETHUSD).",
       "divergence": {
         "status": "ok",
-        "coinbase": 73917.875,
-        "binance": 74079.98,
+        "coinbase": 74018.195,
+        "binance": 74110.02,
         "mid": null,
-        "gapPct": 0.21906398575843675,
+        "gapPct": 0.123980431412067,
         "diverged": false,
         "note": "площадки согласованы, среднее всё равно не показываем"
       },
       "phase": {
         "label": "стресс",
         "tone": "bad",
-        "text": "Цена ниже MA 12 мес при повышенной волатильности — стресс. Цена 73 975 $ против MA 12 мес 75 112; волатильность 42,8% против её MA 38,8%."
+        "text": "Цена ниже MA 12 мес при повышенной волатильности — стресс. Цена 74 012 $ против MA 12 мес 75 115; волатильность 42,8% против её MA 38,8%."
       },
       "phaseRule": "Правило фазы (официальные ряды, не таксономия CoinGecko): цена BTC против MA 12 мес и реализованная волатильность против её MA 12 мес. Цена выше MA и волатильность не выше своей средней — «рост»; цена выше MA при повышенной волатильности — «перегрев»; цена ниже MA при спокойной волатильности — «остывание»; цена ниже MA при повышенной волатильности — «стресс». MA 7 лет — длинный ориентир на графиках.",
       "cards": [
         {
           "id": "btc_coinbase",
           "title": "BTC-USD Coinbase",
-          "latest": 73975.38,
+          "latest": 74011.56,
           "unit": "$",
-          "asOf": "2026-11-11",
+          "asOf": "2026-11-12",
           "source": "Coinbase Exchange BTC-USD candles granularity=86400, monthly last close",
           "points": [
             {
@@ -53582,13 +53582,13 @@
               "value": 77423.98
             },
             {
-              "date": "2026-11-11",
-              "value": 73975.38
+              "date": "2026-11-12",
+              "value": 74011.56
             }
           ],
           "emptyReason": null,
           "meaning": "Цена ниже MA 12 мес — цикл остывает. Месячные закрытия официальных свечей Coinbase Exchange; спот и расхождение с Binance — отдельно, среднее не считаем.",
-          "conclusion": "Последнее закрытие 73 975 $, MA 12 мес 75 112, MA 7 лет 49 775.",
+          "conclusion": "Последнее закрытие 74 012 $, MA 12 мес 75 115, MA 7 лет 49 775.",
           "color": "#B8860B",
           "showMA": true,
           "mode": "LIVE",
@@ -53600,7 +53600,7 @@
         {
           "id": "btc_binance",
           "title": "BTCUSDT Binance",
-          "latest": 74074.01,
+          "latest": 74106,
           "unit": "$",
           "asOf": "2026-11-01",
           "source": "Binance data-api.binance.vision BTCUSDT klines interval=1M",
@@ -54031,12 +54031,12 @@
             },
             {
               "date": "2026-11-01",
-              "value": 74074.01
+              "value": 74106
             }
           ],
           "emptyReason": null,
           "meaning": "Цена выше MA 12 мес — цикл включён. Месячные klines data-api.binance.vision; при расхождении с Coinbase — флаг, не среднее.",
-          "conclusion": "Последнее закрытие 74 074 $, MA 12 мес 73 920, MA 7 лет 50 287.",
+          "conclusion": "Последнее закрытие 74 106 $, MA 12 мес 73 923, MA 7 лет 50 287.",
           "color": "#379A8B",
           "showMA": true,
           "mode": "LIVE",
@@ -54048,9 +54048,9 @@
         {
           "id": "btc_realized_vol",
           "title": "Реализованная волатильность BTC · Coinbase, не Fear & Greed",
-          "latest": 42.8353308021179,
+          "latest": 42.831761863244,
           "unit": "% годовых",
-          "asOf": "2026-11-11",
+          "asOf": "2026-11-12",
           "source": "счёт из месячных закрытий Coinbase Exchange BTC-USD (тот же снимок) · alternative.me не загружаем",
           "points": [
             {
@@ -54430,8 +54430,8 @@
               "value": 46.29731497790021
             },
             {
-              "date": "2026-11-11",
-              "value": 42.8353308021179
+              "date": "2026-11-12",
+              "value": 42.831761863244
             }
           ],
           "emptyReason": null,
@@ -55043,7 +55043,7 @@
           "latest": 2043.05,
           "unit": "$",
           "asOf": "2026-11-10",
-          "source": "FRED CBETHUSD · fredgraph.csv",
+          "source": "FRED CBETHUSD · fred-api",
           "points": [
             {
               "date": "2016-05-31",
@@ -62466,14 +62466,14 @@
     {
       "id": "fomc_calendar",
       "title": "Календарь событий FOMC",
-      "latest": 28,
+      "latest": 27,
       "unit": "дн. до заседания",
       "asOf": "2026-12-09",
       "source": "Календарь Board of Governors, json/calendar.json — первоисточник, не Investing.com.",
       "points": [],
       "emptyReason": null,
       "meaning": "Календарь Board of Governors, json/calendar.json — первоисточник, не Investing.com.",
-      "conclusion": "До следующего FOMC Meeting 28 дней (statement 08.12–09.12.2026, ET 2:00 p.m.). Это календарь Board of Governors, не вероятность решения.",
+      "conclusion": "До следующего FOMC Meeting 27 дней (statement 08.12–09.12.2026, ET 2:00 p.m.). Это календарь Board of Governors, не вероятность решения.",
       "color": "#0C0C0C",
       "showMA": false,
       "mode": "LIVE",
@@ -62485,7 +62485,7 @@
           "time": "2:00 p.m.",
           "type": "FOMC",
           "kind": "minutes",
-          "daysUntil": 7
+          "daysUntil": 6
         },
         {
           "date": "2026-11-25",
@@ -62494,7 +62494,7 @@
           "time": "2:00 p.m.",
           "type": "Beige",
           "kind": "beige",
-          "daysUntil": 14
+          "daysUntil": 13
         },
         {
           "date": "2026-12-09",
@@ -62503,7 +62503,7 @@
           "time": "2:00 p.m.",
           "type": "FOMC",
           "kind": "meeting",
-          "daysUntil": 28
+          "daysUntil": 27
         },
         {
           "date": "2026-12-09",
@@ -62512,7 +62512,7 @@
           "time": "2:30 p.m.",
           "type": "FOMC",
           "kind": "press",
-          "daysUntil": 28
+          "daysUntil": 27
         },
         {
           "date": "2026-12-30",
@@ -62521,7 +62521,7 @@
           "time": "2:00 p.m.",
           "type": "FOMC",
           "kind": "minutes",
-          "daysUntil": 49
+          "daysUntil": 48
         }
       ],
       "past": [
@@ -62532,7 +62532,7 @@
           "time": "2:00 p.m.",
           "type": "FOMC",
           "kind": "minutes",
-          "daysUntil": -126
+          "daysUntil": -127
         },
         {
           "date": "2026-07-15",
@@ -62541,7 +62541,7 @@
           "time": "2:00 p.m.",
           "type": "Beige",
           "kind": "beige",
-          "daysUntil": -119
+          "daysUntil": -120
         },
         {
           "date": "2026-07-29",
@@ -62550,7 +62550,7 @@
           "time": "2:00 p.m.",
           "type": "FOMC",
           "kind": "meeting",
-          "daysUntil": -105
+          "daysUntil": -106
         },
         {
           "date": "2026-07-29",
@@ -62559,7 +62559,7 @@
           "time": "2:30 p.m.",
           "type": "FOMC",
           "kind": "press",
-          "daysUntil": -105
+          "daysUntil": -106
         },
         {
           "date": "2026-08-19",
@@ -62568,7 +62568,7 @@
           "time": "2:00 p.m.",
           "type": "FOMC",
           "kind": "minutes",
-          "daysUntil": -84
+          "daysUntil": -85
         },
         {
           "date": "2026-09-02",
@@ -62577,7 +62577,7 @@
           "time": "2:00 p.m.",
           "type": "Beige",
           "kind": "beige",
-          "daysUntil": -70
+          "daysUntil": -71
         },
         {
           "date": "2026-09-16",
@@ -62586,7 +62586,7 @@
           "time": "2:00 p.m.",
           "type": "FOMC",
           "kind": "meeting",
-          "daysUntil": -56
+          "daysUntil": -57
         },
         {
           "date": "2026-09-16",
@@ -62595,7 +62595,7 @@
           "time": "2:30 p.m.",
           "type": "FOMC",
           "kind": "press",
-          "daysUntil": -56
+          "daysUntil": -57
         },
         {
           "date": "2026-10-07",
@@ -62604,7 +62604,7 @@
           "time": "2:00 p.m.",
           "type": "FOMC",
           "kind": "minutes",
-          "daysUntil": -35
+          "daysUntil": -36
         },
         {
           "date": "2026-10-14",
@@ -62613,7 +62613,7 @@
           "time": "2:00 p.m.",
           "type": "Beige",
           "kind": "beige",
-          "daysUntil": -28
+          "daysUntil": -29
         },
         {
           "date": "2026-10-28",
@@ -62622,7 +62622,7 @@
           "time": "2:00 p.m.",
           "type": "FOMC",
           "kind": "meeting",
-          "daysUntil": -14
+          "daysUntil": -15
         },
         {
           "date": "2026-10-28",
@@ -62631,7 +62631,7 @@
           "time": "2:30 p.m.",
           "type": "FOMC",
           "kind": "press",
-          "daysUntil": -14
+          "daysUntil": -15
         }
       ],
       "nextMeeting": {
@@ -62639,7 +62639,7 @@
         "startDate": "2026-12-08",
         "title": "FOMC Meeting",
         "time": "2:00 p.m.",
-        "daysUntil": 28
+        "daysUntil": 27
       }
     },
     {
@@ -97932,9 +97932,9 @@
     {
       "id": "btc_coinbase",
       "title": "BTC-USD Coinbase",
-      "latest": 73975.38,
+      "latest": 74011.56,
       "unit": "$",
-      "asOf": "2026-11-11",
+      "asOf": "2026-11-12",
       "source": "Coinbase Exchange BTC-USD candles granularity=86400, monthly last close",
       "points": [
         {
@@ -98362,13 +98362,13 @@
           "value": 77423.98
         },
         {
-          "date": "2026-11-11",
-          "value": 73975.38
+          "date": "2026-11-12",
+          "value": 74011.56
         }
       ],
       "emptyReason": null,
       "meaning": "Цена ниже MA 12 мес — цикл остывает. Месячные закрытия официальных свечей Coinbase Exchange; спот и расхождение с Binance — отдельно, среднее не считаем.",
-      "conclusion": "Последнее закрытие 73 975 $, MA 12 мес 75 112, MA 7 лет 49 775.",
+      "conclusion": "Последнее закрытие 74 012 $, MA 12 мес 75 115, MA 7 лет 49 775.",
       "color": "#B8860B",
       "showMA": true,
       "mode": "LIVE",
@@ -98380,7 +98380,7 @@
     {
       "id": "btc_binance",
       "title": "BTCUSDT Binance",
-      "latest": 74074.01,
+      "latest": 74106,
       "unit": "$",
       "asOf": "2026-11-01",
       "source": "Binance data-api.binance.vision BTCUSDT klines interval=1M",
@@ -98811,12 +98811,12 @@
         },
         {
           "date": "2026-11-01",
-          "value": 74074.01
+          "value": 74106
         }
       ],
       "emptyReason": null,
       "meaning": "Цена выше MA 12 мес — цикл включён. Месячные klines data-api.binance.vision; при расхождении с Coinbase — флаг, не среднее.",
-      "conclusion": "Последнее закрытие 74 074 $, MA 12 мес 73 920, MA 7 лет 50 287.",
+      "conclusion": "Последнее закрытие 74 106 $, MA 12 мес 73 923, MA 7 лет 50 287.",
       "color": "#379A8B",
       "showMA": true,
       "mode": "LIVE",
@@ -98828,9 +98828,9 @@
     {
       "id": "btc_realized_vol",
       "title": "Реализованная волатильность BTC · Coinbase, не Fear & Greed",
-      "latest": 42.8353308021179,
+      "latest": 42.831761863244,
       "unit": "% годовых",
-      "asOf": "2026-11-11",
+      "asOf": "2026-11-12",
       "source": "счёт из месячных закрытий Coinbase Exchange BTC-USD (тот же снимок) · alternative.me не загружаем",
       "points": [
         {
@@ -99210,8 +99210,8 @@
           "value": 46.29731497790021
         },
         {
-          "date": "2026-11-11",
-          "value": 42.8353308021179
+          "date": "2026-11-12",
+          "value": 42.831761863244
         }
       ],
       "emptyReason": null,
@@ -99823,7 +99823,7 @@
       "latest": 2043.05,
       "unit": "$",
       "asOf": "2026-11-10",
-      "source": "FRED CBETHUSD · fredgraph.csv",
+      "source": "FRED CBETHUSD · fred-api",
       "points": [
         {
           "date": "2016-05-31",
@@ -102806,7 +102806,7 @@
     {
       "id": "btc",
       "label": "BTC CB",
-      "value": 73917.875,
+      "value": 74018.195,
       "unit": "$"
     }
   ],
