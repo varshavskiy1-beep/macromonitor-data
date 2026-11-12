@@ -1,13 +1,13 @@
 {
   "status": "ok",
-  "fetchedAt": "2026-11-12T01:10:49.841Z",
-  "source": "АЕБ / autostat.ru + autostat.ru",
-  "note": "История hcvUnits (помесячная детализация 2015–2024 реконструирована из квартальных/годовых сводок Autostat/АЕБ, ±10% на отдельных месяцах; годовые суммы сходятся с публикациями). Свежие месяцы дописывает будничный рефреш из новостей autostat.ru — тех же, что кормят ряд kamaz на /rossiya/makro. Доли ОЕМ обновляются только когда месячный релиз Autostat называет марки; иначе last-good + error.",
+  "fetchedAt": "2026-11-12T05:40:56.439Z",
+  "source": "autostat.ru HTML-релизы HCV >16т (АО «ППК»), не API и не ряд АЕБ",
+  "note": "Живые месяцы — публичные HTML-новости autostat.ru (HCV полной массой от 16 т, данные АО «ППК»). Отдельного ряда АЕБ по HCV >16т нет. Помесячная детализация 2015–2024 — реконструкция лендинга из квартальных/годовых сводок ±10%; годовые суммы сходятся с публикациями. Доли ОЕМ — только когда месячный релиз называет марки.",
   "series": {
     "hcvUnits": {
       "title": "Продажи HCV >16т, ед.",
       "unit": "ед.",
-      "source": "АЕБ / autostat.ru · реконструкция 2015–2024 ±10%",
+      "source": "autostat.ru HTML-релизы (АО «ППК»); 2015–2024 реконструкция лендинга ±10%",
       "sourceUrl": "https://www.autostat.ru/",
       "points": [
         {
@@ -704,150 +704,171 @@
           "date": "2026-07-01",
           "label": "июл'26",
           "value": 3498
+        },
+        {
+          "date": "2026-08-01",
+          "label": "авг'26",
+          "value": 2687
+        },
+        {
+          "date": "2026-09-01",
+          "label": "сен'26",
+          "value": 3418
+        },
+        {
+          "date": "2026-10-01",
+          "label": "окт'26",
+          "value": 3990
         }
       ],
       "error": null,
-      "lastAttempt": "2026-11-12T01:10:49.841Z",
+      "lastAttempt": "2026-11-12T05:40:56.439Z",
       "live": {
-        "source": "https://www.autostat.ru/news/ («Рынок крупнотоннажных грузовых автомобилей в <месяце>», штуки из описания релиза)",
-        "fetchedAt": "2026-11-12T01:10:49.841Z",
+        "source": "https://www.autostat.ru/news/ (HCV >16т: «Рынок крупнотоннажных…» / «Продажи новых крупнотоннажных|тяжёлых…», штуки из описания релиза)",
+        "fetchedAt": "2026-11-12T05:40:56.439Z",
         "appended": 0,
         "revised": 0
       }
     }
   },
   "release": {
-    "month": "2026-07-01",
-    "label": "июл'26",
-    "monthUnits": 3498,
-    "monthYoy": -3.9,
-    "ytdUnits": 21692,
-    "ytdYoy": -15.4,
-    "source": "https://www.autostat.ru/news/62863/"
+    "month": "2026-10-01",
+    "label": "окт'26",
+    "monthUnits": 3990,
+    "monthYoy": -20,
+    "ytdUnits": 31800,
+    "ytdYoy": -16,
+    "ytdRounded": true,
+    "ytdReported": "≈31,8 тыс.",
+    "source": "https://www.autostat.ru/news/63442/"
   },
   "oem": {
-    "asOf": "2026-07-01",
+    "asOf": "2026-10-01",
     "producers": [
       {
-        "brand": "КАМАЗ",
-        "flag": "RU",
-        "share": 39.7,
-        "monthSales": 1389,
-        "ytdSales": 8370,
+        "brand": "KAMAZ",
+        "flag": null,
+        "share": 35.2,
+        "monthSales": 1406,
+        "ytdSales": null,
         "trend": "up",
-        "note": "+18.5% г/г, 40% рынка"
-      },
-      {
-        "brand": "Sitrak",
-        "flag": "CN",
-        "share": 10.6,
-        "monthSales": 371,
-        "ytdSales": 1916,
-        "trend": "down",
-        "note": "−15.7% г/г, Sinotruk"
-      },
-      {
-        "brand": "МАЗ",
-        "flag": "BY",
-        "share": 8.7,
-        "monthSales": 304,
-        "ytdSales": 1671,
-        "trend": "up",
-        "note": "+30.5% г/г, белорусский OEM"
-      },
-      {
-        "brand": "Dongfeng",
-        "flag": "CN",
-        "share": 7.3,
-        "monthSales": 255,
-        "ytdSales": 1345,
-        "trend": "up",
-        "note": "+27.5% г/г"
+        "note": "+7.7% г/г (релиз Autostat)"
       },
       {
         "brand": "FAW",
-        "flag": "CN",
-        "share": 6.2,
-        "monthSales": 217,
-        "ytdSales": 1727,
+        "flag": null,
+        "share": 10.6,
+        "monthSales": 421,
+        "ytdSales": null,
         "trend": "down",
-        "note": "−24.7% г/г"
+        "note": "−23.9% г/г (релиз Autostat)"
       },
       {
-        "brand": "Урал",
-        "flag": "RU",
-        "share": 5.7,
-        "monthSales": 200,
-        "ytdSales": 1347,
+        "brand": "SITRAK",
+        "flag": null,
+        "share": 9.8,
+        "monthSales": 393,
+        "ytdSales": null,
+        "trend": "down",
+        "note": "−66.4% г/г (релиз Autostat)"
+      },
+      {
+        "brand": "Dongfeng",
+        "flag": null,
+        "share": 9.4,
+        "monthSales": 377,
+        "ytdSales": null,
         "trend": "flat",
-        "note": "Оценка за месяц, спецтехника"
+        "note": "штуки из релиза Autostat"
       },
       {
         "brand": "Shacman",
-        "flag": "CN",
-        "share": 3.7,
-        "monthSales": 130,
-        "ytdSales": 770,
+        "flag": null,
+        "share": 6.8,
+        "monthSales": 270,
+        "ytdSales": null,
         "trend": "down",
-        "note": "Оценка за месяц"
+        "note": "−44.0% г/г (релиз Autostat)"
       },
       {
         "brand": "Прочие",
         "flag": "—",
-        "share": 18.1,
-        "monthSales": 632,
-        "ytdSales": 4546,
-        "trend": "down",
-        "note": "Foton, Howo, JAC, Valdai и др."
+        "share": 28.1,
+        "monthSales": 1123,
+        "ytdSales": null,
+        "trend": "flat",
+        "note": "остаток: релиз называет только топ-5, поимённые доли вне топ-5 не выдумываем"
       }
     ],
     "models": [
       {
-        "model": "КАМАЗ-43118",
-        "share": 9.1,
-        "note": "Бортовой 6×6 · 1664 ед., −13.2% г/г"
-      },
-      {
-        "model": "Sitrak C7H",
-        "share": 8.5,
-        "note": "Магистральный тягач · 1544 ед., −61.2%"
-      },
-      {
-        "model": "КАМАЗ-54901",
-        "share": 8.2,
-        "note": "Тягач K5 · 1496 ед., +42.3%"
-      },
-      {
-        "model": "КАМАЗ-65115",
-        "share": 8,
-        "note": "Самосвал 6×4 · 1464 ед., +13.4%"
-      },
-      {
         "model": "Dongfeng 4180",
-        "share": 5.7,
-        "note": "Тягач · 1046 ед., +24.7%"
+        "share": 9.4,
+        "note": "375 ед. за месяц (релиз Autostat)"
+      },
+      {
+        "model": "KAMAZ 43118",
+        "share": 8.6,
+        "note": "344 ед. за месяц, +39.3% г/г (релиз Autostat)"
+      },
+      {
+        "model": "KAMAZ 54901",
+        "share": 8.5,
+        "note": "340 ед. за месяц, +15.3% г/г (релиз Autostat)"
+      },
+      {
+        "model": "FAW J7",
+        "share": 5.8,
+        "note": "230 ед. за месяц (релиз Autostat)"
+      },
+      {
+        "model": "SITRAK C7H",
+        "share": 9.8,
+        "note": "393 ед. за месяц (релиз Autostat)"
       }
     ],
-    "note": "Доли — по релизу Автостат за июль 2026 (3498 ед., −3.9% г/г). YTD — янв–июл 2026 (21 692 ед., −15.4% г/г). Урал и Shacman за месяц — оценки: вне топ-5 объёмы не раскрываются.",
-    "source": "https://www.autostat.ru/news/62863/",
+    "note": "Доли — по релизу Автостат за окт'26 (3 990 ед.). YTD ≈31,8 тыс. (−16.0% г/г) — не сумма точных месяцев. Доли = штуки марки / итог месяца; «Прочие» — остаток.",
+    "source": "https://www.autostat.ru/news/63442/",
+    "modelsNote": null,
     "error": null,
-    "lastAttempt": null
+    "lastAttempt": "2026-11-12T05:40:56.439Z"
   },
   "aeb": {
-    "month": "2026-07-01",
+    "month": "2026-10-01",
     "aebYoy": null,
-    "autostat": -3.9,
+    "autostat": -20,
     "source": null,
     "note": "АЕБ недоступен/релиз не найден (https://aebrus.ru/en/media/press-releases/: релиз по грузовикам за месяц не найден; https://aebrus.ru/en/media/press-releases/sales-of-cars-and-light-commercial) — публикуем один ряд Autostat, среднее не считаем",
-    "checkedAt": "2026-11-12T01:10:49.841Z"
+    "checkedAt": "2026-11-12T05:40:56.439Z"
   },
   "scrape": {
     "autostat": {
-      "lastSeenNewsId": 63139,
-      "scannedAt": "2026-09-22T10:46:20.110Z"
-    },
-    "minek": {
-      "lastSeenMfdId": 2784825
+      "lastSeenNewsId": 63442,
+      "scannedAt": "2026-11-12T05:40:54.232Z",
+      "gapOnly": true
     }
-  }
+  },
+  "releases": [
+    {
+      "period": "2026-08-01",
+      "units": 2687,
+      "yoy": -27,
+      "source": "https://www.autostat.ru/news/63041/",
+      "fetchedAt": "2026-11-12T05:40:56.439Z"
+    },
+    {
+      "period": "2026-09-01",
+      "units": 3418,
+      "yoy": -3.3,
+      "source": "https://www.autostat.ru/news/63290/",
+      "fetchedAt": "2026-11-12T05:40:56.439Z"
+    },
+    {
+      "period": "2026-10-01",
+      "units": 3990,
+      "yoy": -20,
+      "source": "https://www.autostat.ru/news/63442/",
+      "fetchedAt": "2026-11-12T05:40:56.439Z"
+    }
+  ]
 }
