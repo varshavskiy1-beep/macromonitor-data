@@ -1,32 +1,32 @@
 {
   "status": "ok",
-  "fetchedAt": "2026-11-12T00:58:03.880Z",
+  "fetchedAt": "2026-11-13T01:03:44.277Z",
   "imoex": {
     "secid": "IMOEX",
-    "last": 2494.77,
-    "yoy": -9.83,
-    "date": "2026-11-11",
+    "last": 2505.95,
+    "yoy": -9.42,
+    "date": "2026-11-12",
     "source": "https://iss.moex.com/iss/engines/stock/markets/index/boards/SNDX/securities/IMOEX.json?iss.meta=off&iss.only=marketdata,securities"
   },
   "mcftr": {
     "secid": "MCFTR",
-    "last": 7177.81,
-    "yoy": -1.96,
-    "date": "2026-11-11",
+    "last": 7230.33,
+    "yoy": -1.24,
+    "date": "2026-11-12",
     "source": "https://iss.moex.com/iss/engines/stock/markets/index/boards/RTSI/securities/MCFTR.json?iss.meta=off&iss.only=marketdata,securities"
   },
   "rvi": {
     "secid": "RVI",
-    "last": 31.95,
-    "yoy": -6.44,
-    "date": "2026-11-11",
+    "last": 32.08,
+    "yoy": -6.06,
+    "date": "2026-11-12",
     "source": "https://iss.moex.com/iss/engines/stock/markets/index/boards/RTSI/securities/RVI.json?iss.meta=off&iss.only=marketdata,securities"
   },
   "lqdt": {
     "secid": "LQDT",
-    "last": 2.1307,
-    "yoy": 0.03,
-    "date": "2026-11-11 23:50:39",
+    "last": 2.1315,
+    "yoy": 0.04,
+    "date": "2026-11-12 23:50:43",
     "source": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/LQDT.json?iss.meta=off&iss.only=marketdata"
   },
   "zcyc": {
@@ -34,61 +34,61 @@
     "points": [
       {
         "period": 0.25,
-        "value": 13.1346,
-        "date": "2026-11-11"
+        "value": 13.2538,
+        "date": "2026-11-12"
       },
       {
         "period": 0.5,
-        "value": 13.4417,
-        "date": "2026-11-11"
+        "value": 13.5277,
+        "date": "2026-11-12"
       },
       {
         "period": 0.75,
-        "value": 13.7245,
-        "date": "2026-11-11"
+        "value": 13.7837,
+        "date": "2026-11-12"
       },
       {
         "period": 1,
-        "value": 13.9977,
-        "date": "2026-11-11"
+        "value": 14.037,
+        "date": "2026-11-12"
       },
       {
         "period": 2,
-        "value": 14.9268,
-        "date": "2026-11-11"
+        "value": 14.9287,
+        "date": "2026-11-12"
       },
       {
         "period": 3,
-        "value": 15.5669,
-        "date": "2026-11-11"
+        "value": 15.5633,
+        "date": "2026-11-12"
       },
       {
         "period": 5,
-        "value": 16.2711,
-        "date": "2026-11-11"
+        "value": 16.2813,
+        "date": "2026-11-12"
       },
       {
         "period": 7,
-        "value": 16.5551,
-        "date": "2026-11-11"
+        "value": 16.5888,
+        "date": "2026-11-12"
       },
       {
         "period": 10,
-        "value": 16.6613,
-        "date": "2026-11-11"
+        "value": 16.7277,
+        "date": "2026-11-12"
       },
       {
         "period": 15,
-        "value": 16.6808,
-        "date": "2026-11-11"
+        "value": 16.7728,
+        "date": "2026-11-12"
       },
       {
         "period": 20,
-        "value": 16.6981,
-        "date": "2026-11-11"
+        "value": 16.7975,
+        "date": "2026-11-12"
       }
     ],
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "history": [
       {
         "date": "2014-01-31",
@@ -1323,12 +1323,12 @@
         "y9m": 13.8167
       },
       {
-        "date": "2026-11-11",
-        "y1": 13.9977,
-        "y10": 16.6613,
-        "y3m": 13.1346,
-        "y6m": 13.4417,
-        "y9m": 13.7245
+        "date": "2026-11-12",
+        "y1": 14.037,
+        "y10": 16.7277,
+        "y3m": 13.2538,
+        "y6m": 13.5277,
+        "y9m": 13.7837
       }
     ]
   },
@@ -2670,18 +2670,12 @@
       "value": 2509.26
     },
     {
-      "date": "2026-11-11",
-      "value": 2494.77
+      "date": "2026-11-12",
+      "value": 2505.95
     }
   ],
   "imoexDaily": {
     "points": [
-      {
-        "date": "2025-10-08",
-        "value": 2562.51,
-        "high": 2677.75,
-        "low": 2548.37
-      },
       {
         "date": "2025-10-09",
         "value": 2638.37,
@@ -4343,6 +4337,12 @@
         "value": 2494.77,
         "high": 2498.97,
         "low": 2414.22
+      },
+      {
+        "date": "2026-11-12",
+        "value": 2505.95,
+        "high": 2519.56,
+        "low": 2477.1
       }
     ],
     "source": "MOEX ISS daily history IMOEX SNDX",
@@ -4870,8 +4870,8 @@
       "value": 7244.19
     },
     {
-      "date": "2026-11-11",
-      "value": 7177.81
+      "date": "2026-11-12",
+      "value": 7230.33
     }
   ],
   "rviHistory": [
@@ -5396,16 +5396,16 @@
       "value": 30.44
     },
     {
-      "date": "2026-11-11",
-      "value": 31.95
+      "date": "2026-11-12",
+      "value": 32.08
     }
   ],
   "indices": {
     "IMOEX": {
       "secid": "IMOEX",
       "board": "SNDX",
-      "last": 2494.77,
-      "date": "2026-11-11",
+      "last": 2505.95,
+      "date": "2026-11-12",
       "history": [
         {
           "date": "1999-01-29",
@@ -6744,8 +6744,8 @@
           "value": 2509.26
         },
         {
-          "date": "2026-11-11",
-          "value": 2494.77
+          "date": "2026-11-12",
+          "value": 2505.95
         }
       ],
       "source": "MOEX ISS history IMOEX SNDX limit=100",
@@ -6754,8 +6754,8 @@
     "RGBI": {
       "secid": "RGBI",
       "board": "SNDX",
-      "last": 112.03,
-      "date": "2026-11-11",
+      "last": 112.01,
+      "date": "2026-11-12",
       "history": [
         {
           "date": "2016-01-29",
@@ -7278,8 +7278,8 @@
           "value": 112.41
         },
         {
-          "date": "2026-11-11",
-          "value": 112.03
+          "date": "2026-11-12",
+          "value": 112.01
         }
       ],
       "source": "MOEX ISS history RGBI SNDX limit=100",
@@ -7288,8 +7288,8 @@
     "MOEXFN": {
       "secid": "MOEXFN",
       "board": "SNDX",
-      "last": 9027.87,
-      "date": "2026-11-11",
+      "last": 9212.06,
+      "date": "2026-11-12",
       "history": [
         {
           "date": "2016-01-29",
@@ -7812,8 +7812,8 @@
           "value": 8911.6
         },
         {
-          "date": "2026-11-11",
-          "value": 9027.87
+          "date": "2026-11-12",
+          "value": 9212.06
         }
       ],
       "source": "MOEX ISS history MOEXFN SNDX limit=100",
@@ -7822,8 +7822,8 @@
     "MOEXOG": {
       "secid": "MOEXOG",
       "board": "SNDX",
-      "last": 6933.94,
-      "date": "2026-11-11",
+      "last": 6955.82,
+      "date": "2026-11-12",
       "history": [
         {
           "date": "2016-01-29",
@@ -8346,8 +8346,8 @@
           "value": 7179.59
         },
         {
-          "date": "2026-11-11",
-          "value": 6933.94
+          "date": "2026-11-12",
+          "value": 6955.82
         }
       ],
       "source": "MOEX ISS history MOEXOG SNDX limit=100",
@@ -8356,8 +8356,8 @@
     "RUCBHYTR": {
       "secid": "RUCBHYTR",
       "board": "RTSI",
-      "last": 172.46,
-      "date": "2026-11-11",
+      "last": 172.02,
+      "date": "2026-11-12",
       "history": [
         {
           "date": "2021-03-31",
@@ -8632,8 +8632,8 @@
           "value": 177.2
         },
         {
-          "date": "2026-11-11",
-          "value": 172.46
+          "date": "2026-11-12",
+          "value": 172.02
         }
       ],
       "source": "MOEX ISS history RUCBHYTR RTSI limit=100",
@@ -8642,8 +8642,8 @@
     "RUCBTRBBBNS": {
       "secid": "RUCBTRBBBNS",
       "board": "RTSI",
-      "last": 223.55,
-      "date": "2026-11-11",
+      "last": 222.67,
+      "date": "2026-11-12",
       "history": [
         {
           "date": "2018-12-29",
@@ -9026,8 +9026,8 @@
           "value": 228.02
         },
         {
-          "date": "2026-11-11",
-          "value": 223.55
+          "date": "2026-11-12",
+          "value": 222.67
         }
       ],
       "source": "MOEX ISS history RUCBTRBBBNS RTSI limit=100",
@@ -9036,8 +9036,8 @@
     "RUCBTR5YNS": {
       "secid": "RUCBTR5YNS",
       "board": "RTSI",
-      "last": 191.49,
-      "date": "2026-11-11",
+      "last": 191.08,
+      "date": "2026-11-12",
       "history": [
         {
           "date": "2018-12-29",
@@ -9420,8 +9420,8 @@
           "value": 189.42
         },
         {
-          "date": "2026-11-11",
-          "value": 191.49
+          "date": "2026-11-12",
+          "value": 191.08
         }
       ],
       "source": "MOEX ISS history RUCBTR5YNS RTSI limit=100",
@@ -9430,8 +9430,8 @@
     "RUCBTR3YNS": {
       "secid": "RUCBTR3YNS",
       "board": "RTSI",
-      "last": 206.6,
-      "date": "2026-11-11",
+      "last": 206.65,
+      "date": "2026-11-12",
       "history": [
         {
           "date": "2018-12-29",
@@ -9814,8 +9814,8 @@
           "value": 205.72
         },
         {
-          "date": "2026-11-11",
-          "value": 206.6
+          "date": "2026-11-12",
+          "value": 206.65
         }
       ],
       "source": "MOEX ISS history RUCBTR3YNS RTSI limit=100",
@@ -9824,8 +9824,8 @@
     "RUSFAR": {
       "secid": "RUSFAR",
       "board": "MMIX",
-      "last": 13.82,
-      "date": "2026-11-11",
+      "last": 13.76,
+      "date": "2026-11-12",
       "history": [
         {
           "date": "2018-01-31",
@@ -10252,8 +10252,8 @@
           "value": 14.17
         },
         {
-          "date": "2026-11-11",
-          "value": 13.82
+          "date": "2026-11-12",
+          "value": 13.76
         }
       ],
       "source": "MOEX ISS history RUSFAR MMIX limit=100",

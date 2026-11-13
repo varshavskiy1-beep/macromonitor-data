@@ -1,8 +1,8 @@
 {
   "status": "ok",
-  "fetchedAt": "2026-11-12T00:58:03.880Z",
+  "fetchedAt": "2026-11-13T01:03:44.277Z",
   "keyRate": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "value": 14
   },
   "keyRateError": null,
@@ -488,13 +488,13 @@
       "value": 14
     },
     {
-      "date": "2026-11-11",
+      "date": "2026-11-12",
       "value": 14
     }
   ],
   "usdRub": {
-    "value": 82.6617,
-    "date": "2026-11-12",
+    "value": 82.9803,
+    "date": "2026-11-13",
     "source": "www.cbr.ru XML_daily R01235",
     "usedCache": false,
     "error": null
@@ -981,8 +981,8 @@
       "value": 80.5573
     },
     {
-      "date": "2026-11-12",
-      "value": 82.6617
+      "date": "2026-11-13",
+      "value": 82.9803
     }
   ],
   "cnyHistory": [
@@ -1467,8 +1467,8 @@
       "value": 12.0873
     },
     {
-      "date": "2026-11-12",
-      "value": 12.3907
+      "date": "2026-11-13",
+      "value": 12.4009
     }
   ],
   "cpi": {
@@ -7750,8 +7750,8 @@
         "value": 14.12
       },
       {
-        "date": "2026-11-10",
-        "value": 13.81
+        "date": "2026-11-11",
+        "value": 13.92
       }
     ]
   },
@@ -8237,13 +8237,12 @@
       "value": 14.12
     },
     {
-      "date": "2026-11-10",
-      "value": 13.81
+      "date": "2026-11-11",
+      "value": 13.92
     }
   ],
   "ruoniaError": null,
   "meetings": {
-    "source": "https://cbr.ru/dkp/cal_mp/",
     "items": [
       {
         "date": "2024-02-16",
@@ -8565,7 +8564,9 @@
         "type": "заседание",
         "source": "https://cbr.ru/dkp/cal_mp/"
       }
-    ]
+    ],
+    "error": "календарь ЦБ HTTP 403 (cbr.ru без www)",
+    "source": null
   },
   "consensus": {
     "nextMeetingRate": 13.5,
@@ -8573,7 +8574,7 @@
     "source": "sbercib.ru/publication/prognoz-klyuchevoi-stavki-na-2026-god",
     "fetchedAt": "2026-10-26T02:55:39.298Z",
     "error": "SberCIB forecast: не разобрали таблицу месяц→ставка",
-    "lastAttempt": "2026-11-12T00:58:03.636Z"
+    "lastAttempt": "2026-11-13T01:03:43.963Z"
   },
   "depositMax": {
     "source": "https://cbr.ru/vfs/statistics/bank_sector/ibudv/szmdv_202609.xls",

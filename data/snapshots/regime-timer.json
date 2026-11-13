@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-12T00:58:10.790Z",
+  "fetchedAt": "2026-11-13T01:03:51.985Z",
   "status": "ok",
   "caption": "Это таймер режима рынка, а не сигнал купить бумагу. Атака только когда оба якоря выше своей средней. Нет котировки по любому якорю — оборона.",
   "usa": {
@@ -8,7 +8,7 @@
     "anchorsLabel": "JPM ∧ BTC",
     "regime": "defense",
     "regimeWord": "ОБОРОНА",
-    "asOf": "2026-11-11",
+    "asOf": "2026-11-12",
     "stale": false,
     "staleNote": null,
     "lastSwitch": "2026-11-05",
@@ -35,10 +35,10 @@
         "source": "Binance BTCUSDT daily klines, закрытые сутки UTC, закрытие USDT",
         "note": "по закрытию суток UTC",
         "hasData": true,
-        "asOf": "2026-11-11",
-        "close": 74015.19,
-        "ema100": 77485.59426451944,
-        "gapPct": -4.478773502945865,
+        "asOf": "2026-11-12",
+        "close": 71460,
+        "ema100": 77366.27556621213,
+        "gapPct": -7.63417331774926,
         "above": false,
         "warning": null
       }
@@ -2255,10 +2255,10 @@
             "btcFill": 0
           },
           {
-            "date": "2026-11-11",
-            "btcClose": 74015.19,
-            "btcEma": 77485.59426451944,
-            "btcFillBase": 77485.59426451944,
+            "date": "2026-11-12",
+            "btcClose": 71460,
+            "btcEma": 77366.27556621213,
+            "btcFillBase": 77366.27556621213,
             "btcFill": 0
           }
         ]
@@ -2272,11 +2272,11 @@
     "anchorsLabel": "ROSN ∧ HG",
     "regime": "defense",
     "regimeWord": "ОБОРОНА",
-    "asOf": "2026-11-11",
+    "asOf": "2026-11-12",
     "stale": false,
     "staleNote": null,
     "lastSwitch": "2026-11-03",
-    "daysInRegime": 5,
+    "daysInRegime": 6,
     "anchors": [
       {
         "id": "rosn",
@@ -2285,10 +2285,10 @@
         "source": "MOEX ISS daily ROSN TQBR",
         "note": null,
         "hasData": true,
-        "asOf": "2026-11-11",
-        "close": 356.2,
-        "ema100": 361.36107354385024,
-        "gapPct": -1.4282317387525612,
+        "asOf": "2026-11-12",
+        "close": 357.6,
+        "ema100": 361.2865968400116,
+        "gapPct": -1.0204078624162505,
         "above": false,
         "warning": null
       },
@@ -2299,10 +2299,10 @@
         "source": "медь COMEX, фьючерс · Yahoo Finance, закрытые дневные свечи",
         "note": "медь — по закрытию дня",
         "hasData": true,
-        "asOf": "2026-11-10",
-        "close": 6.2195000648498535,
-        "ema100": 6.429771417111039,
-        "gapPct": -3.270277255916232,
+        "asOf": "2026-11-11",
+        "close": 6.274499893188477,
+        "ema100": 6.426696733469008,
+        "gapPct": -2.368197016173479,
         "above": false,
         "warning": null
       }
@@ -3357,10 +3357,10 @@
             "rosnFill": 22.221750055525717
           },
           {
-            "date": "2026-11-11",
-            "rosnClose": 356.2,
-            "rosnEma": 361.36107354385024,
-            "rosnFillBase": 361.36107354385024,
+            "date": "2026-11-12",
+            "rosnClose": 357.6,
+            "rosnEma": 361.2865968400116,
+            "rosnFillBase": 361.2865968400116,
             "rosnFill": 0
           }
         ]
@@ -4785,10 +4785,10 @@
             "hgFill": 0.013843505103627862
           },
           {
-            "date": "2026-11-10",
-            "hgClose": 6.2195000648498535,
-            "hgEma": 6.429771417111039,
-            "hgFillBase": 6.429771417111039,
+            "date": "2026-11-11",
+            "hgClose": 6.274499893188477,
+            "hgEma": 6.426696733469008,
+            "hgFillBase": 6.426696733469008,
             "hgFill": 0
           }
         ]

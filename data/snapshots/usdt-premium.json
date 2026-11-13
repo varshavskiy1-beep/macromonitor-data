@@ -1,6 +1,6 @@
 {
   "status": "OK",
-  "fetchedAt": "2026-11-12T19:32:07.618Z",
+  "fetchedAt": "2026-11-13T01:04:07.370Z",
   "seamDate": "2026-07-09",
   "formula": "prem = USDT/RUB_spot − USDRUBF_last (₽)",
   "btcDaily": {
@@ -4680,20 +4680,24 @@
       },
       {
         "date": "2026-11-12",
-        "value": 71571.13
+        "value": 71460
+      },
+      {
+        "date": "2026-11-13",
+        "value": 70915.99
       }
     ]
   },
   "live": {
     "usdt": {
-      "value": 86.235,
+      "value": 86.22999999999999,
       "source": "Rapira api.rapira.net/open/market/rates USDT/RUB mid",
-      "asOf": "2026-11-12T19:31:59.057Z"
+      "asOf": "2026-11-13T01:04:02.550Z"
     },
     "usdrubf": {
-      "value": 82.51,
+      "value": 82.49,
       "source": "MOEX ISS USDRUBF RFUD (LAST in session, else SETTLEPRICE)",
-      "asOf": "2026-11-12T22:16:53+03:00",
+      "asOf": "2026-11-12T23:49:58+03:00",
       "inSession": true
     },
     "cbr": {
@@ -4702,12 +4706,12 @@
       "asOf": "2026-11-13",
       "usedCache": false
     },
-    "prem": 3.7249999999999943,
-    "premPct": 4.514604290389037,
-    "premCbr": 3.2546999999999997,
-    "dprem1d": 0.024999999999991473,
-    "dprem5d": -0.8250000000000028,
-    "premZ60d": 0.6166819743601287,
+    "prem": 3.739999999999995,
+    "premPct": 4.533882894896346,
+    "premCbr": 3.24969999999999,
+    "dprem1d": 0.03999999999999204,
+    "dprem5d": -0.8100000000000023,
+    "premZ60d": 0.633055402834457,
     "daysAbove4": 0
   },
   "exmoHistory": {
@@ -11544,7 +11548,12 @@
       },
       {
         "date": "2026-11-12",
-        "value": 86.235,
+        "value": 86.23,
+        "source": "rapira"
+      },
+      {
+        "date": "2026-11-13",
+        "value": 86.22999999999999,
         "source": "rapira"
       }
     ],
@@ -14807,6 +14816,10 @@
       {
         "date": "2026-11-11",
         "value": 82.66
+      },
+      {
+        "date": "2026-11-12",
+        "value": 82.98
       }
     ],
     "source": "MOEX ISS history USDRUBF RFUD SETTLEPRICE"
@@ -22551,9 +22564,15 @@
     },
     {
       "date": "2026-11-12",
-      "usdt": 86.235,
-      "usdrubf": 82.51,
-      "prem": 3.7249999999999943,
+      "usdt": 86.23,
+      "usdrubf": 82.49,
+      "prem": 3.740000000000009,
+      "sourceUsdt": "rapira"
+    },
+    {
+      "date": "2026-11-13",
+      "usdt": 86.22999999999999,
+      "prem": null,
       "sourceUsdt": "rapira"
     }
   ],

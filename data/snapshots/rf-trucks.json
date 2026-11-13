@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "fetchedAt": "2026-11-12T05:40:56.439Z",
+  "fetchedAt": "2026-11-13T01:07:25.691Z",
   "source": "autostat.ru HTML-релизы HCV >16т (АО «ППК»), не API и не ряд АЕБ",
   "note": "Живые месяцы — публичные HTML-новости autostat.ru (HCV полной массой от 16 т, данные АО «ППК»). Отдельного ряда АЕБ по HCV >16т нет. Помесячная детализация 2015–2024 — реконструкция лендинга из квартальных/годовых сводок ±10%; годовые суммы сходятся с публикациями. Доли ОЕМ — только когда месячный релиз называет марки.",
   "series": {
@@ -722,10 +722,10 @@
         }
       ],
       "error": null,
-      "lastAttempt": "2026-11-12T05:40:56.439Z",
+      "lastAttempt": "2026-11-13T01:07:25.691Z",
       "live": {
         "source": "https://www.autostat.ru/news/ (HCV >16т: «Рынок крупнотоннажных…» / «Продажи новых крупнотоннажных|тяжёлых…», штуки из описания релиза)",
-        "fetchedAt": "2026-11-12T05:40:56.439Z",
+        "fetchedAt": "2026-11-13T01:07:25.691Z",
         "appended": 0,
         "revised": 0
       }
@@ -831,7 +831,7 @@
     "source": "https://www.autostat.ru/news/63442/",
     "modelsNote": null,
     "error": null,
-    "lastAttempt": "2026-11-12T05:40:56.439Z"
+    "lastAttempt": "2026-11-13T01:07:25.691Z"
   },
   "aeb": {
     "month": "2026-10-01",
@@ -839,7 +839,7 @@
     "autostat": -20,
     "source": null,
     "note": "АЕБ недоступен/релиз не найден (https://aebrus.ru/en/media/press-releases/: релиз по грузовикам за месяц не найден; https://aebrus.ru/en/media/press-releases/sales-of-cars-and-light-commercial) — публикуем один ряд Autostat, среднее не считаем",
-    "checkedAt": "2026-11-12T05:40:56.439Z"
+    "checkedAt": "2026-11-13T01:07:25.691Z"
   },
   "scrape": {
     "autostat": {
@@ -854,21 +854,21 @@
       "units": 2687,
       "yoy": -27,
       "source": "https://www.autostat.ru/news/63041/",
-      "fetchedAt": "2026-11-12T05:40:56.439Z"
+      "fetchedAt": "2026-11-13T01:07:25.691Z"
     },
     {
       "period": "2026-09-01",
       "units": 3418,
       "yoy": -3.3,
       "source": "https://www.autostat.ru/news/63290/",
-      "fetchedAt": "2026-11-12T05:40:56.439Z"
+      "fetchedAt": "2026-11-13T01:07:25.691Z"
     },
     {
       "period": "2026-10-01",
       "units": 3990,
       "yoy": -20,
       "source": "https://www.autostat.ru/news/63442/",
-      "fetchedAt": "2026-11-12T05:40:56.439Z"
+      "fetchedAt": "2026-11-13T01:07:25.691Z"
     }
   ]
 }
