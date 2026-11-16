@@ -69,8 +69,8 @@
         "rrpBn": 0.325,
         "rrpDate": "2026-11-13",
         "walclMn": 6758867,
-        "tgaMn": null,
-        "netLiquidityBn": null
+        "tgaMn": 912134,
+        "netLiquidityBn": 5846.408
       }
     },
     {
@@ -370,8 +370,8 @@
     "rrpBn": 0.325,
     "rrpDate": "2026-11-13",
     "walclMn": 6758867,
-    "tgaMn": null,
-    "netLiquidityBn": null
+    "tgaMn": 912134,
+    "netLiquidityBn": 5846.408
   },
   "gpr": {
     "ma30": 184.74339294433594,
