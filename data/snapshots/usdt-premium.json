@@ -1,6 +1,6 @@
 {
   "status": "OK",
-  "fetchedAt": "2026-11-17T01:00:21.284Z",
+  "fetchedAt": "2026-11-17T20:27:55.111Z",
   "seamDate": "2026-07-09",
   "formula": "prem = USDT/RUB_spot − USDRUBF_last (₽)",
   "btcDaily": {
@@ -4700,35 +4700,35 @@
       },
       {
         "date": "2026-11-17",
-        "value": 64619.03
+        "value": 64006.44
       }
     ]
   },
   "live": {
     "usdt": {
-      "value": 87.08,
+      "value": 86.38499999999999,
       "source": "Rapira api.rapira.net/open/market/rates USDT/RUB mid",
-      "asOf": "2026-11-17T01:00:17.320Z"
+      "asOf": "2026-11-17T20:27:48.011Z"
     },
     "usdrubf": {
-      "value": 82.92,
+      "value": 82.07,
       "source": "MOEX ISS USDRUBF RFUD (LAST in session, else SETTLEPRICE)",
-      "asOf": "2026-11-16T23:49:03+03:00",
+      "asOf": "2026-11-17T23:12:26+03:00",
       "inSession": true
     },
     "cbr": {
-      "value": 82.5143,
+      "value": 82.4529,
       "source": "www.cbr.ru XML_daily R01235",
-      "asOf": "2026-11-17",
+      "asOf": "2026-11-18",
       "usedCache": false
     },
-    "prem": 4.159999999999997,
-    "premPct": 5.016883743367097,
-    "premCbr": 4.5656999999999925,
-    "dprem1d": 0.060000000000002274,
-    "dprem5d": -0.15000000000000568,
-    "premZ60d": 1.051449940918035,
-    "daysAbove4": 2
+    "prem": 4.314999999999998,
+    "premPct": 5.257706835628119,
+    "premCbr": 3.9320999999999913,
+    "dprem1d": -0.25499999999999545,
+    "dprem5d": -0.25500000000000966,
+    "premZ60d": 1.1735819764076616,
+    "daysAbove4": 3
   },
   "exmoHistory": {
     "points": [
@@ -11589,7 +11589,7 @@
       },
       {
         "date": "2026-11-17",
-        "value": 87.08,
+        "value": 86.38499999999999,
         "source": "rapira"
       }
     ],
@@ -22635,14 +22635,15 @@
     {
       "date": "2026-11-16",
       "usdt": 87.08,
-      "usdrubf": 82.92,
-      "prem": 4.159999999999997,
+      "usdrubf": 82.51,
+      "prem": 4.569999999999993,
       "sourceUsdt": "rapira"
     },
     {
       "date": "2026-11-17",
-      "usdt": 87.08,
-      "prem": null,
+      "usdt": 86.38499999999999,
+      "usdrubf": 82.07,
+      "prem": 4.314999999999998,
       "sourceUsdt": "rapira"
     }
   ],
