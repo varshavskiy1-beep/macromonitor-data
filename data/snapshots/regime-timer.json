@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T00:53:15.949Z",
+  "fetchedAt": "2026-11-17T01:00:04.923Z",
   "status": "ok",
   "caption": "Это таймер режима рынка, а не сигнал купить бумагу. Атака только когда оба якоря выше своей средней. Нет котировки по любому якорю — оборона.",
   "usa": {
@@ -8,7 +8,7 @@
     "anchorsLabel": "JPM ∧ BTC",
     "regime": "defense",
     "regimeWord": "ОБОРОНА",
-    "asOf": "2026-11-15",
+    "asOf": "2026-11-16",
     "stale": false,
     "staleNote": null,
     "lastSwitch": "2026-11-05",
@@ -35,10 +35,10 @@
         "source": "Binance BTCUSDT daily klines, закрытые сутки UTC, закрытие USDT",
         "note": "по закрытию суток UTC",
         "hasData": true,
-        "asOf": "2026-11-15",
-        "close": 65351.05,
-        "ema100": 76699.60008358727,
-        "gapPct": -14.796100724410044,
+        "asOf": "2026-11-16",
+        "close": 64882.87,
+        "ema100": 76465.60542846673,
+        "gapPct": -15.14764103882279,
         "above": false,
         "warning": null
       }
@@ -2255,10 +2255,10 @@
             "btcFill": 0
           },
           {
-            "date": "2026-11-15",
-            "btcClose": 65351.05,
-            "btcEma": 76699.60008358727,
-            "btcFillBase": 76699.60008358727,
+            "date": "2026-11-16",
+            "btcClose": 64882.87,
+            "btcEma": 76465.60542846673,
+            "btcFillBase": 76465.60542846673,
             "btcFill": 0
           }
         ]
@@ -2272,7 +2272,7 @@
     "anchorsLabel": "ROSN ∧ HG",
     "regime": "defense",
     "regimeWord": "ОБОРОНА",
-    "asOf": "2026-11-13",
+    "asOf": "2026-11-16",
     "stale": false,
     "staleNote": null,
     "lastSwitch": "2026-11-03",
@@ -2285,10 +2285,10 @@
         "source": "MOEX ISS daily ROSN TQBR",
         "note": null,
         "hasData": true,
-        "asOf": "2026-11-13",
-        "close": 356.65,
-        "ema100": 361.1947830411995,
-        "gapPct": -1.258263755343647,
+        "asOf": "2026-11-16",
+        "close": 352.4,
+        "ema100": 361.02062892157176,
+        "gapPct": -2.3878493999977324,
         "above": false,
         "warning": null
       },
@@ -3357,10 +3357,10 @@
             "rosnFill": 22.221750055525717
           },
           {
-            "date": "2026-11-13",
-            "rosnClose": 356.65,
-            "rosnEma": 361.1947830411995,
-            "rosnFillBase": 361.1947830411995,
+            "date": "2026-11-16",
+            "rosnClose": 352.4,
+            "rosnEma": 361.02062892157176,
+            "rosnFillBase": 361.02062892157176,
             "rosnFill": 0
           }
         ]
