@@ -1,17 +1,9 @@
 {
   "status": "ok",
-  "fetchedAt": "2026-11-18T00:53:05.146Z",
+  "fetchedAt": "2026-11-19T00:56:52.917Z",
   "asOf": "2026-11-16",
   "source": "https://www.matteoiacoviello.com/gpr_files/data_gpr_daily_recent.xls",
   "daily": [
-    {
-      "date": "2023-11-18",
-      "gprd": 111.65958404541016,
-      "threat": 79.58438110351562,
-      "act": 148.4211883544922,
-      "ma7": 138.61138916015625,
-      "ma30": 179.89730834960938
-    },
     {
       "date": "2023-11-19",
       "gprd": 101.5645751953125,

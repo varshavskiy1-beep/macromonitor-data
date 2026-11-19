@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "fetchedAt": "2026-11-18T00:53:05.146Z",
+  "fetchedAt": "2026-11-19T00:56:52.917Z",
   "series": {
     "IORB": {
       "source": "fred-api",
@@ -10,11 +10,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-11-18",
+        "date": "2026-11-19",
         "value": 3.9
       },
-      "lastUpdated": "2026-11-17 15:31:30-06",
-      "observationEnd": "2026-11-18",
+      "lastUpdated": "2026-11-18 15:31:25-06",
+      "observationEnd": "2026-11-19",
       "nextRelease": null,
       "points": [
         {
@@ -274,7 +274,7 @@
           "value": 3.9
         },
         {
-          "date": "2026-11-18",
+          "date": "2026-11-19",
           "value": 3.9
         }
       ]
@@ -287,11 +287,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-11-17",
-        "value": 0.351
+        "date": "2026-11-18",
+        "value": 0.331
       },
-      "lastUpdated": "2026-11-17 13:02:30-06",
-      "observationEnd": "2026-11-17",
+      "lastUpdated": "2026-11-18 13:03:36-06",
+      "observationEnd": "2026-11-18",
       "nextRelease": null,
       "points": [
         {
@@ -863,8 +863,8 @@
           "value": 4.375
         },
         {
-          "date": "2026-11-17",
-          "value": 0.351
+          "date": "2026-11-18",
+          "value": 0.331
         }
       ]
     },
@@ -1465,11 +1465,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-11-16",
-        "value": 3.34
+        "date": "2026-11-17",
+        "value": 3.43
       },
-      "lastUpdated": "2026-11-17 09:44:22-06",
-      "observationEnd": "2026-11-16",
+      "lastUpdated": "2026-11-18 09:22:54-06",
+      "observationEnd": "2026-11-17",
       "nextRelease": null,
       "points": [
         {
@@ -1617,8 +1617,8 @@
           "value": 3.44
         },
         {
-          "date": "2026-11-16",
-          "value": 3.34
+          "date": "2026-11-17",
+          "value": 3.43
         }
       ]
     },
@@ -1630,11 +1630,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-11-16",
+        "date": "2026-11-17",
         "value": 3.88
       },
-      "lastUpdated": "2026-11-17 15:16:22-06",
-      "observationEnd": "2026-11-16",
+      "lastUpdated": "2026-11-18 15:16:41-06",
+      "observationEnd": "2026-11-17",
       "nextRelease": null,
       "points": [
         {
@@ -2206,7 +2206,7 @@
           "value": 3.88
         },
         {
-          "date": "2026-11-16",
+          "date": "2026-11-17",
           "value": 3.88
         }
       ]
@@ -2219,11 +2219,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-11-17",
-        "value": 3.91999
+        "date": "2026-11-18",
+        "value": 3.92133
       },
-      "lastUpdated": "2026-11-17 07:02:32-06",
-      "observationEnd": "2026-11-17",
+      "lastUpdated": "2026-11-18 07:02:38-06",
+      "observationEnd": "2026-11-18",
       "nextRelease": null,
       "points": [
         {
@@ -2635,8 +2635,8 @@
           "value": 3.89857
         },
         {
-          "date": "2026-11-17",
-          "value": 3.91999
+          "date": "2026-11-18",
+          "value": 3.92133
         }
       ]
     },
@@ -2648,11 +2648,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-11-17",
-        "value": 3.83172
+        "date": "2026-11-18",
+        "value": 3.83508
       },
-      "lastUpdated": "2026-11-17 07:02:32-06",
-      "observationEnd": "2026-11-17",
+      "lastUpdated": "2026-11-18 07:02:30-06",
+      "observationEnd": "2026-11-18",
       "nextRelease": null,
       "points": [
         {
@@ -3056,8 +3056,8 @@
           "value": 3.77532
         },
         {
-          "date": "2026-11-17",
-          "value": 3.83172
+          "date": "2026-11-18",
+          "value": 3.83508
         }
       ]
     },
@@ -4239,11 +4239,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-11-17",
-        "value": 0.77
+        "date": "2026-11-18",
+        "value": 0.73
       },
-      "lastUpdated": "2026-11-17 16:04:48-06",
-      "observationEnd": "2026-11-17",
+      "lastUpdated": "2026-11-18 16:04:23-06",
+      "observationEnd": "2026-11-18",
       "nextRelease": null,
       "points": [
         {
@@ -6399,8 +6399,8 @@
           "value": 0.78
         },
         {
-          "date": "2026-11-17",
-          "value": 0.77
+          "date": "2026-11-18",
+          "value": 0.73
         }
       ]
     },
@@ -19658,11 +19658,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-11-11",
-        "value": 92.14
+        "date": "2026-11-17",
+        "value": 92.94
       },
-      "lastUpdated": "2026-11-12 19:31:23-06",
-      "observationEnd": "2026-11-11",
+      "lastUpdated": "2026-11-18 12:18:23-06",
+      "observationEnd": "2026-11-17",
       "nextRelease": null,
       "points": [
         {
@@ -20234,8 +20234,8 @@
           "value": 120.15
         },
         {
-          "date": "2026-11-11",
-          "value": 92.14
+          "date": "2026-11-17",
+          "value": 92.94
         }
       ]
     },
@@ -20247,11 +20247,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-11-16",
-        "value": 3.93
+        "date": "2026-11-17",
+        "value": 3.92
       },
-      "lastUpdated": "2026-11-17 07:02:33-06",
-      "observationEnd": "2026-11-16",
+      "lastUpdated": "2026-11-18 07:02:31-06",
+      "observationEnd": "2026-11-17",
       "nextRelease": null,
       "points": [
         {
@@ -20667,8 +20667,8 @@
           "value": 3.95
         },
         {
-          "date": "2026-11-16",
-          "value": 3.93
+          "date": "2026-11-17",
+          "value": 3.92
         }
       ]
     },
@@ -20680,11 +20680,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-11-16",
-        "value": 1.96
+        "date": "2026-11-17",
+        "value": 2.04
       },
-      "lastUpdated": "2026-11-17 09:50:14-06",
-      "observationEnd": "2026-11-16",
+      "lastUpdated": "2026-11-18 09:23:24-06",
+      "observationEnd": "2026-11-17",
       "nextRelease": null,
       "points": [
         {
@@ -20832,8 +20832,8 @@
           "value": 2.09
         },
         {
-          "date": "2026-11-16",
-          "value": 1.96
+          "date": "2026-11-17",
+          "value": 2.04
         }
       ]
     },
@@ -20845,11 +20845,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-11-16",
-        "value": 3.57
+        "date": "2026-11-17",
+        "value": 3.68
       },
-      "lastUpdated": "2026-11-17 09:47:16-06",
-      "observationEnd": "2026-11-16",
+      "lastUpdated": "2026-11-18 09:23:25-06",
+      "observationEnd": "2026-11-17",
       "nextRelease": null,
       "points": [
         {
@@ -20997,8 +20997,8 @@
           "value": 3.6
         },
         {
-          "date": "2026-11-16",
-          "value": 3.57
+          "date": "2026-11-17",
+          "value": 3.68
         }
       ]
     },
@@ -21010,11 +21010,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-11-16",
-        "value": 13.1
+        "date": "2026-11-17",
+        "value": 13.29
       },
-      "lastUpdated": "2026-11-17 09:50:11-06",
-      "observationEnd": "2026-11-16",
+      "lastUpdated": "2026-11-18 09:23:04-06",
+      "observationEnd": "2026-11-17",
       "nextRelease": null,
       "points": [
         {
@@ -21162,8 +21162,8 @@
           "value": 13.27
         },
         {
-          "date": "2026-11-16",
-          "value": 13.1
+          "date": "2026-11-17",
+          "value": 13.29
         }
       ]
     },
@@ -21175,11 +21175,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-11-16",
-        "value": 0.9
+        "date": "2026-11-17",
+        "value": 0.92
       },
-      "lastUpdated": "2026-11-17 09:42:17-06",
-      "observationEnd": "2026-11-16",
+      "lastUpdated": "2026-11-18 09:22:51-06",
+      "observationEnd": "2026-11-17",
       "nextRelease": null,
       "points": [
         {
@@ -21327,8 +21327,8 @@
           "value": 0.94
         },
         {
-          "date": "2026-11-16",
-          "value": 0.9
+          "date": "2026-11-17",
+          "value": 0.92
         }
       ]
     },
@@ -59064,11 +59064,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-11-16",
-        "value": 64537.93
+        "date": "2026-11-17",
+        "value": 64604.63
       },
-      "lastUpdated": "2026-11-16 19:05:32-06",
-      "observationEnd": "2026-11-16",
+      "lastUpdated": "2026-11-17 19:05:33-06",
+      "observationEnd": "2026-11-17",
       "nextRelease": null,
       "points": [
         {
@@ -59640,8 +59640,8 @@
           "value": 77403.92
         },
         {
-          "date": "2026-11-16",
-          "value": 64537.93
+          "date": "2026-11-17",
+          "value": 64604.63
         }
       ]
     },
@@ -59653,11 +59653,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-11-16",
-        "value": 1812.33
+        "date": "2026-11-17",
+        "value": 1815.75
       },
-      "lastUpdated": "2026-11-16 19:05:31-06",
-      "observationEnd": "2026-11-16",
+      "lastUpdated": "2026-11-17 19:05:33-06",
+      "observationEnd": "2026-11-17",
       "nextRelease": null,
       "points": [
         {
@@ -60165,8 +60165,8 @@
           "value": 2252.88
         },
         {
-          "date": "2026-11-16",
-          "value": 1812.33
+          "date": "2026-11-17",
+          "value": 1815.75
         }
       ]
     },
@@ -70024,13 +70024,445 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-11-16",
-        "value": 7416.59
+        "date": "2026-11-17",
+        "value": 7340.53
       },
-      "lastUpdated": "2026-11-16 19:11:55-06",
-      "observationEnd": "2026-11-16",
+      "lastUpdated": "2026-11-18 11:39:50-06",
+      "observationEnd": "2026-11-17",
       "nextRelease": null,
       "points": [
+        {
+          "date": "2016-11-30",
+          "value": 2198.81
+        },
+        {
+          "date": "2016-12-30",
+          "value": 2238.83
+        },
+        {
+          "date": "2017-01-31",
+          "value": 2278.87
+        },
+        {
+          "date": "2017-02-28",
+          "value": 2363.64
+        },
+        {
+          "date": "2017-03-31",
+          "value": 2362.72
+        },
+        {
+          "date": "2017-04-28",
+          "value": 2384.2
+        },
+        {
+          "date": "2017-05-31",
+          "value": 2411.8
+        },
+        {
+          "date": "2017-06-30",
+          "value": 2423.41
+        },
+        {
+          "date": "2017-07-31",
+          "value": 2470.3
+        },
+        {
+          "date": "2017-08-31",
+          "value": 2471.65
+        },
+        {
+          "date": "2017-09-29",
+          "value": 2519.36
+        },
+        {
+          "date": "2017-10-31",
+          "value": 2575.26
+        },
+        {
+          "date": "2017-11-30",
+          "value": 2647.58
+        },
+        {
+          "date": "2017-12-29",
+          "value": 2673.61
+        },
+        {
+          "date": "2018-01-31",
+          "value": 2823.81
+        },
+        {
+          "date": "2018-02-28",
+          "value": 2713.83
+        },
+        {
+          "date": "2018-03-29",
+          "value": 2640.87
+        },
+        {
+          "date": "2018-04-30",
+          "value": 2648.05
+        },
+        {
+          "date": "2018-05-31",
+          "value": 2705.27
+        },
+        {
+          "date": "2018-06-29",
+          "value": 2718.37
+        },
+        {
+          "date": "2018-07-31",
+          "value": 2816.29
+        },
+        {
+          "date": "2018-08-31",
+          "value": 2901.52
+        },
+        {
+          "date": "2018-09-28",
+          "value": 2913.98
+        },
+        {
+          "date": "2018-10-31",
+          "value": 2711.74
+        },
+        {
+          "date": "2018-11-30",
+          "value": 2760.17
+        },
+        {
+          "date": "2018-12-31",
+          "value": 2506.85
+        },
+        {
+          "date": "2019-01-31",
+          "value": 2704.1
+        },
+        {
+          "date": "2019-02-28",
+          "value": 2784.49
+        },
+        {
+          "date": "2019-03-29",
+          "value": 2834.4
+        },
+        {
+          "date": "2019-04-30",
+          "value": 2945.83
+        },
+        {
+          "date": "2019-05-31",
+          "value": 2752.06
+        },
+        {
+          "date": "2019-06-28",
+          "value": 2941.76
+        },
+        {
+          "date": "2019-07-31",
+          "value": 2980.38
+        },
+        {
+          "date": "2019-08-30",
+          "value": 2926.46
+        },
+        {
+          "date": "2019-09-30",
+          "value": 2976.74
+        },
+        {
+          "date": "2019-10-31",
+          "value": 3037.56
+        },
+        {
+          "date": "2019-11-29",
+          "value": 3140.98
+        },
+        {
+          "date": "2019-12-31",
+          "value": 3230.78
+        },
+        {
+          "date": "2020-01-31",
+          "value": 3225.52
+        },
+        {
+          "date": "2020-02-28",
+          "value": 2954.22
+        },
+        {
+          "date": "2020-03-31",
+          "value": 2584.59
+        },
+        {
+          "date": "2020-04-30",
+          "value": 2912.43
+        },
+        {
+          "date": "2020-05-29",
+          "value": 3044.31
+        },
+        {
+          "date": "2020-06-30",
+          "value": 3100.29
+        },
+        {
+          "date": "2020-07-31",
+          "value": 3271.12
+        },
+        {
+          "date": "2020-08-31",
+          "value": 3500.31
+        },
+        {
+          "date": "2020-09-30",
+          "value": 3363
+        },
+        {
+          "date": "2020-10-30",
+          "value": 3269.96
+        },
+        {
+          "date": "2020-11-30",
+          "value": 3621.63
+        },
+        {
+          "date": "2020-12-31",
+          "value": 3756.07
+        },
+        {
+          "date": "2021-01-29",
+          "value": 3714.24
+        },
+        {
+          "date": "2021-02-26",
+          "value": 3811.15
+        },
+        {
+          "date": "2021-03-31",
+          "value": 3972.89
+        },
+        {
+          "date": "2021-04-30",
+          "value": 4181.17
+        },
+        {
+          "date": "2021-05-28",
+          "value": 4204.11
+        },
+        {
+          "date": "2021-06-30",
+          "value": 4297.5
+        },
+        {
+          "date": "2021-07-30",
+          "value": 4395.26
+        },
+        {
+          "date": "2021-08-31",
+          "value": 4522.68
+        },
+        {
+          "date": "2021-09-30",
+          "value": 4307.54
+        },
+        {
+          "date": "2021-10-29",
+          "value": 4605.38
+        },
+        {
+          "date": "2021-11-30",
+          "value": 4567
+        },
+        {
+          "date": "2021-12-31",
+          "value": 4766.18
+        },
+        {
+          "date": "2022-01-31",
+          "value": 4515.55
+        },
+        {
+          "date": "2022-02-28",
+          "value": 4373.94
+        },
+        {
+          "date": "2022-03-31",
+          "value": 4530.41
+        },
+        {
+          "date": "2022-04-29",
+          "value": 4131.93
+        },
+        {
+          "date": "2022-05-31",
+          "value": 4132.15
+        },
+        {
+          "date": "2022-06-30",
+          "value": 3785.38
+        },
+        {
+          "date": "2022-07-29",
+          "value": 4130.29
+        },
+        {
+          "date": "2022-08-31",
+          "value": 3955
+        },
+        {
+          "date": "2022-09-30",
+          "value": 3585.62
+        },
+        {
+          "date": "2022-10-31",
+          "value": 3871.98
+        },
+        {
+          "date": "2022-11-30",
+          "value": 4080.11
+        },
+        {
+          "date": "2022-12-30",
+          "value": 3839.5
+        },
+        {
+          "date": "2023-01-31",
+          "value": 4076.6
+        },
+        {
+          "date": "2023-02-28",
+          "value": 3970.15
+        },
+        {
+          "date": "2023-03-31",
+          "value": 4109.31
+        },
+        {
+          "date": "2023-04-28",
+          "value": 4169.48
+        },
+        {
+          "date": "2023-05-31",
+          "value": 4179.83
+        },
+        {
+          "date": "2023-06-30",
+          "value": 4450.38
+        },
+        {
+          "date": "2023-07-31",
+          "value": 4588.96
+        },
+        {
+          "date": "2023-08-31",
+          "value": 4507.66
+        },
+        {
+          "date": "2023-09-29",
+          "value": 4288.05
+        },
+        {
+          "date": "2023-10-31",
+          "value": 4193.8
+        },
+        {
+          "date": "2023-11-30",
+          "value": 4567.8
+        },
+        {
+          "date": "2023-12-29",
+          "value": 4769.83
+        },
+        {
+          "date": "2024-01-31",
+          "value": 4845.65
+        },
+        {
+          "date": "2024-02-29",
+          "value": 5096.27
+        },
+        {
+          "date": "2024-03-28",
+          "value": 5254.35
+        },
+        {
+          "date": "2024-04-30",
+          "value": 5035.69
+        },
+        {
+          "date": "2024-05-31",
+          "value": 5277.51
+        },
+        {
+          "date": "2024-06-28",
+          "value": 5460.48
+        },
+        {
+          "date": "2024-07-31",
+          "value": 5522.3
+        },
+        {
+          "date": "2024-08-30",
+          "value": 5648.4
+        },
+        {
+          "date": "2024-09-30",
+          "value": 5762.48
+        },
+        {
+          "date": "2024-10-31",
+          "value": 5705.45
+        },
+        {
+          "date": "2024-11-29",
+          "value": 6032.38
+        },
+        {
+          "date": "2024-12-31",
+          "value": 5881.63
+        },
+        {
+          "date": "2025-01-31",
+          "value": 6040.53
+        },
+        {
+          "date": "2025-02-28",
+          "value": 5954.5
+        },
+        {
+          "date": "2025-03-31",
+          "value": 5611.85
+        },
+        {
+          "date": "2025-04-30",
+          "value": 5569.06
+        },
+        {
+          "date": "2025-05-30",
+          "value": 5911.69
+        },
+        {
+          "date": "2025-06-30",
+          "value": 6204.95
+        },
+        {
+          "date": "2025-07-31",
+          "value": 6339.39
+        },
+        {
+          "date": "2025-08-29",
+          "value": 6460.26
+        },
+        {
+          "date": "2025-09-30",
+          "value": 6688.46
+        },
+        {
+          "date": "2025-10-31",
+          "value": 6840.2
+        },
         {
           "date": "2025-11-28",
           "value": 6849.09
@@ -70080,8 +70512,8 @@
           "value": 7580.07
         },
         {
-          "date": "2026-11-16",
-          "value": 7416.59
+          "date": "2026-11-17",
+          "value": 7340.53
         }
       ]
     },
@@ -70093,11 +70525,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-11-16",
-        "value": 1872.75
+        "date": "2026-11-17",
+        "value": 1868.8
       },
-      "lastUpdated": "2026-11-17 09:51:17-06",
-      "observationEnd": "2026-11-16",
+      "lastUpdated": "2026-11-18 09:23:36-06",
+      "observationEnd": "2026-11-17",
       "nextRelease": null,
       "points": [
         {
@@ -70245,8 +70677,8 @@
           "value": 1873.28
         },
         {
-          "date": "2026-11-16",
-          "value": 1872.75
+          "date": "2026-11-17",
+          "value": 1868.8
         }
       ]
     },
@@ -70258,11 +70690,11 @@
       "staleNote": null,
       "staleAsOf": null,
       "last": {
-        "date": "2026-11-16",
-        "value": 3530.03
+        "date": "2026-11-17",
+        "value": 3530.37
       },
-      "lastUpdated": "2026-11-17 09:51:00-06",
-      "observationEnd": "2026-11-16",
+      "lastUpdated": "2026-11-18 09:23:32-06",
+      "observationEnd": "2026-11-17",
       "nextRelease": null,
       "points": [
         {
@@ -70410,8 +70842,8 @@
           "value": 3558.12
         },
         {
-          "date": "2026-11-16",
-          "value": 3530.03
+          "date": "2026-11-17",
+          "value": 3530.37
         }
       ]
     }
@@ -70420,8 +70852,8 @@
     "source": "Treasury DTS operating_cash_balance open_today_bal · Treasury General Account (TGA) Opening Balance",
     "error": null,
     "last": {
-      "date": "2026-11-16",
-      "value": 924618
+      "date": "2026-11-17",
+      "value": 895774
     },
     "points": [
       {
@@ -70645,16 +71077,16 @@
         "value": 1040236
       },
       {
-        "date": "2026-11-16",
-        "value": 924618
+        "date": "2026-11-17",
+        "value": 895774
       }
     ]
   },
   "sofrNy": {
     "source": "https://markets.newyorkfed.org/api/rates/secured/sofr/last/120.json",
     "last": {
-      "date": "2026-11-16",
-      "value": 3.93
+      "date": "2026-11-17",
+      "value": 3.92
     },
     "points": [
       {
@@ -70682,8 +71114,8 @@
         "value": 3.95
       },
       {
-        "date": "2026-11-16",
-        "value": 3.93
+        "date": "2026-11-17",
+        "value": 3.92
       }
     ]
   },
@@ -71168,8 +71600,8 @@
         "value": 5.000000000000027
       },
       {
-        "date": "2026-11-16",
-        "value": 3.000000000000025
+        "date": "2026-11-17",
+        "value": 2.0000000000000018
       }
     ]
   },
@@ -71181,11 +71613,11 @@
     "staleNote": null,
     "staleAsOf": null,
     "last": {
-      "date": "2026-11-16",
-      "value": 1.228
+      "date": "2026-11-17",
+      "value": 1.227
     },
-    "lastUpdated": "2026-11-18",
-    "observationEnd": "2026-11-16",
+    "lastUpdated": "2026-11-19",
+    "observationEnd": "2026-11-17",
     "nextRelease": null,
     "points": [
       {
@@ -71709,8 +72141,8 @@
         "value": 1.227
       },
       {
-        "date": "2026-11-16",
-        "value": 1.228
+        "date": "2026-11-17",
+        "value": 1.227
       }
     ]
   }
