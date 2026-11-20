@@ -1,8 +1,8 @@
 {
   "status": "ok",
-  "fetchedAt": "2026-11-19T00:56:52.917Z",
+  "fetchedAt": "2026-11-20T00:59:40.947Z",
   "keyRate": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "value": 14
   },
   "keyRateError": null,
@@ -488,13 +488,13 @@
       "value": 14
     },
     {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "value": 14
     }
   ],
   "usdRub": {
-    "value": 82.2281,
-    "date": "2026-11-19",
+    "value": 81.929,
+    "date": "2026-11-20",
     "source": "www.cbr.ru XML_daily R01235",
     "usedCache": false,
     "error": null
@@ -981,8 +981,8 @@
       "value": 80.5573
     },
     {
-      "date": "2026-11-19",
-      "value": 82.2281
+      "date": "2026-11-20",
+      "value": 81.929
     }
   ],
   "cnyHistory": [
@@ -1467,8 +1467,8 @@
       "value": 12.0873
     },
     {
-      "date": "2026-11-19",
-      "value": 12.3004
+      "date": "2026-11-20",
+      "value": 12.2546
     }
   ],
   "cpi": {
@@ -7750,8 +7750,8 @@
         "value": 14.12
       },
       {
-        "date": "2026-11-17",
-        "value": 13.89
+        "date": "2026-11-18",
+        "value": 13.96
       }
     ]
   },
@@ -8237,8 +8237,8 @@
       "value": 14.12
     },
     {
-      "date": "2026-11-17",
-      "value": 13.89
+      "date": "2026-11-18",
+      "value": 13.96
     }
   ],
   "ruoniaError": null,
@@ -8574,7 +8574,7 @@
     "source": "sbercib.ru/publication/prognoz-klyuchevoi-stavki-na-2026-god",
     "fetchedAt": "2026-10-26T02:55:39.298Z",
     "error": "SberCIB forecast: не разобрали таблицу месяц→ставка",
-    "lastAttempt": "2026-11-19T00:56:52.650Z"
+    "lastAttempt": "2026-11-20T00:59:40.617Z"
   },
   "depositMax": {
     "value": null,

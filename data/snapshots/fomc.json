@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-11-19T01:04:26.888Z",
-  "asOf": "2026-11-19",
+  "fetchedAt": "2026-11-20T01:04:31.748Z",
+  "asOf": "2026-11-20",
   "source": {
     "name": "Board of Governors calendar.json",
     "url": "https://www.federalreserve.gov/json/calendar.json",
@@ -12,7 +12,7 @@
     "startDate": "2026-12-08",
     "title": "FOMC Meeting",
     "time": "2:00 p.m.",
-    "daysUntil": 20
+    "daysUntil": 19
   },
   "upcoming": [
     {
@@ -22,7 +22,7 @@
       "time": "2:00 p.m.",
       "type": "Beige",
       "kind": "beige",
-      "daysUntil": 6
+      "daysUntil": 5
     },
     {
       "date": "2026-12-09",
@@ -31,7 +31,7 @@
       "time": "2:00 p.m.",
       "type": "FOMC",
       "kind": "meeting",
-      "daysUntil": 20
+      "daysUntil": 19
     },
     {
       "date": "2026-12-09",
@@ -40,7 +40,7 @@
       "time": "2:30 p.m.",
       "type": "FOMC",
       "kind": "press",
-      "daysUntil": 20
+      "daysUntil": 19
     },
     {
       "date": "2026-12-30",
@@ -49,7 +49,7 @@
       "time": "2:00 p.m.",
       "type": "FOMC",
       "kind": "minutes",
-      "daysUntil": 41
+      "daysUntil": 40
     }
   ],
   "past": [
@@ -60,7 +60,7 @@
       "time": "2:00 p.m.",
       "type": "Beige",
       "kind": "beige",
-      "daysUntil": -127
+      "daysUntil": -128
     },
     {
       "date": "2026-07-29",
@@ -69,7 +69,7 @@
       "time": "2:00 p.m.",
       "type": "FOMC",
       "kind": "meeting",
-      "daysUntil": -113
+      "daysUntil": -114
     },
     {
       "date": "2026-07-29",
@@ -78,7 +78,7 @@
       "time": "2:30 p.m.",
       "type": "FOMC",
       "kind": "press",
-      "daysUntil": -113
+      "daysUntil": -114
     },
     {
       "date": "2026-08-19",
@@ -87,7 +87,7 @@
       "time": "2:00 p.m.",
       "type": "FOMC",
       "kind": "minutes",
-      "daysUntil": -92
+      "daysUntil": -93
     },
     {
       "date": "2026-09-02",
@@ -96,7 +96,7 @@
       "time": "2:00 p.m.",
       "type": "Beige",
       "kind": "beige",
-      "daysUntil": -78
+      "daysUntil": -79
     },
     {
       "date": "2026-09-16",
@@ -105,7 +105,7 @@
       "time": "2:00 p.m.",
       "type": "FOMC",
       "kind": "meeting",
-      "daysUntil": -64
+      "daysUntil": -65
     },
     {
       "date": "2026-09-16",
@@ -114,7 +114,7 @@
       "time": "2:30 p.m.",
       "type": "FOMC",
       "kind": "press",
-      "daysUntil": -64
+      "daysUntil": -65
     },
     {
       "date": "2026-10-07",
@@ -123,7 +123,7 @@
       "time": "2:00 p.m.",
       "type": "FOMC",
       "kind": "minutes",
-      "daysUntil": -43
+      "daysUntil": -44
     },
     {
       "date": "2026-10-14",
@@ -132,7 +132,7 @@
       "time": "2:00 p.m.",
       "type": "Beige",
       "kind": "beige",
-      "daysUntil": -36
+      "daysUntil": -37
     },
     {
       "date": "2026-10-28",
@@ -141,7 +141,7 @@
       "time": "2:00 p.m.",
       "type": "FOMC",
       "kind": "meeting",
-      "daysUntil": -22
+      "daysUntil": -23
     },
     {
       "date": "2026-10-28",
@@ -150,7 +150,7 @@
       "time": "2:30 p.m.",
       "type": "FOMC",
       "kind": "press",
-      "daysUntil": -22
+      "daysUntil": -23
     },
     {
       "date": "2026-11-18",
@@ -159,7 +159,7 @@
       "time": "2:00 p.m.",
       "type": "FOMC",
       "kind": "minutes",
-      "daysUntil": -1
+      "daysUntil": -2
     }
   ],
   "error": null,
