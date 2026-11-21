@@ -1,6 +1,6 @@
 {
   "status": "OK",
-  "fetchedAt": "2026-11-20T19:37:11.015Z",
+  "fetchedAt": "2026-11-21T18:42:03.518Z",
   "seamDate": "2026-07-09",
   "formula": "prem = USDT/RUB_spot − USDRUBF_last (₽)",
   "btcDaily": {
@@ -4712,20 +4712,24 @@
       },
       {
         "date": "2026-11-20",
-        "value": 58390.01
+        "value": 58951.51
+      },
+      {
+        "date": "2026-11-21",
+        "value": 60190.01
       }
     ]
   },
   "live": {
     "usdt": {
-      "value": 86.57499999999999,
+      "value": 86.705,
       "source": "Rapira api.rapira.net/open/market/rates USDT/RUB mid",
-      "asOf": "2026-11-20T19:37:02.389Z"
+      "asOf": "2026-11-21T18:41:56.050Z"
     },
     "usdrubf": {
-      "value": 81.67,
+      "value": 81.6,
       "source": "MOEX ISS USDRUBF RFUD (LAST in session, else SETTLEPRICE)",
-      "asOf": "2026-11-20T22:21:29+03:00",
+      "asOf": "2026-11-21T18:59:59+03:00",
       "inSession": true
     },
     "cbr": {
@@ -4734,13 +4738,13 @@
       "asOf": "2026-11-21",
       "usedCache": false
     },
-    "prem": 4.904999999999987,
-    "premPct": 6.005877311130141,
-    "premCbr": 4.383899999999983,
-    "dprem1d": 0.41499999999999204,
-    "dprem5d": 0.8049999999999926,
-    "premZ60d": 1.6983124767846671,
-    "daysAbove4": 3
+    "prem": 5.105000000000004,
+    "premPct": 6.256127450980397,
+    "premCbr": 4.5138999999999925,
+    "dprem1d": 0.835000000000008,
+    "dprem5d": 0.5350000000000108,
+    "premZ60d": 1.8722367358448033,
+    "daysAbove4": 4
   },
   "exmoHistory": {
     "points": [
@@ -11616,7 +11620,12 @@
       },
       {
         "date": "2026-11-20",
-        "value": 86.57499999999999,
+        "value": 86.46,
+        "source": "rapira"
+      },
+      {
+        "date": "2026-11-21",
+        "value": 86.705,
         "source": "rapira"
       }
     ],
@@ -14903,6 +14912,10 @@
       {
         "date": "2026-11-19",
         "value": 81.93
+      },
+      {
+        "date": "2026-11-20",
+        "value": 82.19
       }
     ],
     "source": "MOEX ISS history USDRUBF RFUD SETTLEPRICE"
@@ -22701,9 +22714,16 @@
     },
     {
       "date": "2026-11-20",
-      "usdt": 86.57499999999999,
-      "usdrubf": 81.67,
-      "prem": 4.904999999999987,
+      "usdt": 86.46,
+      "usdrubf": 82.19,
+      "prem": 4.269999999999996,
+      "sourceUsdt": "rapira"
+    },
+    {
+      "date": "2026-11-21",
+      "usdt": 86.705,
+      "usdrubf": 81.6,
+      "prem": 5.105000000000004,
       "sourceUsdt": "rapira"
     }
   ],
