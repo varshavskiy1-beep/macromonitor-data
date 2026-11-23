@@ -1,8 +1,8 @@
 {
   "status": "ok",
-  "fetchedAt": "2026-11-20T00:59:40.947Z",
+  "fetchedAt": "2026-11-23T01:02:59.321Z",
   "keyRate": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "value": 14
   },
   "keyRateError": null,
@@ -488,13 +488,13 @@
       "value": 14
     },
     {
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "value": 14
     }
   ],
   "usdRub": {
-    "value": 81.929,
-    "date": "2026-11-20",
+    "value": 82.1911,
+    "date": "2026-11-21",
     "source": "www.cbr.ru XML_daily R01235",
     "usedCache": false,
     "error": null
@@ -981,8 +981,8 @@
       "value": 80.5573
     },
     {
-      "date": "2026-11-20",
-      "value": 81.929
+      "date": "2026-11-21",
+      "value": 82.1911
     }
   ],
   "cnyHistory": [
@@ -1467,8 +1467,8 @@
       "value": 12.0873
     },
     {
-      "date": "2026-11-20",
-      "value": 12.2546
+      "date": "2026-11-21",
+      "value": 12.2759
     }
   ],
   "cpi": {
@@ -3569,13 +3569,13 @@
     }
   ],
   "cpiDual": {
-    "ok": false,
+    "ok": true,
     "month": "2026-09",
     "rosstat": 6.35,
-    "cbr": null,
-    "gapPp": null,
+    "cbr": 6.35,
+    "gapPp": 0,
     "warn": false,
-    "note": "таблица ЦБ hd_base/infl за общий месяц недоступна — публикуем один длинный ряд Росстата, среднее не считаем"
+    "note": "сверка: таблица ЦБ hd_base/infl за 2026-09 подтверждает 6,35% г/г (разрыв 0,00 п.п. — округление м/м-индексов); среднее не считаем"
   },
   "cpiError": null,
   "m2Yoy": {
@@ -7750,8 +7750,8 @@
         "value": 14.12
       },
       {
-        "date": "2026-11-18",
-        "value": 13.96
+        "date": "2026-11-19",
+        "value": 14
       }
     ]
   },
@@ -8237,8 +8237,8 @@
       "value": 14.12
     },
     {
-      "date": "2026-11-18",
-      "value": 13.96
+      "date": "2026-11-19",
+      "value": 14
     }
   ],
   "ruoniaError": null,
@@ -8574,7 +8574,7 @@
     "source": "sbercib.ru/publication/prognoz-klyuchevoi-stavki-na-2026-god",
     "fetchedAt": "2026-10-26T02:55:39.298Z",
     "error": "SberCIB forecast: не разобрали таблицу месяц→ставка",
-    "lastAttempt": "2026-11-20T00:59:40.617Z"
+    "lastAttempt": "2026-11-23T01:02:59.038Z"
   },
   "depositMax": {
     "value": null,
@@ -8584,8 +8584,8 @@
   "sources": {
     "keyRate": "www.cbr.ru SOAP KeyRate",
     "infl": "https://rosstat.gov.ru/storage/mediabank/ipc_mes_09-2026.xlsx · г/г цепным произведением м/м-индексов (методика из сноски ipc_mes) · сверка: cbr.ru/hd_base/infl",
-    "m2": "https://www.cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx",
-    "m0": "https://www.cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx",
+    "m2": "https://cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx",
+    "m0": "https://cbr.ru/vfs/statistics/credit_statistics/monetary_agg.xlsx",
     "usd": "www.cbr.ru XML_dynamic R01235",
     "cny": "www.cbr.ru XML_dynamic R01375",
     "deposit": "https://www.cbr.ru/dataservice/data?y1=2016&y2=2026&publicationId=18&datasetId=37&measureId=2",

@@ -1,6 +1,6 @@
 {
   "status": "OK",
-  "fetchedAt": "2026-11-22T19:01:46.452Z",
+  "fetchedAt": "2026-11-23T01:03:29.993Z",
   "seamDate": "2026-07-09",
   "formula": "prem = USDT/RUB_spot − USDRUBF_last (₽)",
   "btcDaily": {
@@ -4720,15 +4720,19 @@
       },
       {
         "date": "2026-11-22",
-        "value": 60744.99
+        "value": 61271.08
+      },
+      {
+        "date": "2026-11-23",
+        "value": 61089.99
       }
     ]
   },
   "live": {
     "usdt": {
-      "value": 86.625,
+      "value": 86.47,
       "source": "Rapira api.rapira.net/open/market/rates USDT/RUB mid",
-      "asOf": "2026-11-22T19:01:39.673Z"
+      "asOf": "2026-11-23T01:03:25.925Z"
     },
     "usdrubf": {
       "value": 81.76,
@@ -4742,12 +4746,12 @@
       "asOf": "2026-11-21",
       "usedCache": false
     },
-    "prem": 4.864999999999995,
-    "premPct": 5.950342465753418,
-    "premCbr": 4.433899999999994,
-    "dprem1d": 0.5949999999999989,
-    "dprem5d": 0.2950000000000017,
-    "premZ60d": 1.6248270931022921,
+    "prem": 4.709999999999994,
+    "premPct": 5.760763209393338,
+    "premCbr": 4.278899999999993,
+    "dprem1d": 0.4399999999999977,
+    "dprem5d": 0.14000000000000057,
+    "premZ60d": 1.5568437181926194,
     "daysAbove4": 4
   },
   "exmoHistory": {
@@ -11634,7 +11638,12 @@
       },
       {
         "date": "2026-11-22",
-        "value": 86.625,
+        "value": 86.56,
+        "source": "rapira"
+      },
+      {
+        "date": "2026-11-23",
+        "value": 86.47,
         "source": "rapira"
       }
     ],
@@ -22736,9 +22745,15 @@
     },
     {
       "date": "2026-11-22",
-      "usdt": 86.625,
+      "usdt": 86.56,
       "usdrubf": 81.76,
-      "prem": 4.864999999999995,
+      "prem": 4.799999999999997,
+      "sourceUsdt": "rapira"
+    },
+    {
+      "date": "2026-11-23",
+      "usdt": 86.47,
+      "prem": null,
       "sourceUsdt": "rapira"
     }
   ],

@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "fetchedAt": "2026-11-20T00:59:40.947Z",
+  "fetchedAt": "2026-11-23T01:02:59.321Z",
   "method": "Оборот BTC на площадке: сумма объёмов официальных свечей за календарный месяц, в BTC. Это НЕ TVL DefiLlama и НЕ CoinGecko: объём берём из тех же свечей Coinbase Exchange (granularity=86400, поле volume) и месячных klines data-api.binance.vision (interval=1M, индекс 5), что и цены на «Фазах крипторынка». Последний неполный месяц не показываем. Две площадки — два ряда; среднее не считаем, при расхождении — флаг.",
   "etfNote": "Потоков спотовых BTC-ETF в официальном API снимка нет, Farside не берём; пустую карточку ETF на этой странице не держим — вместо неё эта заметка.",
   "coinbaseVolume": {
@@ -868,7 +868,7 @@
     "source": "CFTC publicreporting.cftc.gov gpe5-46if · BITCOIN - CHICAGO MERCANTILE EXCHANGE (код 133741) · weekly TFF futures only",
     "marketName": "BITCOIN - CHICAGO MERCANTILE EXCHANGE",
     "contractCode": "133741",
-    "asOf": "2026-11-10",
+    "asOf": "2026-11-17",
     "points": [
       {
         "date": "2018-04-10",
@@ -3563,6 +3563,12 @@
         "openInterest": 19265,
         "levLong": 6339,
         "levShort": 7582
+      },
+      {
+        "date": "2026-11-17",
+        "openInterest": 19257,
+        "levLong": 6264,
+        "levShort": 7475
       }
     ],
     "error": null
