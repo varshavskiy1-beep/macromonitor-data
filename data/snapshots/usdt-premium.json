@@ -1,6 +1,6 @@
 {
   "status": "OK",
-  "fetchedAt": "2026-11-23T23:23:25.054Z",
+  "fetchedAt": "2026-11-24T21:55:01.760Z",
   "seamDate": "2026-07-09",
   "formula": "prem = USDT/RUB_spot − USDRUBF_last (₽)",
   "btcDaily": {
@@ -4724,15 +4724,19 @@
       },
       {
         "date": "2026-11-23",
-        "value": 61431.03
+        "value": 61270.93
+      },
+      {
+        "date": "2026-11-24",
+        "value": 59885.48
       }
     ]
   },
   "live": {
     "usdt": {
-      "value": 86.89500000000001,
+      "value": 87.035,
       "source": "Rapira api.rapira.net/open/market/rates USDT/RUB mid",
-      "asOf": "2026-11-23T23:23:21.461Z"
+      "asOf": "2026-11-24T21:54:55.059Z"
     },
     "usdrubf": {
       "value": 80.55,
@@ -4741,16 +4745,16 @@
       "inSession": true
     },
     "cbr": {
-      "value": 82.1488,
+      "value": 82.1664,
       "source": "www.cbr.ru XML_daily R01235",
-      "asOf": "2026-11-24",
+      "asOf": "2026-11-25",
       "usedCache": false
     },
-    "prem": 6.345000000000013,
-    "premPct": 7.877094972067056,
-    "premCbr": 4.746200000000016,
-    "dprem1d": 3.4050000000000153,
-    "dprem5d": 2.7150000000000176,
+    "prem": 6.484999999999999,
+    "premPct": 8.050900062073246,
+    "premCbr": 4.868600000000001,
+    "dprem1d": 3.5450000000000017,
+    "dprem5d": 2.855000000000004,
     "premZ60d": 1.324253743106213,
     "daysAbove4": 0
   },
@@ -11643,7 +11647,12 @@
       },
       {
         "date": "2026-11-23",
-        "value": 86.89500000000001,
+        "value": 86.89,
+        "source": "rapira"
+      },
+      {
+        "date": "2026-11-24",
+        "value": 87.035,
         "source": "rapira"
       }
     ],
@@ -22656,7 +22665,13 @@
     },
     {
       "date": "2026-11-23",
-      "usdt": 86.89500000000001,
+      "usdt": 86.89,
+      "prem": null,
+      "sourceUsdt": "rapira"
+    },
+    {
+      "date": "2026-11-24",
+      "usdt": 87.035,
       "prem": null,
       "sourceUsdt": "rapira"
     }
