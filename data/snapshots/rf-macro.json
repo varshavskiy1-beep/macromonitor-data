@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "fetchedAt": "2026-11-26T04:18:36.040Z",
+  "fetchedAt": "2026-11-27T03:21:15.641Z",
   "source": "https://monitor-rf-0.pplx.app/assets/index-C6ib584h.js",
   "sourceNote": "локальная копия бандла landing-bundle.js",
   "note": "История рядов — распарс бандла лендинга monitor-rf-0 (#/macro, scripts/rf-macro-fetch.mjs); свежие месяцы дописывает будничный рефреш живым фетчем первоисточников подписи (scripts/rf-macro-live.mjs): Росстат КЭП/jil_dom-oper, АСОП morport, autostat (Lada/HCV), ЦБ monetary_agg и SOAP KeyRate; Минэк/РЖД/Сбер IR — попытка с честной ошибкой при TLS/WAF-блоке, ряд не подменяется и не пустеет.",
@@ -315,10 +315,10 @@
         }
       ],
       "error": null,
-      "lastAttempt": "2026-11-26T04:18:36.040Z",
+      "lastAttempt": "2026-11-27T03:21:15.641Z",
       "live": {
         "source": "https://mfd.ru/news/view/?id=2784825 (цитата обзора Минэка «О текущей ситуации…»; economy.gov.ru недоступен с CI)",
-        "fetchedAt": "2026-11-26T04:18:36.040Z",
+        "fetchedAt": "2026-11-27T03:21:15.641Z",
         "appended": 0,
         "revised": 0,
         "note": "Минэкономразвития, месячная оценка ВВП"
@@ -479,10 +479,10 @@
         }
       ],
       "error": null,
-      "lastAttempt": "2026-11-26T04:18:36.040Z",
+      "lastAttempt": "2026-11-27T03:21:15.641Z",
       "live": {
         "source": "https://www.autostat.ru/news/",
-        "fetchedAt": "2026-11-26T04:18:36.040Z",
+        "fetchedAt": "2026-11-27T03:21:15.641Z",
         "appended": 0,
         "revised": 0,
         "note": "autostat.ru: «Продажи автомобилей LADA в <месяце>»"
@@ -643,10 +643,10 @@
         }
       ],
       "error": null,
-      "lastAttempt": "2026-11-26T04:18:36.040Z",
+      "lastAttempt": "2026-11-27T03:21:15.641Z",
       "live": {
         "source": "https://www.autostat.ru/news/",
-        "fetchedAt": "2026-11-26T04:18:36.040Z",
+        "fetchedAt": "2026-11-27T03:21:15.641Z",
         "appended": 0,
         "revised": 0,
         "note": "autostat.ru: «Рынок крупнотоннажных грузовых автомобилей в <месяце>»"
@@ -816,8 +816,8 @@
           "value": 1
         }
       ],
-      "error": "https://www.rzd.ru/ru/9402: curl: (28) Connection timed out after 6003 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-3239952-dy7grx1vehv -w %{http_code} https://www.rzd.ru/ru/9402\ncurl: (28) Connection timed out after 6003 milliseconds\n; https://company.rzd.ru/ru/9397: curl: (28) Connection timed out after 6002 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-3239952-mgyewevumh -w %{http_code} https://company.rzd.ru/ru/9397\ncurl: (28) Connection timed out after 6002 milliseconds\n; https://press.rzd.ru/: curl: (28) Connection timed out after 6002 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-3239952-trpi6m0o3 -w %{http_code} https://press.rzd.ru/\ncurl: (28) Connection timed out after 6002 milliseconds\n",
-      "lastAttempt": "2026-11-26T04:18:36.040Z"
+      "error": "https://www.rzd.ru/ru/9402: curl: (28) Connection timed out after 6002 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-381415-htt6d04k61 -w %{http_code} https://www.rzd.ru/ru/9402\ncurl: (28) Connection timed out after 6002 milliseconds\n; https://company.rzd.ru/ru/9397: curl: (28) Connection timed out after 6001 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-381415-rw75b1ftqog -w %{http_code} https://company.rzd.ru/ru/9397\ncurl: (28) Connection timed out after 6001 milliseconds\n; https://press.rzd.ru/: curl: (28) Connection timed out after 6001 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-381415-0w4ybpt1n1c -w %{http_code} https://press.rzd.ru/\ncurl: (28) Connection timed out after 6001 milliseconds\n",
+      "lastAttempt": "2026-11-27T03:21:15.641Z"
     },
     "ports": {
       "key": "ports",
@@ -949,7 +949,7 @@
         }
       ],
       "error": "нет новостей «Грузооборот морских портов…» (страницы без ссылок)",
-      "lastAttempt": "2026-11-26T04:18:36.040Z",
+      "lastAttempt": "2026-11-27T03:21:15.641Z",
       "live": {
         "source": "https://www.morport.com/rus/news",
         "fetchedAt": "2026-09-01T01:06:04.351Z",
@@ -1103,10 +1103,10 @@
         }
       ],
       "error": null,
-      "lastAttempt": "2026-11-26T04:18:36.040Z",
+      "lastAttempt": "2026-11-27T03:21:15.641Z",
       "live": {
         "source": "https://rosstat.gov.ru/storage/mediabank/jil_dom-oper_09-2026.xls",
-        "fetchedAt": "2026-11-26T04:18:36.040Z",
+        "fetchedAt": "2026-11-27T03:21:15.641Z",
         "appended": 0,
         "revised": 0,
         "note": "Росстат jil_dom-oper, % к соответствующему периоду нарастающим итогом"
@@ -1246,8 +1246,8 @@
           "value": 3.3
         }
       ],
-      "error": "curl http://ssl.rosstat.gov.ru/storage/mediabank/ind_01-2026.xlsx: curl HTTP 500; wget http://ssl.rosstat.gov.ru/storage/mediabank/ind_01-2026.xlsx: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-3239952-wx74qhd6gw http://ssl.rosstat.gov.ru/storage/mediabank/ind_01-2026.xlsx\n; curl https://rosstat.gov.ru/storage/mediabank/ind_01-2026.xlsx: curl HTTP 404; wget https://rosstat.gov.ru/storage/mediabank/ind_01-2026.xlsx: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-3239952-wx74qhd6gw https://rosstat.gov.ru/storage/mediabank/ind_01-2026.xlsx\n",
-      "lastAttempt": "2026-11-26T04:18:36.040Z",
+      "error": "curl http://ssl.rosstat.gov.ru/storage/mediabank/ind_01-2026.xlsx: curl HTTP 500; wget http://ssl.rosstat.gov.ru/storage/mediabank/ind_01-2026.xlsx: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-381415-ptkk4bz0q7 http://ssl.rosstat.gov.ru/storage/mediabank/ind_01-2026.xlsx\n; curl https://rosstat.gov.ru/storage/mediabank/ind_01-2026.xlsx: curl HTTP 404; wget https://rosstat.gov.ru/storage/mediabank/ind_01-2026.xlsx: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-381415-ptkk4bz0q7 https://rosstat.gov.ru/storage/mediabank/ind_01-2026.xlsx\n",
+      "lastAttempt": "2026-11-27T03:21:15.641Z",
       "live": {
         "source": "http://ssl.rosstat.gov.ru/storage/mediabank/ind_08-2026.xlsx",
         "fetchedAt": "2026-10-26T02:56:34.399Z",
@@ -1406,10 +1406,10 @@
         }
       ],
       "error": null,
-      "lastAttempt": "2026-11-26T04:18:36.040Z",
+      "lastAttempt": "2026-11-27T03:21:15.641Z",
       "live": {
         "source": "cbr.ru monetary_agg.xlsx («Годовые темпы прироста», на 1-е число → месяц)",
-        "fetchedAt": "2026-11-26T04:18:36.040Z",
+        "fetchedAt": "2026-11-27T03:21:15.641Z",
         "appended": 0,
         "revised": 0,
         "note": null
@@ -1540,7 +1540,7 @@
         }
       ],
       "error": "https://www.sberbank.com/ru/investor-relations/news: WAF/F5 блокирует (страница-заглушка, нужны сертификаты Минцифры); https://www.sberbank.com/investor-relations: WAF/F5 блокирует (страница-заглушка, нужны сертификаты Минцифры); https://www.sberbank.ru/ru/about/investor_relations: WAF/F5 блокирует (страница-заглушка, нужны сертификаты Минцифры)",
-      "lastAttempt": "2026-11-26T04:18:36.040Z"
+      "lastAttempt": "2026-11-27T03:21:15.641Z"
     },
     "roe": {
       "key": "roe",
@@ -1747,28 +1747,28 @@
         ]
       },
       "error": null,
-      "lastAttempt": "2026-11-26T04:18:36.040Z",
+      "lastAttempt": "2026-11-27T03:21:15.641Z",
       "live": {
         "source": "средняя ключевая ставка за квартал из живого SOAP KeyRate ЦБ; ROE — Sberbank IR (обновляется при доступности)",
-        "fetchedAt": "2026-11-26T04:18:36.040Z",
+        "fetchedAt": "2026-11-27T03:21:15.641Z",
         "appended": 0,
         "revised": 0
       }
     }
   },
   "liveErrors": [
-    "consumer: curl http://ssl.rosstat.gov.ru/storage/mediabank/ind_01-2026.xlsx: curl HTTP 500; wget http://ssl.rosstat.gov.ru/storage/mediabank/ind_01-2026.xlsx: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-3239952-wx74qhd6gw http://ssl.rosstat.gov.ru/storage/mediabank/ind_01-2026.xlsx\n; curl https://rosstat.gov.ru/storage/mediabank/ind_01-2026.xlsx: curl HTTP 404; wget https://rosstat.gov.ru/storage/mediabank/ind_01-2026.xlsx: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-3239952-wx74qhd6gw https://rosstat.gov.ru/storage/mediabank/ind_01-2026.xlsx\n",
+    "consumer: curl http://ssl.rosstat.gov.ru/storage/mediabank/ind_01-2026.xlsx: curl HTTP 500; wget http://ssl.rosstat.gov.ru/storage/mediabank/ind_01-2026.xlsx: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-381415-ptkk4bz0q7 http://ssl.rosstat.gov.ru/storage/mediabank/ind_01-2026.xlsx\n; curl https://rosstat.gov.ru/storage/mediabank/ind_01-2026.xlsx: curl HTTP 404; wget https://rosstat.gov.ru/storage/mediabank/ind_01-2026.xlsx: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-381415-ptkk4bz0q7 https://rosstat.gov.ru/storage/mediabank/ind_01-2026.xlsx\n",
     "ports: нет новостей «Грузооборот морских портов…» (страницы без ссылок)",
-    "rzhd: https://www.rzd.ru/ru/9402: curl: (28) Connection timed out after 6003 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-3239952-dy7grx1vehv -w %{http_code} https://www.rzd.ru/ru/9402\ncurl: (28) Connection timed out after 6003 milliseconds\n; https://company.rzd.ru/ru/9397: curl: (28) Connection timed out after 6002 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-3239952-mgyewevumh -w %{http_code} https://company.rzd.ru/ru/9397\ncurl: (28) Connection timed out after 6002 milliseconds\n; https://press.rzd.ru/: curl: (28) Connection timed out after 6002 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-3239952-trpi6m0o3 -w %{http_code} https://press.rzd.ru/\ncurl: (28) Connection timed out after 6002 milliseconds\n",
+    "rzhd: https://www.rzd.ru/ru/9402: curl: (28) Connection timed out after 6002 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-381415-htt6d04k61 -w %{http_code} https://www.rzd.ru/ru/9402\ncurl: (28) Connection timed out after 6002 milliseconds\n; https://company.rzd.ru/ru/9397: curl: (28) Connection timed out after 6001 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-381415-rw75b1ftqog -w %{http_code} https://company.rzd.ru/ru/9397\ncurl: (28) Connection timed out after 6001 milliseconds\n; https://press.rzd.ru/: curl: (28) Connection timed out after 6001 milliseconds; Command failed: curl -sSL -k --connect-timeout 15 --max-time 6 -A Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -o /tmp/.rf-live-381415-0w4ybpt1n1c -w %{http_code} https://press.rzd.ru/\ncurl: (28) Connection timed out after 6001 milliseconds\n",
     "sberbank: https://www.sberbank.com/ru/investor-relations/news: WAF/F5 блокирует (страница-заглушка, нужны сертификаты Минцифры); https://www.sberbank.com/investor-relations: WAF/F5 блокирует (страница-заглушка, нужны сертификаты Минцифры); https://www.sberbank.ru/ru/about/investor_relations: WAF/F5 блокирует (страница-заглушка, нужны сертификаты Минцифры)",
-    "autostat: /news/63556/: HTTP 404",
+    "autostat: /news/63558/: HTTP 404",
     "autostat: /news/63544/: HTTP 404",
     "autostat: /news/63534/: HTTP 404"
   ],
   "liveSummary": [
     "housing: +0 новых, 0 ревизий",
     "gdp: +0 новых, 0 ревизий",
-    "avtovaz: +0 новых, 0 ревизий (скан 118 новостей)",
+    "avtovaz: +0 новых, 0 ревизий (скан 125 новостей)",
     "kamaz: +0 новых, 0 ревизий",
     "m2: +0 новых, 0 ревизий",
     "roe: КС за квартал +0 новых, 0 ревизий"
@@ -1776,7 +1776,7 @@
   "scrape": {
     "autostat": {
       "lastSeenNewsId": 63442,
-      "scannedAt": "2026-11-26T04:18:36.040Z"
+      "scannedAt": "2026-11-27T03:21:15.641Z"
     },
     "minek": {
       "lastSeenMfdId": 2784825
