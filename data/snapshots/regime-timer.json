@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-11-23T01:03:14.434Z",
-  "status": "ok",
+  "fetchedAt": "2026-11-26T04:18:19.964Z",
+  "status": "partial",
   "caption": "Это таймер режима рынка, а не сигнал купить бумагу. Атака только когда оба якоря выше своей средней. Нет котировки по любому якорю — оборона.",
   "usa": {
     "id": "usa",
@@ -8,11 +8,11 @@
     "anchorsLabel": "JPM ∧ BTC",
     "regime": "defense",
     "regimeWord": "ОБОРОНА",
-    "asOf": "2026-11-22",
+    "asOf": "2026-11-25",
     "stale": false,
     "staleNote": null,
     "lastSwitch": "2026-11-05",
-    "daysInRegime": 12,
+    "daysInRegime": 15,
     "anchors": [
       {
         "id": "jpm",
@@ -21,10 +21,10 @@
         "source": "JPM, закрытие · Yahoo Finance, закрытые дневные свечи",
         "note": "по закрытию дня",
         "hasData": true,
-        "asOf": "2026-11-20",
-        "close": 310.5299987792969,
-        "ema100": 336.8729571497251,
-        "gapPct": -7.819849534173184,
+        "asOf": "2026-11-25",
+        "close": 316.739990234375,
+        "ema100": 335.70593258089195,
+        "gapPct": -5.64957020589647,
         "above": false,
         "warning": null
       },
@@ -35,10 +35,10 @@
         "source": "Binance BTCUSDT daily klines, закрытые сутки UTC, закрытие USDT",
         "note": "по закрытию суток UTC",
         "hasData": true,
-        "asOf": "2026-11-22",
-        "close": 61271.08,
-        "ema100": 74794.81319517098,
-        "gapPct": -18.08111099880937,
+        "asOf": "2026-11-25",
+        "close": 60458.01,
+        "ema100": 73963.19121726681,
+        "gapPct": -18.259327369468615,
         "above": false,
         "warning": null
       }
@@ -1464,10 +1464,10 @@
             "jpmFill": 0
           },
           {
-            "date": "2026-11-20",
-            "jpmClose": 310.5299987792969,
-            "jpmEma": 336.8729571497251,
-            "jpmFillBase": 336.8729571497251,
+            "date": "2026-11-25",
+            "jpmClose": 316.739990234375,
+            "jpmEma": 335.70593258089195,
+            "jpmFillBase": 335.70593258089195,
             "jpmFill": 0
           }
         ]
@@ -2255,10 +2255,10 @@
             "btcFill": 0
           },
           {
-            "date": "2026-11-22",
-            "btcClose": 61271.08,
-            "btcEma": 74794.81319517098,
-            "btcFillBase": 74794.81319517098,
+            "date": "2026-11-25",
+            "btcClose": 60458.01,
+            "btcEma": 73963.19121726681,
+            "btcFillBase": 73963.19121726681,
             "btcFill": 0
           }
         ]
@@ -2272,11 +2272,11 @@
     "anchorsLabel": "ROSN ∧ HG",
     "regime": "defense",
     "regimeWord": "ОБОРОНА",
-    "asOf": "2026-11-20",
+    "asOf": "2026-11-25",
     "stale": false,
     "staleNote": null,
-    "lastSwitch": "2026-11-03",
-    "daysInRegime": 13,
+    "lastSwitch": null,
+    "daysInRegime": null,
     "anchors": [
       {
         "id": "rosn",
@@ -2284,13 +2284,13 @@
         "label": "ROSN, закрытие",
         "source": "MOEX ISS daily ROSN TQBR",
         "note": null,
-        "hasData": true,
-        "asOf": "2026-11-20",
-        "close": 331.95,
-        "ema100": 359.883639761058,
-        "gapPct": -7.761853186658985,
+        "hasData": false,
+        "asOf": null,
+        "close": null,
+        "ema100": null,
+        "gapPct": null,
         "above": false,
-        "warning": null
+        "warning": "нет данных"
       },
       {
         "id": "hg",
@@ -2299,10 +2299,10 @@
         "source": "медь COMEX, фьючерс · Yahoo Finance, закрытые дневные свечи",
         "note": "медь — по закрытию дня",
         "hasData": true,
-        "asOf": "2026-11-20",
-        "close": 5.4770002365112305,
-        "ema100": 6.3509736410087045,
-        "gapPct": -13.76125069791132,
+        "asOf": "2026-11-25",
+        "close": 5.332499980926514,
+        "ema100": 6.297845743603865,
+        "gapPct": -15.32819001890866,
         "above": false,
         "warning": null
       }
@@ -2312,1058 +2312,7 @@
         "id": "rosn",
         "name": "ROSN",
         "label": "ROSN, закрытие",
-        "rows": [
-          {
-            "date": "2014-06-30",
-            "rosnClose": 249.3,
-            "rosnEma": null,
-            "rosnFillBase": null,
-            "rosnFill": 0
-          },
-          {
-            "date": "2014-07-31",
-            "rosnClose": 223,
-            "rosnEma": null,
-            "rosnFillBase": null,
-            "rosnFill": 0
-          },
-          {
-            "date": "2014-08-29",
-            "rosnClose": 226,
-            "rosnEma": null,
-            "rosnFillBase": null,
-            "rosnFill": 0
-          },
-          {
-            "date": "2014-09-30",
-            "rosnClose": 232,
-            "rosnEma": null,
-            "rosnFillBase": null,
-            "rosnFill": 0
-          },
-          {
-            "date": "2014-10-31",
-            "rosnClose": 239.9,
-            "rosnEma": 232.46675952061514,
-            "rosnFillBase": 232.46675952061514,
-            "rosnFill": 7.433240479384864
-          },
-          {
-            "date": "2014-11-28",
-            "rosnClose": 233.74,
-            "rosnEma": 233.82471557353296,
-            "rosnFillBase": 233.82471557353296,
-            "rosnFill": 0
-          },
-          {
-            "date": "2014-12-30",
-            "rosnClose": 195.8,
-            "rosnEma": 224.0160915400598,
-            "rosnFillBase": 224.0160915400598,
-            "rosnFill": 0
-          },
-          {
-            "date": "2015-01-30",
-            "rosnClose": 229.35,
-            "rosnEma": 223.80943189483162,
-            "rosnFillBase": 223.80943189483162,
-            "rosnFill": 5.540568105168376
-          },
-          {
-            "date": "2015-02-27",
-            "rosnClose": 265.85,
-            "rosnEma": 236.77986352519173,
-            "rosnFillBase": 236.77986352519173,
-            "rosnFill": 29.070136474808294
-          },
-          {
-            "date": "2015-03-31",
-            "rosnClose": 252.15,
-            "rosnEma": 240.67241963308052,
-            "rosnFillBase": 240.67241963308052,
-            "rosnFill": 11.477580366919483
-          },
-          {
-            "date": "2015-04-30",
-            "rosnClose": 256.5,
-            "rosnEma": 246.71849887254652,
-            "rosnFillBase": 246.71849887254652,
-            "rosnFill": 9.781501127453481
-          },
-          {
-            "date": "2015-05-29",
-            "rosnClose": 234,
-            "rosnEma": 247.96551325122417,
-            "rosnFillBase": 247.96551325122417,
-            "rosnFill": 0
-          },
-          {
-            "date": "2015-06-30",
-            "rosnClose": 232,
-            "rosnEma": 245.6088862659927,
-            "rosnFillBase": 245.6088862659927,
-            "rosnFill": 0
-          },
-          {
-            "date": "2015-07-31",
-            "rosnClose": 236.7,
-            "rosnEma": 238.83294571525272,
-            "rosnFillBase": 238.83294571525272,
-            "rosnFill": 0
-          },
-          {
-            "date": "2015-08-31",
-            "rosnClose": 245.1,
-            "rosnEma": 238.99218155998298,
-            "rosnFillBase": 238.99218155998298,
-            "rosnFill": 6.107818440017013
-          },
-          {
-            "date": "2015-09-30",
-            "rosnClose": 242.95,
-            "rosnEma": 241.18641014700657,
-            "rosnFillBase": 241.18641014700657,
-            "rosnFill": 1.7635898529934195
-          },
-          {
-            "date": "2015-10-30",
-            "rosnClose": 258.1,
-            "rosnEma": 245.4782163112166,
-            "rosnFillBase": 245.4782163112166,
-            "rosnFill": 12.62178368878341
-          },
-          {
-            "date": "2015-11-30",
-            "rosnClose": 265,
-            "rosnEma": 252.82970415703,
-            "rosnFillBase": 252.82970415703,
-            "rosnFill": 12.170295842970006
-          },
-          {
-            "date": "2015-12-30",
-            "rosnClose": 253.25,
-            "rosnEma": 252.0288366643456,
-            "rosnFillBase": 252.0288366643456,
-            "rosnFill": 1.2211633356544098
-          },
-          {
-            "date": "2016-01-29",
-            "rosnClose": 272.45,
-            "rosnEma": 250.77379737467268,
-            "rosnFillBase": 250.77379737467268,
-            "rosnFill": 21.676202625327306
-          },
-          {
-            "date": "2016-02-29",
-            "rosnClose": 287.6,
-            "rosnEma": 259.7988329888503,
-            "rosnFillBase": 259.7988329888503,
-            "rosnFill": 27.801167011149744
-          },
-          {
-            "date": "2016-03-31",
-            "rosnClose": 305.2,
-            "rosnEma": 275.3091441190656,
-            "rosnFillBase": 275.3091441190656,
-            "rosnFill": 29.890855880934396
-          },
-          {
-            "date": "2016-04-29",
-            "rosnClose": 351,
-            "rosnEma": 290.8969825522719,
-            "rosnFillBase": 290.8969825522719,
-            "rosnFill": 60.10301744772812
-          },
-          {
-            "date": "2016-05-31",
-            "rosnClose": 316,
-            "rosnEma": 301.2087932652838,
-            "rosnFillBase": 301.2087932652838,
-            "rosnFill": 14.791206734716184
-          },
-          {
-            "date": "2016-06-30",
-            "rosnClose": 330,
-            "rosnEma": 310.97564706013316,
-            "rosnFillBase": 310.97564706013316,
-            "rosnFill": 19.024352939866844
-          },
-          {
-            "date": "2016-07-29",
-            "rosnClose": 325.5,
-            "rosnEma": 317.85582142238707,
-            "rosnFillBase": 317.85582142238707,
-            "rosnFill": 7.644178577612934
-          },
-          {
-            "date": "2016-08-31",
-            "rosnClose": 344.7,
-            "rosnEma": 326.0251269030424,
-            "rosnFillBase": 326.0251269030424,
-            "rosnFill": 18.674873096957583
-          },
-          {
-            "date": "2016-09-30",
-            "rosnClose": 342.8,
-            "rosnEma": 336.7025009644638,
-            "rosnFillBase": 336.7025009644638,
-            "rosnFill": 6.097499035536202
-          },
-          {
-            "date": "2016-10-31",
-            "rosnClose": 347.65,
-            "rosnEma": 340.9545280890889,
-            "rosnFillBase": 340.9545280890889,
-            "rosnFill": 6.695471910911067
-          },
-          {
-            "date": "2016-11-30",
-            "rosnClose": 340.2,
-            "rosnEma": 341.3292842765208,
-            "rosnFillBase": 341.3292842765208,
-            "rosnFill": 0
-          },
-          {
-            "date": "2016-12-30",
-            "rosnClose": 402.8,
-            "rosnEma": 357.26655342861926,
-            "rosnFillBase": 357.26655342861926,
-            "rosnFill": 45.53344657138075
-          },
-          {
-            "date": "2017-01-31",
-            "rosnClose": 400.6,
-            "rosnEma": 369.8937018221258,
-            "rosnFillBase": 369.8937018221258,
-            "rosnFill": 30.706298177874203
-          },
-          {
-            "date": "2017-02-28",
-            "rosnClose": 331.1,
-            "rosnEma": 368.60925441932534,
-            "rosnFillBase": 368.60925441932534,
-            "rosnFill": 0
-          },
-          {
-            "date": "2017-03-31",
-            "rosnClose": 323.5,
-            "rosnEma": 351.54321639730165,
-            "rosnFillBase": 351.54321639730165,
-            "rosnFill": 0
-          },
-          {
-            "date": "2017-04-28",
-            "rosnClose": 317.25,
-            "rosnEma": 342.3487046626786,
-            "rosnFillBase": 342.3487046626786,
-            "rosnFill": 0
-          },
-          {
-            "date": "2017-05-31",
-            "rosnClose": 301.55,
-            "rosnEma": 331.32892164885544,
-            "rosnFillBase": 331.32892164885544,
-            "rosnFill": 0
-          },
-          {
-            "date": "2017-06-30",
-            "rosnClose": 323,
-            "rosnEma": 325.5221620175147,
-            "rosnFillBase": 325.5221620175147,
-            "rosnFill": 0
-          },
-          {
-            "date": "2017-07-31",
-            "rosnClose": 311.3,
-            "rosnEma": 322.69384132549544,
-            "rosnFillBase": 322.69384132549544,
-            "rosnFill": 0
-          },
-          {
-            "date": "2017-08-31",
-            "rosnClose": 304,
-            "rosnEma": 316.56399939271694,
-            "rosnFillBase": 316.56399939271694,
-            "rosnFill": 0
-          },
-          {
-            "date": "2017-09-29",
-            "rosnClose": 318.95,
-            "rosnEma": 316.11682363156996,
-            "rosnFillBase": 316.11682363156996,
-            "rosnFill": 2.8331763684300313
-          },
-          {
-            "date": "2017-10-31",
-            "rosnClose": 318.7,
-            "rosnEma": 317.3182518343292,
-            "rosnFillBase": 317.3182518343292,
-            "rosnFill": 1.3817481656707855
-          },
-          {
-            "date": "2017-11-30",
-            "rosnClose": 293.6,
-            "rosnEma": 314.6990400214882,
-            "rosnFillBase": 314.6990400214882,
-            "rosnFill": 0
-          },
-          {
-            "date": "2017-12-29",
-            "rosnClose": 291.5,
-            "rosnEma": 307.99911423925465,
-            "rosnFillBase": 307.99911423925465,
-            "rosnFill": 0
-          },
-          {
-            "date": "2018-01-31",
-            "rosnClose": 343.2,
-            "rosnEma": 315.3022174292999,
-            "rosnFillBase": 315.3022174292999,
-            "rosnFill": 27.897782570700087
-          },
-          {
-            "date": "2018-02-28",
-            "rosnClose": 330.5,
-            "rosnEma": 320.28797104421983,
-            "rosnFillBase": 320.28797104421983,
-            "rosnFill": 10.21202895578017
-          },
-          {
-            "date": "2018-03-30",
-            "rosnClose": 313.9,
-            "rosnEma": 318.45838718807767,
-            "rosnFillBase": 318.45838718807767,
-            "rosnFill": 0
-          },
-          {
-            "date": "2018-04-30",
-            "rosnClose": 383,
-            "rosnEma": 326.25753829351777,
-            "rosnFillBase": 326.25753829351777,
-            "rosnFill": 56.74246170648223
-          },
-          {
-            "date": "2018-05-31",
-            "rosnClose": 385.3,
-            "rosnEma": 347.1849892212781,
-            "rosnFillBase": 347.1849892212781,
-            "rosnFill": 38.11501077872191
-          },
-          {
-            "date": "2018-06-29",
-            "rosnClose": 396.15,
-            "rosnEma": 361.0690834900693,
-            "rosnFillBase": 361.0690834900693,
-            "rosnFill": 35.08091650993066
-          },
-          {
-            "date": "2018-07-31",
-            "rosnClose": 419,
-            "rosnEma": 375.69825686648613,
-            "rosnFillBase": 375.69825686648613,
-            "rosnFill": 43.30174313351387
-          },
-          {
-            "date": "2018-08-31",
-            "rosnClose": 435.7,
-            "rosnEma": 395.693929542311,
-            "rosnFillBase": 395.693929542311,
-            "rosnFill": 40.00607045768896
-          },
-          {
-            "date": "2018-09-28",
-            "rosnClose": 493,
-            "rosnEma": 413.16293629797036,
-            "rosnFillBase": 413.16293629797036,
-            "rosnFill": 79.83706370202964
-          },
-          {
-            "date": "2018-10-31",
-            "rosnClose": 460.45,
-            "rosnEma": 434.2143955132748,
-            "rosnFillBase": 434.2143955132748,
-            "rosnFill": 26.235604486725208
-          },
-          {
-            "date": "2018-11-30",
-            "rosnClose": 423.1,
-            "rosnEma": 434.06717595283754,
-            "rosnFillBase": 434.06717595283754,
-            "rosnFill": 0
-          },
-          {
-            "date": "2018-12-29",
-            "rosnClose": 432.5,
-            "rosnEma": 430.07548011171895,
-            "rosnFillBase": 430.07548011171895,
-            "rosnFill": 2.424519888281054
-          },
-          {
-            "date": "2019-01-31",
-            "rosnClose": 411.25,
-            "rosnEma": 426.78088046993145,
-            "rosnFillBase": 426.78088046993145,
-            "rosnFill": 0
-          },
-          {
-            "date": "2019-02-28",
-            "rosnClose": 398.8,
-            "rosnEma": 419.7555079899717,
-            "rosnFillBase": 419.7555079899717,
-            "rosnFill": 0
-          },
-          {
-            "date": "2019-03-29",
-            "rosnClose": 412,
-            "rosnEma": 414.21854721502257,
-            "rosnFillBase": 414.21854721502257,
-            "rosnFill": 0
-          },
-          {
-            "date": "2019-04-30",
-            "rosnClose": 428.8,
-            "rosnEma": 419.9250719774117,
-            "rosnFillBase": 419.9250719774117,
-            "rosnFill": 8.874928022588335
-          },
-          {
-            "date": "2019-05-31",
-            "rosnClose": 433,
-            "rosnEma": 420.590716373229,
-            "rosnFillBase": 420.590716373229,
-            "rosnFill": 12.409283626771014
-          },
-          {
-            "date": "2019-06-28",
-            "rosnClose": 414.5,
-            "rosnEma": 419.8786196204344,
-            "rosnFillBase": 419.8786196204344,
-            "rosnFill": 0
-          },
-          {
-            "date": "2019-07-31",
-            "rosnClose": 421.95,
-            "rosnEma": 420.4415679738973,
-            "rosnFillBase": 420.4415679738973,
-            "rosnFill": 1.508432026102696
-          },
-          {
-            "date": "2019-08-30",
-            "rosnClose": 406.95,
-            "rosnEma": 415.5026903657213,
-            "rosnFillBase": 415.5026903657213,
-            "rosnFill": 0
-          },
-          {
-            "date": "2019-09-30",
-            "rosnClose": 419.3,
-            "rosnEma": 417.52168404928216,
-            "rosnFillBase": 417.52168404928216,
-            "rosnFill": 1.7783159507178539
-          },
-          {
-            "date": "2019-10-31",
-            "rosnClose": 426,
-            "rosnEma": 417.9720766637814,
-            "rosnFillBase": 417.9720766637814,
-            "rosnFill": 8.027923336218578
-          },
-          {
-            "date": "2019-11-29",
-            "rosnClose": 441,
-            "rosnEma": 429.23977848979484,
-            "rosnFillBase": 429.23977848979484,
-            "rosnFill": 11.760221510205156
-          },
-          {
-            "date": "2019-12-30",
-            "rosnClose": 449.7,
-            "rosnEma": 436.06759710993697,
-            "rosnFillBase": 436.06759710993697,
-            "rosnFill": 13.63240289006302
-          },
-          {
-            "date": "2020-01-31",
-            "rosnClose": 480.5,
-            "rosnEma": 448.82067744988615,
-            "rosnFillBase": 448.82067744988615,
-            "rosnFill": 31.679322550113852
-          },
-          {
-            "date": "2020-02-28",
-            "rosnClose": 403.4,
-            "rosnEma": 451.1411644139362,
-            "rosnFillBase": 451.1411644139362,
-            "rosnFill": 0
-          },
-          {
-            "date": "2020-03-31",
-            "rosnClose": 314.35,
-            "rosnEma": 403.0973366612416,
-            "rosnFillBase": 403.0973366612416,
-            "rosnFill": 0
-          },
-          {
-            "date": "2020-04-30",
-            "rosnClose": 335.65,
-            "rosnEma": 376.4825392627511,
-            "rosnFillBase": 376.4825392627511,
-            "rosnFill": 0
-          },
-          {
-            "date": "2020-05-29",
-            "rosnClose": 376.2,
-            "rosnEma": 371.7173242865055,
-            "rosnFillBase": 371.7173242865055,
-            "rosnFill": 4.482675713494473
-          },
-          {
-            "date": "2020-06-30",
-            "rosnClose": 361.8,
-            "rosnEma": 374.19963912670687,
-            "rosnFillBase": 374.19963912670687,
-            "rosnFill": 0
-          },
-          {
-            "date": "2020-07-31",
-            "rosnClose": 356.9,
-            "rosnEma": 369.4618674648441,
-            "rosnFillBase": 369.4618674648441,
-            "rosnFill": 0
-          },
-          {
-            "date": "2020-08-31",
-            "rosnClose": 373.2,
-            "rosnEma": 373.12711556191766,
-            "rosnFillBase": 373.12711556191766,
-            "rosnFill": 0.07288443808232614
-          },
-          {
-            "date": "2020-09-30",
-            "rosnClose": 383,
-            "rosnEma": 374.1582561513729,
-            "rosnFillBase": 374.1582561513729,
-            "rosnFill": 8.841743848627118
-          },
-          {
-            "date": "2020-10-30",
-            "rosnClose": 349.8,
-            "rosnEma": 375.45740199880316,
-            "rosnFillBase": 375.45740199880316,
-            "rosnFill": 0
-          },
-          {
-            "date": "2020-11-30",
-            "rosnClose": 449.5,
-            "rosnEma": 394.4815029170611,
-            "rosnFillBase": 394.4815029170611,
-            "rosnFill": 55.01849708293889
-          },
-          {
-            "date": "2020-12-30",
-            "rosnClose": 435.1,
-            "rosnEma": 410.2844369040217,
-            "rosnFillBase": 410.2844369040217,
-            "rosnFill": 24.815563095978348
-          },
-          {
-            "date": "2021-01-29",
-            "rosnClose": 473,
-            "rosnEma": 434.42317181988903,
-            "rosnFillBase": 434.42317181988903,
-            "rosnFill": 38.576828180110965
-          },
-          {
-            "date": "2021-02-26",
-            "rosnClose": 523.35,
-            "rosnEma": 458.34427232674693,
-            "rosnFillBase": 458.34427232674693,
-            "rosnFill": 65.00572767325309
-          },
-          {
-            "date": "2021-03-31",
-            "rosnClose": 572.6,
-            "rosnEma": 495.3410615169388,
-            "rosnFillBase": 495.3410615169388,
-            "rosnFill": 77.25893848306123
-          },
-          {
-            "date": "2021-04-30",
-            "rosnClose": 525.2,
-            "rosnEma": 512.6051188206764,
-            "rosnFillBase": 512.6051188206764,
-            "rosnFill": 12.594881179323693
-          },
-          {
-            "date": "2021-05-31",
-            "rosnClose": 531.4,
-            "rosnEma": 519.356572973844,
-            "rosnFillBase": 519.356572973844,
-            "rosnFill": 12.043427026155996
-          },
-          {
-            "date": "2021-06-30",
-            "rosnClose": 571.2,
-            "rosnEma": 530.5159962138061,
-            "rosnFillBase": 530.5159962138061,
-            "rosnFill": 40.6840037861939
-          },
-          {
-            "date": "2021-07-30",
-            "rosnClose": 544.5,
-            "rosnEma": 541.4938825607059,
-            "rosnFillBase": 541.4938825607059,
-            "rosnFill": 3.006117439294144
-          },
-          {
-            "date": "2021-08-31",
-            "rosnClose": 533.6,
-            "rosnEma": 543.2794370085082,
-            "rosnFillBase": 543.2794370085082,
-            "rosnFill": 0
-          },
-          {
-            "date": "2021-09-30",
-            "rosnClose": 614.35,
-            "rosnEma": 555.0500957545504,
-            "rosnFillBase": 555.0500957545504,
-            "rosnFill": 59.299904245449625
-          },
-          {
-            "date": "2021-10-29",
-            "rosnClose": 636.1,
-            "rosnEma": 584.3293362519422,
-            "rosnFillBase": 584.3293362519422,
-            "rosnFill": 51.770663748057814
-          },
-          {
-            "date": "2021-11-30",
-            "rosnClose": 566.1,
-            "rosnEma": 592.0972186675064,
-            "rosnFillBase": 592.0972186675064,
-            "rosnFill": 0
-          },
-          {
-            "date": "2021-12-30",
-            "rosnClose": 599,
-            "rosnEma": 586.3858030314695,
-            "rosnFillBase": 586.3858030314695,
-            "rosnFill": 12.61419696853045
-          },
-          {
-            "date": "2022-01-31",
-            "rosnClose": 576.95,
-            "rosnEma": 584.0645097242708,
-            "rosnFillBase": 584.0645097242708,
-            "rosnFill": 0
-          },
-          {
-            "date": "2022-02-25",
-            "rosnClose": 307.95,
-            "rosnEma": 562.1478700556946,
-            "rosnFillBase": 562.1478700556946,
-            "rosnFill": 0
-          },
-          {
-            "date": "2022-03-31",
-            "rosnClose": 437.5,
-            "rosnEma": 541.5959137037153,
-            "rosnFillBase": 541.5959137037153,
-            "rosnFill": 0
-          },
-          {
-            "date": "2022-04-29",
-            "rosnClose": 409,
-            "rosnEma": 493.827689585719,
-            "rosnFillBase": 493.827689585719,
-            "rosnFill": 0
-          },
-          {
-            "date": "2022-05-31",
-            "rosnClose": 377,
-            "rosnEma": 461.1352381286133,
-            "rosnFillBase": 461.1352381286133,
-            "rosnFill": 0
-          },
-          {
-            "date": "2022-06-30",
-            "rosnClose": 362.25,
-            "rosnEma": 431.87143084658834,
-            "rosnFillBase": 431.87143084658834,
-            "rosnFill": 0
-          },
-          {
-            "date": "2022-07-29",
-            "rosnClose": 353,
-            "rosnEma": 401.3901438144218,
-            "rosnFillBase": 401.3901438144218,
-            "rosnFill": 0
-          },
-          {
-            "date": "2022-08-31",
-            "rosnClose": 368,
-            "rosnEma": 381.13332111210553,
-            "rosnFillBase": 381.13332111210553,
-            "rosnFill": 0
-          },
-          {
-            "date": "2022-09-30",
-            "rosnClose": 264.05,
-            "rosnEma": 363.5955346104449,
-            "rosnFillBase": 363.5955346104449,
-            "rosnFill": 0
-          },
-          {
-            "date": "2022-10-31",
-            "rosnClose": 333.9,
-            "rosnEma": 344.6128411367902,
-            "rosnFillBase": 344.6128411367902,
-            "rosnFill": 0
-          },
-          {
-            "date": "2022-11-30",
-            "rosnClose": 336.25,
-            "rosnEma": 343.2001578337959,
-            "rosnFillBase": 343.2001578337959,
-            "rosnFill": 0
-          },
-          {
-            "date": "2022-12-30",
-            "rosnClose": 365.4,
-            "rosnEma": 342.9958873492887,
-            "rosnFillBase": 342.9958873492887,
-            "rosnFill": 22.404112650711284
-          },
-          {
-            "date": "2023-01-31",
-            "rosnClose": 340.75,
-            "rosnEma": 344.4055685608991,
-            "rosnFillBase": 344.4055685608991,
-            "rosnFill": 0
-          },
-          {
-            "date": "2023-02-28",
-            "rosnClose": 358.4,
-            "rosnEma": 345.8360685859518,
-            "rosnFillBase": 345.8360685859518,
-            "rosnFill": 12.56393141404817
-          },
-          {
-            "date": "2023-03-31",
-            "rosnClose": 380.9,
-            "rosnEma": 354.8025732440887,
-            "rosnFillBase": 354.8025732440887,
-            "rosnFill": 26.097426755911272
-          },
-          {
-            "date": "2023-04-28",
-            "rosnClose": 393.8,
-            "rosnEma": 367.7644917177157,
-            "rosnFillBase": 367.7644917177157,
-            "rosnFill": 26.035508282284297
-          },
-          {
-            "date": "2023-05-31",
-            "rosnClose": 450.1,
-            "rosnEma": 383.37776849919754,
-            "rosnFillBase": 383.37776849919754,
-            "rosnFill": 66.72223150080248
-          },
-          {
-            "date": "2023-06-30",
-            "rosnClose": 482.35,
-            "rosnEma": 414.17995758930164,
-            "rosnFillBase": 414.17995758930164,
-            "rosnFill": 68.17004241069839
-          },
-          {
-            "date": "2023-07-31",
-            "rosnClose": 508.75,
-            "rosnEma": 438.79484196420594,
-            "rosnFillBase": 438.79484196420594,
-            "rosnFill": 69.95515803579406
-          },
-          {
-            "date": "2023-08-31",
-            "rosnClose": 556.15,
-            "rosnEma": 476.21268852955893,
-            "rosnFillBase": 476.21268852955893,
-            "rosnFill": 79.93731147044105
-          },
-          {
-            "date": "2023-09-29",
-            "rosnClose": 537,
-            "rosnEma": 499.7249085314683,
-            "rosnFillBase": 499.7249085314683,
-            "rosnFill": 37.275091468531684
-          },
-          {
-            "date": "2023-10-31",
-            "rosnClose": 574.55,
-            "rosnEma": 524.4103596580529,
-            "rosnFillBase": 524.4103596580529,
-            "rosnFill": 50.13964034194703
-          },
-          {
-            "date": "2023-11-30",
-            "rosnClose": 584.3,
-            "rosnEma": 545.8950122165079,
-            "rosnFillBase": 545.8950122165079,
-            "rosnFill": 38.40498778349206
-          },
-          {
-            "date": "2023-12-29",
-            "rosnClose": 593.2,
-            "rosnEma": 555.0140350526832,
-            "rosnFillBase": 555.0140350526832,
-            "rosnFill": 38.18596494731685
-          },
-          {
-            "date": "2024-01-31",
-            "rosnClose": 575,
-            "rosnEma": 564.6004371648446,
-            "rosnFillBase": 564.6004371648446,
-            "rosnFill": 10.399562835155393
-          },
-          {
-            "date": "2024-02-29",
-            "rosnClose": 578,
-            "rosnEma": 569.9645620395715,
-            "rosnFillBase": 569.9645620395715,
-            "rosnFill": 8.035437960428453
-          },
-          {
-            "date": "2024-03-29",
-            "rosnClose": 565.75,
-            "rosnEma": 570.7960629753876,
-            "rosnFillBase": 570.7960629753876,
-            "rosnFill": 0
-          },
-          {
-            "date": "2024-04-30",
-            "rosnClose": 582,
-            "rosnEma": 573.9500989517501,
-            "rosnFillBase": 573.9500989517501,
-            "rosnFill": 8.049901048249922
-          },
-          {
-            "date": "2024-05-31",
-            "rosnClose": 556.65,
-            "rosnEma": 577.1105044288142,
-            "rosnFillBase": 577.1105044288142,
-            "rosnFill": 0
-          },
-          {
-            "date": "2024-06-28",
-            "rosnClose": 565.25,
-            "rosnEma": 571.4749994731355,
-            "rosnFillBase": 571.4749994731355,
-            "rosnFill": 0
-          },
-          {
-            "date": "2024-07-31",
-            "rosnClose": 515.95,
-            "rosnEma": 556.2473008778172,
-            "rosnFillBase": 556.2473008778172,
-            "rosnFill": 0
-          },
-          {
-            "date": "2024-08-30",
-            "rosnClose": 475.85,
-            "rosnEma": 532.6827377900784,
-            "rosnFillBase": 532.6827377900784,
-            "rosnFill": 0
-          },
-          {
-            "date": "2024-09-30",
-            "rosnClose": 507.4,
-            "rosnEma": 521.7679335266766,
-            "rosnFillBase": 521.7679335266766,
-            "rosnFill": 0
-          },
-          {
-            "date": "2024-10-31",
-            "rosnClose": 434.1,
-            "rosnEma": 505.8885046969758,
-            "rosnFillBase": 505.8885046969758,
-            "rosnFill": 0
-          },
-          {
-            "date": "2024-11-29",
-            "rosnClose": 478,
-            "rosnEma": 492.80620728626883,
-            "rosnFillBase": 492.80620728626883,
-            "rosnFill": 0
-          },
-          {
-            "date": "2024-12-30",
-            "rosnClose": 606.05,
-            "rosnEma": 504.81893177242137,
-            "rosnFillBase": 504.81893177242137,
-            "rosnFill": 101.23106822757859
-          },
-          {
-            "date": "2025-01-31",
-            "rosnClose": 526.8,
-            "rosnEma": 518.920295726984,
-            "rosnFillBase": 518.920295726984,
-            "rosnFill": 7.879704273015932
-          },
-          {
-            "date": "2025-02-28",
-            "rosnClose": 556.05,
-            "rosnEma": 531.740705127154,
-            "rosnFillBase": 531.740705127154,
-            "rosnFill": 24.309294872845953
-          },
-          {
-            "date": "2025-03-31",
-            "rosnClose": 490.5,
-            "rosnEma": 529.3229195761996,
-            "rosnFillBase": 529.3229195761996,
-            "rosnFill": 0
-          },
-          {
-            "date": "2025-04-30",
-            "rosnClose": 454.5,
-            "rosnEma": 505.42896474621625,
-            "rosnFillBase": 505.42896474621625,
-            "rosnFill": 0
-          },
-          {
-            "date": "2025-05-30",
-            "rosnClose": 427.15,
-            "rosnEma": 481.30753779814444,
-            "rosnFillBase": 481.30753779814444,
-            "rosnFill": 0
-          },
-          {
-            "date": "2025-06-30",
-            "rosnClose": 442.3,
-            "rosnEma": 467.1778014985438,
-            "rosnFillBase": 467.1778014985438,
-            "rosnFill": 0
-          },
-          {
-            "date": "2025-07-31",
-            "rosnClose": 419.65,
-            "rosnEma": 449.95191856446263,
-            "rosnFillBase": 449.95191856446263,
-            "rosnFill": 0
-          },
-          {
-            "date": "2025-08-29",
-            "rosnClose": 459.75,
-            "rosnEma": 452.44583676623023,
-            "rosnFillBase": 452.44583676623023,
-            "rosnFill": 7.304163233769771
-          },
-          {
-            "date": "2025-09-30",
-            "rosnClose": 411.4,
-            "rosnEma": 447.82088403677267,
-            "rosnFillBase": 447.82088403677267,
-            "rosnFill": 0
-          },
-          {
-            "date": "2025-10-31",
-            "rosnClose": 382.45,
-            "rosnEma": 430.13580766051797,
-            "rosnFillBase": 430.13580766051797,
-            "rosnFill": 0
-          },
-          {
-            "date": "2025-11-28",
-            "rosnClose": 405,
-            "rosnEma": 418.9130948487175,
-            "rosnFillBase": 418.9130948487175,
-            "rosnFill": 0
-          },
-          {
-            "date": "2025-12-30",
-            "rosnClose": 409,
-            "rosnEma": 414.69038770702406,
-            "rosnFillBase": 414.69038770702406,
-            "rosnFill": 0
-          },
-          {
-            "date": "2026-01-30",
-            "rosnClose": 407.75,
-            "rosnEma": 409.82617243626254,
-            "rosnFillBase": 409.82617243626254,
-            "rosnFill": 0
-          },
-          {
-            "date": "2026-02-27",
-            "rosnClose": 394.25,
-            "rosnEma": 404.56358492151355,
-            "rosnFillBase": 404.56358492151355,
-            "rosnFill": 0
-          },
-          {
-            "date": "2026-03-31",
-            "rosnClose": 481.75,
-            "rosnEma": 434.09486002925047,
-            "rosnFillBase": 434.09486002925047,
-            "rosnFill": 47.65513997074953
-          },
-          {
-            "date": "2026-04-30",
-            "rosnClose": 428.25,
-            "rosnEma": 438.72366276723324,
-            "rosnFillBase": 438.72366276723324,
-            "rosnFill": 0
-          },
-          {
-            "date": "2026-05-29",
-            "rosnClose": 389.35,
-            "rosnEma": 427.2730817509094,
-            "rosnFillBase": 427.2730817509094,
-            "rosnFill": 0
-          },
-          {
-            "date": "2026-06-30",
-            "rosnClose": 328.95,
-            "rosnEma": 399.75765022189177,
-            "rosnFillBase": 399.75765022189177,
-            "rosnFill": 0
-          },
-          {
-            "date": "2026-07-31",
-            "rosnClose": 347.7,
-            "rosnEma": 372.674327201769,
-            "rosnFillBase": 372.674327201769,
-            "rosnFill": 0
-          },
-          {
-            "date": "2026-08-31",
-            "rosnClose": 316.3,
-            "rosnEma": 356.5400445810473,
-            "rosnFillBase": 356.5400445810473,
-            "rosnFill": 0
-          },
-          {
-            "date": "2026-09-30",
-            "rosnClose": 344.65,
-            "rosnEma": 354.18246222557667,
-            "rosnFillBase": 354.18246222557667,
-            "rosnFill": 0
-          },
-          {
-            "date": "2026-10-30",
-            "rosnClose": 383.65,
-            "rosnEma": 361.42824994447426,
-            "rosnFillBase": 361.42824994447426,
-            "rosnFill": 22.221750055525717
-          },
-          {
-            "date": "2026-11-20",
-            "rosnClose": 331.95,
-            "rosnEma": 359.883639761058,
-            "rosnFillBase": 359.883639761058,
-            "rosnFill": 0
-          }
-        ]
+        "rows": []
       },
       {
         "id": "hg",
@@ -4785,16 +3734,20 @@
             "hgFill": 0.013843505103627862
           },
           {
-            "date": "2026-11-20",
-            "hgClose": 5.4770002365112305,
-            "hgEma": 6.3509736410087045,
-            "hgFillBase": 6.3509736410087045,
+            "date": "2026-11-25",
+            "hgClose": 5.332499980926514,
+            "hgEma": 6.297845743603865,
+            "hgFillBase": 6.297845743603865,
             "hgFill": 0
           }
         ]
       }
     ],
-    "errors": []
+    "errors": [
+      "fetch retry failed https://iss.moex.com/iss/history/engines/stock/markets/shares/boards/TQBR/securities/ROSN.json?iss.meta=off&from=2010-01-01&start=0&limit=100 HTTP 0"
+    ]
   },
-  "errors": []
+  "errors": [
+    "regime-timer Russia: fetch retry failed https://iss.moex.com/iss/history/engines/stock/markets/shares/boards/TQBR/securities/ROSN.json?iss.meta=off&from=2010-01-01&start=0&limit=100 HTTP 0"
+  ]
 }
