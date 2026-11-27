@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "fetchedAt": "2026-11-27T03:20:26.646Z",
+  "fetchedAt": "2026-11-27T06:53:33.413Z",
   "kpis": [
     {
       "id": "barometer",
@@ -10,7 +10,7 @@
       "unit": "баллы −100…+100",
       "soWhat": "Смешанные сигналы. Удерживайте базу, готовьте пайплайн к развороту фона.",
       "base": "17 карточек, 16 весов сумма 1.28 + вес-0; score = round((Σ signal×weight / Σweight)×100)",
-      "date": "2026-11-26",
+      "date": "2026-11-27",
       "status": "ok",
       "extra": {
         "light": "yellow",
@@ -26,7 +26,7 @@
       "unit": "%",
       "soWhat": "кривая выше ключа — рынок не закладывает быстрых снижений",
       "base": "SOAP KeyRate + MOEX ZCYC yearyields (не консенсус банков)",
-      "date": "2026-11-26",
+      "date": "2026-11-27",
       "status": "ok",
       "extra": {
         "zcyc1y": 14.2265,
@@ -65,12 +65,12 @@
         "sofr": 3.94,
         "sofrDate": "2026-11-24",
         "iorb": 3.9,
-        "iorbDate": "2026-11-24",
+        "iorbDate": "2026-10-31",
         "rrpBn": 0.3,
         "rrpDate": "2026-11-25",
         "walclMn": 6741452,
-        "tgaMn": null,
-        "netLiquidityBn": null
+        "tgaMn": 898796,
+        "netLiquidityBn": 5842.356
       }
     },
     {
@@ -366,12 +366,12 @@
     "sofr": 3.94,
     "sofrDate": "2026-11-24",
     "iorb": 3.9,
-    "iorbDate": "2026-11-24",
+    "iorbDate": "2026-10-31",
     "rrpBn": 0.3,
     "rrpDate": "2026-11-25",
     "walclMn": 6741452,
-    "tgaMn": null,
-    "netLiquidityBn": null
+    "tgaMn": 898796,
+    "netLiquidityBn": 5842.356
   },
   "gpr": {
     "ma30": 143.5990753173828,
@@ -412,11 +412,12 @@
   },
   "btc": {
     "status": "ok",
-    "coinbase": 61431.935,
-    "binance": 61502.61,
+    "coinbase": 61607.355,
+    "binance": 61642.25,
     "mid": null,
-    "gapPct": 0.11497988624760097,
+    "gapPct": 0.0566249279257273,
     "diverged": false,
     "note": "площадки согласованы, среднее всё равно не показываем"
-  }
+  },
+  "manual": {}
 }

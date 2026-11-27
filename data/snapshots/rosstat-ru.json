@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-27T03:20:26.646Z",
+  "fetchedAt": "2026-11-27T06:28:03.656Z",
   "status": "ok",
   "source": "Росстат enterprise_industrial + statistics/accounts (ssl.rosstat.gov.ru → rosstat.gov.ru)",
   "attempted": {
@@ -1145,10 +1145,10 @@
     "file": null,
     "month": null,
     "value": null,
-    "error": "curl http://ssl.rosstat.gov.ru/storage/mediabank/29_04-03-2026.html: curl HTTP 500; wget http://ssl.rosstat.gov.ru/storage/mediabank/29_04-03-2026.html: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-381415-y3hdenxu9wl http://ssl.rosstat.gov.ru/storage/mediabank/29_04-03-2026.html\n; curl https://rosstat.gov.ru/storage/mediabank/29_04-03-2026.html: curl HTTP 404; wget https://rosstat.gov.ru/storage/mediabank/29_04-03-2026.html: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-381415-y3hdenxu9wl https://rosstat.gov.ru/storage/mediabank/29_04-03-2026.html\n"
+    "error": "curl http://ssl.rosstat.gov.ru/storage/mediabank/29_04-03-2026.html: curl HTTP 500; wget http://ssl.rosstat.gov.ru/storage/mediabank/29_04-03-2026.html: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-471826-t5x6br26xmf http://ssl.rosstat.gov.ru/storage/mediabank/29_04-03-2026.html\n; curl https://rosstat.gov.ru/storage/mediabank/29_04-03-2026.html: curl HTTP 404; wget https://rosstat.gov.ru/storage/mediabank/29_04-03-2026.html: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-471826-t5x6br26xmf https://rosstat.gov.ru/storage/mediabank/29_04-03-2026.html\n"
   },
   "errors": [
     "ind_baza: на странице нет ссылок ind_baza_BBBB_MM-YYYY.xlsx",
-    "пресс-релиз ИПП: curl http://ssl.rosstat.gov.ru/storage/mediabank/29_04-03-2026.html: curl HTTP 500; wget http://ssl.rosstat.gov.ru/storage/mediabank/29_04-03-2026.html: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-381415-y3hdenxu9wl http://ssl.rosstat.gov.ru/storage/mediabank/29_04-03-2026.html\n; curl https://rosstat.gov.ru/storage/mediabank/29_04-03-2026.html: curl HTTP 404; wget https://rosstat.gov.ru/storage/mediabank/29_04-03-2026.html: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-381415-y3hdenxu9wl https://rosstat.gov.ru/storage/mediabank/29_04-03-2026.html\n"
+    "пресс-релиз ИПП: curl http://ssl.rosstat.gov.ru/storage/mediabank/29_04-03-2026.html: curl HTTP 500; wget http://ssl.rosstat.gov.ru/storage/mediabank/29_04-03-2026.html: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-471826-t5x6br26xmf http://ssl.rosstat.gov.ru/storage/mediabank/29_04-03-2026.html\n; curl https://rosstat.gov.ru/storage/mediabank/29_04-03-2026.html: curl HTTP 404; wget https://rosstat.gov.ru/storage/mediabank/29_04-03-2026.html: Command failed: wget -q --no-check-certificate --timeout=120 --tries=2 -U Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 -O /tmp/.rosstat-471826-t5x6br26xmf https://rosstat.gov.ru/storage/mediabank/29_04-03-2026.html\n"
   ]
 }

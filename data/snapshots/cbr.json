@@ -1,8 +1,8 @@
 {
   "status": "ok",
-  "fetchedAt": "2026-11-27T03:20:26.646Z",
+  "fetchedAt": "2026-11-27T06:28:03.656Z",
   "keyRate": {
-    "date": "2026-11-26",
+    "date": "2026-11-27",
     "value": 14
   },
   "keyRateError": null,
@@ -488,7 +488,7 @@
       "value": 14
     },
     {
-      "date": "2026-11-26",
+      "date": "2026-11-27",
       "value": 14
     }
   ],
@@ -8261,6 +8261,7 @@
   ],
   "ruoniaError": null,
   "meetings": {
+    "source": "https://cbr.ru/dkp/cal_mp/",
     "items": [
       {
         "date": "2024-02-16",
@@ -8582,9 +8583,7 @@
         "type": "заседание",
         "source": "https://cbr.ru/dkp/cal_mp/"
       }
-    ],
-    "error": "календарь ЦБ HTTP 403 (cbr.ru без www)",
-    "source": null
+    ]
   },
   "consensus": {
     "nextMeetingRate": 13.5,
@@ -8592,12 +8591,12 @@
     "source": "sbercib.ru/publication/prognoz-klyuchevoi-stavki-na-2026-god",
     "fetchedAt": "2026-10-26T02:55:39.298Z",
     "error": "SberCIB forecast: не разобрали таблицу месяц→ставка",
-    "lastAttempt": "2026-11-27T03:20:26.369Z"
+    "lastAttempt": "2026-11-27T06:28:03.411Z"
   },
   "depositMax": {
-    "value": null,
-    "date": null,
-    "source": null
+    "source": "https://cbr.ru/vfs/statistics/bank_sector/ibudv/szmdv_202610.xls",
+    "date": "2026-10-01",
+    "value": 23.5
   },
   "sources": {
     "keyRate": "www.cbr.ru SOAP KeyRate",
